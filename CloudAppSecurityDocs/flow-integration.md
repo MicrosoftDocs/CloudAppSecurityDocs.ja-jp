@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
-ms.openlocfilehash: f63e873d2b65781a3bca7209c020696bf2957171
-ms.sourcegitcommit: 4e2b905c8770d411df68372c29154d30b2cf195e
+ms.openlocfilehash: 5d6491c27c5eeb4608f9712c3835194a9c252059
+ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/21/2020
-ms.locfileid: "85123245"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402224"
 ---
 # <a name="integrate-with-microsoft-power-automate-for-custom-alert-automation"></a>カスタム アラートの自動化のために Microsoft Power Automate と統合する
 

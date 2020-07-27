@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 317595b377d19b1d6f9a06b316cb14e4d1ad4c1c
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: b833af37dae275ff9ecdf382eeacc12d59ef3aed
+ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624589"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402190"
 ---
 # <a name="file-policies"></a>ファイル ポリシー
 
@@ -41,7 +41,7 @@ Cloud App Security の組み込み DLP エンジンは、Office、Open Office、
 
 * ガバナンスと修復のための自動アクション。 詳細については、「[制御](control.md)」を参照してください。
     > [!NOTE]
-    > 最初にトリガーされたポリシーのガバナンス アクションの適用のみが保証されます。 たとえば、ファイル ポリシーによってファイルに AIP ラベルが既に適用されている場合は、2 番目のファイル ポリシーで別の AIP ラベルを適用することはできません。
+    > 最初にトリガーされたポリシーのガバナンス アクションの適用のみが保証されます。 たとえば、ファイル ポリシーによってファイルに Azure Information Protection (AIP) ラベルが既に適用されている場合は、2 番目のファイル ポリシーで別の AIP ラベルを適用することはできません。
 
 ポリシーを有効にすると、クラウド環境が継続的にスキャンされ、コンテンツおよびコンテキスト フィルターに一致するファイルが特定され、要求された自動アクションが適用されます。 これらのポリシーは、保存中の情報や新しいコンテンツの作成時に違反を検出して修復します。 ポリシーを監視するには、リアルタイムのアラートまたはコンソールで生成されたレポートを使用します。
 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Cloud App Security 展開のスコープを指定する
-description: この記事では、Cloud App Security 展開のスコープを指定する方法について説明します。特定のユーザーまたはグループを含めたり除外したりできます。
+title: アクティビティのプライバシー
+description: この記事では、ユーザー プライバシー ポリシーに準拠するよう、アクティビティ監視を構成する方法に関する情報を提供します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 6cfc4421569a59c49c9a980af3ce2e0876d90bce
-ms.sourcegitcommit: 6886d285601955f0efc7acf980c9d4740ff873fe
+ms.openlocfilehash: 6de413cc6067ea43f5c2d677e421c09ffddcd94d
+ms.sourcegitcommit: 3464ce8ed73d1bfaf02e4e78007766ea18350d9f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "84253819"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402656"
 ---
 # <a name="activity-privacy"></a>アクティビティのプライバシー
 

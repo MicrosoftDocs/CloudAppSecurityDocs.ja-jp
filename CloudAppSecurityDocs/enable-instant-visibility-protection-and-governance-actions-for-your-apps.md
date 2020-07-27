@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 06/28/2020
+ms.date: 07/14/2020
 ms.topic: conceptual
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 4b2d84c2c8f3260cf5e6048bc453a62c29cd95b9
-ms.sourcegitcommit: 14b6fe342aa06d5547d121522b1e2ae9525da8e4
+ms.openlocfilehash: bf6c12f3b41abf63ab3183f85d7dedcba21584c9
+ms.sourcegitcommit: b71546236cb97c0a22d0e82742a167f31555b275
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86122650"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86308260"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
@@ -75,8 +75,8 @@ Cloud App Security はシステム管理者権限で展開されているため�
 | **ログオン アクティビティ** | ✔ | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | **ユーザーの利用状況** | 適用できません | ✔ | ✔ | ✔ | ✔ - Google Business または Enterprise が必要です | ✔ | ✔ | 一部サポート | Salesforce Shield でサポート | ✔ | ✔ |
 | **管理者アクティビティ** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | 一部サポート | ✔ | ✔ | プロバイダーはサポートしていません |
-| **DLP - 定期的なスキャン** | | ✔ | 近日中にご利用になれます | 適用できません | ✔ | ✔ | 適用できません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
-| **DLP - ほぼリアルタイムのスキャン** | | ✔ | ✔ | 適用できません | ✔ - Google Business または Enterprise が必要です | ✔ | 適用できません | | | ✔ | プロバイダーはサポートしていません |
+| **DLP - 定期的なスキャン** | | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
+| **DLP - ほぼリアルタイムのスキャン** | | ✔ | | 適用できません | ✔ - Google Business または Enterprise が必要です | ✔ | 適用できません | | | ✔ | プロバイダーはサポートしていません |
 | **コントロールの共有** | ✔ | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | 適用できません | | ✔ | プロバイダーはサポートしていません |
 | **ファイル ガバナンス** | ✔ | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | | ✔ | | プロバイダーはサポートしていません |
 | **アプリのアクセス許可の表示** | 適用できません | プロバイダーはサポートしていません | 対応予定 | 適用できません | ✔ | ✔ | 適用できません | | ✔ | 適用できません | 適用できません |
@@ -117,12 +117,22 @@ Cloud App Security は Azure に展開され、[ExpressRoute](https://azure.micr
 
 ## <a name="disable-app-connectors"></a>アプリ コネクタを無効にする
 
+> [!NOTE]
+> アプリ コネクタを無効にする前に、接続の詳細を用意してください。コネクタを再有効化する場合に必要になります。
+
 接続されているアプリを無効にするには
 
 1. **[接続されているアプリ]** ページで、関連する行の 3 つのドットをクリックし、 **[Disable App connector]\(アプリ コネクタを無効にする\)** を選択します。
 1. ポップアップで、 **[Disable App connector instance]\(アプリ コネクタ インスタンスを無効にする\)** をクリックして、操作の確認を行います。
 
 無効にすると、コネクタ インスタンスによって、そのコネクタからのデータの使用が停止されます。
+
+## <a name="re-enable-app-connectors"></a>アプリ コネクタを再有効化する
+
+接続されているアプリを再有効化するには:
+
+1. **[接続されているアプリ]** ページで、関連する行の 3 つのドットをクリックし、 **[アプリの編集]** を選択します。 これでコネクタの追加プロセスが開始します。
+1. 関連する API コネクタ ガイドの手順に従ってコネクタを追加します。 たとえば、GitHub を再有効化する場合、[GitHub Enterprise Cloud を Cloud App Security に接続する](connect-github-ec-to-microsoft-cloud-app-security.md)方法に関するページにある手順を使用してください。
 
 ## <a name="next-steps"></a>次のステップ
 

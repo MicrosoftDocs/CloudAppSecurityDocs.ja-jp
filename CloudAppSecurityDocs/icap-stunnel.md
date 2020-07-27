@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 12/10/2018
+ms.date: 07/09/2020
 ms.topic: conceptual
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 8b2bcc0cbd994fb67bc52f5de48e3e2f5dae2b29
-ms.sourcegitcommit: 6eff466c7a6817b14a60d8c3b2c201c7ae4c2e2c
+ms.openlocfilehash: 38b142121f4d14d2fb07017e764a2a57bd1ceee0
+ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74720599"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402139"
 ---
 # <a name="external-dlp-integration"></a>外部 DLP 統合
 
@@ -89,9 +89,12 @@ stunnel インストール対応のサーバーの種類については、[stunn
         - **stunnel-key** を新しく作成したキーの名前に変更
 
 5. stunnel インストール パスの下で、config ディレクトリを開きます。 既定では、c:\Program Files (x86)\stunnel\config\ です。
-6. 管理者アクセス許可で次のコマンド ラインを実行します。`..\bin\openssl.exe genrsa -out key.pem 2048 `
+6. 管理者アクセス許可で次のコマンド ラインを実行します。
 
-    ` ..\bin\openssl.exe  req -new -x509 -config ".\openssl.cnf" -key key.pem -out .\cert.pem -days 1095`
+    ```bash
+    ..\bin\openssl.exe genrsa -out key.pem 2048
+    ..\bin\openssl.exe  req -new -x509 -config ".\openssl.cnf" -key key.pem -out .\cert.pem -days 1095
+    ```
 
 7. cert.pem と key.pem を連結し、ファイルに保存します。 `type cert.pem key.pem >> stunnel-key.pem`
 
@@ -99,7 +102,7 @@ stunnel インストール対応のサーバーの種類については、[stunn
 
 9. Windows ファイアウォールでポートを開くための次の規則を追加します。
 
-    ``` console
+    ```console
     rem Open TCP Port 11344 inbound and outbound
     netsh advfirewall firewall add rule name="Secure ICAP TCP Port 11344" dir=in action=allow protocol=TCP localport=11344
     netsh advfirewall firewall add rule name="Secure ICAP TCP Port 11344" dir=out action=allow protocol=TCP localport=11344
@@ -113,7 +116,7 @@ stunnel インストール対応のサーバーの種類については、[stunn
 
 12. ファイルを開き、次のサーバー構成行を貼り付けます。 **DLP Server IP** は ICAP サーバーの IP アドレスです。**stunnel-key** は前の手順で作成したキーです。**MCASCAfile** は Cloud App Security stunnel クライアントの公開証明書です。 サンプル テキストがあればそれを削除し (例では Gmail テキストが表示されています)、次のテキストをファイルにコピーします。
 
-    ```
+    ```ini
     [microsoft-Cloud App Security]
     accept = 0.0.0.0:11344
     connect = **ICAP Server IP**:1344
@@ -175,7 +178,7 @@ stunnel 構成は stunnel.conf ファイルで設定されます。
 
 2. ファイルを開き、次のサーバー構成行を貼り付けます。  **DLP Server IP** は ICAP サーバーの IP アドレスです。**stunnel-key** は前の手順で作成したキーです。**MCASCAfile** は Cloud App Security stunnel クライアントの公開証明書です。
 
-    ```
+    ```ini
     [microsoft-Cloud App Security]
     accept = 0.0.0.0:11344
     connect = **ICAP Server IP**:1344
@@ -189,34 +192,48 @@ stunnel 構成は stunnel.conf ファイルで設定されます。
 
 次のルート ルールで IP アドレス表を更新します。
 
-    iptables -I INPUT -p tcp --dport 11344 -j ACCEPT
+```bash
+iptables -I INPUT -p tcp --dport 11344 -j ACCEPT
+```
 
 IP テーブルの更新を永続的にするには、次のコマンドを使用します。
 
-    sudo apt-get install iptables-persistent
-    sudo /sbin/iptables-save > /etc/iptables/rules.v4
+```bash
+sudo apt-get install iptables-persistent
+sudo /sbin/iptables-save > /etc/iptables/rules.v4
+```
 
 ### <a name="run-stunnel"></a>stunnel を実行する
 
 1. stunnel サーバーで、次のコマンドを実行します。
 
-    `vim /etc/default/stunnel4`
+    ```bash
+    vim /etc/default/stunnel4
+    ```
 
 2. 変数 ENABLED を 1 に変更します。
 
-    `ENABLED=1`
+    ```bash
+    ENABLED=1
+    ```
 
 3. サービスを再起動し、構成を有効にします。
 
-    `/etc/init.d/stunnel4 restart`
+    ```bash
+    /etc/init.d/stunnel4 restart
+    ```
 
 4. 次のコマンドを実行し、stunnel が正しく動作していることを確認します。
 
-    `ps -A | grep stunnel`
+    ```bash
+    ps -A | grep stunnel
+    ```
 
     次のコマンドを実行し、正しいポートでリッスンしていることを確認します。
 
-    `netstat -anp | grep 11344`
+    ```bash
+    netstat -anp | grep 11344
+    ```
 
 5. stunnel サーバーが展開されたネットワークが前述のネットワーク前提条件に一致していることを確認します。 これは、Cloud App Security からの着信接続がサーバーに正常に到達できるようにするために必要です。
 
@@ -238,7 +255,7 @@ IP テーブルの更新を永続的にするには、次のコマンドを使�
 
         ![Cloud App Security ICAP 接続](media/icap-wizard1.png)
 
-5. 前の手順で生成したパブリック証明書 “cert.pem” を参照して選択し、stunnel に接続します。 **[次へ]** をクリックします。
+5. 前の手順で生成したパブリック証明書 "cert.pem" を参照して選択し、stunnel に接続します。 **[次へ]** をクリックします。
 
    > [!NOTE]
    > **[Use secure ICAP]\(安全な ICAP を使用する\)** ボックスを選択し、stunnel ゲートウェイを暗号化することが推奨されます。 テスト目的の場合、または stunnel サーバーを持っていない場合は、このボックスをオフにして、DLP サーバーと直接統合することができます。

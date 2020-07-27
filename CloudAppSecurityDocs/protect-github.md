@@ -8,12 +8,12 @@ ms.topic: article
 ms.date: 06/23/2020
 ROBOTS: NOINDEX
 ms.collection: M365-security-compliance
-ms.openlocfilehash: ede37cbf987cfe43b8574e227c4b38243e0693ab
-ms.sourcegitcommit: 0e8065703810347c86567d636293bf6d41df1a84
+ms.openlocfilehash: a875328b6d47b0de5a3e71db1374dc89e26fe12e
+ms.sourcegitcommit: 3464ce8ed73d1bfaf02e4e78007766ea18350d9f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85256217"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402647"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-github-enterprise-environment"></a>Cloud App Security は GitHub Enterprise 環境の保護にどのように役立つか
 
@@ -30,12 +30,12 @@ GitHub Enterprise Cloud を Cloud App Security に接続すると、ユーザー
 - セキュリティ認識の不足
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [フォレンジック調査のためにアクティビティの監査証跡を使用する](best-practices.md#use-the-audit-trail-of-activities-for-forensic-investigations)
 
-## <a name="protect-gcp-in-real-time"></a>GCP をリアルタイムで保護する
+## <a name="protect-github-in-real-time"></a>GitHub をリアルタイムで保護する
 
 [外部ユーザーに対するセキュリティ保護およびコラボレーション](best-practices.md#secure-collaboration-with-external-users-by-enforcing-real-time-session-controls)に関するベスト プラクティスを確認してください。
 

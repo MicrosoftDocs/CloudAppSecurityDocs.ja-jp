@@ -9,12 +9,12 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: fcec14fa59661c2d1f066d531779f433dc257070
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 5485b179fe3a5bccfe969b93cd32a0954bd89bf6
+ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624895"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402207"
 ---
 # <a name="information-protection-policies"></a>情報保護に関するポリシー
 
@@ -232,7 +232,7 @@ AWS S3 バケットからのデータ リークの可能性を検出し、保護
 
 - [アプリ コネクタ](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)を使用して接続されているアプリが、少なくとも 1 つ必要です。
 
-- [Azure Information Protection の統合](azip-integration.md)が有効になっており、GDPR ラベルが AIP で構成されています。
+- [Azure Information Protection の統合 (AIP)](azip-integration.md) が有効になっており、GDPR ラベルが AIP で構成されています。
 
 ### <a name="steps"></a>手順
 

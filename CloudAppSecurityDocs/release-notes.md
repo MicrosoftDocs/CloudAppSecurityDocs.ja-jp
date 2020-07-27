@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: ff7ac3fb2a6cda0a411ac02f161ce32f5b037a9e
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 55e66016098e6b844686f539c7280b40e60ab993
+ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85625073"
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "86402275"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -485,7 +485,7 @@ Cloud App Security のマルウェア検出機能が拡張され、高度なサ�
 
 - **条件付きアクセスの更新**  
 アプリの条件付きアクセス制御に、次のアクティビティを監視およびブロックする機能が追加されました。
-  - 任意のアプリでのファイルのアップロード - 既知のマルウェア拡張のアップロードを防止し、ユーザーがアップロードの前に AIP でファイルを保護できるようにします。
+  - 任意のアプリでのファイルのアップロード - 既知のマルウェア拡張のアップロードを防止し、ユーザーがアップロードの前に Azure Information Protection でファイルを保護できるようにします。
   - 任意のアプリでのコピーと貼り付け - ダウンロード、印刷、共有などのカスタム アクティビティの制御が既に含まれていたデータ流出の堅牢な制御を完全なものにします。
   - メッセージの送信 - Slack、Salesforce、Workplace by Facebook などの一般的なコラボレーション ツールで、パスワードなどの PII データが共有されないようにします。
   - セッション ポリシーには組み込みテンプレートが含まれるようになっており、組織では、**リアルタイムのコンテンツ検査に基づくアップロードのブロック**など、承認されたアプリに対する一般的なリアルタイムの監視と制御を簡単に有効にすることができます。

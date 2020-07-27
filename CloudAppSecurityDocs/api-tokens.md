@@ -1,11 +1,11 @@
 ---
-title: Cloud App Security の API トークン管理
+title: Cloud App Security での API トークン管理
 description: この記事では、Cloud App Security 用の API トークンの生成に関する情報を提供します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 12/10/2018
+ms.date: 07/14/2020
 ms.topic: conceptual
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b19fdd34425218cbeff284bb16962723e027e914
-ms.sourcegitcommit: 14b6fe342aa06d5547d121522b1e2ae9525da8e4
+ms.openlocfilehash: 81c44eb4527b19e1f3f42929028791f1ae48715d
+ms.sourcegitcommit: b71546236cb97c0a22d0e82742a167f31555b275
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86122627"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86308243"
 ---
 # <a name="api-tokens"></a>API トークン
 
@@ -32,7 +32,7 @@ Microsoft Cloud App Security API を使用すると、REST API エンドポイ�
 - アクティビティ、アラート、およびポリシー レポートを一覧表示する
 - アラートを無視または解決する
 
-API の完全なドキュメントを確認するには、Cloud App Security ポータルで、[ヘルプ] > **[API ドキュメント]** に移動します。
+Microsoft の API の使用の詳細については、「[Cloud App Security REST API](api-introduction.md)」を参照してください。
 
 API にアクセスするには、API トークンを作成し、それをソフトウェアで使用して Cloud App Security API に接続する必要があります。
 
@@ -57,7 +57,7 @@ API にアクセスするには、API トークンを作成し、それをソフ
 
     ![Cloud App Security API トークン](media/generate-api-token.png)
 
-    汎用ポータル URL も引き続き機能しますが、トークンと共に提供されるカスタム URL よりかなり遅くなります。 URL を忘れた場合は、いつでもメニューの **?** アイコンに移動し、 **[バージョン情報]** を選択して、それを表示できます。
+    汎用ポータル URL も引き続き機能しますが、トークンと共に提供されるカスタム URL よりかなり遅くなります。 URL を忘れた場合は、いつでもメニューの **?** アイコンに移動し、 **[バージョン情報]** を選択して表示できます。
 
 ## <a name="api-token-management"></a>API トークン管理
 
@@ -75,6 +75,9 @@ API にアクセスするには、API トークンを作成し、それをソフ
 > - プロビジョニング解除されたユーザー API トークンは Cloud App Security に保持されますが、使用することはできません。 これらを使用しようとすると、アクセス許可の拒否の応答が返されます。 ただし、そのようなトークンは、 **[API トークン]** ページで取り消すことが推奨されます。
 
 ## <a name="next-steps"></a>次のステップ
+
+> [!div class="nextstepaction"]
+> [Cloud App Security REST API](api-introduction.md)
 
 > [!div class="nextstepaction"]
 > [SIEM 統合問題のトラブルシューティング](troubleshooting-siem.md)
