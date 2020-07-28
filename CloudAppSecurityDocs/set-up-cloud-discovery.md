@@ -10,12 +10,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 14d8789d4be3aac4199470e8ae60f5505b4fae3b
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 7756d238514b786321ee5c0c4ba91910c3b3dfcf
+ms.sourcegitcommit: 8dbdfab8bb07f1bf128dfc85894a448b63a78148
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624971"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86928017"
 ---
 # <a name="set-up-cloud-discovery"></a>Cloud Discovery の設定
 
@@ -123,8 +123,8 @@ Cloud Discovery では、16,000 以上のクラウド アプリを掲載した M
 | MS TMG | **あり** | いいえ | **あり** | **あり** | **あり** | **あり** |
 | Palo Alto Networks | いいえ | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Sophos | **あり** | **あり** | **あり** | **あり** | **あり** | いいえ |
-| Squid (Common) | **あり** | いいえ | **あり** | **あり** | いいえ | **あり** |
-| Squid (Native) | **あり** | いいえ | **あり** | **あり** | いいえ | **あり** |
+| Squid (Common) | **あり** | いいえ | **あり** | **あり** | **はい** | いいえ |
+| Squid (Native) | **あり** | いいえ | **あり** | **あり** | いいえ | × |
 | Stormshield | いいえ | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Websense - 調査詳細レポート (CSV) | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Websense - インターネット アクティビティ ログ (CEF) | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
