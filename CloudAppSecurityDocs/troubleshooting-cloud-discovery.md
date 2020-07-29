@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5d4bff251e40954e6505c9f1633a927366d78df6
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 082ca682594dbb8902605993d8ccfa1721d1c0ae
+ms.sourcegitcommit: c737a1ad67b4f7efa302d1aa92fce50f75c94d2d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624832"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86926742"
 ---
 # <a name="troubleshooting-cloud-discovery"></a>Cloud Discovery のトラブルシューティング
 
@@ -56,7 +56,7 @@ Microsoft Defender ATP と Cloud App Security を統合した場合に、統合�
 |----|----|
 |FTP 経由でログ コレクターに接続できませんでした| 1.SSH 資格情報ではなく、FTP 資格情報を使用していることを確認します。 <br />2.使用している FTP クライアントが SFTP に設定されていないことを確認します。  |
 |コレクター構成の更新に失敗しました | 1.最新のアクセス トークンを入力したことを確認します。 <br />2.ファイアウォールで、ログ コレクターがポート 443 で送信トラフィックを開始できることを確認します。|
-|コレクターに送信されたログがポータルに表示されません | 1.ガバナンス ログに失敗した解析タスクがあるかどうかを確認します。  <br />  &nbsp;&nbsp;&nbsp;&nbsp;その場合は、上記のログ解析エラー テーブルを使用して、エラーのトラブルシューティングを行います。<br /> 2.そうでない場合は、ポータルでデータ ソースとログ コレクターの構成を確認します。 <br /> &nbsp;&nbsp;&nbsp;&nbsp;a. [データ ソース] ページで、使用しているデータ ソースが正しく構成されていることを確認します。 <br />&nbsp;&nbsp;&nbsp;&nbsp;b. [ログ コレクター] ページで、データ ソースが適切なログ コレクターにリンクされていることを確認します。 <br /> 3.オンプレミスのログ コレクター マシンのローカル構成を確認します。  <br />&nbsp;&nbsp;&nbsp;&nbsp;a. SSH 経由でログ コレクターにログインし、collector_config ユーティリティを実行します。<br/>&nbsp;&nbsp;&nbsp;&nbsp;b. 定義したプロトコル (Syslog/TCP、Syslog/UDP、または FTP) を使用して、ファイアウォールまたはプロキシがログ コレクターにログを送信していること、およびそれらを正しいポートとディレクトリに送信していることを確認します。<br /> &nbsp;&nbsp;&nbsp;&nbsp;c. コンピューターで netstat を実行し、ファイアウォールまたはプロキシから着信接続を受信することを確認します <br /> 4. ログ コレクターがポート 443 で送信トラフィックを開始できることを確認します。 |
+|コレクターに送信されたログがポータルに表示されません | 1.ガバナンス ログに失敗した解析タスクがあるかどうかを確認します。  <br />  &nbsp;&nbsp;&nbsp;&nbsp;その場合は、上記のログ解析エラー テーブルを使用して、エラーのトラブルシューティングを行います。<br /> 2.そうでない場合は、ポータルでデータ ソースとログ コレクターの構成を確認します。 <br /> &nbsp;&nbsp;&nbsp;&nbsp;a. [データ ソース] ページで、データ ソースの名前が **NSS** であり、正しく構成されていることを確認します。 <br />&nbsp;&nbsp;&nbsp;&nbsp;b. [ログ コレクター] ページで、データ ソースが適切なログ コレクターにリンクされていることを確認します。 <br /> 3.オンプレミスのログ コレクター マシンのローカル構成を確認します。  <br />&nbsp;&nbsp;&nbsp;&nbsp;a. SSH 経由でログ コレクターにログインし、collector_config ユーティリティを実行します。<br/>&nbsp;&nbsp;&nbsp;&nbsp;b. 定義したプロトコル (Syslog/TCP、Syslog/UDP、または FTP) を使用して、ファイアウォールまたはプロキシがログ コレクターにログを送信していること、およびそれらを正しいポートとディレクトリに送信していることを確認します。<br /> &nbsp;&nbsp;&nbsp;&nbsp;c. コンピューターで netstat を実行し、ファイアウォールまたはプロキシから着信接続を受信することを確認します <br /> 4. ログ コレクターがポート 443 で送信トラフィックを開始できることを確認します。 |
 |ログ コレクターの状態:作成日 | ログ コレクターのデプロイが完了しませんでした。 デプロイ ガイドに従って、オンプレミスのデプロイ手順を完了します。|
 |ログ コレクターの状態:切断 | リンクされたどのデータ ソースからも過去 24 時間でデータを受信していません。 |
 |最新のコレクターイメージのプルに失敗した| Docker のデプロイ中にこのエラーが発生した場合、ホスト マシンに十分なメモリがない可能性があります。 これを確認するには、ホストで `docker pull microsoft/caslogcollector` コマンドを実行します。 それによって、エラー `failed to register layer: Error processing tar file(exist status 1): write /opt/jdk/jdk1.8.0_152/src.zip: no space left on device` が返された場合、ホスト マシンの管理者に、領域を増やすように問い合わせてください。|

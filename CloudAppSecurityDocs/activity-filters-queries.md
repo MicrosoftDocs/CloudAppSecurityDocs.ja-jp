@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9a363ebb0c94735f4df8d2617f9d20c6bf7c8365
-ms.sourcegitcommit: e1a0d6a7d639a6d268b0104eb3e5532d2692288b
+ms.openlocfilehash: 70631351dc068d1932b1a97f77402bacd307b509
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "83551308"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254586"
 ---
 # <a name="activity-filters-and-queries"></a>アクティビティ フィルターとクエリ
 
@@ -82,7 +82,7 @@ ms.locfileid: "83551308"
 
 - インスタンス - アクティビティが実行された、または実行されなかったアプリ インスタンス。
 
-- 場所 - アクティビティの実行元の国。
+- 場所 – アクティビティが実行された国または地域。
 
 - 一致したポリシー - ポータルで設定されている特定のポリシーに一致したアクティビティを検索します。
 

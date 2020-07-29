@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: d5ebc12c77fa8e2a9b3b1ccb006493a02771c296
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: c17af13489f6fdd2500dbe8c8523b6b69f31cfd9
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624351"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254638"
 ---
 # <a name="get-instantaneous-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を瞬時に取得する
 
@@ -176,7 +176,7 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
     | **テナント** | テナント内の以前のアクティビティに基づく一般的なアクティビティ。 たとえば、組織内で以前にアラートが通知された ISP からのアクティビティを抑制します。 |
     | **ユーザー** | 特定のユーザーの以前のアクティビティに基づく一般的なアクティビティ。 たとえば、ユーザーがよく使用する場所からのアクティビティを抑制します。 |
 
-* また、頻度の低い国、匿名 IP アドレス、疑わしい IP アドレス、およびあり得ない移動からのアクティビティに対するアラートで、失敗と成功両方のログインを分析するか、成功したログインだけを分析するかを、構成することもできます。
+* また、頻度の低い国や地域、匿名 IP アドレス、疑わしい IP アドレス、およびあり得ない移動からのアクティビティに対するアラートで、失敗と成功両方のログインを分析するか、成功したログインだけを分析するかを、構成することもできます。
 
 > [!NOTE]
 > 既定では、多要素認証 (WS-Trust など) を使用しないものなどの従来のサインイン プロトコルは、あり得ない移動ポリシーでは監視されません。 組織でレガシ プロトコルを使用していて、関連するアクティビティの見落としを防ぐには、ポリシーを編集し、 **[詳細構成]** で **[サインイン アクティビティを分析する]** を **[すべてのサインイン]** に設定します。

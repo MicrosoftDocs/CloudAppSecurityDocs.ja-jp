@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 14ef18bb57d979dc5ddabc3ef8a7ff0c724ff619
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: bf3d80fbea1847fc22d07164d25db0ec7c4149f6
+ms.sourcegitcommit: 4d2ebbd68a48876825e663375ea2b17dc6b58d03
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624558"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86865462"
 ---
 # <a name="governing-connected-apps"></a>接続されているアプリを管理する
 
@@ -75,7 +75,7 @@ ms.locfileid: "85624558"
 
   - **ごみ箱** - ファイルを [ごみ箱] フォルダーに移動します。 (Box、Dropbox、Google Drive、OneDrive、SharePoint)
 
-   ![policy_create アラート](media/policy_create-alerts.png "policy_create アラート")
+   ![policy_create アラート](media/policy_create-alerts.png)
 
 ## <a name="activity-governance-actions"></a>アクティビティ ガバナンス アクション
 
@@ -97,7 +97,7 @@ ms.locfileid: "85624558"
 
   - **ユーザーに対するセキュリティ侵害を確認** - ユーザーのリスク レベルを高に設定します。 これにより、Azure AD に定義された関連のポリシー アクションが適用されます。 Azure AD とリスク レベルが連携するしくみについて詳しくは、「[Azure AD でリスクに関するフィードバックを使用する方法](https://docs.microsoft.com/azure/active-directory/identity-protection/howto-identity-protection-risk-feedback#how-does-azure-ad-use-my-risk-feedback)」を参照してください。
 
-  ![Cloud App Security アクティビティ ポリシーのガバナンス アクション](media/activity-policy-ref6.png "アクティビティ ポリシー ref6")
+  ![Cloud App Security アクティビティ ポリシーのガバナンス アクション](media/activity-policy-ref6.png)
 
 ## <a name="governance-conflicts"></a>ガバナンスの競合
 

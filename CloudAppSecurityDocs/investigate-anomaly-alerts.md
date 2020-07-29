@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: itfalcon
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 08eec9c9a8e684d53b0947ce186d661bf5e7d961
-ms.sourcegitcommit: 826d2ec022647bce6c3135c115a41ee894ff8ecd
+ms.openlocfilehash: 00a4152258b27c6d992e4d7e5b0e4583cefad758
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84800811"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254773"
 ---
 # <a name="how-to-investigate-anomaly-detection-alerts"></a>異常検出アラートを調査する方法
 
@@ -90,7 +90,7 @@ Microsoft 脅威インテリジェンスまたは組織によって匿名プロ�
 
 ### <a name="activity-from-infrequent-country"></a>頻度の低い国からのアクティビティ
 
-悪意のあるアクティビティを示す可能性がある国からのアクティビティ。 このポリシーでは、ユーザーの環境のプロファイリングが行われ、組織内のユーザーが最近またはまったく訪れたことがない場所からのアクティビティが検出された場合、アラートがトリガーされます。
+悪意のあるアクティビティを示す可能性がある国や地域からのアクティビティ。 このポリシーでは、ユーザーの環境のプロファイリングが行われ、組織内のユーザーが最近またはまったく訪れたことがない場所からのアクティビティが検出された場合、アラートがトリガーされます。
 
 既定では、ポリシーは成功したサインイン アクティビティのみを含むように構成されますが、すべてのサインイン アクティビティを含むように構成できます。 このポリシーでは、対象範囲をユーザーのサブセットにさらに限定することも、離れた場所に行くことがわかっているユーザーを除外することもできます。
 

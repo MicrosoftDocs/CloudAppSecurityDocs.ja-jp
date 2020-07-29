@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 536fe23d089d450c3ac1ce5bbfefb08dfb2ad383
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: 0ff0a93866652a0a4cc2e927593a2a56800c64de
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505201"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254668"
 ---
 # <a name="fetch---entities-api"></a>フェッチ - Entities API
 
@@ -36,7 +36,7 @@ GET /api/v1/entities/<pk>/
 
 | パラメーター | [説明] |
 | --- | --- |
-| pk | エンティティの ID |
+| pk | base64 文字列としてエンコードされた、エンティティ ID、SaaS、およびインスタンスの詳細を含むディクショナリ。 例: base64 文字列としてエンコードされた `{"id":"3fa9f28b-eb0e-463a-ba7b-8089fe9991e2","saas":11161,"inst":0}`。 |
 
 ## <a name="example"></a>例
 

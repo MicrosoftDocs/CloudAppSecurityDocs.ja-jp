@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 77face48858ae577c4eb2aa4fd85f7fc39c81377
-ms.sourcegitcommit: 0b929f7c8feed7dfb40d5294179fd5c6fc079614
+ms.openlocfilehash: 341bc297d31f53cf446baec553e3abd6eec1c6df
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "74720793"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254722"
 ---
 # <a name="tutorial-automatically-apply-azure-information-protection-classification-labels"></a>チュートリアル:Azure Information Protection 分類ラベルの自動適用
 
@@ -42,7 +42,7 @@ Cloud App Security と Azure Information Protection を統合することで、�
 
 ## <a name="the-threat"></a>脅威
 
-組織に属するあるユーザーが顧客の機密情報ファイルを Box に保存し、組織内の全員と共有するようにそれを設定します。 直属のチームだけでなく、サポート スタッフ全員がその Box アカウントにアクセスできることをそのユーザーは知りません。 このアクセスには、ベンダー、パートナー、オフィスにときどき立ち寄る訪問者が含まれます。 組織の Box アカウントにアクセスできるあらゆる人がその情報にアクセスできるようになったわけです。 このようなアクセスは組織にとって危険であるだけでなく、多くの国で個人情報規則に違反する可能性があり、法的な問題を引き起こすことがあります。
+組織に属するあるユーザーが顧客の機密情報ファイルを Box に保存し、組織内の全員と共有するようにそれを設定します。 直属のチームだけでなく、サポート スタッフ全員がその Box アカウントにアクセスできることをそのユーザーは知りません。 このアクセスには、ベンダー、パートナー、オフィスにときどき立ち寄る訪問者が含まれます。 組織の Box アカウントにアクセスできるあらゆる人がその情報にアクセスできるようになったわけです。 このようなアクセスは組織にとって危険であるだけでなく、多くの国や地域で個人情報規則に違反する可能性があり、法的な問題を引き起こすことがあります。
 
 ## <a name="the-solution"></a>解決策
 

@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 55e66016098e6b844686f539c7280b40e60ab993
-ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
+ms.openlocfilehash: fcf90957167b9e51522e2f9f77a3c29958f6c9a2
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86402275"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254659"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -454,7 +454,7 @@ Cloud App Security の Cloud Discovery に、Palo Alto LEEF ログ形式をサ�
 リリース日: 2019 年 3 月 31 日
 
 - **あり得ない移動に関する強化**  
-隣接する国専用のサポートによって、あり得ない移動の検出が強化されました。
+隣接する国や地域の専用のサポートによって、あり得ない移動の検出が強化されました。
 - **汎用 CEF パーサーの追加属性のサポート**  
 汎用 CEF 形式の Cloud Discovery ログ パーサー サポートが強化され、追加の属性がサポートされるようになりました。
 - **Cloud Discovery レポートに対するアクセスの範囲指定**  
@@ -776,7 +776,7 @@ Microsoft Cloud App Security では IaaS 監視機能が拡張されており、
 
 - **スコープ付きの展開** (段階的ロールアウト)  
 Microsoft Cloud App Security を使用することで、企業では、グループのメンバーシップに基づいて監視および保護するユーザーを細かく決定できます。 この機能を使用すると、保護されているアプリケーションのいずれにもアクティビティが表示されないユーザーを選択できます。 スコープ付きの監視機能は、次の場合に特に役立ちます。
-  - コンプライアンス - コンプライアンス規制によって、地域の規制のために特定の国のユーザーを監視しないようにする必要がある場合。
+  - コンプライアンス – コンプライアンス規制によって、地域の規制のために特定の国や地域のユーザーを監視しないようにする必要がある場合。
   - ライセンス – Microsoft Cloud App Security ライセンスの制限内に収まっていることを監視する対象のユーザーの数を減らしたい場合。
   詳細については、「[スコープ付きの展開](scoped-deployment.md)」をご覧ください。
 

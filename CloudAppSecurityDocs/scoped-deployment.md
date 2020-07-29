@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 433488b7302d3f66255bb1bfa04b630d8dbb1b7d
-ms.sourcegitcommit: 6eff466c7a6817b14a60d8c3b2c201c7ae4c2e2c
+ms.openlocfilehash: 5f0aa6f32f964d1f0bb5f2ad404bae65e9e95e0c
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74721053"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254739"
 ---
 # <a name="scoped-deployment"></a>スコープ付きの展開 <a name="scoped-deployment"></a> 
 
@@ -29,7 +29,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 
 ## <a name="include-or-exclude-user-groups"></a>ユーザー グループを含めるか除外する
 
-組織内のすべてのユーザーに対して Microsoft Cloud App Security を使用することを避けたい場合があります。 スコープは、ライセンス制約によって展開を制限する場合に特に便利です。 また、特定の国のユーザーを監視しないことを要求するコンプライアンス規則のために制限が必要になることもあります。 たとえば、スコープ付きの展開を使用して、米国に居住する従業員のみを監視します。 または、ドイツに居住するユーザーにアクティビティを表示しないようにすることもできます。
+組織内のすべてのユーザーに対して Microsoft Cloud App Security を使用することを避けたい場合があります。 スコープは、ライセンス制約によって展開を制限する場合に特に便利です。 また、特定の国や地域からのユーザーを監視しないことを要求するコンプライアンス規則のために、制限が必要になることもあります。 たとえば、スコープ付きの展開を使用して、米国に居住する従業員のみを監視します。 または、ドイツに居住するユーザーにアクティビティを表示しないようにすることもできます。
 
 - 展開のスコープを指定するには、まず Microsoft Cloud App Security に[ユーザー グループをインポートする](user-groups.md)必要があります。 既定では、次のグループが表示されます。
 

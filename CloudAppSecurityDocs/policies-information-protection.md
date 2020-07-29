@@ -9,12 +9,12 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5485b179fe3a5bccfe969b93cd32a0954bd89bf6
-ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
+ms.openlocfilehash: b4be7d9e31f2fc0bf71175a9c7fb3d07c38262a4
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86402207"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254807"
 ---
 # <a name="information-protection-policies"></a>情報保護に関するポリシー
 
@@ -129,9 +129,9 @@ Cloud App Security では、20 を超えるメタデータ フィルター (ア�
 
 2. フィルター **[アクティビティの種類]** を、目的のファイル アクティビティおよびフォルダー アクティビティ ( **[表示]** 、 **[ダウンロード]** 、 **[アクセス]** 、 **[変更]** ) に設定します。
 
-3. フィルター **[場所]** を "等しくない" に設定し、組織でアクティビティが想定される国を入力します。
+3. フィルター **[場所]** を "等しくない" に設定し、組織によってアクティビティが想定されている国または地域を入力します。
 
-    1. オプション:組織で特定の国からのアクセスをブロックする場合は、反対の方法を使用して、フィルターを **[場所]** が "等しい" に設定できます。
+    1. オプション:組織で特定の国または地域からのアクセスをブロックする場合は、反対の方法を使用して、フィルター **[場所]** を "等しい" に設定できます。
 
 4. オプション:**ユーザーの停止**など、検出された違反に適用する**ガバナンス** アクションを作成します (何が使用できるかはサービによって異なります)。
 

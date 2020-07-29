@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f4f7b05caa3c516294f08864b0a711b71be047f3
-ms.sourcegitcommit: 3f0693bf32fef5b4819c51ca7eeaee751eb03df6
+ms.openlocfilehash: 0e7f32bd4f6213b4bce86232e40d15cf06e12c18
+ms.sourcegitcommit: c737a1ad67b4f7efa302d1aa92fce50f75c94d2d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "84611173"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "86926725"
 ---
 # <a name="integrate-cloud-app-security-with-zscaler"></a>Cloud App Security を Zscaler と統合する
 
@@ -52,7 +52,7 @@ Cloud App Security と Zscaler の両方を使用している場合は、この 
         ![データ ソース Zscaler](media/data-source-zscaler.png)
 
         > [!NOTE]
-        > データ ソースの名前が、Cloud App Security NSS フィードの作成時に使用したフィード名と同じであることを確認します。 詳細については、[Cloud App Security NSS フィードの追加](https://help.zscaler.com/zia/adding-mcas-nss-feeds)に関するページを参照してください。
+        > データ ソースの名前が **NSS** であることを確認します。 NSS フィードの設定について詳しくは、[Cloud App Security NSS フィードの追加](https://help.zscaler.com/zia/adding-mcas-nss-feeds)に関するページをご覧ください。
 
     4. **[期待されるログ ファイルのサンプルを表示]** をクリックします。 次いで、 **[サンプル ログのダウンロード]** をクリックしてサンプルの検出ログを表示し、それがお使いのログと一致していることを確認します。<br />
 

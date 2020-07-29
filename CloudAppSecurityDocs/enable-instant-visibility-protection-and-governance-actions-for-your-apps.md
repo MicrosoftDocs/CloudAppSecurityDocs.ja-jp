@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: bf6c12f3b41abf63ab3183f85d7dedcba21584c9
-ms.sourcegitcommit: b71546236cb97c0a22d0e82742a167f31555b275
+ms.openlocfilehash: 84ba90f5959980815caa7170ab7bee9d11db263c
+ms.sourcegitcommit: 4d2ebbd68a48876825e663375ea2b17dc6b58d03
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86308260"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "86865494"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
@@ -118,7 +118,9 @@ Cloud App Security は Azure に展開され、[ExpressRoute](https://azure.micr
 ## <a name="disable-app-connectors"></a>アプリ コネクタを無効にする
 
 > [!NOTE]
-> アプリ コネクタを無効にする前に、接続の詳細を用意してください。コネクタを再有効化する場合に必要になります。
+>
+> - アプリ コネクタを無効にする前に、接続の詳細を用意してください。コネクタを再有効化する場合に必要になります。
+> - これらの手順を使用して Azure コネクタを無効にすることはできません。
 
 接続されているアプリを無効にするには
 

@@ -9,12 +9,12 @@ ms.date: 11/01/2019
 ms.collection: M365-security-compliance
 ms.custom: seodec18
 ms.suite: ems
-ms.openlocfilehash: 7cdc03bf2cc8bae19ef59cbe9ed926a28d81bb22
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 44880f4e19fc317d09dbc091c2c4a4e9c9399a43
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624406"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254688"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -82,7 +82,7 @@ Microsoft Cloud App Security は、次のようなさまざまな国際的およ
 
 ## <a name="data-location"></a>データの場所
 
-現在、Microsoft Cloud App Security は、米国とヨーロッパ (それぞれ "地域") のデータセンターで動作しています。 お客様のテナント アカウントは、サインアップ時に選択した国に基づく地域に作成されます。 具体的には、お客様のデータは、その場所に最も近い地域のデータセンターに格納されます。
+現在、Microsoft Cloud App Security は、米国とヨーロッパ (それぞれ "地域") のデータセンターで動作しています。 お客様のテナント アカウントは、サインアップ時に選択した国や地域に基づく地域に作成されます。 具体的には、お客様のデータは、その場所に最も近い地域のデータセンターに格納されます。
 
 > [!NOTE]
 > Cloud App Security では、世界中の Azure データ センターが活用され、位置情報によって最適化されたパフォーマンスが提供されます。 つまり、トラフィック パターンとその場所によっては、ユーザーのセッションが特定のリージョンの外部でホストされる可能性があります。 ただし、お客様のプライバシーを保護するために、これらのデータ センターにセッション データが保存されることはありません。

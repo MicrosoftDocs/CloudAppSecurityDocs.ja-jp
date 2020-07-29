@@ -9,12 +9,12 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: bed434f721884050b95350023cb3a974bcd618f6
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 1fa2a1e9d0c46531284b674cf20dd512ecba292c
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624892"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254790"
 ---
 # <a name="threat-protection-policies"></a>脅威保護に関するポリシー
 
@@ -278,7 +278,7 @@ Cloud App Security では、Microsoft の脅威インテリジェンスを利用
 
 ### <a name="steps"></a>手順
 
-1. この検出は、頻度の低い国からのアクティビティが発生したらアラートが生成されるように、何もしなくても自動的に構成されます。 このポリシーを構成するために何らかの操作を行う必要はありません。 詳しくは、[異常検出ポリシー](anomaly-detection-policy.md)に関する記事をご覧ください。
+1. この検出は、頻度の低い国や地域から異常なアクティビティが発生したときにアラートが生成されるように、何もしなくても自動的に構成されます。 このポリシーを構成するために何らかの操作を行う必要はありません。 詳しくは、[異常検出ポリシー](anomaly-detection-policy.md)に関する記事をご覧ください。
 
 2. 検出のスコープを構成し、アラートがトリガーされたときに実行するアクションをカスタマイズすることができます。
 

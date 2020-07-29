@@ -7,12 +7,12 @@ ms.service: cloud-app-security
 ms.topic: best-practice
 ms.date: 10/24/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6b07d3dd484fba64b8feda1d5b5fb37a20cc09f3
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 0815432cf7410ab4e122ab52a136b978d6dec430
+ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624307"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254603"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 
@@ -232,7 +232,7 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 ---
 
 **ベスト プラクティス**:予期しない場所または国からのアクティビティを検出する  
-**詳細**:予期しない場所または国からユーザーがサインインしたときに通知するアクティビティ ポリシーを作成します。 これらの通知を使用して、発生前に脅威を検出して修復できるように、環境内で侵害される可能性のあるセッションを警告できます。  
+**詳細**:予期しない場所または国や地域からユーザーがサインインしたときに通知するアクティビティ ポリシーを作成します。 これらの通知を使用して、発生前に脅威を検出して修復できるように、環境内で侵害される可能性のあるセッションを警告できます。  
 **参照項目**:
 
 * [脅威保護に関するポリシー](policies-threat-protection.md)
