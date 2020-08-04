@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 6c2c4e5d48af1650dce4744568f9bdb3df051a07
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 12af451c7d5e808baf09598e263ef582c975ebbf
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85721929"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296921"
 ---
 # <a name="security-configuration-for-google-cloud-platform"></a>Google Cloud Platform のセキュリティ構成
 
@@ -44,6 +44,9 @@ Microsoft Cloud App Security では、Google Cloud Platform (GCP) 環境のセ�
     ![セキュリティの構成メニュー](media/security-configuration-menu.png)
 
 1. 推奨事項は、種類、リソース、サブスクリプションごとにフィルター処理できます。 また、[セキュリティの構成] アイコン ![ASC アイコン](media/asc-icon.png) をクリックして GCP Security Command Center で推奨事項を開いて詳細情報を確認し、推奨事項についてさらに詳しく調べることができます。
+
+    > [!NOTE]
+    > 調査をさらに簡単にするために、カスタム クエリを作成して、後で使用できるように保存することができます。 クエリの作成が完了したら、フィルターの右上隅にある **[名前を付けて保存]** ボタンをクリックします。 **[クエリの保存]** ポップアップで、クエリに名前を付けます。
 
     ![セキュリティの構成](media/security-configuration-gcp.png)
 

@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: dec6b720804716df8ac275b6f6f641832e4cec17
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: f92d94c18ba8f91fd616fe00baeeb38b79a4354c
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85721930"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296901"
 ---
 # <a name="security-configuration-for-azure"></a>Azure のセキュリティ構成
 
@@ -58,9 +58,12 @@ Microsoft Cloud App Security でセキュリティ構成に関する推奨事項
 
 1. 推奨事項は、種類、リソース、サブスクリプションごとにフィルター処理できます。 また、[セキュリティの構成] アイコン ![ASC アイコン](media/asc-icon.png) をクリックして Azure Security Center で推奨事項を開いて詳細情報を確認し、推奨事項についてさらに詳しく調べることができます。
 
-セキュリティに関する推奨事項の実装方法の詳細については、[Azure Security Center でのセキュリティに関する推奨事項の管理](https://docs.microsoft.com/azure/security-center/security-center-recommendations)に関するページを参照してください。
+    > [!NOTE]
+    > 調査をさらに簡単にするために、カスタム クエリを作成して、後で使用できるように保存することができます。 クエリの作成が完了したら、フィルターの右上隅にある **[名前を付けて保存]** ボタンをクリックします。  **[クエリの保存]** ポップアップで、クエリに名前を付けます。
 
-![セキュリティの構成](media/security-configuration-azure.png)
+    ![セキュリティの構成](media/security-configuration-azure.png)
+
+セキュリティに関する推奨事項の実装方法の詳細については、[Azure Security Center でのセキュリティに関する推奨事項の管理](https://docs.microsoft.com/azure/security-center/security-center-recommendations)に関するページを参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 

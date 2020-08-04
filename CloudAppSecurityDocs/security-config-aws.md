@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 904dc2c6a86d135502c81fd3037b9b8ca4459d99
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: d8c3da684fefed2a1aadef2e33d734deaad56fcc
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85625014"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296845"
 ---
 # <a name="security-configuration-for-aws"></a>AWS のセキュリティ構成
 
@@ -44,6 +44,9 @@ Microsoft Cloud App Security では、お客様のアマゾン ウェブ サー�
     ![セキュリティの構成メニュー](media/security-configuration-menu.png)
 
 1. 推奨事項は、種類、リソース、アカウントごとにフィルター処理できます。 また、[セキュリティの構成] アイコン ![ASC アイコン](media/asc-icon.png) をクリックして Amazon Security Hub で推奨事項を開いて詳細情報を確認し、推奨事項についてさらに詳しく調べることができます。
+
+    > [!NOTE]
+    > 調査をさらに簡単にするために、カスタム クエリを作成して、後で使用できるように保存することができます。 クエリの作成が完了したら、フィルターの右上隅にある **[名前を付けて保存]** ボタンをクリックします。 **[クエリの保存]** ポップアップで、クエリに名前を付けます。
 
     ![セキュリティの構成](media/security-configuration-aws.png)
 
