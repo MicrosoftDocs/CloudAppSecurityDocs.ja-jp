@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 77bf7eeadf64108ca62a12d485aadba21e8d8848
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 29e6fb15880f9d3c306acbe6e696dd96a73ac241
+ms.sourcegitcommit: 021914cf4b16ad3a5543f69958639dc670f09304
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624612"
+ms.lasthandoff: 08/02/2020
+ms.locfileid: "87514515"
 ---
 # <a name="email-notification-preferences"></a>電子メール通知の基本設定
 
@@ -32,13 +32,13 @@ ms.locfileid: "85624612"
 
 ## <a name="set-email-notification-preferences"></a><a name="mailsettings"></a> 電子メール通知の基本設定を設定する
 
- Microsoft Cloud App Security では、侵害に関係するエンド ユーザーに送信される電子メール通知をカスタマイズできます。 電子メール通知のパラメーターを設定するには、次の手順に従います。 ご自分のスパム対策サービスでホワイトリストに登録する必要がある Microsoft Cloud App Security の電子メール サーバーの IP アドレスについては、「[ネットワークの要件](network-requirements.md)」を参照してください。
+ Microsoft Cloud App Security では、侵害に関係するエンド ユーザーに送信される電子メール通知をカスタマイズできます。 電子メール通知のパラメーターを設定するには、次の手順に従います。 ご自分のスパム対策サービスで許可する必要がある Microsoft Cloud App Security の電子メール サーバーの IP アドレスについては、「[ネットワークの要件](network-requirements.md)」を参照してください。
 
 1. メニュー バーで設定の歯車をクリックし、 **[設定]** 、 **[メールの設定]** タブを順に選択します。
 
     ![メールの設定](media/mail-settings-config.png)
 
-2. **[メール送信者の ID]** で次を実行します。既定の電子メール設定を使用する場合は、このセクションの内容を変更する必要はありません。 電子メールの送信者 ID をカスタマイズする場合は、ここの任意の設定を設定して、変更するフィールドをカスタマイズします。 次の項目のいずれか、またはすべて変更することができます。 **[送信元表示名]** 、 **[送信元メール アドレス]** 、 **[返信用メール アドレス]** 。 Microsoft Cloud App Security では、MailChimp®というサードパーティのメールサービスを使用して、このカスタマイズを実現しています。 カスタマイズするには、MailChimp のサービス利用規約とプライバシーに関する声明を確認して同意する必要があります。 それ以外の場合は、Microsoft Cloud App Security では、既定の設定が使用され通知が送信されます。
+2. **[メール送信者の ID]** で次を実行します。既定の電子メール設定を使用する場合は、このセクションの内容を変更する必要はありません。 電子メールの送信者 ID をカスタマイズする場合は、ここの任意の設定を設定して、変更するフィールドをカスタマイズします。 次の項目のいずれか、またはすべて変更することができます。 **[送信元表示名]** 、 **[送信元メール アドレス]** 、 **[返信用メール アドレス]** 。 Microsoft Cloud App Security では、MailChimp&reg; というサードパーティのメール サービスを使用して、このカスタマイズを実現しています。 カスタマイズするには、MailChimp のサービス利用規約とプライバシーに関する声明を確認して同意する必要があります。 それ以外の場合は、Microsoft Cloud App Security では、既定の設定が使用され通知が送信されます。
 
     > [!NOTE]
     > 表示名と電子メール アドレスには、[rfc822 標準](https://www.rfc-editor.org/rfc/rfc822.txt)に従い、unicode 文字のみを使用できます。

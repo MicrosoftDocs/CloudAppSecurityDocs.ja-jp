@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 23763911724e802d31e848ee1f8d6c42e346ffa4
-ms.sourcegitcommit: ecb1835d1cd880de38f32ce7a7031b0015f3cae5
+ms.openlocfilehash: 88a86e60e632f781428f307c4e1cf6653f87836b
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81232474"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296772"
 ---
 # <a name="access-policies"></a>アクセス ポリシー
 
@@ -77,5 +77,8 @@ Microsoft Cloud App Security アクセス ポリシーでは、ユーザー、�
 
 > [!div class="nextstepaction"]
 > [セッション制御を使用したアンマネージド デバイスでのダウンロードのブロック](use-case-proxy-block-session-aad.md)
+
+> [!div class="nextstepaction"]
+> [アクセスおよびセッション制御のトラブルシューティング](troubleshooting-proxy.md)
 
 [!INCLUDE [Open support ticket](includes/support.md)]

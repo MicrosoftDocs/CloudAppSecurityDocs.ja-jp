@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 28a2885be1bd98f9ef5b3905d6ed1dc50f64238f
-ms.sourcegitcommit: 00599ac6c64a4c62ed9ebdda3edb58f90f92c24d
+ms.openlocfilehash: c12e2d09d9ef9adff32907795c37a86183ded964
+ms.sourcegitcommit: 5cf263c4094f5ac91210b03d085ca3dbca50f32d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76912048"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87388662"
 ---
 # <a name="connect-azure-to-microsoft-cloud-app-security"></a>Azure を Microsoft Cloud App Security に接続する
 
@@ -31,7 +31,7 @@ ms.locfileid: "76912048"
 
 > [!NOTE]
 >
-> - Azure を Microsoft Cloud App Security に接続するには、ユーザーが Azure AD のグローバル管理者である必要があります。
+> - Azure を Microsoft Cloud App Security に接続するには、ユーザーが Azure AD のグローバル管理者またはセキュリティ管理者である必要があります。
 > - Cloud App Security には、**すべての**サブスクリプションのアクティビティが表示されます。
 > - 現時点では、Cloud App Security では ARM アクティビティのみが監視されます。
 

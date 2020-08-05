@@ -4,19 +4,19 @@ description: この記事は、Cloud App Security の最新リリースの新機
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 06/28/2020
+ms.date: 07/20/2020
 ms.topic: overview
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: fcf90957167b9e51522e2f9f77a3c29958f6c9a2
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: de7d3e9c0da31dc6331df344673628c127a8805d
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254659"
+ms.locfileid: "87296988"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -25,6 +25,28 @@ ms.locfileid: "87254659"
 この記事は、Cloud App Security の最新リリースの新機能がわかるように頻繁に更新されます。
 
 RSS フィード:ご自身のフィード リーダーに次の URL をコピーして貼り付けることで、このページの更新時に通知を受け取ることができます。`https://docs.microsoft.com/api/search/rss?search=%22This+article+is+updated+frequently+to+let+you+know+what%27s+new+in+the+latest+release+of+Cloud+App+Security%22&locale=en-us`
+
+## <a name="cloud-app-security-release-179-and-180"></a>Cloud App Security リリース 179 と 180
+
+リリース日: 2020 年 7 月 26 日
+
+- **新しい異常検出:疑わしい OAuth アプリ ファイルのダウンロード アクティビティ**  
+OAuth アプリによる疑わしいダウンロード アクティビティを含めるよう、異常検出を拡張しました。 すぐに使用できるこの新しい検出は、自動的に有効になり、OAuth アプリによってユーザーにとって異常な方法で Microsoft SharePoint または Microsoft OneDrive から複数のファイルがダウンロードされると、アラートが生成されます。
+
+- **プロキシ キャッシュを使用したセッション制御のパフォーマンスの向上 (段階的なロールアウト)**  
+コンテンツのキャッシュ メカニズムを強化することで、セッション制御のパフォーマンスをさらに向上させました。 改善されたサービスはさらに合理化され、セッション制御を使用する際の応答性が向上します。 セッション制御では、共有 (パブリック) コンテンツのみをキャッシュするための適切な標準に合わせて、プライベート コンテンツはキャッシュされないことに注意してください。 詳細については、「[セッション制御のしくみ](proxy-intro-aad.md#how-session-control-works)」を参照してください。
+
+- **新機能:セキュリティ構成クエリの保存**  
+Azure、アマゾン ウェブ サービス (AWS)、Google Cloud Platform (GCP) 用のセキュリティ構成ダッシュボード フィルターのクエリを保存する機能が追加されました。 これにより、一般的なクエリを再利用することで、今後の調査をさらに簡単に行うことができます。 [セキュリティ構成の推奨事項](security-config.md)に関する記事を参照してください。
+
+- **強化された異常検出アラート**  
+異常検出アラートに関して提供している情報を拡張し、対応する MITRE ATT\&CK の方策に対するマッピングを含めました。 このマッピングは、攻撃のフェーズと影響を理解し、調査することに役立ちます。 詳細については、「[異常検出アラートを調査する方法](investigate-anomaly-alerts.md)」を参照してください。
+
+- **強化された検出ロジック: ランサムウェアのアクティビティ**  
+ランサムウェアのアクティビティに関する検出ロジックを更新し、精度を向上させ、アラート量を減らしました。 この異常検出ポリシーの詳細については、「[ランサムウェアのアクティビティ](anomaly-detection-policy.md#ransomware-activity)」を参照してください。
+
+- **ID セキュリティ態勢のレポート: タグの表示**  
+エンティティに関する追加の分析情報を提供する ID セキュリティ態勢のレポートに、エンティティ タグを追加しました。 たとえば、 **[機密]** タグは、危険なユーザーを特定し、調査の優先順位を付けるのに役立ちます。 [危険なユーザーの調査](tutorial-ueba.md)に関する記事を参照してください。
 
 ## <a name="cloud-app-security-release-178"></a>Cloud App Security リリース 178
 
@@ -50,19 +72,6 @@ Cloud App Security では、シャドウ IT 検出調査の一環としてリス
 
 - **新機能:アプリ コネクタのセルフサービス無効化 (段階的ロールアウト)**  
 Cloud App Security で直接、アプリ コネクタを無効にする機能を追加しました。 詳細については、「[アプリ コネクタの無効化](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md#disable-app-connectors)」を参照してください。
-
-<!--
-- **Enhanced detection logic: Ransomware activity (gradual rollout)**  
-We've updated the detection logic for Ransomware activity to provide improved accuracy and reduced alert volume. For more information about this anomaly detection policy, see [Ransomware activity](anomaly-detection-policy.md#ransomware-activity).
-
-- **New OAuth app policy templates**  
-Cloud App Security now provides the following new OAuth app policy templates enabling you to detect potentially malicious apps:
-
-  - **OAuth apps authorized by external users**: Alert when an app was authorized by an external user.
-  - **OAuth apps with high permissions and rare community use – Google**: Alert for apps with high permissions and rare community use in Google.
-  - **OAuth apps with high permissions and rare community use – Office**: Alert for apps with high permissions and rare community use in Office
-  - **OAuth apps with rare community use - Salesforce**: Alert for apps with rare community use in Salesforce.
--->
 
 ## <a name="cloud-app-security-release-177"></a>Cloud App Security リリース 177
 

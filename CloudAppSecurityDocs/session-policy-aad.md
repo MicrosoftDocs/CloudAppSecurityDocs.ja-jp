@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7ad7bc15a2ea70a9b1166f30024afc0bfe17ae27
-ms.sourcegitcommit: 15d80cde40df8a8d3a156764a6a99fad0e62a422
+ms.openlocfilehash: eabbad5f2ce6ca4649f0923e9bce248a6d28781f
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "86046098"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296868"
 ---
 # <a name="session-policies"></a>セッション ポリシー
 
@@ -172,6 +172,9 @@ Cloud App Security セッション ポリシーで  **[セッション制御�
 
 >[!div class="nextstepaction"]
 > [次へ:アクセス ポリシーを作成する方法 »](access-policy-aad.md)
+
+> [!div class="nextstepaction"]
+> [アクセスおよびセッション制御のトラブルシューティング](troubleshooting-proxy.md)
 
 ## <a name="see-also"></a>関連項目
 

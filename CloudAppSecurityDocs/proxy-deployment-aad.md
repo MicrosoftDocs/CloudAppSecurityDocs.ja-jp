@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 11236b48d153e32166e3a12a4b13eb200479cbf9
-ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
+ms.openlocfilehash: 9e75c101bf55dd86f4d787c9a6e3ea6500e04f1b
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86402241"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296955"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 
@@ -191,5 +191,8 @@ Cloud App Security によって、サインインする新しいアプリごと�
 
 > [!div class="nextstepaction"]
 > [次へ:任意のアプリに対するアプリの条件付きアクセス制御のオンボードとデプロイ »](proxy-deployment-any-app.md)
+
+> [!div class="nextstepaction"]
+> [アクセスおよびセッション制御のトラブルシューティング](troubleshooting-proxy.md)
 
 [!INCLUDE [Open support ticket](includes/support.md)]

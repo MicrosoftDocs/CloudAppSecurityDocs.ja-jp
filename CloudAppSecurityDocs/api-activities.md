@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: c3459843fc2a432f664ac09ebc67ec7c52a01fe4
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: 0f6528074003d43777d21e956961739a19584742
+ms.sourcegitcommit: 84eafb4926bf0d4db27bed7df55dc83ca48f9192
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505591"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87377832"
 ---
 # <a name="activities-api"></a>Activities API
 
@@ -37,7 +37,7 @@ Activity API を使用すると、クラウド アプリで実行されたすべ
 
 | フィルター | Type | 演算子 | [説明] |
 | --- | --- | --- | --- |
-| サービス | integer | eq | 指定したサービス appID に関連するアクティビティをフィルター処理します。例: 11770 |
+| サービス | integer | eq、neq | 指定したサービス appID に関連するアクティビティをフィルター処理します。例: 11770 |
 | インスタンス | integer | eq、neq | 指定したインスタンスからのアクティビティをフィルター処理します |
 | user.orgUnit | string | eq、neq、isset、isnotset | 実行しているユーザーの組織単位でアクティビティをフィルター処理します |
 | activity.eventType | string | eq、neq | イベントの種類でアクティビティをフィルター処理します |
@@ -68,7 +68,6 @@ Activity API を使用すると、クラウド アプリで実行されたすべ
 | entity | entity pk | eq、neq、isset、isnotset、startswith | アクティビティを実行したエンティティによってアクティビティをフィルター処理します。 例: `[{ "id": "entity-id", "saas": 11161, "inst": 0 }]` |
 | user.username | string | eq、neq、isset、isnotset、startswith | アクティビティを実行したユーザーによってアクティビティをフィルター処理します |
 | user.tags | string | eq、neq、isset、isnotset、startswith | 実行しているユーザーに属するタグによってアクティビティをフィルター処理します。 グループ ID が必要です |
-| activity.azureSubscriptions | string | eq、neq | Azure サブスクリプションのアクティビティをフィルター処理します |
 | user.domain | string | eq、neq、isset、isnotset | 実行しているユーザー ドメインによってアクティビティをフィルター処理します |
 
 [!INCLUDE [Open support ticket](includes/support.md)]

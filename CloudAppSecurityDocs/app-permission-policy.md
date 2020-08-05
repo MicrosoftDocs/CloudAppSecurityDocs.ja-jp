@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 25809c1ace00b31df32c225f6b72a2b4e98a70d8
-ms.sourcegitcommit: 826d2ec022647bce6c3135c115a41ee894ff8ecd
+ms.openlocfilehash: c67e950b2d3227e8c0e261d346dcd1eec5f22d89
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84800726"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87296706"
 ---
 # <a name="oauth-app-policies"></a>OAuth アプリ ポリシー
 
@@ -56,6 +56,7 @@ OAuth アプリ ポリシーを使用すると、各アプリで要求された�
 | まぎらわしい OAuth アプリ名 | 環境に接続されている OAuth アプリがスキャンされて、まぎらわしい名前のアプリが検出されるとアラートがトリガーされます。 ラテン文字に似た外国語の文字などを使ったまぎらわしい名前は、悪意のあるアプリを、既知の信頼されたアプリとして偽装しようとしていることを示している可能性があります。 |
 | OAuth アプリのまぎらわしい発行元名 | 環境に接続されている OAuth アプリがスキャンされて、まぎらわしい発行元名前のアプリが検出されるとアラートがトリガーされます。 ラテン文字に似た外国語の文字などを使ったまぎらわしい発行元の名前は、悪意のあるアプリを、既知の信頼された発行元からのアプリとして偽装しようとしていることを示している可能性があります。 |
 | 悪意のある OAuth アプリの同意 | 環境に接続されている OAuth アプリがスキャンされて、悪意を持つ可能性があるアプリが承認されるとアラートがトリガーされます。 悪意のある OAuth アプリは、ユーザーを侵害する試みでフィッシング キャンペーンの一部として使用される可能性があります。 この検出では、Microsoft のセキュリティ研究と脅威インテリジェンスの専門知識が利用されて、悪意のあるアプリが特定されます。 |
+| 疑わしい OAuth アプリ ファイルのダウンロード アクティビティ | [異常検出ポリシー](anomaly-detection-policy.md#suspicious-oauth-app-file-download-activities)に関する記事を参照してください |
 
 <!--
 | OAuth apps authorized by external users | Scans OAuth apps connected to your environment and triggers an alert when an app was authorized by an external user. |

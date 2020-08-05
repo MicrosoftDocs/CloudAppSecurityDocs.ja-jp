@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: c473128c22f0369725260077b642d75ac50f559f
-ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
+ms.openlocfilehash: 6d2996fb77912b04d5a6d4aefe7edc8c77f27a21
+ms.sourcegitcommit: 84eafb4926bf0d4db27bed7df55dc83ca48f9192
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86402380"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87377849"
 ---
 # <a name="troubleshooting-access-and-session-controls"></a>アクセスおよびセッション制御のトラブルシューティング
 
@@ -410,6 +410,7 @@ Cloud App Security では、次の構成可能なポリシーが提供されま�
 - [ **[問題が発生しました]** ページが表示される](#something-went-wrong-page-appears)
 - [クリップボードのアクションやファイル制御がブロックされていない](#clipboard-actions-or-file-controls-are-not-being-blocked)
 - [ダウンロードが保護されていない](#downloads-are-not-being-protected)
+- [サフィックスが付いたアプリの特定の URL への移動と汎用ページへのランディング](#navigating-to-a-particular-url-of-a-suffixed-app-and-landing-on-a-generic-page)
 - [その他の考慮事項](#app-additional-considerations)
 
 ### <a name="user-monitoring-page-is-not-appearing"></a>[ユーザーの監視] ページが表示されない
@@ -502,6 +503,20 @@ Cloud App Security を介してユーザーをルーティングする場合は�
         - PDF* 統合ラベル付けが有効になっている場合
     - ファイルの種類がサポートされていない場合は、セッション ポリシーで、 **[ネイティブ保護でサポートされていないファイルや、ネイティブの保護が失敗しているファイルのダウンロードをブロックします]** を選択できます。
 1. それでもブロックされたアクティビティを表示できない場合は、[サポート チケット](support-and-ts.md)を開きます。
+
+### <a name="navigating-to-a-particular-url-of-a-suffixed-app-and-landing-on-a-generic-page"></a>サフィックスが付いたアプリの特定の URL への移動と汎用ページへのランディング
+
+URL にサフィックスを付けるすべてのプロキシは、コンテキストの損失、つまり、リンクに移動するとリンクの完全なパスが失われて通常はアプリのホーム ページにランディングする、という問題の影響を受けやすくなります。 Cloud App Security は、Microsoft および Microsoft 以外のベンダーと提携してこの制限に対処しコンテキストの損失を解決するという、独自の役割を負っています。
+
+おすすめアプリ ページ上で **(プレビュー)** としてマークされているアプリは、コンテキストの損失による影響を受ける可能性があります。 おすすめアプリ以外でコンテキストの損失が発生している場合は、サポート チケットを送信してください。 これらの主要な問題を修正するために、各アプリ プロバイダーと個別に協力して作業しています。
+
+一時的な軽減策として、次の方法でコンテキスト損失の問題を回避することができます。
+
+1. コンテキストの損失が発生した URL に移動します。
+1. Cloud App Security によって追加されたサフィックスを含む、サフィックスが付いた URL ドメインをメモしておきます (例: `https://www.yammer.com.us2.cas.ms`)。
+1. 元の URL からパスをコピーします。たとえば、元の特定の URL が `https://www.yammer.com/organization/threads/threadnumber` の場合、`/organization/threads/threadnumber` をコピーします。
+1. コピーしたパスをサフィックスの付いたドメインに追加します (例: `https://www.yammer.com.us2.cas.ms/organization/threads/threadnumber`)。
+1. サフィックスが付いた新しい URL に移動します。
 
 <a name="app-additional-considerations"></a>
 

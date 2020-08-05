@@ -14,14 +14,14 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 4434bd5faf1ab8aa30391d3434df71e6db557096
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 8a434520f3e0ca3baa01167cae13856085e9a318
+ms.sourcegitcommit: 859934f13d0f7f7a24a5fb21856d415ef0f6889a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85623316"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87378235"
 ---
-# <a name="cloud-discovery-policies"></a>Cloud Discovery ポリシー
+# <a name="create-cloud-discovery-policies"></a>Cloud Discovery ポリシーの作成
 
 *適用対象:Microsoft Cloud App Security*
 
@@ -60,7 +60,9 @@ ms.locfileid: "85623316"
 9. **[作成]** をクリックします。
 
 > [!NOTE]
-> 新しく作成された検出ポリシー (または継続的レポートが更新されたポリシー) により、同じアプリに対する既存のアラートがあるかどうかにかかわらず、90 日に 1 回、継続的レポートごとにアラートがトリガーされます。 そのため、たとえば新しい人気のあるアプリを検出するためのポリシーを作成した場合、既に検出されアラートが生成されているアプリに対して追加のアラートがトリガーされることがあります。
+>
+> - 新しく作成された検出ポリシー (または継続的レポートが更新されたポリシー) により、同じアプリに対する既存のアラートがあるかどうかにかかわらず、90 日に 1 回、継続的レポートごとにアラートがトリガーされます。 そのため、たとえば新しい人気のあるアプリを検出するためのポリシーを作成した場合、既に検出されアラートが生成されているアプリに対して追加のアラートがトリガーされることがあります。
+> - **スナップショット レポート**からのデータによって、アプリ検出ポリシーでアラートがトリガーされることはありません。
 
 たとえば、クラウド環境にある危険なホスティング アプリの検出に関心がある場合は、次のようにポリシーを設定します。
 

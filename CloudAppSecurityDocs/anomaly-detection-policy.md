@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c17af13489f6fdd2500dbe8c8523b6b69f31cfd9
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: dff363a63cab2760cc953f7493a38b8ffda0d02f
+ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254638"
+ms.locfileid: "87296792"
 ---
 # <a name="get-instantaneous-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を瞬時に取得する
 
@@ -120,7 +120,9 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
 > [!NOTE]
 > Cloud App Security には、Office Advanced Threat Protection (Office ATP) が統合されており、URL デトネーション、マルウェア対策など、Exchange Online 用の保護を提供します。 Office ATP を有効にすると、Cloud App Security アクティビティ ログにアラートが表示されるようになります。
 
-<!-- // MATP? Delay tile start appearing? -->
+### <a name="suspicious-oauth-app-file-download-activities"></a>疑わしい OAuth アプリ ファイルのダウンロード アクティビティ
+
+* お使いの環境に接続されている OAuth アプリがスキャンされ、あるアプリによってユーザーにとって異常な方法で Microsoft SharePoint または Microsoft OneDrive から複数のファイルがダウンロードされると、アラートがトリガーされます。 これは、ユーザーのアカウントが侵害されたことを示している可能性があります。
 
 ### <a name="unusual-activities-by-user"></a>異常なアクティビティ (ユーザーによるもの)
 

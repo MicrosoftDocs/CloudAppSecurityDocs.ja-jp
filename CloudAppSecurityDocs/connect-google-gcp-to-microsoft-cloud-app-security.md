@@ -9,12 +9,12 @@ ms.date: 06/28/2020
 ms.topic: conceptual
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 275e81a80124f95131ee110f4dce33a5ba3dac13
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: a792ae503fda51e69d162cec0b5e32cd3710780f
+ms.sourcegitcommit: 84eafb4926bf0d4db27bed7df55dc83ca48f9192
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85623657"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "87377866"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -71,10 +71,15 @@ AWS のセキュリティ監査を Cloud App Security に接続するには、�
 
     ![GCP のプロジェクトの作成ダイアログを示すスクリーンショット](media/connect-gcp-create-project.png)
 
-#### <a name="enable-the-pubsub-api"></a>Pub/Sub API を有効にする
+#### <a name="enable-required-apis"></a>必要な API を有効にする
 
 1. 専用プロジェクトに切り替えます。
-1. [Pub/Sub] タブにアクセスします。サービス アクティベーション メッセージが表示されます。
+1. **[ライブラリ]** タブに移動します。
+1. **[Cloud Logging API]** を検索して選択し、API ページで **[有効にする]** をクリックします。
+1. **[Cloud Pub/Sub API]** を検索して選択し、API ページで **[有効にする]** をクリックします。
+
+    > [!NOTE]
+    > **[Pub/Sub Lite API]** は選択しないでください。
 
 #### <a name="create-a-dedicated-service-account-for-the-security-auditing-integration"></a>セキュリティ監査統合用の専用サービス アカウントを作成する
 
