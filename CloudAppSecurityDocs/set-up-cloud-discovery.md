@@ -5,17 +5,17 @@ author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
 ms.topic: conceptual
-ms.date: 05/17/2020
+ms.date: 08/09/2020
 ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7756d238514b786321ee5c0c4ba91910c3b3dfcf
-ms.sourcegitcommit: 8dbdfab8bb07f1bf128dfc85894a448b63a78148
+ms.openlocfilehash: 87d0aa487e71e308bddccfcf504356423e485584
+ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "86928017"
+ms.lasthandoff: 08/09/2020
+ms.locfileid: "88026957"
 ---
 # <a name="set-up-cloud-discovery"></a>Cloud Discovery の設定
 
@@ -73,6 +73,7 @@ Cloud Discovery では、16,000 以上のクラウド アプリを掲載した M
 - Juniper SRX
 - Juniper SSG
 - McAfee Secure Web Gateway
+- Menlo Security (CEF)
 - Microsoft Forefront Threat Management Gateway (W3C)
 - Palo Alto シリーズ ファイアウォール
 - Sonicwall (旧 Dell)
@@ -98,37 +99,38 @@ Cloud Discovery では、16,000 以上のクラウド アプリを掲載した M
 
 | データ ソース | ターゲット アプリの URL | ターゲット アプリの IP | Username | 送信元の IP | 合計トラフィック | アップロードされたバイト数 |
 |----------------------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-| Barracuda | **あり** | **あり** | **あり** | **あり** | いいえ | いいえ |
+| Barracuda | **あり** | **あり** | **あり** | **はい** | いいえ | いいえ |
 | Blue Coat | **あり** | いいえ | **あり** | **あり** | **あり** | **あり** |
-| Check Point | いいえ | **あり** | いいえ | **あり** | いいえ | いいえ |
-| Cisco ASA (Syslog) | いいえ | **あり** | いいえ | **あり** | **あり** | いいえ |
+| Check Point | いいえ | **はい** | いいえ | **はい** | いいえ | いいえ |
+| Cisco ASA (Syslog) | いいえ | **はい** | いいえ | **あり** | **はい** | いいえ |
 | Cisco ASA と FirePOWER | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Cisco Cloud Web Security |**あり**|**あり**|**あり**|**あり**|**あり**|**あり**|
-| Cisco FWSM | いいえ | **あり** | いいえ | **あり** | **あり** | いいえ |
+| Cisco FWSM | いいえ | **はい** | いいえ | **あり** | **はい** | いいえ |
 | Cisco Ironport WSA | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
-| Cisco Meraki | **あり** | **あり** | いいえ | **あり** | いいえ | いいえ |
+| Cisco Meraki | **あり** | **はい** | いいえ | **はい** | いいえ | いいえ |
 | Clavister NGFW (Syslog) | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | ContentKeeper | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Corrata | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
-| SonicWall (旧 Dell) | **あり** | **あり** | いいえ | **あり** | **あり** | **あり** |
+| SonicWall (旧 Dell) | **あり** | **はい** | いいえ | **あり** | **あり** | **あり** |
 | Digital Arts i-FILTER | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | ForcePoint LEEF |**あり**|**あり**|**あり**|**あり**|**あり**|**あり**|
 | ForcePoint Web Security Cloud\* |**あり**|**あり**|**あり**|**あり**|**あり**|**あり**|
-| Fortigate | いいえ | **あり** | いいえ | **あり** | **あり** | **あり** |
-| Fortinet FortiOS |**あり**|**あり**|いいえ|**あり**|**あり**|**あり**|
+| Fortigate | いいえ | **はい** | いいえ | **あり** | **あり** | **あり** |
+| Fortinet FortiOS |**あり**|**はい**|いいえ|**あり**|**あり**|**あり**|
 | iboss |**あり**|**あり**|**あり**|**あり**|**あり**|**あり**|
-| Juniper SRX | いいえ | **あり** | いいえ | **あり** | **あり** | **あり** |
+| Juniper SRX | いいえ | **はい** | いいえ | **あり** | **あり** | **あり** |
 | Juniper SSG | いいえ | **あり** | **あり** | **あり** | **あり** | **あり** |
-| McAfee SWG | **あり** | いいえ | いいえ | **あり** | **あり** | **あり** |
+| McAfee SWG | **あり** | いいえ | いいえ | **あり** | **あり** | **はい** |
+| Menlo Security (CEF) | **はい** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | MS TMG | **あり** | いいえ | **あり** | **あり** | **あり** | **あり** |
-| Palo Alto Networks | いいえ | **あり** | **あり** | **あり** | **あり** | **あり** |
-| Sophos | **あり** | **あり** | **あり** | **あり** | **あり** | いいえ |
-| Squid (Common) | **あり** | いいえ | **あり** | **あり** | **はい** | いいえ |
-| Squid (Native) | **あり** | いいえ | **あり** | **あり** | いいえ | × |
+| Palo Alto Networks | いいえ | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Sophos | **あり** | **あり** | **あり** | **はい** | **あり** | いいえ |
+| Squid (Common) | **あり** | いいえ | **あり** | **はい** | **あり** | いいえ |
+| Squid (Native) | **あり** | いいえ | **あり** | **あり** | いいえ | いいえ |
 | Stormshield | いいえ | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Websense - 調査詳細レポート (CSV) | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
 | Websense - インターネット アクティビティ ログ (CEF) | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
-| Zscaler | **あり** | **あり** | **あり** | **あり** | **あり** | **あり** |
+| Zscaler | **あり** | **はい** | **はい** | **はい** | **はい** | **あり** |
 
 \* Forcepoint Web Security Cloud のバージョン 8.5 以降はサポートされていません
 

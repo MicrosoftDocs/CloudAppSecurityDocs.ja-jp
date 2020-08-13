@@ -4,19 +4,19 @@ description: この記事は、Cloud App Security の最新リリースの新機
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 07/20/2020
+ms.date: 08/09/2020
 ms.topic: overview
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: de7d3e9c0da31dc6331df344673628c127a8805d
-ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
+ms.openlocfilehash: b53977404f44c56fade4808e8d7668eb8b810373
+ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87296988"
+ms.lasthandoff: 08/09/2020
+ms.locfileid: "88027008"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -25,6 +25,16 @@ ms.locfileid: "87296988"
 この記事は、Cloud App Security の最新リリースの新機能がわかるように頻繁に更新されます。
 
 RSS フィード:ご自身のフィード リーダーに次の URL をコピーして貼り付けることで、このページの更新時に通知を受け取ることができます。`https://docs.microsoft.com/api/search/rss?search=%22This+article+is+updated+frequently+to+let+you+know+what%27s+new+in+the+latest+release+of+Cloud+App+Security%22&locale=en-us`
+
+## <a name="cloud-app-security-release-181"></a>Cloud App Security リリース 181
+
+リリース日: 2020 年 8 月 9 日
+
+- **新しい Cloud Discovery Menlo Security ログパーサー**  
+Cloud App Security の Cloud Discovery では、さまざまなトラフィック ログを分析して、アプリの順位付けとスコア付けを行います。 今回、Menlo Security CEF 形式をサポートする組み込みのログ パーサーが Cloud Discovery に追加されました。 サポートされているログ パーサーの一覧については、「[サポートされているファイアウォールとプロキシ](set-up-cloud-discovery.md#supported-firewalls-and-proxies)」をご覧ください。
+
+- **ポータルでの Azure Active Directory (AD) の Cloud App Discovery 名の表示**  
+Azure AD P1 と P2 のライセンスについて、ポータルでの製品名を **Cloud App Discovery** に更新しました。 [Cloud App Discovery](editions-cloud-app-security-aad.md) の詳細をご確認ください。
 
 ## <a name="cloud-app-security-release-179-and-180"></a>Cloud App Security リリース 179 と 180
 
@@ -848,7 +858,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 - [ユーザー] ページと [IP アドレス] ページの検索機能でオートコンプリートが有効になり、探しているものを見つけやすくなりました。
 
-- [エンティティの除外] ページと [Exclude IP address settings]\(IP アドレス設定の除外\) ページでは、一括操作を実行できるようになりました。 これにより、複数のユーザーとグループまたは IP アドレスを選択し、組織内の Cloud Discovery の一部としての監視対象から、簡単に除外できます。
+- [エンティティの除外] ページと [Exclude IP address settings]\(IP アドレス設定の除外\) ページでは、一括操作を実行できるようになりました。 これにより、複数のユーザーまたは IP アドレスを選択し、組織内の Cloud Discovery の一部としての監視対象から、簡単に除外できます。
 
 ## <a name="cloud-app-security-release-117"></a>Cloud App Security リリース 117
 

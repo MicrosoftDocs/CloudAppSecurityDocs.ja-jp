@@ -9,12 +9,12 @@ ms.date: 11/01/2019
 ms.collection: M365-security-compliance
 ms.custom: seodec18
 ms.suite: ems
-ms.openlocfilehash: 44880f4e19fc317d09dbc091c2c4a4e9c9399a43
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: 6aa884bf83e71964173b69d9ca11a5a86e3cef9f
+ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254688"
+ms.lasthandoff: 08/09/2020
+ms.locfileid: "88027042"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -36,7 +36,7 @@ Microsoft Cloud App Security には、シャドウ IT を発見してリスク�
 
 Microsoft Cloud App Security は、次のようなさまざまな国際的および業界固有のコンプライアンス基準を満たしています。ただし、これらだけではありません。
 
-| |タイトル|[説明]|
+| Organization |Title|[説明]|
 |----|----|----|
 |![ロゴ csa](media/csastar-attest.png)|CSA スター構成証明|独立した監査に基づいて、Azure と Intune には、クラウド セキュリティ アライアンス スター構成証明が与えられました。|
 |![ロゴ csa](media/csastar.png)|CSA スター証明書|Azure、Intune、および Power BI は、ゴールド レベルのクラウド セキュリティ アライアンス スター証明書を獲得しました。|
@@ -51,7 +51,9 @@ Microsoft Cloud App Security は、次のようなさまざまな国際的およ
 |![ロゴ SOC](media/soc-logo.png)|SOC 3|Microsoft クラウド サービスは、運用セキュリティのサービス組織管理標準に準拠します。|
 |![ロゴ g クラウド](media/g-cloud.png)|UK G-cloud|Crown Commercial Service (クラウン商用サービス) は、Microsoft クラウド サービスの等級を Government Cloud v6 (ガバメント クラウド v6) に更新しました。|
 
-<!--|![logo FISC](media/logo_fisc.png)|FISC|Microsoft meets the requirements of the Financial Industry Information Systems v8 standard in Japan.|-->
+<!--
+|![logo FISC](media/logo_fisc.png)|FISC|Microsoft meets the requirements of the Financial Industry Information Systems v8 standard in Japan.|
+-->
 
 詳しくは、「[Microsoft コンプライアンスのサービス](https://www\.microsoft\.com/trustcenter/compliance/complianceofferings)」で、Cloud App Security を選択してください。  
 

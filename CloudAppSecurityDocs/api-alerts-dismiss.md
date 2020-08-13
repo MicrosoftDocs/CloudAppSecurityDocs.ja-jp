@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 54c7b05a65c5a57e44381afe7c6f273a2cb364c7
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: cebdc20f52b295106a2147f9438990504819e857
+ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505551"
+ms.lasthandoff: 08/09/2020
+ms.locfileid: "88027025"
 ---
 # <a name="dismiss---alerts-api"></a>無視 - Alerts API
 
@@ -37,7 +37,9 @@ POST /api/v1/alerts/<pk>/dismiss/
 
 ## <a name="request-body-parameters"></a>要求本文のパラメーター
 
-| パラメーター | 説明 | | comment | アラートが無視された理由に関するコメント |
+| パラメーター | 説明 |
+| --- | --- |
+| コメント | アラートが無視された理由に関するコメント |
 
 ## <a name="example"></a>例
 

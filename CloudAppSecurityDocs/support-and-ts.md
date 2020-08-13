@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 770439dea68e73679ebf2fae7ed1eaf1af3f8005
-ms.sourcegitcommit: 4f3883a9e85d0aaf2802b10433b221c3f1838d88
+ms.openlocfilehash: 80ae1af2a0f40adbaa1e989de8ec644d721a7f88
+ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79285676"
+ms.lasthandoff: 08/09/2020
+ms.locfileid: "88026991"
 ---
 # <a name="support-and-troubleshooting-microsoft-cloud-app-security"></a>Microsoft Cloud App Security のサポートとトラブルシューティング
 
@@ -52,7 +52,7 @@ Microsoft サポートは、Microsoft Cloud App Security に世界的な技術�
 
     * **問題の種類**: **テクニカル**
 
-    * **[サブスクリプション]** : \<*ご利用のサブスクリプション*\>
+    * **サブスクリプション**: \<*your subscription*\>
 
     * **Service**: **[Cloud App Security]**
 
@@ -90,7 +90,8 @@ Azure portal 内からサポート要求を表示できます。 これを実行
 
 * [Cloud App Security データシート](https://download.microsoft.com/download/E/F/E/EFE908F8-7EDB-4244-8039-67BA574186CC/Microsoft_Cloud_App_Security_eBook.pdf)のダウンロード
 
-## <a name="feedback"></a>フィードバック
+<a name="feedback"></a>
+## <a name="how-to-provide-feedback"></a>フィードバックの提供方法
 
 Cloud App Security チームでは、製品に関する皆様からのご意見をいつでもお待ちしています。 次のいずれかの方法でフィードバックをお送りください。
 
