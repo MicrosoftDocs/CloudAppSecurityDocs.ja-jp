@@ -9,12 +9,12 @@ ms.date: 11/01/2019
 ms.collection: M365-security-compliance
 ms.custom: seodec18
 ms.suite: ems
-ms.openlocfilehash: 6aa884bf83e71964173b69d9ca11a5a86e3cef9f
-ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
+ms.openlocfilehash: 842f29242a2b15cc6bf41b72f5b894c06400634b
+ms.sourcegitcommit: 684feff0782ed30f23f3d7fd9f3e063368f46b47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2020
-ms.locfileid: "88027042"
+ms.lasthandoff: 08/16/2020
+ms.locfileid: "88256789"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -41,7 +41,6 @@ Microsoft Cloud App Security は、次のようなさまざまな国際的およ
 |![ロゴ csa](media/csastar-attest.png)|CSA スター構成証明|独立した監査に基づいて、Azure と Intune には、クラウド セキュリティ アライアンス スター構成証明が与えられました。|
 |![ロゴ csa](media/csastar.png)|CSA スター証明書|Azure、Intune、および Power BI は、ゴールド レベルのクラウド セキュリティ アライアンス スター証明書を獲得しました。|
 |![ロゴ EU モデル条項](media/eu-model-icon.png)|[EU モデル条項](https://www.microsoft.com/trustcenter/compliance/eu-model-clauses)|Microsoft では、個人データの転送の保証である EU 標準契約条項を提供します。|
-|![ロゴ プライバシー シールド](media/privacy_shield.png)|EU - 米国プライバシー シールド|Microsoft は、EU から米国に転送される個人データを保護するために、このフレームワークに準拠しています。|
 |![ロゴ HIPAA](media/hipaa-logo.png)|[HIPAA/HITECH](https://www\.microsoft\.com/trustcenter/compliance/hipaa)|Microsoft では、医療保険の携行性と責任に関する法律の Business Associate Agreements (BAAs) を提供します。|
 |![ロゴ iso 9001](media/iso-9001.png)|ISO 9001|Microsoft はこれらの品質管理標準の実装について認定を受けています。|
 |![ロゴ iso 27001](media/iso-27001.png)|[ISO/IEC 27001](https://www\.microsoft\.com/trustcenter/compliance/iso-iec-27001)|Microsoft は、これらの情報セキュリティ管理標準の実装について認定を受けています。|
