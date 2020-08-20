@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: dff363a63cab2760cc953f7493a38b8ffda0d02f
-ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
+ms.openlocfilehash: 586836d517a458639c0b669108c7d359b8d02ba4
+ms.sourcegitcommit: 61e9579ebe2c1ca02c7a56e32781e145f6612879
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87296792"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88261438"
 ---
 # <a name="get-instantaneous-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を瞬時に取得する
 
@@ -76,12 +76,12 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
 
     > [!NOTE]
     >
-    > * Office 365 のマルウェア検出の場合は、Office 365 Advanced Threat Protection P1 の有効なライセンスが必要です。
-    > * Cloud App Security では、次のアプリのマルウェア検出がサポートされています。
-    >   * ボックス
-    >   * ドロップボックス
-    >   * G Suite
-    >   * Office 365
+    > Cloud App Security では、次のアプリのマルウェア検出がサポートされています。
+    >
+    > * ボックス
+    > * ドロップボックス
+    > * G Suite
+    > * Office 365 (Office 365 Advanced Threat Protection P1 の有効なライセンスが必要)
 
 ### <a name="activity-from-anonymous-ip-addresses"></a>匿名 IP アドレスからのアクティビティ
 

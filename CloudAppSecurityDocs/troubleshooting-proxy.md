@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 6d2996fb77912b04d5a6d4aefe7edc8c77f27a21
-ms.sourcegitcommit: 84eafb4926bf0d4db27bed7df55dc83ca48f9192
+ms.openlocfilehash: f9d29046b0a63b89926d3ba95bab75aba5964cad
+ms.sourcegitcommit: 75cdc376a0aea79dc7f339af52a90f0ec6dfc526
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87377849"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88514356"
 ---
 # <a name="troubleshooting-access-and-session-controls"></a>アクセスおよびセッション制御のトラブルシューティング
 
@@ -508,7 +508,7 @@ Cloud App Security を介してユーザーをルーティングする場合は�
 
 URL にサフィックスを付けるすべてのプロキシは、コンテキストの損失、つまり、リンクに移動するとリンクの完全なパスが失われて通常はアプリのホーム ページにランディングする、という問題の影響を受けやすくなります。 Cloud App Security は、Microsoft および Microsoft 以外のベンダーと提携してこの制限に対処しコンテキストの損失を解決するという、独自の役割を負っています。
 
-おすすめアプリ ページ上で **(プレビュー)** としてマークされているアプリは、コンテキストの損失による影響を受ける可能性があります。 おすすめアプリ以外でコンテキストの損失が発生している場合は、サポート チケットを送信してください。 これらの主要な問題を修正するために、各アプリ プロバイダーと個別に協力して作業しています。
+おすすめアプリ ページ上で **(プレビュー)** としてマークされているアプリは、コンテキストの損失による影響を受ける可能性があります。 同様に、サードパーティの Cookie やクロスサイト トラッキングをブロックするグローバル ポリシーによってコンテキストが失われる可能性があります。 この問題を解決するには、これらのオプションを無効にします。 おすすめアプリ以外でコンテキストの損失が発生している場合は、サポート チケットを送信してください。 これらの主要な問題を修正するために、各アプリ プロバイダーと個別に協力して作業しています。
 
 一時的な軽減策として、次の方法でコンテキスト損失の問題を回避することができます。
 

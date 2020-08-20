@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b53977404f44c56fade4808e8d7668eb8b810373
-ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
+ms.openlocfilehash: dd474cdaec20738f5969b5deba20b3c54dc82acb
+ms.sourcegitcommit: 684feff0782ed30f23f3d7fd9f3e063368f46b47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2020
-ms.locfileid: "88027008"
+ms.lasthandoff: 08/16/2020
+ms.locfileid: "88256822"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -186,7 +186,7 @@ Cloud App Security に取り込まれた Azure AD Identity Protection アラー�
 リリース日: 2020 年 3 月 1 日
 
 - **Workday の新しい検出**  
-Workday の異常な動作に関するアラートを拡張しました。 新しいアラートには、次のユーザーの地理的な場所の検出が含まれます。
+Workday の異常な動作に関するアラートを拡張しました。 新しいアラートには、次のユーザー位置情報の検出が含まれます。
   - [匿名 IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-anonymous-ip-addresses)
   - [頻度の低い国からのアクティビティ](anomaly-detection-policy.md#activity-from-infrequent-country)
   - [不審な IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-suspicious-ip-addresses)

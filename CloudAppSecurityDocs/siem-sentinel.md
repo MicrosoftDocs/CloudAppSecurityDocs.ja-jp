@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: efdfcab2e736abfc300dfdd673a078f340a647dd
-ms.sourcegitcommit: 96981740994aee3661dea8b64b72741099ca6fb9
+ms.openlocfilehash: 5e291ec3e659b4c9a44f60f5ef05134951e94235
+ms.sourcegitcommit: 75cdc376a0aea79dc7f339af52a90f0ec6dfc526
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2020
-ms.locfileid: "84485972"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88514254"
 ---
 # <a name="azure-sentinel-integration-preview"></a>Azure Sentinel の統合 (プレビュー)
 
@@ -43,6 +43,9 @@ SIEM との統合は次の 2 つの手順で行われます。
 
 1. Cloud App Security で設定する。
 1. Azure Sentinel で設定する。
+
+> [!NOTE]
+> 以前に統合を行っていた場合、Azure Sentinel を追加するオプションは使用できません。
 
 ### <a name="prerequisites"></a>[前提条件]
 
@@ -85,7 +88,7 @@ Azure Sentinel では、 **[ログ]** の **[Security Insights]\(セキュリテ
 
 次の表に、**McasShadowItReporting** スキーマの各フィールドの説明を示します。
 
-| フィールド | Type | [説明] | 例 |
+| フィールド | 型 | 説明 | 例 |
 | --- | --- | --- | --- |
 | TenantId | 文字列型 | ワークスペース ID | b459b4u5-912x-46d5-9cb1-p43069212nb4 |
 | SourceSystem | 文字列型 | ソース システム – 静的な値 | Azure |

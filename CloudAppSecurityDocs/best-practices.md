@@ -7,12 +7,12 @@ ms.service: cloud-app-security
 ms.topic: best-practice
 ms.date: 10/24/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 0815432cf7410ab4e122ab52a136b978d6dec430
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: de72f525d7188b4fac360f3ad910c3078a8de2e7
+ms.sourcegitcommit: 684feff0782ed30f23f3d7fd9f3e063368f46b47
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254603"
+ms.lasthandoff: 08/16/2020
+ms.locfileid: "88256756"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 
@@ -270,7 +270,7 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 ## <a name="secure-iaas-services-and-custom-apps"></a>IaaS サービスとカスタム アプリをセキュリティで保護する
 
 **ベスト プラクティス**:Azure、AWS、GCP に接続する  
-**詳細**:これらの各クラウド ストレージ アプリを Cloud App Security に接続すると、脅威検出機能を向上させることができます。 これらのサービスの管理およびサインイン アクティビティを監視することで、ブルート フォース攻撃の可能性、特権ユーザーのアカウントの不正使用などの脅威を環境内で検出し、通知を受けることができます。 たとえば、VM の異常な削除や、これらのアプリでの偽装アクティビティなどのリスクを特定できます。  
+**詳細**:これらの各クラウド プラットフォームを Cloud App Security に接続すると、脅威検出機能を向上させることができます。 これらのサービスの管理およびサインイン アクティビティを監視することで、ブルート フォース攻撃の可能性、特権ユーザーのアカウントの不正使用などの脅威を環境内で検出し、通知を受けることができます。 たとえば、VM の異常な削除や、これらのアプリでの偽装アクティビティなどのリスクを特定できます。  
 **参照項目**:
 
 * [Azure を Microsoft Cloud App Security に接続する](connect-azure-to-microsoft-cloud-app-security.md)
