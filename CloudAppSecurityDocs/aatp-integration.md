@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 03/24/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: aea4f3f290b75d9458dbf0009cb8c1dd3c1a79a6
-ms.sourcegitcommit: 2cf3c78a1b45a5b6ca534fdd12fd97afc51726e3
+ms.openlocfilehash: 5a84b7989f357e58a1ee91e448a19c55dd85191c
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80291182"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88779561"
 ---
 # <a name="azure-advanced-threat-protection-integration"></a>Azure Advanced Threat Protection の統合
 

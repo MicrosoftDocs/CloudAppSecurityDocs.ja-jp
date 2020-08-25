@@ -6,16 +6,16 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 03/31/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 9e75c101bf55dd86f4d787c9a6e3ea6500e04f1b
-ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
+ms.openlocfilehash: e94a6691987d89fc44f05a1bd0a12f8ef04d74fa
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87296955"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88779409"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 

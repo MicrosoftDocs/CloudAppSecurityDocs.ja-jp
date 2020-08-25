@@ -6,19 +6,19 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 10/28/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9b2b4cfc8c3807f5acd7540390a3b44604e49d84
-ms.sourcegitcommit: 45a23730c2beda00c32b0d6cb8da872dc2bf0e14
+ms.openlocfilehash: 32a4b3542a7abc7d96ae6ca111fbfba7a6a5fbff
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86137976"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88779136"
 ---
 # <a name="generic-siem-integration"></a>汎用 SIEM の統合
 

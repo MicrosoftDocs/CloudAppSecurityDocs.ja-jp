@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: cebdc20f52b295106a2147f9438990504819e857
-ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
+ms.openlocfilehash: cce286057b244d9a49a43327587c1156a156c999
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2020
-ms.locfileid: "88027025"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657612"
 ---
 # <a name="dismiss---alerts-api"></a>無視 - Alerts API
 
@@ -48,7 +48,7 @@ POST /api/v1/alerts/<pk>/dismiss/
 要求の例を次に示します。
 
 ```rest
-curl -XPOST -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/alerts/<pk>/dismiss/" -d '{
+curl -XPOST -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/alerts/<pk>/dismiss/" -d '{
   "comment": "Irrelevant"
 }'
 ```

@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 0ff0a93866652a0a4cc2e927593a2a56800c64de
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: c81aada8a76613ae7f2b2447f4cdbe5830967057
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254668"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657726"
 ---
 # <a name="fetch---entities-api"></a>フェッチ - Entities API
 
@@ -45,7 +45,7 @@ GET /api/v1/entities/<pk>/
 要求の例を次に示します。
 
 ```rest
-curl -XPOST -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/entities/<pk>/"
+curl -XPOST -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/entities/<pk>/"
 ```
 
 ### <a name="response"></a>[応答]

@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 10/06/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b47b17e74df346b1e1b1cdf01522d5b980360b78
-ms.sourcegitcommit: 582779b75be41e57fb1d773d1cf01f6b8598521e
+ms.openlocfilehash: 81ad720b3230ab49a752671bcdc7d45cf789aad7
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78274679"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780887"
 ---
 # <a name="connect-salesforce-to-microsoft-cloud-app-security"></a>Salesforce を Microsoft Cloud App Security に接続する
 

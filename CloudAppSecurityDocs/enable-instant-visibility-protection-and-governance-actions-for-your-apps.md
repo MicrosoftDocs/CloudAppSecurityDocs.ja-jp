@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 07/14/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 84ba90f5959980815caa7170ab7bee9d11db263c
-ms.sourcegitcommit: 4d2ebbd68a48876825e663375ea2b17dc6b58d03
+ms.openlocfilehash: 2e37846ab6e3daea68358834df20a6ce2ee1ee8c
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86865494"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781482"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 

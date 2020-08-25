@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 6259161ecaa02a7820d97aafc5b7efb98c988c07
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: a4b86ef7bdda32e66744960dd3902aaef7e3034a
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505391"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657777"
 ---
 # <a name="initiate-file-upload---cloud-discovery-api"></a>ファイルのアップロードの開始 - Cloud Discovery API
 
@@ -100,7 +100,7 @@ GET /api/v1/discovery/upload_url/
 要求の例を次に示します。
 
 ```rest
-curl -XGET -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/discovery/upload_url/?filename=my_discovery_file.txt&source=LOG_3COM"
+curl -XGET -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/discovery/upload_url/?filename=my_discovery_file.txt&source=LOG_3COM"
 ```
 
 ### <a name="response"></a>[応答]

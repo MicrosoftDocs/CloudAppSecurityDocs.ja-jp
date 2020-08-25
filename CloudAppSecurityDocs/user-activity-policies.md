@@ -4,18 +4,18 @@ description: この記事では、アクティビティ ポリシーを作成し
 author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/01/2020
 ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 05913fd94738b253be9b9136e38e0c0f3e92f8aa
-ms.sourcegitcommit: be2cad84fd9f5c340dfeb38cf95f4950fbcf0dcb
+ms.openlocfilehash: 10b67848b1f8b2e7e18ab31a4869eae3071ee797
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83705634"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780003"
 ---
 # <a name="activity-policies"></a>アクティビティ ポリシー
 

@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/08/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: itfalcon
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 00a4152258b27c6d992e4d7e5b0e4583cefad758
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: f117092ebdae230eae473bf4bbfd2d53b05fa3eb
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254773"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781380"
 ---
 # <a name="how-to-investigate-anomaly-detection-alerts"></a>異常検出アラートを調査する方法
 

@@ -4,18 +4,18 @@ description: この記事では、Cloud Discovery を動作させるためのセ
 author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 08/09/2020
 ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 87d0aa487e71e308bddccfcf504356423e485584
-ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
+ms.openlocfilehash: 83bb26da4ff034f36053d3152575a29cb8399bc6
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2020
-ms.locfileid: "88026957"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88779272"
 ---
 # <a name="set-up-cloud-discovery"></a>Cloud Discovery の設定
 

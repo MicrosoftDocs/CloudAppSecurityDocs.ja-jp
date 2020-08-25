@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 12/10/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: e9a2a4ecc10506a992ba4e01ad4fac09eef37275
-ms.sourcegitcommit: c303acdcb251c9b15930ab9ed701ab32dcaa6053
+ms.openlocfilehash: c32d5343d9069104e0cf02fa1f900dd58c20b3c2
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/08/2020
-ms.locfileid: "78927943"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781125"
 ---
 # <a name="connect-box-to-microsoft-cloud-app-security"></a>Box を Microsoft Cloud App Security に接続する
 

@@ -4,15 +4,15 @@ description: この記事では、組織を保護するための一連のベス�
 author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
-ms.topic: best-practice
+ms.topic: quickstart
 ms.date: 10/24/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: de72f525d7188b4fac360f3ad910c3078a8de2e7
-ms.sourcegitcommit: 684feff0782ed30f23f3d7fd9f3e063368f46b47
+ms.openlocfilehash: e26d98c00a520f710774ccd86a1406f4c8392530
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2020
-ms.locfileid: "88256756"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781312"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 

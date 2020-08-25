@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: dec1065d4e2559a6ae080e90f6634528ed2132b7
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: f6cea4b9697489aa979de029ab5d12e897a8f94b
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505261"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657645"
 ---
 # <a name="list---entities-api"></a>一覧表示 - Entities API
 
@@ -53,7 +53,7 @@ POST /api/v1/entities/
 要求の例を次に示します。
 
 ```rest
-curl -XPOST -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/entities/" -d '{
+curl -XPOST -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/entities/" -d '{
   "filters": {
     // some filters
   },

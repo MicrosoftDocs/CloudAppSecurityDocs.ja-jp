@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 1f312bd7929c40efd056adcecd58b9bbd16c6516
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: 61a8c7edb0533d4b7c6cf2228ef7a83c54541bd7
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505451"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657854"
 ---
 # <a name="mark-as-read---alerts-api"></a>既読としてマークする - Alerts API
 
@@ -42,7 +42,7 @@ POST /api/v1/alerts/<pk>/read/
 要求の例を次に示します。
 
 ```rest
-curl -XPOST -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/alerts/<pk>/read/"
+curl -XPOST -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/alerts/<pk>/read/"
 ```
 
 [!INCLUDE [Open support ticket](includes/support.md)]

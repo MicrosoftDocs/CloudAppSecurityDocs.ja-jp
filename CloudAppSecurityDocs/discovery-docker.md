@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 7/22/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 73b9f8a7ea1bd3f2b93b4199b58cfb5178f13edc
-ms.sourcegitcommit: 72c96b9b2b9f6555e5e20749ebe61593072b1d50
+ms.openlocfilehash: 0959a4e5c1b0cf05987b2f74dfcd35eb7cd7260d
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84487765"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780071"
 ---
 # <a name="configure-automatic-log-upload-for-continuous-reports"></a>継続的なレポートのために自動ログ アップロードを構成する
 

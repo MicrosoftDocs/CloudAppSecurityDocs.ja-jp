@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/28/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: bf3d80fbea1847fc22d07164d25db0ec7c4149f6
-ms.sourcegitcommit: 4d2ebbd68a48876825e663375ea2b17dc6b58d03
+ms.openlocfilehash: e424a3dd483e762a1fb3f589116ea362b1e1fb27
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "86865462"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781635"
 ---
 # <a name="governing-connected-apps"></a>接続されているアプリを管理する
 

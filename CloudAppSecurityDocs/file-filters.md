@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagirn
 ms.date: 7/7/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 12522fbcdade562d9809ae81efd3d4a2c758033c
-ms.sourcegitcommit: 6eff466c7a6817b14a60d8c3b2c201c7ae4c2e2c
+ms.openlocfilehash: 2cd1042c28ee35ee0afc77292ac523e521bc5b16
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74719379"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780122"
 ---
 # <a name="files"></a>ファイル
 

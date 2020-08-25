@@ -6,18 +6,18 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 03/31/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
-ms.openlocfilehash: c0676bf371e13be602fcbeea1625b19480a348a1
-ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
+ms.openlocfilehash: 2eaa965e8925a67945b3524e9b0a61b0e139df26
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87296985"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88779765"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-app"></a>任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開
 

@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: df70a9408b88692b9faf789a00b5f307c0af24ee
-ms.sourcegitcommit: 3172d6bd5e9d7a08f5cd2aa2e36980ef21bf0235
+ms.openlocfilehash: aa5b3d4488a8e62f965900593169e899f90829b2
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "84563901"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657658"
 ---
 # <a name="cloud-app-security-rest-api"></a>Cloud App Security REST API
 
@@ -61,7 +61,7 @@ API トークンの詳細については、「[API トークンの管理](api-au
 ### <a name="example"></a>例
 
 ```rest
-curl -XGET -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/example-endpoint"
+curl -XGET -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/example-endpoint"
 ```
 
 ## <a name="what-actions-are-supported"></a>サポートされているアクション
@@ -118,7 +118,7 @@ curl -XGET -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_regi
 ### <a name="example"></a>例
 
 ```rest
-curl -XGET -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/example-endpoint" -d '{
+curl -XGET -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/example-endpoint" -d '{
   "filters": {
     "some.field": {
       "eq": ["value1", "value2"],

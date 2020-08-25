@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: ac3be42bfd076169a620a62566ed9cdad4e0c4a0
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: c47572c66633615e2e2d6da33641de1f23be2d73
+ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505541"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88657855"
 ---
 # <a name="list---alerts-api"></a>一覧表示 - Alerts API
 
@@ -50,7 +50,7 @@ POST /api/v1/alerts/
 要求の例を次に示します。
 
 ```rest
-curl -XPOST -H "Authorization:<your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/alerts/" -d '{
+curl -XPOST -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenant_region>.contoso.com/api/v1/alerts/" -d '{
   "filters": {
     // some filters
   },

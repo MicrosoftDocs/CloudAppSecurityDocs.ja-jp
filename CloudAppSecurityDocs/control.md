@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 12/10/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9930a45593f4d2dfba0310228d4576ac2ffd42f2
-ms.sourcegitcommit: 6eff466c7a6817b14a60d8c3b2c201c7ae4c2e2c
+ms.openlocfilehash: a0b884f08fcf743faf2c37fe3ff065535aefb77a
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74719161"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780598"
 ---
 # <a name="control"></a>Control
 
@@ -57,9 +57,9 @@ ms.locfileid: "74719161"
 
 ガバナンス アクションは、ポリシー内、アラート内、**ファイル**ログから適用できます。
 
-**[設定]** (歯車アイコン) に移動して **[ガバナンス ログ]** を選択すると、以前に適用されたすべてのガバナンス アクションの状態をいつでも表示して確認することができます。 ![[設定] アイコン](media/settings-icon.png "s設定アイコン")
+**[設定]** (歯車アイコン) に移動して **[ガバナンス ログ]** を選択すると、以前に適用されたすべてのガバナンス アクションの状態をいつでも表示して確認することができます。 ![[設定] アイコン](media/settings-icon.png "設定アイコン")
 
-ガバナンス アクションが失敗した場合は、 **[再試行]** アイコンを選択して再度適用します。 ![[再試行] アイコン](media/retry-icon.png "r再試行アイコン")
+ガバナンス アクションが失敗した場合は、 **[再試行]** アイコンを選択して再度適用します。 ![[再試行] アイコン](media/retry-icon.png "再試行アイコン")
 
 ポリシー、違反、アプリの種類に応じて、さまざまなガバナンス アクションを使用できます。
 
@@ -90,7 +90,7 @@ Cloud App Security では、組織内のどのユーザーがどのアプリを�
 
     1. **Cloud Discovery ダッシュボード**で、 **[Dropbox]** を選択し、 **[IP アドレス]** または **[ユーザー]** タブを選択します。
 
-    2. **[エクスポート]** の矢印アイコンを選択し、エクスポート オプションを選択します。 ![矢印アイコン](media/arrow-icon.png "a矢印アイコン")
+    2. **[エクスポート]** の矢印アイコンを選択し、エクスポート オプションを選択します。 ![矢印アイコン](media/arrow-icon.png "矢印アイコン")
 
 ### <a name="find-more-secure-alternatives"></a>より安全な代替の検索
 

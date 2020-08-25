@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 12/09/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 6369646c8b4cd10e1b2c236369693f4e8c92d878
-ms.sourcegitcommit: ffc8f6053418d20f2394dc6645e043c9db582e6b
+ms.openlocfilehash: 05a2263427f30bcfcd1fdc0fb3b402e115dc3d9e
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/07/2020
-ms.locfileid: "84486297"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781329"
 ---
 # <a name="azure-information-protection-integration"></a>Azure Information Protection の統合
 
