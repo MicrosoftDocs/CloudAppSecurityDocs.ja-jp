@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/28/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 12af451c7d5e808baf09598e263ef582c975ebbf
-ms.sourcegitcommit: 97563af6076ccbad0d994ac69a85a998a625d06a
+ms.openlocfilehash: 653b9faef5819a1e2733091b7d2ca98d36334281
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87296921"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780020"
 ---
 # <a name="security-configuration-for-google-cloud-platform"></a>Google Cloud Platform のセキュリティ構成
 
@@ -52,7 +52,7 @@ Microsoft Cloud App Security では、Google Cloud Platform (GCP) 環境のセ�
 
 1. 推奨事項を選択すると、説明や詳しい修復ガイドラインなど、推奨事項に関する追加情報が表示されます。
 
-    ![セキュリティの構成](media/security-configuration-gcp-details.png)
+    ![セキュリティの構成に関する推奨事項](media/security-configuration-gcp-details.png)
 
 ## <a name="next-steps"></a>次のステップ
 

@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/02/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b481ff78df6c563512f867d53e906df9a7cfd0fb
-ms.sourcegitcommit: d159dbd8e1a35268468156eb9c5a5f218cdace4c
+ms.openlocfilehash: 135dd542bce61796d0de8bce81fd735f2c87df53
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84274599"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780445"
 ---
 # <a name="docker-on-linux-in-azure"></a>Azure の Linux 上の Docker
 
@@ -76,7 +76,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
     1. **[データ ソースの追加]** をクリックします。  
     ![データ ソースの追加](media/add-data-source.png)
     1. プロキシまたはファイアウォールの **[名前]** を付けます。  
-      ![ubuntu1](media/ubuntu1.png)
+      ![プロキシまたはファイアウォールの名前](media/ubuntu1.png)
     1. **[ソース]** リストからアプライアンスを選択します。 一覧に表示されていないネットワーク アプライアンスを使用するために **[カスタム ログ形式]** を選択する場合、構成手順の詳細については、[カスタム ログ パーサーの使用](custom-log-parser.md)に関するページを参照してください。
     1. 予想されるログ形式のサンプルとログを比較します。 ログ ファイルの形式がこのサンプルと一致しない場合は、データ ソースを **[その他]** として追加する必要があります。
     1. **[レシーバーの種類]** に **[FTP]** 、 **[FTPS]** 、 **[Syslog – UDP]** 、 **[Syslog – TCP]** 、 **[Syslog – TLS]** のいずれかを設定します。
@@ -95,7 +95,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
     1. ログ コレクターに **[名前]** を付けます。
     1. Docker のデプロイに使用するマシンの**ホスト IP アドレス**を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
     1. コレクターに接続するすべての**データ ソース**を選択し、 **[更新]** をクリックして構成内容を保存します。  
-    ![ubuntu2](media/ubuntu2.png)
+    ![データ ソースの選択](media/ubuntu2.png)
 
 1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを**コピー**します。 クリップボードにコピー アイコンを使用できます。 ![クリップボードにコピー アイコン](media/copy-icon.png)
 
@@ -119,7 +119,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 
     1. マシンのビューで、 **[ネットワーク]** にアクセスし、関連するインターフェイスをダブルクリックして選択します。
     1. **[ネットワーク セキュリティ グループ]** にアクセスして、関連するネットワーク セキュリティ グループを選択します。
-    1. **[受信セキュリティ規則]** にアクセスし、 **[追加]** をクリックします ![Ubuntu Azure](media/ubuntu-azure.png)
+    1. **[受信セキュリティ規則]** にアクセスし、 **[追加]** をクリックします。![受信セキュリティ規則の追加](media/ubuntu-azure.png)
     1. 次の規則を ( **[詳細設定]** モードで) 追加します。
 
     |名前|宛先ポート範囲|プロトコル|ソース|Destination|
@@ -145,7 +145,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 
 1. Cloud App Security ポータルの **[Create new log collector]\(新しいログ コレクターの作成\)** ウィンドウで、ホスティング マシンでコレクターの構成をインポートするためのコマンドをコピーします。
 
-    ![Ubuntu Azure](media/windows7.png)
+    ![ホスティング マシンでコレクターの構成をインポートするためのコマンドをコピーする](media/windows7.png)
 
 1. コマンドを実行して、ログ コレクターを展開します。
 
@@ -157,7 +157,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 
 1. ログ コレクターが正常に実行されていることを確認するには、次のコマンドを実行します: `Docker logs <collector_name>`。 次の結果が得られるはずです:"**正常に完了しました**"
 
-    ![ubuntu8](media/ubuntu8.png)
+    ![ログ コレクターが正常に実行されていることを確認するコマンド](media/ubuntu8.png)
 
 ### <a name="step-3---on-premises-configuration-of-your-network-appliances"></a>手順 3 - ネットワーク アプライアンスのオンプレミス構成
 
@@ -171,7 +171,7 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 
 **[ログ コレクター]** の表でコレクターの状態をチェックし、状態が **[接続済み]** であることを確認します。 **[作成済み]** の場合、ログ コレクターの接続と解析が完了していない可能性があります。
 
-![ubuntu9](media/ubuntu9.png)
+![ログ コレクターでコレクターの状態を確認する](media/ubuntu9.png)
 
 **[ガバナンス ログ]** に移動して、ログがポータルに定期的にアップロードされていることを確認することもできます。
 

@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/02/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: cbd419984f5b3cca55727b7795210edd9b4d5afe
-ms.sourcegitcommit: d159dbd8e1a35268468156eb9c5a5f218cdace4c
+ms.openlocfilehash: 6fa59bf106e41aa0f0dbc9ea2252c7053f22245f
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "84274616"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780343"
 ---
 # <a name="docker-on-linux-on-premises"></a>オンプレミスの Linux 上の Docker
 
@@ -73,7 +73,7 @@ ms.locfileid: "84274616"
     1. **[データ ソースの追加]** をクリックします。  
     ![データ ソースの追加](media/add-data-source.png)
     1. プロキシまたはファイアウォールの **[名前]** を付けます。  
-    ![ubuntu1](media/ubuntu1.png)
+    ![データ ソースの名前](media/ubuntu1.png)
     1. **[ソース]** リストからアプライアンスを選択します。 一覧に表示されていないネットワーク アプライアンスを使用するために **[カスタム ログ形式]** を選択する場合、構成手順の詳細については、[カスタム ログ パーサーの使用](custom-log-parser.md)に関するページを参照してください。
     1. 予想されるログ形式のサンプルとログを比較します。 ログ ファイルの形式がこのサンプルと一致しない場合は、データ ソースを **[その他]** として追加する必要があります。
     1. **[レシーバーの種類]** に **[FTP]** 、 **[FTPS]** 、 **[Syslog – UDP]** 、 **[Syslog – TCP]** 、 **[Syslog – TLS]** のいずれかを設定します。
@@ -93,7 +93,7 @@ ms.locfileid: "84274616"
     1. Docker のデプロイに使用するマシンの**ホスト IP アドレス**を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
     1. コレクターに接続するすべての**データ ソース**を選択し、 **[更新]** をクリックして構成内容を保存します。
 
-    ![ubuntu2](media/ubuntu2.png)
+    ![接続するデータ ソースの選択](media/ubuntu2.png)
 
 1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを**コピー**します。 クリップボードにコピー アイコンを使用できます。 ![クリップボードにコピー アイコン](media/copy-icon.png)
 
@@ -131,7 +131,7 @@ ms.locfileid: "84274616"
     > [!NOTE]
     > このコマンドでプロキシ証明書の検証に失敗する場合は、最初に `curl -k` を使用してコマンドを実行します。
 
-    ![ubuntu5](media/ubuntu5.png)
+    ![Docker をインストールするコマンド](media/ubuntu5.png)
 
 1. コレクターの構成をインポートして、ホスト コンピューターにコレクターのイメージを展開します。 ポータルに生成される run コマンドをコピーして、構成をインポートします。 プロキシを構成する必要がある場合、プロキシ IP アドレスとポート番号を追加します。 たとえば、プロキシの詳細が 192.168.10.1:8080 の場合、実行コマンドは次のように更新されます。
 
@@ -143,8 +143,8 @@ ms.locfileid: "84274616"
 
 1. 次のコマンドを使用して、コレクターが正常に実行されていることを確認します: `docker logs <collector_name>`
 
-次のメッセージが表示されます。"**正常に完了しました**"
-![ubuntu8](media/ubuntu8.png)
+次のメッセージが表示されます: **Finished successfully!** (正常に完了しました!)
+![Docker が正常に実行されていることを確認するコマンド](media/ubuntu8.png)
 
 ### <a name="step-3---on-premises-configuration-of-your-network-appliances"></a>手順 3 - ネットワーク アプライアンスのオンプレミス構成
 
@@ -158,7 +158,7 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 
 **[ログ コレクター]** の表でコレクターの状態をチェックし、状態が **[接続済み]** であることを確認します。 **[作成済み]** の場合、ログ コレクターの接続と解析が完了していない可能性があります。
 
-![ubuntu9](media/ubuntu9.png)
+![ログ コレクターの正常な展開の確認](media/ubuntu9.png)
 
 **[ガバナンス ログ]** に移動して、ログがポータルに定期的にアップロードされていることを確認することもできます。
 

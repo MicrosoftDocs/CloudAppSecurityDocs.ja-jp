@@ -1,6 +1,6 @@
 ---
 title: API トークンの管理
-description: この記事では、Cloud App Security 用の API トークンの生成に関する情報について説明します。
+description: この記事では、Cloud App Security 用の API トークンの生成と管理に関する情報について説明します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: e4dba7ef7ff73c7e4b6b784bce68d4e71b0b854e
-ms.sourcegitcommit: 14b6fe342aa06d5547d121522b1e2ae9525da8e4
+ms.openlocfilehash: 7eeeea75c084acddac195021d7ee7a6f3d533da6
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86122624"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781414"
 ---
 # <a name="managing-api-tokens"></a>API トークンの管理
 

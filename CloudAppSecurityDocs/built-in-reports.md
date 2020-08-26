@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 12/10/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 88cf54f981ef02b76cd3286f3171e98f5f33752b
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: c4102b65899b9579d5aed5d719a6a0bbecb4ae2f
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624330"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781295"
 ---
 # <a name="generate-data-management-reports"></a>データ管理レポートの生成
 
@@ -32,7 +32,7 @@ Microsoft Cloud App Security では、クラウド アプリ内のファイル�
 1. **[ファイル]** に移動します。
 2. 右上隅にある 3 つのドットをクリックし、 **[データ管理レポート]** で以下のいずれかのレポートを選択します。
 
-    ![レポート](media/reports.png)
+    ![[データ管理レポート] メニューを示すスクリーンショット](media/reports.png)
 
 ## <a name="data-sharing-overview"></a>データ共有の概要
 

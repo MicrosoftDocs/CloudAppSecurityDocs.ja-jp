@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 07/09/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 38b142121f4d14d2fb07017e764a2a57bd1ceee0
-ms.sourcegitcommit: 1dec09a56cc44148393f103c96fc24c59adc2f8f
+ms.openlocfilehash: a80d54546b93545b65082115c939190f65b3801d
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "86402139"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781448"
 ---
 # <a name="external-dlp-integration"></a>外部 DLP 統合
 
@@ -253,7 +253,7 @@ sudo /sbin/iptables-save > /etc/iptables/rules.v4
     - **Generic ICAP – REQMOD** - [要求変更](https://tools.ietf.org/html/rfc3507)を使用するその他の DLP アプライアンスを使用します。
     - **Generic ICAP – RESPMOD** - [応答変更](https://tools.ietf.org/html/rfc3507)を使用するその他の DLP アプライアンスを使用します。
 
-        ![Cloud App Security ICAP 接続](media/icap-wizard1.png)
+        ![Cloud App Security ICAP 接続の種類](media/icap-wizard1.png)
 
 5. 前の手順で生成したパブリック証明書 "cert.pem" を参照して選択し、stunnel に接続します。 **[次へ]** をクリックします。
 
@@ -262,7 +262,7 @@ sudo /sbin/iptables-save > /etc/iptables/rules.v4
 
 6. **[サーバー構成]** 画面で、手順 2 で設定した stunnel サーバーの **[IP アドレス]** と **[ポート]** を指定します。 負荷分散の目的のために、追加サーバーの **[IP アドレス]** と **[ポート]** を構成できます。 指定する IP アドレスは、サーバーの外部静的 IP アドレスになります。
 
-    ![Cloud App Security ICAP 接続](media/icap-wizard2.png)
+    ![Cloud App Security ICAP 接続 IP アドレスとポート](media/icap-wizard2.png)
 
 7. **[次へ]** をクリックします。 Cloud App Security により、構成したサーバーへの接続がテストされます。 エラーが発生した場合、マニュアルとネットワーク設定を見直してください。 正常に接続されたら、 **[終了]** をクリックします。
 
@@ -305,7 +305,7 @@ Cloud App Security で使用する検出サーバーは、標準の Network Prev
 
     1. **[Trial Mode]\(トライアル モード\)** を無効にします。
 
-        ![トライアル モードの無効化](media/icap-disable-trial-mode.png)
+        ![トライアル モードの無効化ポップアップ](media/icap-disable-trial-mode.png)
 
 2. **[ICAP]**  >  **[Response Filtering]\(応答のフィルタリング\)** で、 **[Ignore Responses Smaller Than]\(次のサイズより小さい応答を無視する\)** の値を 1 に変更します。
 
@@ -341,7 +341,7 @@ Cloud App Security は、Symantec DLP と共に含まれる全種類の検出ル
 
 3. ポリシーを保存します。
 
-    ![トライアル モードの無効化](media/icap-add-policy.png)
+    ![ポリシーでのトライアル モードの無効化](media/icap-add-policy.png)
 
 このルールは、既存のすべてのポリシーに追加する必要があります。
 

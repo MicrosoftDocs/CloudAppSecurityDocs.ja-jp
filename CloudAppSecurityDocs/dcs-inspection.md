@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/24/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 120c34fda9080a921b7a2a4cbcdb0563dd5b0777
-ms.sourcegitcommit: 33e4a3eae5852fb24531aee9e880a4c0c0520820
+ms.openlocfilehash: 18e4aa471a5223234b961e62742f69b2f93d03ae
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/24/2020
-ms.locfileid: "85311883"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780326"
 ---
 # <a name="microsoft-data-classification-services-integration"></a>Microsoft データ分類サービスの統合
 
@@ -40,7 +40,7 @@ Microsoft Cloud App Security では、Microsoft データ分類サービスを�
 2. 条件の**いずれか**または**すべて**のどちらが満たされたときに、ポリシーを適用するかを選択します。
 3. **[検査の種類を選択]** で、 **[機密性の高い情報の種類]** を選択します。
 
-    ![データ分類サービスの設定](media/dcs-sensitive-information-type.png)
+    ![データ分類サービスの検査の種類の選択](media/dcs-sensitive-information-type.png)
 
 4. [既定の機密性の高い情報の種類](https://support.office.com/article/what-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b)を使用して、Microsoft Cloud App Security によって保護されているファイルに対する処理を定義できます。 また、[Office 365 のカスタム機密情報の種類](https://support.office.com/article/create-a-custom-sensitive-information-type-82c382a5-b6db-44fd-995d-b333b3c7fc30)を再利用することもできます。
     > [!NOTE]

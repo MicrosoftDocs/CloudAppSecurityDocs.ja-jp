@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 12/10/2018
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 941190ed45518d72dabde02582d0ee19f40f38f5
-ms.sourcegitcommit: 6eff466c7a6817b14a60d8c3b2c201c7ae4c2e2c
+ms.openlocfilehash: 6ea6a6c8d544fe3dbfc4ceaf63f7d5c91d98054a
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74719268"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780394"
 ---
 # <a name="use-a-custom-log-parser"></a>カスタム ログ パーサーを使用する
 
@@ -45,14 +45,14 @@ Cloud App Security では、Cloud Discovery に使用できるように、ログ
 
 5. 処理するログをテキスト エディターで開きます。 形式を確認し、ログでの列名が **[カスタム ログ形式]** 画面のフィールドに対応していることを確認します。
 
-    ![カスタム ログ パーサー](media/log-data.png)
+    ![カスタム ログ パーサーのフィールドの確認](media/log-data.png)
 
 6. 次に、データに基づいてフィールドに入力し、データ内の列と Cloud App Security での特定のフィールドとの関連付けを示します。 適切に関連付けるためには、ログ ファイル内の列名を変更することが必要になる場合があります。
 
     > [!NOTE]
     > フィールドは大文字と小文字が区別されます。 Cloud App Security とログ ファイルで列の名前が同じように入力されていることを確認します。 また、選択した日付形式が同じであることを確認します。
 
-    ![カスタム ログ パーサー](media/custom-log-parser.png)
+    ![カスタム ログ パーサーのフィールドの入力](media/custom-log-parser.png)
 
 7. **[Save]** (保存) をクリックします。 構成したカスタム ログ形式は、既定のカスタム パーサーとして保存されます。 **[編集]** をクリックして、いつでもそれを編集できます。
 

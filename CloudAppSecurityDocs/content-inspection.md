@@ -1,12 +1,12 @@
 ---
-title: Cloud App Security でコンテンツの検査が実行される方法
+title: Cloud App Security で DLP コンテンツの検査が実行される方法
 description: この記事では、Cloud App Security によりクラウド内のデータの DLP コンテンツ検査が実行されるときのプロセスについて説明します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 1/6/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c84a6522a39a2fb57189ee2eece60f24990bd1fa
-ms.sourcegitcommit: e362bf01d41e82a82f9050a064ebfeb4307b58b7
+ms.openlocfilehash: d740e69361eb1ebffe83ff2915216808a8ee124d
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/14/2020
-ms.locfileid: "84758427"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780768"
 ---
 # <a name="content-inspection"></a>コンテンツ検査
 

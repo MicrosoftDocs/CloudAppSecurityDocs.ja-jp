@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 01/22/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1ccd5a4bfedbad5edf1ee2e398b0da480f20fb38
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: 41495095be323743f44d7822283cc08b8b9afbfb
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254756"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781567"
 ---
 # <a name="manage-alerts"></a>アラートの管理
 
@@ -40,7 +40,7 @@ ms.locfileid: "87254756"
 
     ダッシュボードのこのセクションでは、確立されたポリシーの不審なアクティビティまたは違反が完全に可視化されます。 これは、クラウド環境用に定義したセキュリティ体制を保護するのに役立ちます。
 
-    ![アラート](media/alerts.png "アラート")
+    ![アラートの解決状態ページ](media/alerts.png "アラート")
 
 2. 各アラートについて、違反の性質と必要な応答を調査して判断する必要があります。
 

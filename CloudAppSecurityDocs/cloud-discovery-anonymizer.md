@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 04/20/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b4d8a2c91d87df35445615e36b5caeb7d89de4f4
-ms.sourcegitcommit: a166b85d5c91c48032cf133655471aec1ed88a0f
+ms.openlocfilehash: 44bc98ec887b8a2d601961a65115b7d7a50f3128
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81662334"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781227"
 ---
 # <a name="cloud-discovery-data-anonymization"></a>Cloud Discovery データの匿名化
 
@@ -50,7 +50,7 @@ Cloud Discovery データを匿名化することで、ユーザーのプライ�
     2. 既定でユーザー名が匿名化されるようにするには、[匿名化] タブで、 **「Anonymize private information by default in new reports and data sources」** (新しいレポートとデータ ソースの個人情報を既定で匿名化する) を選択します。 **[Anonymize machine information by default in 'Win10 Endpoint Users' report]** \('Win10 エンドポイント ユーザー' レポートのマシン情報を既定で匿名化する\) を選択することもできます。
     3. **[Save]** (保存) をクリックします。
 
-    ![匿名化](media/anonymizer1.png)
+    ![匿名化の設定ページ](media/anonymizer1.png)
 
 2. 匿名化を選択すると、Cloud App Security はトラフィック ログを解析し、特定のデータ属性を抽出します。
 3. Cloud App Security はユーザー名を暗号化されたユーザー名に置き換えます。
@@ -83,7 +83,7 @@ Cloud Discovery データを匿名化することで、ユーザーのプライ�
     1. **[匿名化]** タブの **[Anonymize and resolve usernames]** \(ユーザー名の匿名化と解決\) で、解決を行う理由を入力します。
     1. **「Enter username to resolve」** (解決するユーザー名を入力してください) で、 **「From anonymized」** (匿名化されたユーザー名を基にする) を選択して匿名化されたユーザー名を入力するか、 **「To anonymized」** (匿名化されたユーザー名の実データを基にする) を選択して、解決する元のユーザー名を入力します。 **[解決]** をクリックします。
 
-        ![匿名化](media/anonymizer.png)
+        ![匿名化の解決のポップアップ](media/anonymizer.png)
 
     **複数のユーザー名を解決するには**
 
@@ -101,7 +101,7 @@ Cloud Discovery データを匿名化することで、ユーザーのプライ�
 
 6. アクションはポータルの**ガバナンス ログ**で監査されます。
 
-    ![匿名化](media/anonymize-gov-log.png)
+    ![ガバナンス ログの匿名化アクション](media/anonymize-gov-log.png)
 
 ## <a name="next-steps"></a>次のステップ
 

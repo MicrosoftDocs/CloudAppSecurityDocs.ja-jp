@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 8/7/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: aba19263cafbc1d91a4a650d4cb67e9e748947db
-ms.sourcegitcommit: 6eff466c7a6817b14a60d8c3b2c201c7ae4c2e2c
+ms.openlocfilehash: 53eaa7b96a22c7574a63b6051dce64076fafaa39
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74719907"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781669"
 ---
 # <a name="log-collector-ftp-configuration"></a>ログ コレクターの FTP 構成
 
@@ -55,14 +55,14 @@ Cloud App Security Cloud Discovery docker の構成を変更する必要があ�
 2. `ssl_update` ディレクトリに移動します。
 3. 新しい証明書ファイルを `ssl_update` ディレクトリにアップロードします (名前は必須です)。
 
-    ![FTP のパスワードの変更](media/new-certs.png)
+    ![証明書ファイルのアップロード](media/new-certs.png)
 
     - **FTP の場合:** 1 つファイルが必要です。 このファイルには、キーと資格証明書のデータが (この順番で) あり、**pure-ftpd.pem** という名前です。
     - **Syslog の場合:** **ca.pem**、**server-key.pem、**server-cert.pem** の 3 つのファイルが必要です。 これらのいずれかのファイルが見つからない場合、更新はされません。
 
 4. ターミナルで実行する場合: `docker exec -t <collector name> update_certs` このコマンドを実行すると、次のスクリーンショットのような出力が生成されます。
 
-    ![FTP のパスワードの変更](media/update-certs.png)
+    ![証明書ファイルの更新](media/update-certs.png)
 
 ## <a name="next-steps"></a>次のステップ
 

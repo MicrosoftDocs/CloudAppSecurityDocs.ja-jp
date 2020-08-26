@@ -1,24 +1,24 @@
 ---
 title: Cloud App Security と Azure Sentinel の統合
-description: この記事では、汎用 SIEM と Cloud App Security の統合に関する情報を提供します。
+description: この記事では、Azure Sentinel と Cloud App Security の統合に関する情報を提供します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 10/28/2019
-ms.topic: conceptual
+ms.date: 08/23/2020
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5e291ec3e659b4c9a44f60f5ef05134951e94235
-ms.sourcegitcommit: 75cdc376a0aea79dc7f339af52a90f0ec6dfc526
+ms.openlocfilehash: 4f0bf993a1e0306035c9b75a215873532eb17c5f
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88514254"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88779221"
 ---
 # <a name="azure-sentinel-integration-preview"></a>Azure Sentinel の統合 (プレビュー)
 

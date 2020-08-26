@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/24/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 930710dc9524bd873318291b18b71d6acd33ad5c
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: dff661d7db60a01cb9d66fc131add97db7598e04
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85623838"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781261"
 ---
 # <a name="connect-aws-to-microsoft-cloud-app-security"></a>AWS を Microsoft Cloud App Security に接続する
 
@@ -128,15 +128,15 @@ Cloud App Security 接続には、次の AWS の一方または両方を接続�
 
     1. プラス記号をクリックして、 **[アマゾン ウェブ サービス]** をクリックします。
 
-        ![AWS の接続](media/connect-aws.png "AWS の接続")
+        ![AWS 監査の接続](media/connect-aws.png "AWS の接続")
 
     1. ポップアップでコネクタの名前を指定し、 **[アマゾン ウェブ サービスに接続]** をクリックします。
 
-        ![AWS コネクタ名](media/connect-aws-name.png)
+        ![AWS 監査コネクタ名](media/connect-aws-name.png)
 
     1. [アマゾン ウェブ サービスに接続] ページで、 **[Security auditing]\(セキュリティ監査\)** を選択し、.csv ファイルの**アクセス キー**と**秘密鍵**を関連フィールドに貼り付けて、 **[接続]** をクリックします。
 
-        ![AWS アプリのセキュリティ監査を接続する](media/aws-connect-app-audit.png "AWS アプリのセキュリティ監査を接続する")
+        ![新しいコネクタ用に AWS アプリのセキュリティ監査を接続する](media/aws-connect-app-audit.png "AWS アプリのセキュリティ監査を接続する")
 
     **既存のコネクタの場合**
 
@@ -146,7 +146,7 @@ Cloud App Security 接続には、次の AWS の一方または両方を接続�
 
     1. [アマゾン ウェブ サービスに接続] ページで、.csv ファイルの**アクセス キー**と**秘密鍵**を関連フィールドに貼り付けて、 **[接続]** をクリックします。
 
-        ![AWS アプリのセキュリティ監査を接続する](media/aws-connect-app-edit-audit-creds.png "AWS アプリのセキュリティ監査を接続する")
+        ![既存のコネクタ用に AWS アプリのセキュリティ監査を接続する](media/aws-connect-app-edit-audit-creds.png "AWS アプリのセキュリティ監査を接続する")
 
 1. **[API のテスト]** をクリックして、正常に接続されたことを確認します。
 
@@ -215,7 +215,7 @@ AWS のセキュリティ構成を接続する前に、セキュリティおよ�
 
 1. **[Security configuration apps]\(セキュリティ構成アプリ\)** タブで、[+] ボタンをクリックして、 **[アマゾン ウェブ サービス]** を選択します。
 
-    ![AWS の接続](media/connect-aws-security-configuration.png)
+    ![AWS のセキュリティ構成を接続する](media/connect-aws-security-configuration.png)
 
 1. **[インスタンス名]** ページで、インスタンスの種類を選択して、 **[次へ]** をクリックします。
 
@@ -225,7 +225,7 @@ AWS のセキュリティ構成を接続する前に、セキュリティおよ�
 
     - 新しいコネクタの場合は、インスタンスの名前を指定します。
 
-        ![AWS コネクタ名](media/aws-connect-name.png)
+        ![AWS のセキュリティ構成のコネクタ名](media/aws-connect-name.png)
 
 1. **[アカウントの詳細]** ページで、.csv ファイルの**アクセス キー**と**秘密鍵**を対応するフィールドに貼り付けて、 **[次へ]** をクリックします。
 

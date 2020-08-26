@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 08/17/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: ea89ea91de2cccaf0fc52d6f97d4973a178f18ba
-ms.sourcegitcommit: 75cdc376a0aea79dc7f339af52a90f0ec6dfc526
+ms.openlocfilehash: 1123002a60f5764a6a909932b0326217738a5ed8
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88514298"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781040"
 ---
 # <a name="connect-office-365-to-microsoft-cloud-app-security"></a>Office 365 を Microsoft Cloud App Security に接続する
 
@@ -65,11 +65,11 @@ Cloud App Security では、次の Office 365 アプリがサポートされて�
 
 1. **[接続されているアプリ]** ページで [+] ボタンをクリックし、 **[Office 365]** を選択します。
 
-    ![Office 365 への接続](media/connect-o365.png)
+    ![O365 への接続メニュー オプション](media/connect-o365.png)
 
 1. Office 365 のポップアップで、 **[Office 365 に接続する]** をクリックします。
 
-    ![Office 365 への接続](media/office-connect.png)
+    ![O365 への接続ポップアップ](media/office-connect.png)
 
 1. Office 365 コンポーネント ページで、必要なオプションを選択し、 **[接続]** をクリックします。
 
@@ -78,7 +78,7 @@ Cloud App Security では、次の Office 365 アプリがサポートされて�
     > - 最適な保護を行うには、すべての Office 365 コンポーネントを選択することをお勧めします。
     > - **Office 365 ファイル** コンポーネントには、**Office 365 アクティビティ** コンポーネントと Cloud App Security ファイルの監視 ( **[設定]**  >  **[ファイル]**  >  **[ファイルの監視を有効化]** ) が必要です。
 
-    ![0365 コンポーネントの接続](media/connect-o365-components.png)
+    ![O365 への接続コンポーネント](media/connect-o365-components.png)
 
 1. Office 365 が正常に接続された状態で表示されたら、 **[閉じる]** をクリックします。
 

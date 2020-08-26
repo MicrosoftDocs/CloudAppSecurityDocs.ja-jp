@@ -6,7 +6,7 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 11/27/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9310313e23f307915f707c839d1a379f212c14ce
-ms.sourcegitcommit: ecb1835d1cd880de38f32ce7a7031b0015f3cae5
+ms.openlocfilehash: 707bdbe5e5be0ad506451257f7364197b77e5079
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "81241297"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781193"
 ---
 # <a name="connect-g-suite-to-microsoft-cloud-app-security"></a>G Suite を Microsoft Cloud App Security に接続する
 
@@ -33,15 +33,15 @@ ms.locfileid: "81241297"
 
 1. **[プロジェクトを作成]** をクリックして、新しいプロジェクトを開始します。
 
-    ![google1](media/google1.png)
+    ![Google プロジェクトの作成](media/google1.png)
 
 1. **[新しいプロジェクト]** 画面で、プロジェクトに次のように名前を指定します。「**Cloud App Security**」。 **[作成]** をクリックします。
 
-    ![google2](media/google2.png)
+    ![Google 新規プロジェクトのポップアップ](media/google2.png)
 
 1. プロジェクトが作成されたら、ツールバーの **[Google Cloud Platform]** をクリックします。 上部のドロップダウンで、適切なプロジェクトが選択されていることを確認します。
 
-    ![Google プロジェクト](media/googleverify-project.png)
+    ![ツール バーの [Google Cloud Platform] をクリック](media/googleverify-project.png)
 
 1. メニューを選択し、 **[API とサービス]**  >  **[ライブラリ]** に移動して、次の API を有効にします (API が一覧表示されない場合は、検索行を使用します)。
 

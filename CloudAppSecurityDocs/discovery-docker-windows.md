@@ -6,19 +6,19 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 11/19/2019
-ms.topic: conceptual
+ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
-ms.openlocfilehash: ce6525373c8cb9be6a1e70085f5f3bda3dbd11fa
-ms.sourcegitcommit: 1f8f19312ce70e62b6aa0b94db06af07f881fefa
+ms.openlocfilehash: ae59702910ca7c36a03f3a05b73b9747906fce99
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84811270"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88780258"
 ---
 # <a name="docker-on-windows-on-premises"></a>オンプレミスの Windows 上の Docker
 
@@ -80,7 +80,7 @@ Windows 上の Docker を使用して、Cloud App Security の継続的レポー
     1. **[データ ソースの追加]** をクリックします。  
     ![データ ソースの追加](media/add-data-source.png)
     1. プロキシまたはファイアウォールの **[名前]** を付けます。  
-    ![ubuntu1](media/ubuntu1.png)
+    ![データ ソースの名前の追加](media/ubuntu1.png)
     1. **[ソース]** リストからアプライアンスを選択します。 一覧に表示されていないネットワーク アプライアンスを使用するために **[カスタム ログ形式]** を選択する場合、構成手順の詳細については、[カスタム ログ パーサーの使用](custom-log-parser.md)に関するページを参照してください。
     1. 予想されるログ形式のサンプルとログを比較します。 ログ ファイルの形式がこのサンプルと一致しない場合は、データ ソースを **[その他]** として追加する必要があります。
     1. **[レシーバーの種類]** に **[FTP]** 、 **[FTPS]** 、 **[Syslog – UDP]** 、 **[Syslog – TCP]** 、 **[Syslog – TLS]** のいずれかを設定します。
@@ -99,7 +99,7 @@ Windows 上の Docker を使用して、Cloud App Security の継続的レポー
     1. ログ コレクターに **[名前]** を付けます。
     1. Docker のデプロイに使用するマシンの**ホスト IP アドレス**を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
     1. コレクターに接続するすべての**データ ソース**を選択し、 **[更新]** をクリックして構成内容を保存します。
-    ![ubuntu2](media/ubuntu2.png)
+    ![接続するデータ ソースの選択](media/ubuntu2.png)
 
 1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを**コピー**します。 クリップボードにコピー アイコン ![クリップボードにコピー アイコン](media/copy-icon.png) を使用できます。 これは後で必要になります。
 
@@ -143,7 +143,7 @@ Windows 上の Docker を使用して、Cloud App Security の継続的レポー
 
 次のメッセージが表示されます: "**正常に完了しました**"
 
-![ubuntu8](media/ubuntu8.png)
+![コレクターが正常に実行されていることを確認する](media/ubuntu8.png)
 
 ### <a name="step-3---on-premises-configuration-of-your-network-appliances"></a>手順 3 - ネットワーク アプライアンスのオンプレミス構成
 
@@ -157,7 +157,7 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 
 **[ログ コレクター]** の表でコレクターの状態をチェックし、状態が **[接続済み]** であることを確認します。 **[作成済み]** の場合、ログ コレクターの接続と解析が完了していない可能性があります。
 
-![ubuntu9](media/ubuntu9.png)
+![コレクターが正常にデプロイされたことを確認する](media/ubuntu9.png)
 
 **[ガバナンス ログ]** に移動して、ログがポータルに定期的にアップロードされていることを確認することもできます。
 

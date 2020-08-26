@@ -6,15 +6,15 @@ author: shsagir
 ms.author: shsagir
 manager: shsagir
 ms.date: 06/28/2020
-ms.topic: conceptual
+ms.topic: how-to
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a792ae503fda51e69d162cec0b5e32cd3710780f
-ms.sourcegitcommit: 84eafb4926bf0d4db27bed7df55dc83ca48f9192
+ms.openlocfilehash: 6639761e2be3ef2f5a0bd9d5367bad44f0d12895
+ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87377866"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "88781159"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -147,7 +147,7 @@ AWS のセキュリティ監査を Cloud App Security に接続するには、�
         1. **[Organization ID]\(組織 ID\)** ボックスに、前にメモしておいた組織を入力します。
         1. **[Private key file]\(秘密キー ファイル\)** ボックスで、前の手順でダウンロードした JSON ファイルに移動します。
 
-        ![GCP アプリのセキュリティ監査を接続する](media/connect-gcp-app-audit.png)
+        ![新しいコネクタ用に GCP アプリのセキュリティ監査を接続する](media/connect-gcp-app-audit.png)
 
     **既存のコネクタの場合**
 
@@ -159,7 +159,7 @@ AWS のセキュリティ監査を Cloud App Security に接続するには、�
         1. **[Organization ID]\(組織 ID\)** ボックスに、前にメモしておいた組織を入力します。
         1. **[Private key file]\(秘密キー ファイル\)** ボックスで、前の手順でダウンロードした JSON ファイルに移動します。
 
-        ![GCP アプリのセキュリティ監査を接続する](media/connect-gcp-app-edit-audit-creds.png)
+        ![既存のコネクタ用に GCP アプリのセキュリティ監査を接続する](media/connect-gcp-app-edit-audit-creds.png)
 
 1. **[API のテスト]** をクリックして、正常に接続されたことを確認します。
 
@@ -218,11 +218,11 @@ GCP のセキュリティ構成を Cloud App Security に接続するには、�
 1. アカウント名を入力し、 **[Create]\(作成\)** をクリックします。
 1. **[ロール]** を **[Security Center Admin Viewer]\(Security Center 管理者ビューアー\)** として指定し、 **[保存]** をクリックします。
 
-    ![GCP の追加メニューを示すスクリーンショット](media/connect-gcp-security-configuration-1.png)
+    ![Security Center 管理者ビューアー用の GCP のメニュー項目の追加を示すスクリーンショット](media/connect-gcp-security-configuration-1.png)
 
 1. **[Email]\(電子メール\)** の値をコピーします。この値は後で必要になります。
 
-    ![GCP の [Service accounts]\(サービス アカウント\) ダイアログを示すスクリーンショット](media/connect-gcp-security-configuration-2.png)
+    ![GCP サービス アカウントのコピーを示すスクリーンショット](media/connect-gcp-security-configuration-2.png)
 
 1. **[IAM & admin]\(IAM & 管理\)** で、 **[IAM]** をクリックします。
 
@@ -231,7 +231,7 @@ GCP のセキュリティ構成を Cloud App Security に接続するには、�
     1. **[New members]\(新しいメンバー\)** ボックスに、先ほどコピーした **[Email]\(電子メール\)** の値を貼り付けます。
     1. **[ロール]** を **[Security Center Admin Viewer]\(Security Center 管理者ビューアー\)** として指定し、 **[保存]** をクリックします。
 
-        ![メンバーの追加ダイアログを示すスクリーンショット](media/connect-gcp-security-configuration-3.png)
+        ![プロジェクトへのメンバーの追加ダイアログを示すスクリーンショット](media/connect-gcp-security-configuration-3.png)
 
 #### <a name="create-a-private-key-for-the-dedicated-service-account"></a>専用サービス アカウントの秘密キーを作成する
 
@@ -241,7 +241,7 @@ GCP のセキュリティ構成を Cloud App Security に接続するには、�
 1. **[CREATE KEY]\(キーの作成\)** をクリックします。
 1. **[Create private key]\(秘密キーの作成\)** 画面で **[JSON]** を選択し、 **[Create]\(作成\)** をクリックします。
 
-    ![秘密キーの作成ダイアログを示すスクリーンショット](media/connect-gcp-security-configuration-4.png)
+    ![専用サービス アカウントの秘密キーの作成ダイアログを示すスクリーンショット](media/connect-gcp-security-configuration-4.png)
 
     > [!NOTE]
     > 後でコンピューターにダウンロードされる JSON ファイルが必要になります。
@@ -257,7 +257,7 @@ GCP のセキュリティ構成を Cloud App Security に接続するには、�
 
 1. **[Security configuration apps]\(セキュリティ構成アプリ\)** タブで、[+] ボタンをクリックして、 **[Google Cloud Platform]** を選択します。
 
-    ![GCP の追加メニューを示すスクリーンショット](media/connect-gcp-security-configuration-5.png)
+    ![GCP メニュー オプションの追加を示すスクリーンショット](media/connect-gcp-security-configuration-5.png)
 
 1. **[インスタンス名]** ページで、インスタンスの種類を選択して、 **[次へ]** をクリックします。
 
@@ -267,7 +267,7 @@ GCP のセキュリティ構成を Cloud App Security に接続するには、�
 
     - 新しいコネクタの場合は、インスタンスの名前を指定します。
 
-        ![GCP コネクタ名](media/connect-gcp-new-instance.png)
+        ![GCP の新しいコネクタ名](media/connect-gcp-new-instance.png)
 
 1. **[プロジェクトの詳細]** ページで、次の操作を行い、 **[次へ]** をクリックします。
     1. **[Organization ID]\(組織 ID\)** ボックスに、前にメモしておいた組織を入力します。
