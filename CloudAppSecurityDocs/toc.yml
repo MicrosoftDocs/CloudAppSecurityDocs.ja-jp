@@ -73,7 +73,7 @@
           href: protect-gcp.md
         - name: G Suite を保護する
           href: protect-gsuite.md
-        - name: Office 365 を保護する
+        - name: Microsoft 365 を保護する
           href: protect-office-365.md
         - name: Okta を保護する
           href: protect-okta.md
@@ -163,7 +163,7 @@
           href: connect-google-apps-to-microsoft-cloud-app-security.md
         - name: GCP の接続
           href: connect-google-gcp-to-microsoft-cloud-app-security.md
-        - name: Office 365 の接続
+        - name: Microsoft 365 の接続
           href: connect-office-365-to-microsoft-cloud-app-security.md
         - name: Okta の接続
           href: connect-okta-to-microsoft-cloud-app-security.md
