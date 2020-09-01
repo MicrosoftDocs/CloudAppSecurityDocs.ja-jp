@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: d8208d654774aefd776da4ba1b3b1cbfda4caae7
-ms.sourcegitcommit: 826d2ec022647bce6c3135c115a41ee894ff8ecd
+ms.openlocfilehash: e3b170d932c66532d421604f63f956a891d17663
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84800709"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963847"
 ---
 # <a name="tutorial-block-download-of-sensitive-information"></a>チュートリアル:機密情報のダウンロードをブロックする
 
@@ -59,7 +59,7 @@ Cloud App Security セッション ポリシーを使用すると、デバイス
 
 次のように、Cloud App Security と連動するように IdP ソリューションを構成します。
 
-* [Azure AD 条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
+* [Azure AD 条件付きアクセス](/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
 * その他の IdP ソリューションについては、[その他の IdP ソリューションとの統合を構成する](proxy-deployment-aad.md#configure-integration-with-other-idp-solutions)方法に関するページを参照してください。
 
 このタスクを完了したら、Cloud App Security ポータルにアクセスし、セッションのファイルのダウンロードを監視および制御するためのセッション ポリシーを作成します。

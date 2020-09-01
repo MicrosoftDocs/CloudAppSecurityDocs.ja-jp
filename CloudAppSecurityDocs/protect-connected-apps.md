@@ -14,11 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9130c75680ec6cb095d3995cd4a5aee3329f3189
-ms.sourcegitcommit: 9395620dfc916b0954207c4fe26f58c76cdfe0d0
+ms.openlocfilehash: 6e970d0ef3d2d89fecdbc224c9f56f5dbc29f33b
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2020
-ms.locfileid: "85953693"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150232"
 ---
 # <a name="protecting-connected-apps"></a>接続されているアプリの保護
 
@@ -35,7 +36,7 @@ Cloud App Security は、クラウド間の統合、[API コネクタ](enable-in
 - [GitHub Enterprise Cloud を保護する](protect-github.md)
 - [GCP を保護する](protect-gcp.md)
 - [G Suite を保護する](protect-gsuite.md)
-- [Office 365 を保護する](protect-office-365.md)
+- [Microsoft 365 を保護する](protect-office-365.md)
 - [Okta を保護する](protect-okta.md)
 - [Salesforce を保護する](protect-salesforce.md)
 - [ServiceNow を保護する](protect-servicenow.md)

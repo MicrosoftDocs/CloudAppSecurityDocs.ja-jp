@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 80ae1af2a0f40adbaa1e989de8ec644d721a7f88
-ms.sourcegitcommit: 4450119e1c7e2c54357dca955621327f9c343422
+ms.openlocfilehash: fa42e9e481bd815d3bf8ebc8505bde8712eed59f
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/09/2020
-ms.locfileid: "88026991"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963838"
 ---
 # <a name="support-and-troubleshooting-microsoft-cloud-app-security"></a>Microsoft Cloud App Security のサポートとトラブルシューティング
 
@@ -31,7 +31,7 @@ ms.locfileid: "88026991"
 
 Microsoft サポートは、Microsoft Cloud App Security に世界的な技術、購入前、請求、およびサブスクリプションのサポートを提供しています。 有料サブスクリプションと試用版サブスクリプションについて、オンラインと電話によるサポートを利用できます。 オンライン テクニカル サポートは、英語と日本語で提供されています。 電話によるサポートとオンライン課金サポートは、他の言語でも利用できます。
 
-管理者は **[ヘルプとサポート]** オプションを使用して、Azure portal から Cloud App Security のオンライン サポート リクエストを提出できます。 サポート リクエストを作成するには、ご利用のアカウントを次のいずれかの [Azure Active Directory での管理者ロール](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)に割り当てる必要があります。
+管理者は **[ヘルプとサポート]** オプションを使用して、Azure portal から Cloud App Security のオンライン サポート リクエストを提出できます。 サポート リクエストを作成するには、ご利用のアカウントを次のいずれかの [Azure Active Directory での管理者ロール](/azure/active-directory/active-directory-assign-admin-roles-azure-portal)に割り当てる必要があります。
 
 * 全体管理者
 
@@ -97,7 +97,7 @@ Cloud App Security チームでは、製品に関する皆様からのご意見�
 
 * **製品に関するフィードバック**: [casfeedback@microsoft.com](mailto:casfeedback@microsoft.com) 宛てにフィードバックを送信します。
 
-* **ドキュメントに関するフィードバック**: 新しいフィードバック システムでは GitHub のイシューを利用します。 ドキュメントに関するフィードバックを提供するには、まず GitHub アカウントを作成していただく必要があります。 この変更に関しては[ブログ記事](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)をご覧ください。
+* **ドキュメントに関するフィードバック**: 新しいフィードバック システムでは GitHub のイシューを利用します。 ドキュメントに関するフィードバックを提供するには、まず GitHub アカウントを作成していただく必要があります。 この変更に関しては[ブログ記事](/teamblog/a-new-feedback-system-is-coming-to-docs)をご覧ください。
 
 ## <a name="next-steps"></a>次のステップ
 

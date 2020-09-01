@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0d821e574dc241097d70814cf854c46e4db2664b
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 1a066955c2a832f46f38c128a908c9f772f0dbe3
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781550"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963983"
 ---
 # <a name="security-configuration-for-azure"></a>Azure のセキュリティ構成
 
@@ -63,7 +63,7 @@ Microsoft Cloud App Security でセキュリティ構成に関する推奨事項
 
     ![セキュリティの構成](media/security-configuration-azure.png)
 
-セキュリティに関する推奨事項の実装方法の詳細については、[Azure Security Center でのセキュリティに関する推奨事項の管理](https://docs.microsoft.com/azure/security-center/security-center-recommendations)に関するページを参照してください。
+セキュリティに関する推奨事項の実装方法の詳細については、[Azure Security Center でのセキュリティに関する推奨事項の管理](/azure/security-center/security-center-recommendations)に関するページを参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 

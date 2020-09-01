@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 341bc297d31f53cf446baec553e3abd6eec1c6df
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: 4f8e5c59de4dd05730dc6970ae1cbebe8f941356
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254722"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88964051"
 ---
 # <a name="tutorial-automatically-apply-azure-information-protection-classification-labels"></a>チュートリアル:Azure Information Protection 分類ラベルの自動適用
 
@@ -93,7 +93,7 @@ Box アカウントに補完されているファイルでクレジット カー
 >[!NOTE]
 >
 > *- Cloud App Security は、現時点で Box、GSuite、SharePoint、OneDrive for Business での Azure Information Protection ラベルの自動適用をサポートしています。
-> *- Cloud App Security を使用してドキュメントがラベル付けされると、視覚的なマーキングはすぐには適用されず、ドキュメントが Office アプリで開かれ、最初に保存されたときに適用されます。 詳細については、「[Azure Information Protection 用の視覚的なマーキングのラベルを構成する方法](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-markings#when-visual-markings-are-applied)」を参照してください。
+> *- Cloud App Security を使用してドキュメントがラベル付けされると、視覚的なマーキングはすぐには適用されず、ドキュメントが Office アプリで開かれ、最初に保存されたときに適用されます。 詳細については、「[Azure Information Protection 用の視覚的なマーキングのラベルを構成する方法](/information-protection/deploy-use/configure-policy-markings#when-visual-markings-are-applied)」を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 

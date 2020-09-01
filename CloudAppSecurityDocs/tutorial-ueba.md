@@ -10,12 +10,12 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.reviewer: dannyk
 ms.suite: ems
-ms.openlocfilehash: 89da56403cbd6239094e58bebdd2a78ef3558edc
-ms.sourcegitcommit: a6d6ab856bc06591d8ccdb5bf9dfd506dcd90e20
+ms.openlocfilehash: 7252a7c18278a6e536c26b3f84f5c51d09c72efe
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83579785"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88964068"
 ---
 # <a name="tutorial-investigate-risky-users"></a>チュートリアル:危険性の高いユーザーを調査する
 
@@ -71,10 +71,10 @@ Cloud App Security では、リスクを測定するために以下が使用さ�
 1. Cloud App Security ダッシュボードに移動し、 **[Top users by investigation priority]\(調査の優先度別上位ユーザー\)** タイルに表示されているユーザーを確認します。その後、その 1 人ずつのユーザー ページに移動して調査します。  
 ユーザー名の横にある**調査の優先順位番号**は、そのユーザーの過去 1 週間におけるすべてのリスクの高いアクティビティの合計です。
 
-   ![上位のユーザーのダッシュボード](./media/dashboard-top-users.png)
+   ![上位のユーザーのダッシュボード](media/dashboard-top-users.png)
 
 1. 特定のユーザーをクリックして、 **[ユーザー]** ページに移動します。
-    ![[ユーザー] ページ](./media/user-page.png)
+    ![[ユーザー] ページ](media/user-page.png)
 
 1. [ユーザー] ページにある情報を確認して、そのユーザーに関する概要を得ます。ユーザーが、そのユーザーにとって通常とは違うアクティビティを実行していたり、または通常とは違う時間に実行していたりする箇所があるかを確認します。 **[組織と比較したユーザーのスコア]** では、組織内の順位に基づくユーザーの百分位数が表されます。つまり、調査する必要のあるユーザーの一覧内で、組織の他のユーザーと比べてそのユーザーがどのくらい高い順位にあるかです。 あるユーザーが、組織全体での危険性の高いユーザーの百分位数において 90 以上だった場合、その数値は赤色で表示されます。  
 [ユーザー] ページは、次のような疑問を解決するのに役立ちます。

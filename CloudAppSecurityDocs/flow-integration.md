@@ -13,18 +13,18 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
-ms.openlocfilehash: 991d71778e08aa7c5200a5f719d5df6867653367
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: c2d208fa3570f32719e247b006c831755ab80173
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781499"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963779"
 ---
 # <a name="integrate-with-microsoft-power-automate-for-custom-alert-automation"></a>カスタム アラートの自動化のために Microsoft Power Automate と統合する
 
 *適用対象:Microsoft Cloud App Security*
 
-Cloud App Security と [Microsoft Power Automate](https://docs.microsoft.com/flow/getting-started) を統合すると、カスタム アラートの自動化とオーケストレーションのプレイブックが提供されます。 Power Automate で利用できる[コネクタのエコシステム](https://docs.microsoft.com/connectors/)を使用することにより、Cloud App Security でアラートが生成されたときのプレイブックのトリガーを自動化できます。 たとえば、[ServiceNow コネクタ](https://docs.microsoft.com/connectors/service-now/)を使用してチケット システムで問題を自動的に作成したり、Cloud App Security でアラートがトリガーされたときにカスタム ガバナンス アクションを実行するための承認メールを自動的に送信したりできます。
+Cloud App Security と [Microsoft Power Automate](/flow/getting-started) を統合すると、カスタム アラートの自動化とオーケストレーションのプレイブックが提供されます。 Power Automate で利用できる[コネクタのエコシステム](/connectors/)を使用することにより、Cloud App Security でアラートが生成されたときのプレイブックのトリガーを自動化できます。 たとえば、[ServiceNow コネクタ](/connectors/service-now/)を使用してチケット システムで問題を自動的に作成したり、Cloud App Security でアラートがトリガーされたときにカスタム ガバナンス アクションを実行するための承認メールを自動的に送信したりできます。
 
 ## <a name="prerequisites"></a>[前提条件]
 
@@ -34,7 +34,7 @@ Cloud App Security と [Microsoft Power Automate](https://docs.microsoft.com/flo
 
 Cloud App Security 自体には、ポリシーを定義するときにユーザーを停止したり、ファイルを非公開にするなどの定義済みのガバナンス オプションがあります。 Cloud App Security コネクタを使用して Power Automate でプレイブックを作成することによって、ポリシーに対してカスタマイズされたガバナンス オプションを有効にするワークフローを作成できます。 Power Automate でプレイブックを作成したら、それを Cloud App Security のポリシーに関連付けて、Power Automate にアラートを送信するだけです。 Microsoft Power Automate では、組織に合わせてカスタマイズされたワークフローを作成するためのコネクタと条件がいくつか提供されています。
 
-Power Automate の [Cloud App Security コネクタ](https://docs.microsoft.com/connectors/cloudappsecurity/)では、自動化されたトリガーとアクションがサポートされています。 Cloud App Security によってアラートが生成されると、Power Automate が自動的にトリガーされます。 アクションには、Cloud App Security でのアラート状態の変更が含まれます。
+Power Automate の [Cloud App Security コネクタ](/connectors/cloudappsecurity/)では、自動化されたトリガーとアクションがサポートされています。 Cloud App Security によってアラートが生成されると、Power Automate が自動的にトリガーされます。 アクションには、Cloud App Security でのアラート状態の変更が含まれます。
 
 ## <a name="how-to-create-playbooks-with-power-automate"></a>Power Automate でプレイブックを作成する方法
 

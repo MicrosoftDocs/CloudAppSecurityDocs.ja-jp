@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f7231db6910964dfb6fbaacb4467db7c89a2f681
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 3fc036277fac599f3075cd3c9cf765a0623e79a9
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781533"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963932"
 ---
 # <a name="session-policies"></a>セッション ポリシー
 
@@ -42,7 +42,7 @@ Microsoft Cloud App Security のセッション ポリシーを使用すると�
 * Azure AD Premium P1 ライセンス、または ID プロバイダー (IdP) ソリューションに必要なライセンス
 * 関連するアプリを、[アプリの条件付きアクセス制御と共にデプロイする](proxy-deployment-aad.md)必要があります
 * 次のように、Cloud App Security と連動するように IdP ソリューションを構成します。
-  * [Azure AD 条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
+  * [Azure AD 条件付きアクセス](/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
   * その他の IdP ソリューションについては、[その他の IdP ソリューションとの統合を構成する](proxy-deployment-aad.md#configure-integration-with-other-idp-solutions)方法に関するページを参照してください。
 
 ## <a name="create-a-cloud-app-security-session-policy"></a>Cloud App Security のセッション ポリシーを作成する
@@ -110,7 +110,7 @@ Microsoft Cloud App Security のセッション ポリシーを使用すると�
 1. 設定の歯車で **[アプリの条件付きアクセス制御]** をクリックします。
 2. テーブルの右側にあるエクスポート ボタンをクリックします。
 
-    ![エクスポート ボタン](./media/export-button.png)
+    ![エクスポート ボタン](media/export-button.png)
 3. レポートの範囲を選択し、 **[エクスポート]** をクリックします。 このプロセスには、時間がかかることがあります。
 
 エクスポートされたログをダウンロードするには:
@@ -118,7 +118,7 @@ Microsoft Cloud App Security のセッション ポリシーを使用すると�
 1. レポートの準備ができたら、 **[設定]** 、次に **[エクスポートされたレポート]** に移動します。
 2. テーブルで**アプリの条件付きアクセス制御トラフィック ログ**の一覧から関連するレポートを選択し、ダウンロードをクリックします。
 
-    ![ダウンロード ボタン](./media/download-button.png)
+    ![ダウンロード ボタン](media/download-button.png)
 
 ## <a name="block-all-downloads"></a><a name="block-download"></a>すべてのダウンロードをブロックする
 
@@ -181,4 +181,4 @@ Cloud App Security セッション ポリシーで  **[セッション制御�
 > [!div class="nextstepaction"]
 > [Azure AD のアプリの条件付きアクセス制御を使用して、アンマネージド デバイスでのダウンロードをブロックする](use-case-proxy-block-session-aad.md)
 
-[!INCLUDE [Open support ticket](includes/support.md)]  
+[!INCLUDE [Open support ticket](includes/support.md)]

@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: e94a6691987d89fc44f05a1bd0a12f8ef04d74fa
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: a706367211dbf6446168e33128676b6227b18ae3
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779409"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88964034"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 
@@ -27,7 +27,7 @@ Microsoft Cloud App Security のセッション コントロールは、おす�
 
 - アプリの条件付きアクセス制御を使用するには、お客様の組織が次のライセンスを持っている必要があります。
 
-  - [Azure Active Directory (Azure AD) Premium P1](https://docs.microsoft.com/azure/active-directory/license-users-groups) 以上、またはお使いの ID プロバイダー (IdP) ソリューションから要求されるライセンス
+  - [Azure Active Directory (Azure AD) Premium P1](/azure/active-directory/license-users-groups) 以上、またはお使いの ID プロバイダー (IdP) ソリューションから要求されるライセンス
   - Microsoft Cloud App Security
 
 - アプリはシングル サインオンを使用して構成する必要があります

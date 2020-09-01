@@ -14,18 +14,18 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5a84b7989f357e58a1ee91e448a19c55dd85191c
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 33ccea97fd5b41802d7f8b12fe7413c5bd76d8a6
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779561"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963592"
 ---
 # <a name="azure-advanced-threat-protection-integration"></a>Azure Advanced Threat Protection の統合
 
 *適用対象:Microsoft Cloud App Security*
 
-Microsoft Cloud App Security は Azure Advanced Threat Protection (Azure ATP) と統合され、ハイブリッド環境 (クラウド アプリとオンプレミスの両方) でユーザー エンティティの行動分析 (UEBA) を提供します。詳細については、「[チュートリアル: 危険性の高いユーザーを調査する](tutorial-ueba.md)」を参照してください。 Azure ATP によって提供される機械学習と行動分析の詳細については、「[Azure ATP の概要](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)」を参照してください。
+Microsoft Cloud App Security は Azure Advanced Threat Protection (Azure ATP) と統合され、ハイブリッド環境 (クラウド アプリとオンプレミスの両方) でユーザー エンティティの行動分析 (UEBA) を提供します。詳細については、「[チュートリアル: 危険性の高いユーザーを調査する](tutorial-ueba.md)」を参照してください。 Azure ATP によって提供される機械学習と行動分析の詳細については、「[Azure ATP の概要](/azure-advanced-threat-protection/what-is-atp)」を参照してください。
 
 ## <a name="prerequisites"></a>[前提条件]
 
@@ -56,7 +56,7 @@ Cloud App Security と Azure ATP の統合を有効にするには:
 > [!NOTE]
 > 統合が有効になるまで、最大 12 時間かかることがあります。
 
-Azure ATP 統合を有効にすると、組織内のすべてのユーザーのオンプレミス アクティビティを確認できるようになります。 クラウド環境とオンプレミス環境をまたいで、アラートと疑わしいアクティビティを組み合わせたユーザーの高度な分析情報も得られるようになります。 さらに、Azure ATP のポリシーが Cloud App Security のポリシー ページに表示されるようになります。 Azure ATP ポリシーの一覧については、[セキュリティ アラート](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide)に関するページを参照してください。
+Azure ATP 統合を有効にすると、組織内のすべてのユーザーのオンプレミス アクティビティを確認できるようになります。 クラウド環境とオンプレミス環境をまたいで、アラートと疑わしいアクティビティを組み合わせたユーザーの高度な分析情報も得られるようになります。 さらに、Azure ATP のポリシーが Cloud App Security のポリシー ページに表示されるようになります。 Azure ATP ポリシーの一覧については、[セキュリティ アラート](/azure-advanced-threat-protection/suspicious-activity-guide)に関するページを参照してください。
 
 **Azure ATP 構成**リンクを使用して、Cloud App Security に関連する Azure ATP 設定を構成する必要もあります。 これらの設定の詳細については、次の情報を参照してください。
 

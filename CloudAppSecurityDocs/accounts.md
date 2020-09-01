@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: ed0d53a3a71e03dab31ad179e293ae1b7dbc43b6
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 9fe4593f6c7bf59f74a39520e12e6b7e6c5f7d01
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779493"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149790"
 ---
 # <a name="accounts"></a>[アカウント]
 
@@ -43,15 +43,15 @@ Microsoft Cloud App Security では、接続されているアプリのアカウ
 * 各ユーザー グループに含まれているアカウントを確認できます  
 * 各アカウントによってアクセスされているアプリと、特定のアカウントに対して削除されたアプリを確認できます
 
-    ![アカウント画面](./media/accounts-page.png)
+    ![アカウント画面](media/accounts-page.png)
 
 ## <a name="users-and-accounts-filters"></a>ユーザーとアカウントのフィルター
 
 適用可能なアカウント フィルターの一覧を以下に示します。 ほとんどのフィルターでは NOT をはじめとする複数値がサポートされているため、ポリシー作成時の強力なツールとなります。  
   
-<!--- **Account name**: The account name is the primary alias of the user, but other identifiers from other Microsoft accounts (Office 365 and Azure Active Directory) such as proxy addresses, aliases, SID are supported and consolidated beneath the primary alias. -->
+<!--- **Account name**: The account name is the primary alias of the user, but other identifiers from other Microsoft accounts (Microsoft 365 and Azure Active Directory) such as proxy addresses, aliases, SID are supported and consolidated beneath the primary alias. -->
 
-* **所属**:[所属] は、 **[内部]**  または **[外部]** のいずれかです。 ユーザーとアカウントを内部として設定するには、 **[設定]** で内部組織の **IP アドレスの範囲**を設定してください。 アカウントに管理者のアクセス許可がある場合は、アカウント テーブルのアイコンに赤いネクタイが追加されます。 ![アカウントの管理者アイコン](./media/accounts-admin-icon.png)
+* **所属**:[所属] は、 **[内部]**  または **[外部]** のいずれかです。 ユーザーとアカウントを内部として設定するには、 **[設定]** で内部組織の **IP アドレスの範囲**を設定してください。 アカウントに管理者のアクセス許可がある場合は、アカウント テーブルのアイコンに赤いネクタイが追加されます。 ![アカウントの管理者アイコン](media/accounts-admin-icon.png)
 
 * **[アプリ]** :組織内のアカウントで使用されている API で接続されたアプリをフィルター処理できます。
 * **ドメイン**: 特定のドメインのユーザーを表示するためにフィルター処理できます。

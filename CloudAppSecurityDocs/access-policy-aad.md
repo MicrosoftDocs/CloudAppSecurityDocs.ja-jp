@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2256703ee2c92774635f7ce04dfa0c08694bd627
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 9fdea4bcf8db70a1f8eed023cb8af81d328b8771
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779510"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963524"
 ---
 # <a name="access-policies"></a>アクセス ポリシー
 
@@ -35,7 +35,7 @@ Microsoft Cloud App Security アクセス ポリシーでは、ユーザー、�
 - Azure AD Premium P1 ライセンス、または ID プロバイダー (IdP) ソリューションに必要なライセンス
 - 関連するアプリを、[アプリの条件付きアクセス制御と共にデプロイする](proxy-deployment-aad.md)必要があります。
 - 次のように、Cloud App Security と連動するように IdP ソリューションを構成します。
-  - [Azure AD 条件付きアクセス](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
+  - [Azure AD 条件付きアクセス](/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
   - その他の IdP ソリューションについては、[その他の IdP ソリューションとの統合を構成する](proxy-deployment-aad.md#configure-integration-with-other-idp-solutions)方法に関するページを参照してください。
 
 ## <a name="create-a-cloud-app-security-access-policy"></a>Cloud App Security アクセス ポリシーを作成する
