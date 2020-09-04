@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 68b2f2a6bc1c8350510c54dc505593c35b5de0b0
-ms.sourcegitcommit: 5cf263c4094f5ac91210b03d085ca3dbca50f32d
+ms.openlocfilehash: a8793a96269f42dce827d101e717543ad873dacd
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87388679"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150157"
 ---
 # <a name="protect-apps-with-microsoft-cloud-app-security-conditional-access-app-control"></a>Microsoft Cloud App Security のアプリの条件付きアクセス制御を使用してアプリを保護する
 
@@ -79,7 +79,7 @@ ms.locfileid: "87388679"
 
 ### <a name="intune-compliant-and-hybrid-azure-ad-joined-devices"></a>Intune 準拠デバイスと Hybrid Azure AD 参加済みデバイス
 
-Azure AD の条件付きアクセスでは、Intune 準拠デバイスと Hybrid Azure AD 参加済みデバイスの情報を、Cloud App Security に直接渡すことができます。 そこから、デバイスの状態をフィルターとして使用するアクセス ポリシーまたはセッション ポリシーを開発できます。 詳細については、[Azure Active Directory のデバイス管理の概要](https://docs.microsoft.com/azure/active-directory/device-management-introduction)に関するページを参照してください。
+Azure AD の条件付きアクセスでは、Intune 準拠デバイスと Hybrid Azure AD 参加済みデバイスの情報を、Cloud App Security に直接渡すことができます。 そこから、デバイスの状態をフィルターとして使用するアクセス ポリシーまたはセッション ポリシーを開発できます。 詳細については、[Azure Active Directory のデバイス管理の概要](/azure/active-directory/device-management-introduction)に関するページを参照してください。
 
 > [!NOTE]
 > 一部のブラウザーでは、拡張機能のインストールなどの追加の構成が必要になる場合があります。 詳細については、[条件付きアクセスでのブラウザーのサポート](https://go.microsoft.com/fwlink/?linkid=2102732)に関するページを参照してください。
@@ -119,7 +119,7 @@ SSL クライアント証明書は、信頼チェーンによって検証され�
 
 ## <a name="supported-apps-and-clients"></a>サポートされているアプリとクライアント
 
-セッション制御とアクセスの制御は、SAML 2.0 認証プロトコルを使用して、任意の対話型シングル サインオンに適用できます。また、Azure AD を使用している場合は、Open ID Connect 認証プロトコルも使用できます。 さらに、アプリが Azure AD で構成されている場合は、[Azure AD アプリ プロキシ](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)で構成されてオンプレミスでホストされているアプリに、これらの制御を適用することもできます。 また、アクセス制御は、ネイティブのモバイルおよびデスクトップ クライアント アプリに適用することもできます。
+セッション制御とアクセスの制御は、SAML 2.0 認証プロトコルを使用して、任意の対話型シングル サインオンに適用できます。また、Azure AD を使用している場合は、Open ID Connect 認証プロトコルも使用できます。 さらに、アプリが Azure AD で構成されている場合は、[Azure AD アプリ プロキシ](/azure/active-directory/manage-apps/application-proxy)で構成されてオンプレミスでホストされているアプリに、これらの制御を適用することもできます。 また、アクセス制御は、ネイティブのモバイルおよびデスクトップ クライアント アプリに適用することもできます。
 
 Cloud App Security では、クラウド アプリ カタログで利用可能な情報を使用してアプリが識別されます。 組織やユーザーによっては、プラグインを追加することでアプリをカスタマイズしている場合があります。 ただし、これらのプラグインでセッション制御が正しく機能するためには、関連付けられているカスタム ドメインを、カタログ内の各アプリに追加する必要があります。
 
@@ -130,7 +130,7 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 
 クラウド アプリでセッション内アクティビティを制御するためにセッション制御を使用している多くの組織では、アクセス制御を適用して、ネイティブ モバイル アプリとデスクトップ クライアント アプリの同じセットをブロックすることで、アプリに包括的なセキュリティが提供されます。
 
-アクセス ポリシーを使用してネイティブ モバイル アプリとデスクトップ クライアント アプリへのアクセスをブロックするには、 **[クライアント アプリ]** フィルターを **[モバイルとデスクトップ]** に設定します。 一部のネイティブ クライアント アプリは個別に認識できますが、アプリのスイートの一部である他のアプリは、最上位レベルのアプリとしてのみ識別できます。 たとえば、SharePoint Online などのアプリは、Office 365 アプリに適用されるアクセス ポリシーを作成することによってのみ認識できます。
+アクセス ポリシーを使用してネイティブ モバイル アプリとデスクトップ クライアント アプリへのアクセスをブロックするには、 **[クライアント アプリ]** フィルターを **[モバイルとデスクトップ]** に設定します。 一部のネイティブ クライアント アプリは個別に認識できますが、アプリのスイートの一部である他のアプリは、最上位レベルのアプリとしてのみ識別できます。 たとえば、SharePoint Online などのアプリは、Microsoft 365 アプリに適用されるアクセス ポリシーを作成することによってのみ認識できます。
 
 > [!NOTE]
 > **[クライアント アプリ]** フィルターが **[モバイルとデスクトップ]** に明示的に設定されていない場合、結果のアクセス ポリシーはブラウザー セッションにのみ適用されます。 このようになる理由は、誤ってユーザー セッションがプロキシされないようにするためです。これは、このフィルターを使用したときの副産物です。 ほとんどの主要なブラウザーではクライアント証明書のチェックがサポートされていますが、一部のモバイル アプリおよびデスクトップ アプリでは、このチェックがサポートされていない組み込みのブラウザーが使用されています。 したがって、このフィルターを使用すると、これらのアプリの認証に影響を与える可能性があります。
@@ -142,7 +142,7 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 > [!NOTE]
 >
 > - Cloud App Security では、クラス最高レベルの暗号化の提供に、トランスポート層セキュリティ (TLS) プロトコル 1.2 以降を使用しています。 TLS 1.2 以降をサポートしていないネイティブ クライアント アプリとブラウザーは、セッション制御が構成されていると、アクセスできなくなります。 ただし、TLS 1.1 以下を使用している SaaS アプリは、Cloud App Security を使用して構成されている場合、TLS 1.2 以降を使用しているようにブラウザーに表示されます。
-> - セッション コントロールを portal.office.com に適用するには、Microsoft Office 365 管理センターをオンボードする必要があります。 アプリのオンボードの詳細については、「[任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開](proxy-deployment-any-app.md)」を参照してください。
+> - セッション コントロールを portal.office.com に適用するには、Microsoft 365 管理センターをオンボードする必要があります。 アプリのオンボードの詳細については、「[任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開](proxy-deployment-any-app.md)」を参照してください。
 
 <a name="featured-apps"></a>[前に説明した認証プロトコル](#supported-apps-and-clients)を使用して構成されている Web アプリは、アクセス制御とセッション制御で動作するようにオンボードできます。 さらに、次のアプリは Cloud App Security でサポートされており、既にオンボードされ、任意のテナントで使用できる状態になっています。
 
@@ -175,9 +175,9 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 - Workplace by Facebook
 - Yammer (プレビュー)
 
-### <a name="office-365-featured-apps"></a><a name="O365-apps"></a>Office 365 のおすすめアプリ
+### <a name="microsoft-365-featured-apps"></a><a name="O365-apps"></a>Microsoft 365 のおすすめアプリ
 
-以下の一覧は、Office 365 Cloud App Security でサポートされているおすすめアプリです。 これらのアプリを Cloud App Security で使用するには、Office 365 E5 ライセンスが必要です。
+以下の一覧は、Microsoft 365 Cloud App Security でサポートされているおすすめアプリです。 これらのアプリを Cloud App Security で使用するには、Office 365 E5 ライセンスが必要です。
 
 - Exchange Online
 - OneDrive for Business

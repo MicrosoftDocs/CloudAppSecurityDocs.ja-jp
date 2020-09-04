@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0fbb487695c395fe7fddbd6bc84855d74e060497
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 2d642a834111a1b8cadc3e997bdb63a19426aac1
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779986"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149909"
 ---
 # <a name="activity-privacy"></a>アクティビティのプライバシー
 
@@ -32,7 +32,7 @@ Cloud App Security で監視したいユーザーがいるが、コンプライ�
 
 ユーザーのプライバシー グループを構成するには、まず Cloud App Security に[ユーザー グループをインポートする](user-groups.md)必要があります。 既定では、次のグループが表示されます。
 
-- **[アプリケーション]** ユーザー グループ - Office 365 および Azure AD アプリケーションによって実行されるアクティビティを表示できる、組み込みのグループです。
+- **[アプリケーション]** ユーザー グループ - Microsoft 365 および Azure AD アプリケーションによって実行されるアクティビティを表示できる、組み込みのグループです。
 
 - **[外部ユーザー]** グループ - 組織用に構成したいずれかのマネージド ドメインのメンバーではないすべてのユーザー。
 

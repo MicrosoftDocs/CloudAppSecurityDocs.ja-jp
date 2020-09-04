@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2e37846ab6e3daea68358834df20a6ce2ee1ee8c
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 230aa68ca85e2c31fa866ed44183986152847224
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781482"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150096"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
@@ -34,7 +34,7 @@ Microsoft Cloud App Security では、クラウド プロバイダーによっ�
 Cloud App Security では、同じ接続されたアプリの複数のインスタンスがサポートされます。 たとえば、Salesforce のインスタンスが複数ある場合 (1 つは営業用、もう 1 つはマーケティング用)、両方を Cloud App Security に接続できます。 同じコンソールからさまざまなインスタンスを管理して、細かいポリシーを作成し、より詳細な調査を行うことができます。 このサポートは、クラウドで検出されたアプリやプロキシで接続されたアプリではなく、API で接続されたアプリにのみ適用されます。
 
 > [!NOTE]
-> Office 365 および Azure では、複数インスタンスはサポートされていません。
+> Microsoft 365 および Azure では、複数インスタンスはサポートされていません。
 
 ## <a name="how-it-works"></a>しくみ
 
@@ -66,7 +66,7 @@ Cloud App Security はシステム管理者権限で展開されているため�
 
 次の表は、クラウド アプリごとの、アプリのコネクタによって使用できるようになる機能のリストです。
 
-| | AWS | ボックス | ドロップボックス | GCP | G Suite | Office 365 | Okta | Service Now | Salesforce | Webex | Workday |
+| | AWS | ボックス | ドロップボックス | GCP | G Suite | Microsoft 365 | Okta | Service Now | Salesforce | Webex | Workday |
 |-|-|-|-|-|-|-|-|-|-|-|-|
 | **アカウントの一覧表示** | ✔ | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | **グループの一覧表示** | ✔ | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | ✔ | ✔ | ✔ | | プロバイダーはサポートしていません |
@@ -85,7 +85,7 @@ Cloud App Security はシステム管理者権限で展開されているため�
 
 ## <a name="prerequisites"></a>[前提条件]
 
-- アプリによっては、Cloud App Security によるログ収集や、Cloud App Security コンソールへのアクセスを可能にするために、IP アドレスをホワイト リストに登録する必要がある場合があります。 詳細については、「[ネットワークの要件](network-requirements.md)」を参照してください。
+- アプリによっては、Cloud App Security によるログ収集や、Cloud App Security コンソールへのアクセスを可能にするために、リストの IP アドレスを許可することが必要な場合があります。 詳細については、「[ネットワークの要件](network-requirements.md)」を参照してください。
 
 - Cloud App Security API の統合によって接続するアプリごとに Cloud App Security 専用の管理サービス アカウントを作成することをお勧めします。
 
@@ -103,7 +103,7 @@ Cloud App Security はシステム管理者権限で展開されているため�
 | GitHub | GitHub Enterprise Cloud | Owner |
 | GCP | | [GCP 接続の前提条件](connect-google-gcp-to-microsoft-cloud-app-security.md#prerequisites)に関するページを参照してください |
 | G Suite | G Suite Business または Enterprise (推奨)<br /><br />G Suite Enterprise (最低必要) | スーパー管理者 |
-| Office 365 | | グローバル管理者 |
+| Microsoft 365 | | グローバル管理者 |
 | Okta | Enterprise (評価版ではない) | 管理者 |
 | Salesforce | | 管理者 |
 | ServiceNow | Eureka 以降 | 管理者 + RestAPI のロール |
@@ -112,8 +112,8 @@ Cloud App Security はシステム管理者権限で展開されているため�
 
 ### <a name="expressroute"></a>ExpressRoute
 
-Cloud App Security は Azure に展開され、[ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/) に完全に統合されます。 検出ログのアップロードを含む、Cloud App Security アプリとのすべての通信、および Cloud App Security に送信されるトラフィックは、ExpressRoute の**パブリック ピアリング**経由でルーティングされるため、待機時間、パフォーマンス、およびセキュリティが改善されます。 お客様側で設定を行う必要はありません。
-パブリック ピアリングの詳細については、「[ExpressRoute 回線とルーティング ドメイン](https://azure.microsoft.com/documentation/articles/expressroute-circuit-peerings/)」を参照してください。
+Cloud App Security は Azure に展開され、[ExpressRoute](/azure/expressroute/expressroute-introduction) に完全に統合されます。 検出ログのアップロードを含む、Cloud App Security アプリとのすべての通信、および Cloud App Security に送信されるトラフィックは、ExpressRoute の**パブリック ピアリング**経由でルーティングされるため、待機時間、パフォーマンス、およびセキュリティが改善されます。 お客様側で設定を行う必要はありません。
+パブリック ピアリングの詳細については、「[ExpressRoute 回線とルーティング ドメイン](/azure/expressroute/expressroute-circuit-peerings)」を参照してください。
 
 ## <a name="disable-app-connectors"></a>アプリ コネクタを無効にする
 

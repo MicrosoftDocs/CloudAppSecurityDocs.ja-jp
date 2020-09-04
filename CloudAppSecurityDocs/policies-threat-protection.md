@@ -9,12 +9,12 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1fa2a1e9d0c46531284b674cf20dd512ecba292c
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: c6f43ef44d01f422bd0416ca99448e6f77ef6233
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254790"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150249"
 ---
 # <a name="threat-protection-policies"></a>脅威保護に関するポリシー
 
@@ -23,7 +23,7 @@ ms.locfileid: "87254790"
 Cloud App Security を使用すると、リスクの高い使用とクラウドのセキュリティの問題を特定し、異常なユーザー動作を検出して、承認されたクラウド アプリでの脅威を防ぐことができます。 ユーザーと管理者のアクティビティの内容を把握し、疑わしい動作またはリスクがあると考えられる特定のアクティビティが検出されたときに自動的にアラートを出すように、ポリシーを定義します。 Microsoft の脅威インテリジェンスおよびセキュリティ研究に関する膨大なデータを利用して、承認されたアプリに必要なすべてのセキュリティ制御が確実に実施され、それらに対する管理が維持されるようにします。
 
 > [!NOTE]
-> Cloud App Security と Azure Advanced Threat Protection (Azure ATP) を統合すると、Azure ATP のポリシーもポリシー ページに表示されます。 Azure ATP ポリシーの一覧については、[セキュリティ アラート](https://docs.microsoft.com/azure-advanced-threat-protection/suspicious-activity-guide)に関するページを参照してください。
+> Cloud App Security と Azure Advanced Threat Protection (Azure ATP) を統合すると、Azure ATP のポリシーもポリシー ページに表示されます。 Azure ATP ポリシーの一覧については、[セキュリティ アラート](/azure-advanced-threat-protection/suspicious-activity-guide)に関するページを参照してください。
 
 ## <a name="detect-and-control-user-activity-from-unfamiliar-locations"></a>不明な場所からのユーザーアクティビティを検出して制御する
 
@@ -178,7 +178,7 @@ Cloud App Security を使用すると、リスクの高い使用とクラウド�
 2. 検出の **[スコープ]** を構成し、アラートがトリガーされたときに実行するガバナンス アクションをカスタマイズすることができます。 Cloud App Security によるランサムウェアの識別方法の詳細については、「[ランサムウェアから組織を保護する](use-case-ransomware.md)」を参照してください。
 
 > [!NOTE]
-> これは、Office 365、G Suite、Box、Dropbox に適用されます。
+> これは Microsoft 365、G Suite、Box、Dropbox に適用されます。
 
 ## <a name="detect-malware-in-the-cloud"></a>クラウド内のマルウェアを検出する
 
@@ -186,7 +186,7 @@ Cloud App Security の Microsoft 脅威インテリジェンス エンジンと�
 
 ### <a name="prerequisites"></a>[前提条件]
 
-- Office 365 のマルウェア検出の場合は、Office 365 Advanced Threat Protection P1 の有効なライセンスが必要です。
+- Microsoft 365 のマルウェア検出の場合は、Office 365 Advanced Threat Protection P1 の有効なライセンスが必要です。
 - [アプリ コネクタ](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)を使用して接続されているアプリが、少なくとも 1 つ必要です。
 
 ### <a name="steps"></a>手順

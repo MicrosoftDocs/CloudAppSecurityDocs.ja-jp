@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 4f0bf993a1e0306035c9b75a215873532eb17c5f
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: fc68868e2fed402d245be5bae4ad8ea713dea4e9
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779221"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88963898"
 ---
 # <a name="azure-sentinel-integration-preview"></a>Azure Sentinel の統合 (プレビュー)
 
@@ -35,7 +35,7 @@ Azure Sentinel の使用には、次のような利点があります。
 追加の統合ソリューションには次のものがあります。
 
 * **汎用 SIEM** - Cloud App Security を汎用 SIEM サーバーと統合します。 汎用 SIEM との統合の詳細については、「[汎用 SIEM の統合](siem.md)」をご覧ください。
-* **Microsoft セキュリティ グラフ API** - 複数のセキュリティ プロバイダーに接続するための単一のプログラムによるインターフェイスを提供する中間サービス (またはブローカー) です。 詳細については、[Microsoft Graph Security API を使用したセキュリティ ソリューションの統合](https://docs.microsoft.com/graph/security-integration#list-of-connectors-from-microsoft)に関する記事をご覧ください。
+* **Microsoft セキュリティ グラフ API** - 複数のセキュリティ プロバイダーに接続するための単一のプログラムによるインターフェイスを提供する中間サービス (またはブローカー) です。 詳細については、[Microsoft Graph Security API を使用したセキュリティ ソリューションの統合](/graph/security-integration#list-of-connectors-from-microsoft)に関する記事をご覧ください。
 
 ## <a name="how-to-integrate"></a>統合方法
 
@@ -68,7 +68,7 @@ Azure Sentinel と統合するには:
 
     ![[Azure Sentinel 統合の構成] の開始ページを示すスクリーンショット](media/siem-sentinel-configuration.png)
 
-1. **[次へ]** をクリックし、Azure Sentinel に進んで統合を完了します。 Azure Sentinel の構成の詳細については、[https://docs.microsoft.com/azure/sentinel/connect-cloud-app-security](https://docs.microsoft.com/azure/sentinel/connect-cloud-app-security) をご覧ください。
+1. **[次へ]** をクリックし、Azure Sentinel に進んで統合を完了します。 Azure Sentinel の構成の詳細については、[こちら](/azure/sentinel/connect-cloud-app-security)を参照してください。
 
     ![[Azure Sentinel 統合の構成] の完了ページを示すスクリーンショット](media/siem-sentinel-configuration-complete.png)
 
@@ -117,7 +117,7 @@ Azure Sentinel では、 **[ログ]** の **[Security Insights]\(セキュリテ
 
 次の手順に従って、すばやく作業を開始できます。
 
-1. Power BI で、Azure Sentinel から Cloud App Security データ用のクエリをインポートします。 詳細については、「[Azure Monitor ログ データを Power BI にインポートする](https://docs.microsoft.com/azure/azure-monitor/platform/powerbi)」をご覧ください。
+1. Power BI で、Azure Sentinel から Cloud App Security データ用のクエリをインポートします。 詳細については、「[Azure Monitor ログ データを Power BI にインポートする](/azure/azure-monitor/platform/powerbi)」をご覧ください。
 1. [Cloud App Security Shadow IT Discovery アプリをインストール](https://aka.ms/MCASShadowITReporting)し、探索ログ データに[接続](#connect-the-cloud-app-security-app)して、組み込みの Shadow IT Discovery ダッシュボードを表示します。
 
     > [!NOTE]

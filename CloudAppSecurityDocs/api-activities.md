@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 0f6528074003d43777d21e956961739a19584742
-ms.sourcegitcommit: 84eafb4926bf0d4db27bed7df55dc83ca48f9192
+ms.openlocfilehash: 73045177f79bb17c5adbf2d19c9c41875e135b51
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87377832"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149722"
 ---
 # <a name="activities-api"></a>Activities API
 
@@ -53,7 +53,7 @@ Activity API を使用すると、クラウド アプリで実行されたすべ
 | location.organizations | string | eq、neq、isset、isnotset、contains | 指定した組織から開始されたアクティビティをフィルター処理します |
 | ip.address | string | eq、startswith、doesnotstartwith、isset、isnotset、neq | 指定した IP アドレスから開始されたアクティビティをフィルター処理します |
 | fileSelector | file | eq、neq | 指定したファイルまたはフォルダーが含まれるアクティビティをフィルター処理します |
-| office365url | string | startswith、eq、endswith | Office 365 の URL でアクティビティをフィルター処理します |
+| office365url | string | startswith、eq、endswith | Microsoft 365 の URL でアクティビティをフィルター処理します |
 | fileId | string | eq | ID でファイルを検索します |
 | ip.category | integer | eq、neq | 指定したサブネット カテゴリでアクティビティをフィルター処理します。 次の値を指定できます。<br /><br />**1**:企業<br />**2**:管理<br />**3**:危険<br />**4**:VPN<br />**5**:クラウド プロバイダー<br />**6**: その他 |
 | ip.tags | string | eq、neq | IP タグ ID でアクティビティをフィルター処理します |

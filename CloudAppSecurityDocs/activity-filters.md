@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c7c32807e7135e310cfe14d976b1f3d5bfec1792
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 419670f6e1e1a82a7c1fd9eaaa38ac7fe35c4ab9
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779527"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149773"
 ---
 # <a name="activities"></a>アクティビティ
 
@@ -28,7 +28,7 @@ ms.locfileid: "88779527"
 Microsoft Cloud App Security では、接続されているお使いのアプリのすべてのアクティビティを表示できます。 Cloud App Security をアプリのコネクタを使用してアプリに接続した後、Cloud App Security では発生したすべてのアクティビティがスキャンされます。事後でのスキャンにかかる時間はアプリによって異なります。その後は、継続的に新しいアクティビティで更新されます。
 
 > [!NOTE]
-> Cloud App Security によって監視されている Office 365 のアクティビティの完全な一覧は、「[Office 365 のセキュリティ センターとコンプライアンス センターで監査ログを検索する](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities)」を参照してください。
+> Cloud App Security によって監視されている Microsoft 365 のアクティビティの完全な一覧は、[Microsoft 365 のセキュリティ/コンプライアンス センターで監査ログを検索する](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities)方法に関するページを参照してください。
 
 **アクティブ ログ**をフィルターして、特定のアクティビティを見つけることができます。 ポリシーはアクティビティに基づいて作成し、何の警告を受けるかおよび何に対してアクションを実行するかを定義します。 特定のファイルで実行されたアクティビティを検索することもできます。 アクティビティの種類とアクティビティごとに得られる情報は、アプリと、アプリから提供されるデータの種類によって異なります。
 

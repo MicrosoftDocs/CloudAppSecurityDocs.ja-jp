@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0d4d046b406e0849437d02f1abba87948e488473
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 2f9a2d504eded5f57f415aac2841c4e78cda7e2a
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779187"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149858"
 ---
 # <a name="scoped-deployment"></a>スコープ付きの展開 <a name="scoped-deployment"></a> 
 
@@ -33,7 +33,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 
 - 展開のスコープを指定するには、まず Microsoft Cloud App Security に[ユーザー グループをインポートする](user-groups.md)必要があります。 既定では、次のグループが表示されます。
 
-  - **[アプリケーション]** ユーザー グループ - Office 365 および Azure AD アプリケーションによって実行されるアクティビティを表示できる、組み込みのグループです。
+  - **[アプリケーション]** ユーザー グループ - Microsoft 365 および Azure AD アプリケーションによって実行されるアクティビティを表示できる、組み込みのグループです。
 
   - **[外部ユーザー]** グループ - 組織用に構成したいずれかのマネージド ドメインのメンバーではないすべてのユーザー。
 
@@ -77,7 +77,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 次のルールを作成した場合:
 
 - "ドイツのすべてのユーザー" というユーザー グループを除外する
-- Office 365 のアクティビティについてのみ "グローバル営業" というユーザー グループを含める
+- Microsoft 365 のアクティビティについてのみ "グローバル営業" というユーザー グループを含める
 - Power BI のアクティビティについてのみ "営業マネージャー" というユーザー グループを含める
 - Salesforce が Microsoft Cloud App Security に接続されていて、それについてのルールは設定していない
 
@@ -86,8 +86,8 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 |ユーザー|グループのメンバーシップ|監視されるアクティビティ|
 |----|----|----|
 |Adriana|ドイツのすべてのユーザー<br />グローバル営業<br />営業マネージャー|なし|
-|Alain|グローバル営業|Office 365 とすべてのサブアプリ (Power BI を除く)|
-|Cornel|グローバル営業<br />営業マネージャー|Office 365 とすべてのサブアプリ|
+|Alain|グローバル営業|Microsoft 365 とすべてのサブアプリ (Power BI を除く)|
+|Cornel|グローバル営業<br />営業マネージャー|Microsoft 365 とすべてのサブアプリ|
 |Raymond|営業マネージャー|Power BI のみ|
 
 > [!NOTE]

@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 4bc31fda0e2e647e386d2ce1d5b55e8d2fff6174
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 5bf75b479f3568b7c6451880f3a2774104d8115a
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779731"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149646"
 ---
 # <a name="get-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を取得する
 
@@ -81,7 +81,7 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
     > * ボックス
     > * ドロップボックス
     > * G Suite
-    > * Office 365 (Office 365 Advanced Threat Protection P1 の有効なライセンスが必要)
+    > * Microsoft 365 (Office 365 Advanced Threat Protection P1 の有効なライセンスが必要)
 
 ### <a name="activity-from-anonymous-ip-addresses"></a>匿名 IP アドレスからのアクティビティ
 

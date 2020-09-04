@@ -9,12 +9,12 @@ ms.date: 11/01/2019
 ms.collection: M365-security-compliance
 ms.custom: seodec18
 ms.suite: ems
-ms.openlocfilehash: 842f29242a2b15cc6bf41b72f5b894c06400634b
-ms.sourcegitcommit: 684feff0782ed30f23f3d7fd9f3e063368f46b47
+ms.openlocfilehash: 202cdd57f4d2b56849f4a718de94e5197fb03d2b
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/16/2020
-ms.locfileid: "88256789"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149586"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -38,8 +38,8 @@ Microsoft Cloud App Security は、次のようなさまざまな国際的およ
 
 | Organization |Title|[説明]|
 |----|----|----|
-|![ロゴ csa](media/csastar-attest.png)|CSA スター構成証明|独立した監査に基づいて、Azure と Intune には、クラウド セキュリティ アライアンス スター構成証明が与えられました。|
-|![ロゴ csa](media/csastar.png)|CSA スター証明書|Azure、Intune、および Power BI は、ゴールド レベルのクラウド セキュリティ アライアンス スター証明書を獲得しました。|
+|![ロゴ CSA 構成証明](media/csastar-attest.png)|CSA スター構成証明|独立した監査に基づいて、Azure と Intune には、クラウド セキュリティ アライアンス スター構成証明が与えられました。|
+|![ロゴ CSA 証明書](media/csastar.png)|CSA スター証明書|Azure、Intune、および Power BI は、ゴールド レベルのクラウド セキュリティ アライアンス スター証明書を獲得しました。|
 |![ロゴ EU モデル条項](media/eu-model-icon.png)|[EU モデル条項](https://www.microsoft.com/trustcenter/compliance/eu-model-clauses)|Microsoft では、個人データの転送の保証である EU 標準契約条項を提供します。|
 |![ロゴ HIPAA](media/hipaa-logo.png)|[HIPAA/HITECH](https://www\.microsoft\.com/trustcenter/compliance/hipaa)|Microsoft では、医療保険の携行性と責任に関する法律の Business Associate Agreements (BAAs) を提供します。|
 |![ロゴ iso 9001](media/iso-9001.png)|ISO 9001|Microsoft はこれらの品質管理標準の実装について認定を受けています。|
@@ -63,7 +63,7 @@ Microsoft Cloud App Security は、次のようなさまざまな国際的およ
 - Microsoft Cloud App Security では、管理者は検索バーを使用してポータルからサービスに格納されている識別可能な個人データを表示できます。
 - 管理者は、特定のユーザーのメタデータまたはユーザーのアクティビティを検索できます。 エンティティをクリックすると、 **[[ユーザーとアカウント](accounts.md)]** が開きます。 **[ユーザーとアカウント]** ページでは、接続されたクラウド アプリケーションから取得されたエンティティに関する包括的な詳細情報が提供されます。 また、ユーザーのアクティビティ履歴とユーザーに関連するセキュリティ アラートも提供されます。
 
-- お客様は自分のデータを所有しており、いつでもサブスクリプションをキャンセルしたり、データの削除を要求したりできます。 サブスクリプションを更新しない場合、データは [オンライン サービスの使用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)で指定されたタイムライン内で削除されます。
+- お客様は自分のデータを所有しており、いつでもサブスクリプションをキャンセルしたり、データの削除を要求したりできます。 サブスクリプションを更新しない場合、データは[オンライン サービス条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)で指定されたタイムライン内で削除されます。
 
 - サービスを終了することを選択した場合は、データを一緒に引き取ることができます。
 
@@ -113,7 +113,7 @@ Microsoft Cloud App Security では、次のようにデータが保持されま
 - [アラート]:180 日
 - ガバナンス ログ:120 日
 
-Microsoft のデータ プラクティスの詳細については、 [オンライン サービス利用条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)に関する記事を参照してください。
+Microsoft のデータ管理の実施に関する詳細については、[オンライン サービス条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)を参照してください。
 
 [透明性に関する詳細情報](https://www\.microsoft\.com/trustcenter/about/transparency)
 
@@ -128,10 +128,10 @@ Cloud App Security では、通常のセキュリティ ワークフローを中
 | 製品 | 公開されるデータ | 構成 |
 | --- | --- | --- |
 | Microsoft Threat Protection | アラートとユーザー アクティビティ | オンボード時に Microsoft Threat Protection で自動的に有効化されます |
-| Azure Sentinel | アラートと探索データ | [Cloud App Security で有効化](siem-sentinel.md)され、[Azure Sentinel で構成](https://docs.microsoft.com/azure/sentinel/connect-cloud-app-security)されます |
+| Azure Sentinel | アラートと探索データ | [Cloud App Security で有効化](siem-sentinel.md)され、[Azure Sentinel で構成](/azure/sentinel/connect-cloud-app-security)されます |
 | Office セキュリティ/コンプライアンス センター | Office 365 に対するアラート | Office セキュリティ/コンプライアンス センターに自動的にストリーミングされます |
 | Azure Security Center | Azure に対するアラート | Cloud App Security で既定で有効化され、Azure Security Center で無効にできます |
-| Microsoft Graph Security API | アラート | [Microsoft Graph Security API を介して利用できます](https://docs.microsoft.com/graph/api/resources/security-api-overview) |
+| Microsoft Graph Security API | アラート | [Microsoft Graph Security API を介して利用できます](/graph/api/resources/security-api-overview) |
 | Microsoft Power Automate | 自動フローをトリガーするために送信されるアラート | [Cloud App Security で構成されます](flow-integration.md) |
 
 #### <a name="third-party-products"></a>サード パーティ製品
@@ -168,7 +168,7 @@ Microsoft Cloud App Security では、Azure Active Directory を使用して、�
 
 ### <a name="permissions"></a>アクセス許可
 
-Microsoft Cloud App Security はロールベースのアクセス制御に対応しています。 Office 365 と Azure Active Directory のグローバル管理者およびセキュリティ管理者ロールには、Cloud App Security へのフルアクセス権があり、セキュリティ閲覧者には読み取りアクセス権があります。 [詳細情報](/cloud-app-security/manage-admins)。
+Microsoft Cloud App Security はロールベースのアクセス制御に対応しています。 Microsoft 365 と Azure Active Directory のグローバル管理者およびセキュリティ管理者ロールには、Cloud App Security へのフルアクセス権があり、セキュリティ閲覧者には読み取りアクセス権があります。 [詳細情報](manage-admins.md)。
 
 ## <a name="customer-controls-for-organizational-compliance"></a>組織のコンプライアンスのための顧客管理
 
@@ -178,7 +178,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 
 ### <a name="anonymization"></a>匿名化
 
-**Cloud Discovery** レポートを匿名のままにすることができます。 **Microsoft** Cloud App Security にログ ファイルがアップロードされた後、すべてのユーザー名情報が暗号化されたユーザー名に置き換えられます。 特定のセキュリティ調査では、実際のユーザー名を解決できます。 個人データは、テナントごとに専用のキーで AES-128 を使用して暗号化されます。 [詳細情報](/cloud-app-security/cloud-discovery-anonymizer)。
+**Cloud Discovery** レポートを匿名のままにすることができます。 **Microsoft** Cloud App Security にログ ファイルがアップロードされた後、すべてのユーザー名情報が暗号化されたユーザー名に置き換えられます。 特定のセキュリティ調査では、実際のユーザー名を解決できます。 個人データは、テナントごとに専用のキーで AES-128 を使用して暗号化されます。 [詳細情報](cloud-discovery-anonymizer.md)。
 
 ## <a name="security-and-privacy-for-cloud-app-security-us-government-gcc-high-customers"></a>Cloud App Security 米国政府機関 GCC High のお客様に対するセキュリティとプライバシー
 
@@ -190,7 +190,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 > [Cloud App Security の概要](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
 > [!div class="nextstepaction"]
-> [Cloud App Security のドキュメント](/cloud-app-security/)
+> [Cloud App Security のドキュメント](index.yml)
 
 > [!div class="nextstepaction"]
 > [Cloud App Security にサインアップする](https://signup.microsoft.com/Signup?OfferId=757c4c34-d589-46e4-9579-120bba5c92ed&ali=1)

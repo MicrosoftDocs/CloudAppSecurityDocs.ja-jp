@@ -14,18 +14,18 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 18e4aa471a5223234b961e62742f69b2f93d03ae
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 9d9032b0084a1c25290f8e067279f9ef7e66f8a6
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780326"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150079"
 ---
 # <a name="microsoft-data-classification-services-integration"></a>Microsoft データ分類サービスの統合
 
 *適用対象:Microsoft Cloud App Security*
 
-Microsoft Cloud App Security では、Microsoft データ分類サービスをネイティブに使用して、クラウド アプリ内のファイルを分類できます。 Microsoft データ分類サービスでは、Office 365、Azure Information Protection、Microsoft Cloud App Security に対して統一された情報保護エクスペリエンスが提供されます。 分類サービスを使用すると、Microsoft Cloud App Security によって保護されているサードパーティのクラウド アプリまでデータ分類作業を拡張し、さらに多くのアプリに対して既に行った決定を利用できます。
+Microsoft Cloud App Security では、Microsoft データ分類サービスをネイティブに使用して、クラウド アプリ内のファイルを分類できます。 Microsoft データ分類サービスでは、Microsoft 365、Azure Information Protection、Microsoft Cloud App Security に対して統一された情報保護エクスペリエンスが提供されます。 分類サービスを使用すると、Microsoft Cloud App Security によって保護されているサードパーティのクラウド アプリまでデータ分類作業を拡張し、さらに多くのアプリに対して既に行った決定を利用できます。
 
 >[!NOTE]
 > この機能は現在、米国、ヨーロッパ、オーストラリア、インド、カナダ、日本、および APAC で利用できます。
@@ -50,7 +50,7 @@ Microsoft Cloud App Security では、Microsoft データ分類サービスを�
 
 6. ファイル ポリシーを利用すると、ポリシーに対してアラートとガバナンス アクションを設定することもできます。 詳細については、[ファイル ポリシー](data-protection-policies.md)と[ガバナンス アクション](governance-actions.md)に関するページを参照してください。 セッション ポリシーを利用すると、ファイルが DCS の種類に一致する場合に、アクションをリアルタイムで監視および制御することもできます。 詳しくは、[セッション ポリシー](session-policy-aad.md)に関するページを参照してください。
 
-これらのポリシーを設定すると、強力な Office 365 DLP の機能を他のすべての承認されたクラウド アプリにまで簡単に拡張し、それらに格納されているデータを、[Azure Information Protection の分類ラベルを自動的に適用する](azip-integration.md)機能や、共有のアクセス許可を制御する機能など、Microsoft Cloud App Security によって提供される完全なツールセットを使用して保護することができます
+これらのポリシーを設定すると、強力な Microsoft 365 DLP の機能を他のすべての承認されたクラウド アプリに簡単に拡張し、Microsoft Cloud App Security によって提供される完全なツールセット ([Azure Information Protection の分類ラベルを自動的に適用する](azip-integration.md)機能や、共有のアクセス許可を制御する機能など) を使用して格納データを保護することができます。
 
 ## <a name="next-steps"></a>次のステップ
 

@@ -7,12 +7,12 @@ ms.service: cloud-app-security
 ms.topic: quickstart
 ms.date: 10/24/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: e26d98c00a520f710774ccd86a1406f4c8392530
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 83b84e4839044cd16ec37a4ecd121ada1f702212
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781312"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149518"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 
@@ -87,12 +87,12 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 
 ## <a name="limit-exposure-of-shared-data-and-enforce-collaboration-policies"></a>共有データの公開を制限し、コラボレーション ポリシーを適用する
 
-**ベスト プラクティス**:Office 365 の接続  
-**詳細**:Office 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Office 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
+**ベスト プラクティス**:Microsoft 365 の接続  
+**詳細**:Microsoft 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Microsoft 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
 **参照項目**:
 
 * [アプリの接続](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)
-* [Office 365 を Microsoft Cloud App Security に接続する](connect-office-365-to-microsoft-cloud-app-security.md)
+* [Microsoft 365 を Microsoft Cloud App Security に接続する](connect-office-365-to-microsoft-cloud-app-security.md)
 
 ---
 
@@ -117,7 +117,7 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 ---
 
 **ベスト プラクティス**:個人アカウントとの共有を削除するポリシーを作成する  
-**詳細**:Office 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Office 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
+**詳細**:Microsoft 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Microsoft 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
 **参照項目**:
 
 * [接続されているアプリを管理する](governance-actions.md)

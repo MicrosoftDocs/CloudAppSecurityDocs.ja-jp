@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c952539aaa864c6634bc45cdbb1589bec42a175e
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: a9080e92adf919d0f6a96299db69ad34f55cee5d
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781686"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150155"
 ---
 #  <a name="working-with-ip-ranges-and-tags"></a><a name="IPtagsandRanges"></a>IP 範囲とタグの使用
 
@@ -27,7 +27,7 @@ ms.locfileid: "88781686"
 
 物理的なオフィスの IP アドレスなど、既知の IP アドレスを簡単に識別するには、IP アドレス範囲を設定する必要があります。 IP アドレス範囲を使用すると、ログとアラートの表示と調査の方法をタグ付けして分類し、カスタマイズすることができます。 IP 範囲の各グループは、IP カテゴリの事前設定された一覧に基づいて分類できます。 また、IP 範囲のカスタム IP タグを作成することもできます。 さらに、内部ネットワークに関する知識に基づいて、パブリックの位置情報をオーバーライドすることもできます。 IPv4 と IPv6 の両方がサポートされます。
 
-Cloud App Security には、Azure や Office 365 などの一般的なクラウド プロバイダー用の組み込みの IP 範囲が事前に構成されています。 また、匿名プロキシ、ボットネット、Tor など、Microsoft の脅威インテリジェンスに基づく組み込みのタグ付けも用意されています。 完全な一覧は、[IP アドレス範囲] ページのドロップダウンに表示されます。
+Cloud App Security には、Azure や Microsoft 365 などの一般的なクラウド プロバイダー用の組み込みの IP 範囲が事前に構成されています。 また、匿名プロキシ、ボットネット、Tor など、Microsoft の脅威インテリジェンスに基づく組み込みのタグ付けも用意されています。 完全な一覧は、[IP アドレス範囲] ページのドロップダウンに表示されます。
 
 > [!NOTE]
 >

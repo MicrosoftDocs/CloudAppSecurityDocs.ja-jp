@@ -9,12 +9,12 @@ ms.date: 06/28/2020
 ms.topic: how-to
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 6639761e2be3ef2f5a0bd9d5367bad44f0d12895
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 60710c450515b6cf7cf355b3dc370798df24cbe8
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781159"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149892"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -42,7 +42,7 @@ Cloud App Security 接続には、次の GCP の一方または両方を接続�
 
 GCP のセキュリティ監査を接続すると、GCP アプリの使用状況を表示したり制御したりすることができます。
 
-AWS のセキュリティ監査を Cloud App Security に接続するには、次の手順に従います。
+GCP のセキュリティ監査を Cloud App Security に接続するには、次の手順に従います。
 
 > [!div class="checklist"]
 >

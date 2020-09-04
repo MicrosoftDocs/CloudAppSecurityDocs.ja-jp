@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: a5c7411a893fd29c94f344a343423588dbb79bf9
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 7540ac541f3a6c83191f54c2b4d2df773483299e
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781465"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150130"
 ---
 # <a name="basic-setup-for-cloud-app-security"></a>Cloud App Security の基本的なセットアップ
 
@@ -59,16 +59,16 @@ US Government GCC High のお客様の場合は、次の IP アドレスもフ�
 
 1. Azure Information Protection 統合と統合する場合は、「[Azure Information Protection の統合](azip-integration.md)」を参照してください。
 
-    * Azure Information Protection の統合を進めるには、[Office 365 のアプリ コネクタ](connect-office-365-to-microsoft-cloud-app-security.md)を有効にする必要があります。
+    * Azure Information Protection の統合を進めるには、[Microsoft 365 のアプリ コネクタ](connect-office-365-to-microsoft-cloud-app-security.md)を有効にする必要があります。
 
 1. Azure Advanced Threat Protection 統合と統合する場合は、「[Azure Advanced Threat Protection の統合](azip-integration.md)」を参照してください。
 
 1. ポータルの設定をバックアップしたい場合は、この画面で行うことができます。 **[ポータル設定のエクスポート]** をクリックして、ポリシー ルール、ユーザー グループ、IP アドレス範囲など、すべてのポータル設定の JSON ファイルを作成します。
 
 > [!NOTE]
-> ExpressRoute を使用している場合、Cloud App Security は Azure にデプロイされて、[ExpressRoute](https://azure.microsoft.com/documentation/articles/expressroute-introduction/) に完全に統合されます。 検出ログのアップロードを含む、Cloud App Security アプリとのすべての通信、および Cloud App Security に送信されるトラフィックは、ExpressRoute の**パブリック ピアリング**経由でルーティングされるため、待機時間、パフォーマンス、およびセキュリティが改善されます。 お客様側で設定を行う必要はありません。
+> ExpressRoute を使用している場合、Cloud App Security は Azure にデプロイされて、[ExpressRoute](/azure/expressroute/expressroute-introduction) に完全に統合されます。 検出ログのアップロードを含む、Cloud App Security アプリとのすべての通信、および Cloud App Security に送信されるトラフィックは、ExpressRoute の**パブリック ピアリング**経由でルーティングされるため、待機時間、パフォーマンス、およびセキュリティが改善されます。 お客様側で設定を行う必要はありません。
 >
-> パブリック ピアリングの詳細については、「[ExpressRoute 回線とルーティング ドメイン](https://azure.microsoft.com/documentation/articles/expressroute-circuit-peerings/)」を参照してください。
+> パブリック ピアリングの詳細については、「[ExpressRoute 回線とルーティング ドメイン](/azure/expressroute/expressroute-circuit-peerings)」を参照してください。
 
 ## <a name="next-steps"></a>次のステップ
 

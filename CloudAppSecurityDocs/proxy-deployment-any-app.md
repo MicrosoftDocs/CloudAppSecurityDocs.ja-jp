@@ -12,12 +12,12 @@ ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
-ms.openlocfilehash: 2eaa965e8925a67945b3524e9b0a61b0e139df26
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 830eae43a1bd33df1669bc05e9cbc125794af75b
+ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779765"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "88964017"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-app"></a>任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開
 
@@ -31,7 +31,7 @@ Cloud App Security でおすすめされている、すぐに使用できるア�
 
 - アプリの条件付きアクセス制御を使用するには、お客様の組織が次のライセンスを持っている必要があります。
 
-  - [Azure Active Directory (Azure AD) Premium P1](https://docs.microsoft.com/azure/active-directory/license-users-groups) 以上、またはお使いの ID プロバイダー (IdP) ソリューションから要求されるライセンス
+  - [Azure Active Directory (Azure AD) Premium P1](/azure/active-directory/license-users-groups) 以上、またはお使いの ID プロバイダー (IdP) ソリューションから要求されるライセンス
   - Microsoft Cloud App Security
 
 - アプリはシングル サインオンを使用して構成する必要があります
@@ -59,7 +59,7 @@ Cloud App Security でおすすめされている、すぐに使用できるア�
 **手順 6: [Azure AD ポリシーを更新する](#update-azure-ad)**
 
 > [!NOTE]
-> Azure AD アプリに対してアプリの条件付きアクセス制御を展開するには、有効な [Azure Active Directory Premium P1 以上のライセンス](https://docs.microsoft.com/azure/active-directory/license-users-groups)と、Cloud App Security ライセンスが必要です。
+> Azure AD アプリに対してアプリの条件付きアクセス制御を展開するには、有効な [Azure Active Directory Premium P1 以上のライセンス](/azure/active-directory/license-users-groups)と、Cloud App Security ライセンスが必要です。
 
 ## <a name="step-1--configure-your-idp-to-work-with-cloud-app-security"></a>手順 1:Cloud App Security と連動するように IdP を構成する<a name="conf-idp"></a><a name="conf-azure-ad"></a>
 
@@ -244,9 +244,11 @@ Cloud App Security でおすすめされている、すぐに使用できるア�
 
 組織の運用環境でアプリを使用できるようにする準備が整ったら、次の手順を実行します。
 
-1. Cloud App Security で、設定の歯車 ![設定アイコン](media/settings-icon.png "設定アイコン") をクリックし、 **[アプリの条件付きアクセス制御]** を選択します。
+1. Cloud App Security で、設定の歯車 ![設定アイコン](media/settings-icon.png) をクリックし、 **[アプリの条件付きアクセス制御]** を選択します。
 1. アプリの一覧で、展開するアプリが表示されている行の末尾の 3 つのドットを選択し、 **[アプリの編集]** を選択します。
 1. **[アプリの条件付きアクセス制御で使う]** を選択して、 **[保存]** を選択します。
+
+    ![セッション制御のポップアップを有効にする](media/edit-app-enable-session-controls.png)
 
 ## <a name="step-6-update-the-azure-ad-policy-azure-ad-only"></a>手順 6:Azure AD ポリシーを更新する (Azure AD のみ)<a name="update-azure-ad"></a>
 

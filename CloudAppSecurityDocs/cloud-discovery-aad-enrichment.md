@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1e6f89d896612c48b567435e06ecf2fa475e119e
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 0f7ce34e19fa1b4a62b8d3786eae6898a19a428f
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781278"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89149603"
 ---
 # <a name="cloud-discovery-enrichment"></a>Cloud Discovery の強化
 
@@ -34,7 +34,7 @@ Cloud Discovery のデータを、Azure Active Directory のユーザー名デ�
 ## <a name="prerequisites"></a>[前提条件]
 
 - ユーザー名情報がデータ ソースから提供されること
-- Office 365 アプリ コネクタに接続されていること
+- Microsoft 365 アプリ コネクタに接続されていること
 
 ## <a name="enabling-user-data-enrichment"></a>ユーザー データの強化を有効にする
 

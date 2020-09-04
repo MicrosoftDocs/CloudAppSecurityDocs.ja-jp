@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 32a4b3542a7abc7d96ae6ca111fbfba7a6a5fbff
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: ab60b9237af0d2dadbfbe6c48b6e2f17ff80df3b
+ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779136"
+ms.lasthandoff: 08/30/2020
+ms.locfileid: "89150283"
 ---
 # <a name="generic-siem-integration"></a>汎用 SIEM の統合
 
@@ -31,7 +31,7 @@ SIEM を Cloud App Security と初めて統合した場合、過去 2 日間の�
 追加の統合ソリューションには次のものがあります。
 
 * **Azure Sentinel** - ネイティブ統合用のスケーラブルでクラウドネイティブの SIEM および SOAR です。 Azure Sentinel との統合の詳細については、「[Azure Sentinel 統合](siem-sentinel.md)」を参照してください。
-* **Microsoft セキュリティ グラフ API** - 複数のセキュリティ プロバイダーに接続するための単一のプログラムによるインターフェイスを提供する中間サービス (またはブローカー) です。 詳細については、「[Microsoft Graph Security API を使用したセキュリティ ソリューションの統合](https://docs.microsoft.com/graph/security-integration#list-of-connectors-from-microsoft)」を参照してください。
+* **Microsoft セキュリティ グラフ API** - 複数のセキュリティ プロバイダーに接続するための単一のプログラムによるインターフェイスを提供する中間サービス (またはブローカー) です。 詳細については、「[Microsoft Graph Security API を使用したセキュリティ ソリューションの統合](/graph/security-integration#list-of-connectors-from-microsoft)」を参照してください。
 
 > [!IMPORTANT]
 > Cloud App Security に Azure Advanced Threat Protection を統合し、アラート通知を SIEM に送信するように両方のサービスを構成している場合、同じアラートに対して重複する SIEM 通知が送られてきます。 各サービスからはアラートが 1 つ発行され、異なるアラート ID が与えられます。 重複や混乱を避けるため、このシナリオに対処してください。 たとえば、アラート管理を実行する箇所を決定し、他のサービスからの SIEM 通知の送信を停止します。
@@ -160,7 +160,7 @@ SIEM に送信されるアクティビティ ログのサンプルを次に示�
 | アクティビティ/アラート | rt | アクティビティまたはアラートのタイムスタンプ |
 | アクティビティ/アラート | msg | ポータルに表示されるアクティビティまたはアラートの説明 |
 | アクティビティ/アラート | suser | アクティビティまたはアラートの対象ユーザー |
-| アクティビティ/アラート | destinationServiceName | アクティビティまたはアラートの生成元アプリ (Office 365、SharePoint、Box など)。 |
+| アクティビティ/アラート | destinationServiceName | アクティビティまたはアラートの生成元アプリ (Microsoft 365、SharePoint、Box など)。 |
 | アクティビティ/アラート | cs\<X>Label | 各ラベルは異なる意味を持ちますが、targetObjects など、ラベル自体でそれが説明されています。 |
 | アクティビティ/アラート | cs\<X> | ラベルに対応する情報 (ラベルの例によると、アクティビティまたはアラートのターゲット ユーザー)。 |
 | アクティビティ | EVENT_CATEGORY_* | アクティビティの高レベル カテゴリ |
