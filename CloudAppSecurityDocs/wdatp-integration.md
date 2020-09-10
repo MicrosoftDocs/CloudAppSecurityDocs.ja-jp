@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 06/29/2020
+ms.date: 09/02/2020
 ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 85a2c8a97406cd65ca5c60cfeac36b92660b2b1f
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 55c3a9f1edfadcaa686a54a3b69f95e319a55320
+ms.sourcegitcommit: 740357159d8bc405412ca3c36757647b5f1c7623
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963881"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "89316963"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-integration-with-microsoft-cloud-app-security"></a>Microsoft Defender Advanced Threat Protection と Microsoft Cloud App Security の統合
 
@@ -75,7 +75,7 @@ Cloud App Security との Microsoft Defender ATP 統合を有効にするには:
 
 Microsoft Defender ATP と Cloud App Security を統合した後は、Cloud Discovery ダッシュボードで検出されたコンピューターのデータを調査できます。
 
-1. Cloud App Security ポータルで、 **[Cloud Discovery]** をクリックし、 **[Cloud Discovery dashboard]\(Cloud Discovery ダッシュボード\)** をクリックします。
+1. Cloud App Security で、 **[Cloud Discovery]** 、 **[Cloud Discovery dashboard]\(Cloud Discovery ダッシュボード\)** の順にクリックします。
 2. 上部のナビゲーション バーの **[継続的レポート]** で、 **[Win10 endpoint users]\(Win10 エンドポイント ユーザー\)** を選択します。
   ![WD ATP レポート](media/win10-dashboard-report.png)
 3. 上部には、統合後に追加されて検出されたコンピューターの数が表示されます。
@@ -89,7 +89,7 @@ Microsoft Defender ATP と Cloud App Security を統合した後は、Cloud Disc
         - アップロード: 選択した期間にコンピューターによってアップロードされたトラフィックの総量 (MB 単位) に関する情報。
         - **ダウンロード**:選択した期間にコンピューターによってダウンロードされたトラフィックの総量 (MB 単位) に関する情報。
     - **検出されたアプリ**  
-  コンピューターによってアクセスされた、すべての検出されたアプリの一覧が表示されます。
+    コンピューターによってアクセスされた、すべての検出されたアプリの一覧が表示されます。
     - **ユーザーの履歴**  
     コンピューターにサインインしたすべてのユーザーの一覧が表示されます。
     - **IP アドレスの履歴**  
@@ -104,11 +104,43 @@ Microsoft Defender ATP と Cloud App Security を統合した後は、Cloud Disc
 > - 1 時間以内に 4 MB の制限に達しない場合、Microsoft Defender ATP では、過去 1 時間に実行されたすべてのトランザクションが報告されます。
 > - エンドポイント デバイスがフォワード プロキシの内側にある場合、トラフィック データは Microsoft Defender ATP に認識されないため、Cloud Discovery のレポートに含まれません。 詳細については、「[フォワード プロキシの内側にあるネットワーク接続の監視](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Monitoring-network-connection-behind-forward-proxy-Public/ba-p/758274)」を参照してください。
 
+## <a name="investigate-device-network-events-in-microsoft-defender-atp"></a>Microsoft Defender ATP でデバイス ネットワーク イベントを調査する
+
+Microsoft Defender ATP でデバイスのネットワーク アクティビティをより詳細に表示するには、次の手順を使用します。
+
+1. Cloud App Security の **[検出]** で **[コンピューター]** を選択します。
+1. 調査するコンピューターを選択し、右上にある **[Microsoft Defender ATP で表示]** をクリックします。
+1. Microsoft Defender セキュリティ センターの **[デバイス]** > {選択されたデバイス} の下で、 **[タイムライン]** を選択します。
+1. **[フィルター]** で **[ネットワーク イベント]** を選択します。
+1. 必要に応じて、デバイスのネットワーク イベントを調査します。
+
+![Microsoft Defender セキュリティ センターのデバイス タイムラインを示すスクリーンショット](media/mdatp-selected-device.png)
+
+## <a name="investigate-app-usage-in-microsoft-defender-atp-with-advanced-hunting"></a>高度な捜索を使用して Microsoft Defender ATP でアプリの使用状況を調査する
+
+Microsoft Defender ATP でアプリ関連のネットワーク イベントをより詳細に表示するには、次の手順を使用します。
+
+1. Cloud App Security の **[検出]** で、 **[検出]** を選択します。
+1. 調査するアプリをクリックして、そのドロアーを開きます。
+1. アプリの **[ドメイン]** リストをクリックし、ドメインのリストをコピーします。
+1. Microsoft Defender セキュリティ センターの **[デバイス]** で、 **[高度な捜索]** を選択します。
+1. 次のクエリを貼り付けて、`<DOMAIN_LIST>` を前にコピーしたドメインのリストに置き換えます。
+
+    ```kusto
+    DeviceNetworkEvents
+    | where RemoteUrl in ("<DOMAIN_LIST>")
+    | order by Timestamp desc
+    ```
+
+1. クエリを実行し、このアプリのネットワーク イベントを調査します。
+
+![Microsoft Defender セキュリティ センターの [高度な捜索] を示すスクリーンショット](media/mdatp-advanced-hunting.png)
+
 ## <a name="block-access-to-unsanctioned-cloud-apps"></a>承認されていないクラウド アプリへのアクセスをブロックする
 
 Cloud App Security では、組み込みの[**承認されていない**](governance-discovery.md#BKMK_SanctionApp)アプリ タグを使用して、クラウド アプリが使用禁止としてマークされます。これは、Cloud Discovery と Cloud の両方のアプリ カタログ ページで使用できます。 Microsoft Defender ATP との統合を有効にすることにより、Cloud App Security ポータルで 1 回クリックするだけで、承認されていないアプリへのアクセスをシームレスにブロックできます。
 
-### <a name="how-it-works"></a>しくみ
+### <a name="how-blocking-works"></a>ブロックのしくみ
 
 Cloud App Security で**承認されていない**としてマークされたアプリは、通常数分以内に Microsoft Defender ATP に自動的に同期されます。 具体的には、これらの承認されていないアプリによって使用されているドメインはエンドポイント デバイスに反映され、ネットワーク保護の SLA 内で Microsoft Defender ウイルス対策によってブロックされます。
 

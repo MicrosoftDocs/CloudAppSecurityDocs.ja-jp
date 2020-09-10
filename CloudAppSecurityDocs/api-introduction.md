@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: aa5b3d4488a8e62f965900593169e899f90829b2
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: 31190fd4df5dc9c3bac19794ff1fd78c4982100d
+ms.sourcegitcommit: 5ace3437d49c7bbde2266a6f1565a65a379b9c2c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657658"
+ms.lasthandoff: 09/06/2020
+ms.locfileid: "89499494"
 ---
 # <a name="cloud-app-security-rest-api"></a>Cloud App Security REST API
 
@@ -104,6 +104,7 @@ curl -XGET -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenan
 >
 > - 制限を指定しない場合、既定で 100 に設定されます。
 > - その API トークンを使用して行われるすべての要求に対する応答は、最大 100 項目に制限されます。
+> - すべての API 要求のスロットル制限は、テナントごとに 1 分あたり 30 回の要求です。
 
 ## <a name="filters"></a>フィルタ
 
