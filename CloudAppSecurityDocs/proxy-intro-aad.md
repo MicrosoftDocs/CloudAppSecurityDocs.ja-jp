@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: a8793a96269f42dce827d101e717543ad873dacd
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 93b285abfbbffad4a9a033e39cb226100ecd519a
+ms.sourcegitcommit: c9b7aa05694a1825f0b32b677b5a6549b846c554
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89150157"
+ms.lasthandoff: 09/13/2020
+ms.locfileid: "90056746"
 ---
 # <a name="protect-apps-with-microsoft-cloud-app-security-conditional-access-app-control"></a>Microsoft Cloud App Security のアプリの条件付きアクセス制御を使用してアプリを保護する
 
@@ -130,7 +130,7 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 
 クラウド アプリでセッション内アクティビティを制御するためにセッション制御を使用している多くの組織では、アクセス制御を適用して、ネイティブ モバイル アプリとデスクトップ クライアント アプリの同じセットをブロックすることで、アプリに包括的なセキュリティが提供されます。
 
-アクセス ポリシーを使用してネイティブ モバイル アプリとデスクトップ クライアント アプリへのアクセスをブロックするには、 **[クライアント アプリ]** フィルターを **[モバイルとデスクトップ]** に設定します。 一部のネイティブ クライアント アプリは個別に認識できますが、アプリのスイートの一部である他のアプリは、最上位レベルのアプリとしてのみ識別できます。 たとえば、SharePoint Online などのアプリは、Microsoft 365 アプリに適用されるアクセス ポリシーを作成することによってのみ認識できます。
+アクセス ポリシーを使用してネイティブ モバイル アプリとデスクトップ クライアント アプリへのアクセスをブロックするには、 **[クライアント アプリ]** フィルターを **[モバイルとデスクトップ]** に設定します。 一部のネイティブ クライアント アプリは個別に認識できますが、アプリのスイートの一部である他のアプリは、最上位レベルのアプリとしてのみ識別できます。 たとえば、SharePoint Online などのアプリは、Office 365 アプリに適用されるアクセス ポリシーを作成することによってのみ認識できます。
 
 > [!NOTE]
 > **[クライアント アプリ]** フィルターが **[モバイルとデスクトップ]** に明示的に設定されていない場合、結果のアクセス ポリシーはブラウザー セッションにのみ適用されます。 このようになる理由は、誤ってユーザー セッションがプロキシされないようにするためです。これは、このフィルターを使用したときの副産物です。 ほとんどの主要なブラウザーではクライアント証明書のチェックがサポートされていますが、一部のモバイル アプリおよびデスクトップ アプリでは、このチェックがサポートされていない組み込みのブラウザーが使用されています。 したがって、このフィルターを使用すると、これらのアプリの認証に影響を与える可能性があります。
@@ -148,7 +148,7 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 
 - AWS
 - Azure DevOps (Visual Studio Team Services)
-- Azure portal (プレビュー)
+- Azure portal
 - ボックス
 - Concur
 - CornerStone on Demand
@@ -175,9 +175,9 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 - Workplace by Facebook
 - Yammer (プレビュー)
 
-### <a name="microsoft-365-featured-apps"></a><a name="O365-apps"></a>Microsoft 365 のおすすめアプリ
+### <a name="office-365-featured-apps"></a><a name="O365-apps"></a>Office 365 のおすすめアプリ
 
-以下の一覧は、Microsoft 365 Cloud App Security でサポートされているおすすめアプリです。 これらのアプリを Cloud App Security で使用するには、Office 365 E5 ライセンスが必要です。
+以下の一覧は、Office 365 Cloud App Security でサポートされているおすすめアプリです。 これらのアプリを Cloud App Security で使用するには、Office 365 E5 ライセンスが必要です。
 
 - Exchange Online
 - OneDrive for Business

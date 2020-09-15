@@ -9,12 +9,12 @@ ms.date: 11/01/2019
 ms.collection: M365-security-compliance
 ms.custom: seodec18
 ms.suite: ems
-ms.openlocfilehash: 202cdd57f4d2b56849f4a718de94e5197fb03d2b
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 457d52024796f6228cf57df6f9948ee575685209
+ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149586"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89666979"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -168,7 +168,7 @@ Microsoft Cloud App Security では、Azure Active Directory を使用して、�
 
 ### <a name="permissions"></a>アクセス許可
 
-Microsoft Cloud App Security はロールベースのアクセス制御に対応しています。 Microsoft 365 と Azure Active Directory のグローバル管理者およびセキュリティ管理者ロールには、Cloud App Security へのフルアクセス権があり、セキュリティ閲覧者には読み取りアクセス権があります。 [詳細情報](manage-admins.md)。
+Microsoft Cloud App Security はロールベースのアクセス制御に対応しています。 Office 365 と Azure Active Directory のグローバル管理者およびセキュリティ管理者ロールには、Cloud App Security へのフルアクセス権があり、セキュリティ閲覧者には読み取りアクセス権があります。 [詳細情報](manage-admins.md)。
 
 ## <a name="customer-controls-for-organizational-compliance"></a>組織のコンプライアンスのための顧客管理
 

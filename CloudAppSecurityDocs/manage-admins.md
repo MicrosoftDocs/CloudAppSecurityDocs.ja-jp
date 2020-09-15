@@ -14,22 +14,22 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1818697f5d5ad26d13cc2bf37e35cecc20f70fdb
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: d7bfc0fad445b242f9093cb109c6678e6d2542aa
+ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89150113"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89666816"
 ---
 # <a name="manage-admin-access"></a>管理者アクセスを管理する
 
 *適用対象:Microsoft Cloud App Security*
 
-Microsoft Cloud App Security はロールベースのアクセス制御に対応しています。 この記事では、管理者用に Cloud App Security ポータルへのアクセスを設定する方法について説明します。 管理者の役割の割り当てに関する詳細については、[Azure Active Directory](/azure/active-directory/active-directory-assign-admin-roles) および [Microsoft 365](/office365/admin/add-users/assign-admin-roles) に関する記事を参照してください。
+Microsoft Cloud App Security はロールベースのアクセス制御に対応しています。 この記事では、管理者用に Cloud App Security ポータルへのアクセスを設定する方法について説明します。 管理者の役割の割り当てに関する詳細については、[Azure Active Directory](/azure/active-directory/active-directory-assign-admin-roles) および [Office 365](/office365/admin/add-users/assign-admin-roles) に関する記事を参照してください。
 
-## <a name="microsoft-365-and-azure-ad-roles-with-access-to-cloud-app-security"></a>Cloud App Security にアクセスできる Microsoft 365 および Azure AD のロール
+## <a name="office-365-and-azure-ad-roles-with-access-to-cloud-app-security"></a>Cloud App Security にアクセスできる Office 365 および Azure AD のロール
 
-既定では、Microsoft 365 と [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) の次の管理者ロールで Cloud App Security にアクセスできます。
+既定では、Office 365 と [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) の次の管理者ロールで Cloud App Security にアクセスできます。
 
 - **全体管理者、セキュリティ管理者:** **フル アクセス**の権限を持つ管理者には、Cloud App Security での完全なアクセス許可があります。 管理者の追加、ポリシーと設定の追加、ログのアップロード、ガバナンス アクションの実行を行うことができます。
 
@@ -56,7 +56,7 @@ Microsoft Cloud App Security はロールベースのアクセス制御に対応
 - **グローバル閲覧者:** Microsoft Cloud App Security のすべての部分に対する完全な読み取り専用アクセス権を持ちます。 設定を変更したり、アクションを実行したりすることはできません。
 
 > [!NOTE]
-> Microsoft 365 と Azure AD のロールは、 **[管理者のアクセス権管理]** ページには表示されません。
+> Office 365 と Azure AD のロールは、 **[管理者のアクセス権管理]** ページには表示されません。
 
 また、Cloud App Security ポータルでは、次の Cloud App Security 固有の管理者ロールを構成できます。
 
@@ -109,7 +109,7 @@ Microsoft Cloud App Security はロールベースのアクセス制御に対応
 
 ## <a name="override-admin-permissions"></a>管理者アクセス許可をオーバーライドする
 
-Azure Active Directory または Microsoft 365 からの管理者のアクセス許可をオーバーライドする場合は、Cloud App Security にユーザーを手動で追加し、ユーザーにアクセス許可を割り当てることによって行うことができます。 たとえば、Azure Active Directory のセキュリティ閲覧者であるユーザーに、Cloud App Security での**フル アクセス**を割り当てる場合は、ユーザーを手動で Cloud App Security に追加し、**フル アクセス**を割り当ててロールをオーバーライドし、Cloud App Security での必要なアクセス許可を付与します。
+Azure Active Directory または Office 365 からの管理者のアクセス許可をオーバーライドする場合は、Cloud App Security にユーザーを手動で追加し、ユーザーにアクセス許可を割り当てることによって行うことができます。 たとえば、Azure Active Directory のセキュリティ閲覧者であるユーザーに、Cloud App Security での**フル アクセス**を割り当てる場合は、ユーザーを手動で Cloud App Security に追加し、**フル アクセス**を割り当ててロールをオーバーライドし、Cloud App Security での必要なアクセス許可を付与します。
 
 ## <a name="add-additional-admins"></a>管理者をさらに追加する
 

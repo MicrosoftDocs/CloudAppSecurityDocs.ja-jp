@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9fe4593f6c7bf59f74a39520e12e6b7e6c5f7d01
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 726e6abcdecf1f25c58ad212f8259a66aa638b6d
+ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149790"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89666971"
 ---
 # <a name="accounts"></a>[アカウント]
 
@@ -49,7 +49,7 @@ Microsoft Cloud App Security では、接続されているアプリのアカウ
 
 適用可能なアカウント フィルターの一覧を以下に示します。 ほとんどのフィルターでは NOT をはじめとする複数値がサポートされているため、ポリシー作成時の強力なツールとなります。  
   
-<!--- **Account name**: The account name is the primary alias of the user, but other identifiers from other Microsoft accounts (Microsoft 365 and Azure Active Directory) such as proxy addresses, aliases, SID are supported and consolidated beneath the primary alias. -->
+<!--- **Account name**: The account name is the primary alias of the user, but other identifiers from other Microsoft accounts (Office 365 and Azure Active Directory) such as proxy addresses, aliases, SID are supported and consolidated beneath the primary alias. -->
 
 * **所属**:[所属] は、 **[内部]**  または **[外部]** のいずれかです。 ユーザーとアカウントを内部として設定するには、 **[設定]** で内部組織の **IP アドレスの範囲**を設定してください。 アカウントに管理者のアクセス許可がある場合は、アカウント テーブルのアイコンに赤いネクタイが追加されます。 ![アカウントの管理者アイコン](media/accounts-admin-icon.png)
 

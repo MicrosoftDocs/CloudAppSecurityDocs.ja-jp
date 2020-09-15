@@ -14,18 +14,18 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9d9032b0084a1c25290f8e067279f9ef7e66f8a6
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 3fee7ba09b9816bb649bb9ff62e65c7c044b650c
+ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89150079"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89667009"
 ---
 # <a name="microsoft-data-classification-services-integration"></a>Microsoft データ分類サービスの統合
 
 *適用対象:Microsoft Cloud App Security*
 
-Microsoft Cloud App Security では、Microsoft データ分類サービスをネイティブに使用して、クラウド アプリ内のファイルを分類できます。 Microsoft データ分類サービスでは、Microsoft 365、Azure Information Protection、Microsoft Cloud App Security に対して統一された情報保護エクスペリエンスが提供されます。 分類サービスを使用すると、Microsoft Cloud App Security によって保護されているサードパーティのクラウド アプリまでデータ分類作業を拡張し、さらに多くのアプリに対して既に行った決定を利用できます。
+Microsoft Cloud App Security では、Microsoft データ分類サービスをネイティブに使用して、クラウド アプリ内のファイルを分類できます。 Microsoft データ分類サービスでは、Office 365、Azure Information Protection、Microsoft Cloud App Security に対して統一された情報保護エクスペリエンスが提供されます。 分類サービスを使用すると、Microsoft Cloud App Security によって保護されているサードパーティのクラウド アプリまでデータ分類作業を拡張し、さらに多くのアプリに対して既に行った決定を利用できます。
 
 >[!NOTE]
 > この機能は現在、米国、ヨーロッパ、オーストラリア、インド、カナダ、日本、および APAC で利用できます。
@@ -44,13 +44,13 @@ Microsoft Cloud App Security では、Microsoft データ分類サービスを�
 
 4. [既定の機密性の高い情報の種類](https://support.office.com/article/what-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b)を使用して、Microsoft Cloud App Security によって保護されているファイルに対する処理を定義できます。 また、[Office 365 のカスタム機密情報の種類](https://support.office.com/article/create-a-custom-sensitive-information-type-82c382a5-b6db-44fd-995d-b333b3c7fc30)を再利用することもできます。
     > [!NOTE]
-    > [指紋](/microsoft-365/compliance/document-fingerprinting?view=o365-worldwide)、[完全データ一致](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)、[トレーニング可能な分類器](/microsoft-365/compliance/classifier-getting-started-with)などの高度な分類の種類を使用するようにポリシーを構成することができます。
+    > [指紋](/microsoft-365/compliance/document-fingerprinting?view=o365-worldwide&preserve-view=true)、[完全データ一致](/microsoft-365/compliance/create-custom-sensitive-information-types-with-exact-data-match-based-classification)、[トレーニング可能な分類器](/microsoft-365/compliance/classifier-getting-started-with)などの高度な分類の種類を使用するようにポリシーを構成することができます。
 
 5. 必要に応じて、一致の最後の 4 文字をマスク解除できます。 既定では、一致はマスクされてコンテキストで示され、一致の前後の 40 文字が含まれます。 このチェック ボックスをオンにすると、一致自体の最後の 4 文字がマスク解除されます。
 
 6. ファイル ポリシーを利用すると、ポリシーに対してアラートとガバナンス アクションを設定することもできます。 詳細については、[ファイル ポリシー](data-protection-policies.md)と[ガバナンス アクション](governance-actions.md)に関するページを参照してください。 セッション ポリシーを利用すると、ファイルが DCS の種類に一致する場合に、アクションをリアルタイムで監視および制御することもできます。 詳しくは、[セッション ポリシー](session-policy-aad.md)に関するページを参照してください。
 
-これらのポリシーを設定すると、強力な Microsoft 365 DLP の機能を他のすべての承認されたクラウド アプリに簡単に拡張し、Microsoft Cloud App Security によって提供される完全なツールセット ([Azure Information Protection の分類ラベルを自動的に適用する](azip-integration.md)機能や、共有のアクセス許可を制御する機能など) を使用して格納データを保護することができます。
+これらのポリシーを設定すると、強力な Office 365 DLP の機能を他のすべての承認されたクラウド アプリにまで簡単に拡張し、それらに格納されているデータを、[Azure Information Protection の分類ラベルを自動的に適用する](azip-integration.md)機能や、共有のアクセス許可を制御する機能など、Microsoft Cloud App Security によって提供される完全なツールセットを使用して保護することができます
 
 ## <a name="next-steps"></a>次のステップ
 
