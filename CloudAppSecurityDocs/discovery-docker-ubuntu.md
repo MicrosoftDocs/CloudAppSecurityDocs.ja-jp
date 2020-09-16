@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 575028a9df41f8340c4a7a398fb05b5264ee93bb
-ms.sourcegitcommit: 1554e381acc1e58de113d3b427f4e9de91b98488
+ms.openlocfilehash: 706bdf5d49c044f5fe9015e65eb57bf34e325e32
+ms.sourcegitcommit: c31df5ab5f2c1ee1dbfdabc83294b425a48dba70
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89148728"
+ms.lasthandoff: 09/10/2020
+ms.locfileid: "89654397"
 ---
 # <a name="docker-on-linux-on-premises"></a>オンプレミスの Linux 上の Docker
 
@@ -109,7 +109,10 @@ ms.locfileid: "89148728"
 
 ### <a name="step-2--on-premises-deployment-of-your-machine"></a>ステップ 2 – マシンのオンプレミス展開
 
-次のステップは、Ubuntu での展開を説明しています。 その他のプラットフォームの展開手順は、少し異なります。
+次のステップは、Ubuntu での展開を説明しています。
+
+> [!NOTE]
+> サポートされるその他のプラットフォームの展開手順は、少し異なります。
 
 1. Ubuntu マシンでターミナルを開きます。
 

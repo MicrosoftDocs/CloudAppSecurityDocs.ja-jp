@@ -4,19 +4,19 @@ description: この記事は、Cloud App Security の最新リリースの新機
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 08/09/2020
+ms.date: 09/13/2020
 ms.topic: overview
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 47a9a4677b504fa746b13dcf87873c1e2d9a6634
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 578e4a7a22da188e4cc196c7b8dc217a7a249e54
+ms.sourcegitcommit: c9b7aa05694a1825f0b32b677b5a6549b846c554
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149489"
+ms.lasthandoff: 09/13/2020
+ms.locfileid: "90056780"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -25,6 +25,13 @@ ms.locfileid: "89149489"
 この記事は、Cloud App Security の最新リリースの新機能がわかるように頻繁に更新されます。
 
 RSS フィード:ご自身のフィード リーダーに次の URL をコピーして貼り付けることで、このページの更新時に通知を受け取ることができます。`https://docs.microsoft.com/api/search/rss?search=%22This+article+is+updated+frequently+to+let+you+know+what%27s+new+in+the+latest+release+of+Cloud+App+Security%22&locale=en-us`
+
+## <a name="cloud-app-security-release-182-and-183"></a>Cloud App Security リリース 182 と 183
+
+リリース日: 2020 年 9 月 6 日
+
+- **Azure portal GA のアクセスとセッションの制御**  
+Azure portal のアプリの条件付きアクセス制御の一般提供が開始されました。 これらの制御の構成に関する詳細については、[デプロイに関するこちらのガイド](proxy-deployment-aad.md)を参照してください。
 
 ## <a name="cloud-app-security-release-181"></a>Cloud App Security リリース 181
 
@@ -450,8 +457,8 @@ Microsoft Cloud App Security の Cloud Discovery 機能が拡張されました�
 - **アプリの構成証明**  
 Microsoft Cloud App Security のコンプライアンスとリスク評価では、クラウド プロバイダーが、各自のアプリがクラウド アプリ カタログで最新であることを証明できるようになりました。 このパイロットにより、クラウド プロバイダーは、クラウド アプリ カタログのリスク属性に基づいて自分の構成証明アンケートに記入し、Cloud App Security での各自のリスク評価が正確かつ最新であることを確認できます。 次に、ユーザーは、どのリスク属性がプロバイダーによって証明されたか (Cloud App Security チームによる評価ではなく)、および各属性はいつプロバイダーによって送信されたかに関する表示を取得できます。 詳細については、「[アプリを証明する](attest-your-app.md)」をご覧ください。
 
-- **Microsoft 365 ワークロードの細分性**  
-Microsoft 365 を Microsoft Cloud App Security に接続するときに、どのワークロードを接続したいか制御できるようになりました。 たとえば、アクティビティの監視用にのみ Microsoft 365 の接続に関心があるお客様は、接続プロセス中に、または既存の Microsoft 365 コネクタを編集して、これを行えるようになりました。 この変更の一環として、OneDrive と SharePoint は個別のコネクタとして表示されるのではなく、"_Office 365 ファイル_" ワークロードとして Microsoft 365 コネクタに含まれるようになります。 既存の Microsoft 365 コネクタをお使いのお客様は、この変更の影響を受けません。
+- **Office 365 ワークロードの細分性**  
+Office 365 を Microsoft Cloud App Security に接続するときに、どのワークロードを接続したいか制御できるようになりました。 たとえば、アクティビティの監視用にのみ Office 365 の接続に関心があるお客様は、接続プロセス中に、または既存の Office 365 コネクタを編集することで、これを行えるようになりました。 この変更の一環として、OneDrive と SharePoint は個別のコネクタとして表示されるのではなく、"_Office 365 ファイル_" ワークロードとして Office 365 コネクタに含まれるようになります。 既存の Office 365 コネクタを使っているお客様は、この変更の影響を受けません。
 
 - **Teams のサポートの強化**  
 機密性の高いコンテンツに基づいてセッション ポリシーを構成することで、Teams Web アプリでのメッセージ送信をリアルタイムで監視およびブロックできるようになりました。
@@ -516,11 +523,11 @@ Cloud App Security のマルウェア検出機能が拡張され、高度なサ�
 - **アプリ インスタンスの展開のスコープ設定**  
 スコープ付きの展開をアプリ インスタンス レベルで構成できるようになり、粒度と制御をさらに高めることができます。
 - **ロールの機能強化**  
-  - データ管理者とセキュリティ オペレーターの Microsoft 365 ロールが、Cloud App Security でサポートされるようになりました。 データ管理者ロールのユーザーは、ファイルに関連するすべてのことを管理したり、Cloud Discovery レポートを表示したりできます。 セキュリティ オペレーターには、アラートを管理し、ポリシーの構成を表示するアクセス許可があります。
+  - データ管理者とセキュリティ オペレーターの Office 365 ロールが、Cloud App Security でサポートされるようになりました。 データ管理者ロールのユーザーは、ファイルに関連するすべてのことを管理したり、Cloud Discovery レポートを表示したりできます。 セキュリティ オペレーターには、アラートを管理し、ポリシーの構成を表示するアクセス許可があります。
   - セキュリティ閲覧者ロールは、SIEM エージェントを構成できるようになり、アクセス許可のスコープ設定が向上しています。
 
 - **Microsoft Flow のサポート**  
-Cloud App Security で Microsoft Flow 内のユーザー アクティビティを監視できるようになりました。 Flow によって Microsoft 365 の監査ログに報告されるアクティビティがサポートされます。
+Cloud App Security で Microsoft Flow 内のユーザー アクティビティを監視できるようになりました。 Flow によって Office 365 の監査ログに報告されるアクティビティがサポートされます。
 
 - **アラート エンティティのグループ化**  
 調査を支援するために、 **[アラート]** ページで、アラートに関係していた関連エンティティがグループ化されるようになりました。
@@ -535,8 +542,8 @@ Azure AD 条件付きアクセスで直接セッション ポリシーを構成�
 - **OAuth アプリのクエリ候補と保存されたクエリ**  
 推奨されるクエリが OAuth アプリのページに追加されました。OAuth アプリをフィルター処理するためのすぐに使用できる調査用テンプレートが用意されています。 推奨されるクエリには、管理者が承認したアプリなど、危険なアプリを識別するためのカスタム フィルターが含まれています。 保存されたクエリを使用すると、カスタム クエリを保存して後で使用できます。これは、現在 [アクティビティ ログ] ページや [検出] ページで利用できる保存されたクエリと同様です。
 
-- **Microsoft 365 の既定の構成の監査**  
-Cloud App Security で Microsoft 365 のアクティビティの監視を有効にする必要がある場合は、[Office セキュリティ/コンプライアンス センター](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)で監査を有効にする必要があります。これは、[Microsoft 365 の監査が変更された](/office/office-365-management-api/office-365-management-activity-api-faq#what-happens-if-i-disable-auditing-for-my-office-365-organization-will-i-still-get-events-via-the-management-activity-api)結果です。 この変更は、Cloud App Security で Microsoft 365 のアクティビティの監視をまだ有効にしていない場合にのみ、実行する必要があります。
+- **Office 365 の既定の構成の監査**  
+Cloud App Security で Office 365 のアクティビティの監視を有効にする必要がある場合は、[Office セキュリティ/コンプライアンス センター](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)で監査を有効にする必要があります。これは、[Office 365 の監査が変更された](/office/office-365-management-api/office-365-management-activity-api-faq#what-happens-if-i-disable-auditing-for-my-office-365-organization-will-i-still-get-events-via-the-management-activity-api)結果です。 この変更は、Cloud App Security で Office 365 のアクティビティの監視をまだ有効にしていない場合にのみ、実行する必要があります。
 
 - **強化された Box のサポート**  
 Cloud App Security では、Box に対する 2 つの新しいガバナンス アクションがサポートされるようになりました。
@@ -607,7 +614,7 @@ Cloud App Security で、Windows 10 (Fall Creators Update) および Windows Ser
 リリース日: 2018 年 11 月 25 日
 
 - **Dynamics のサポートの追加**  
-Cloud App Security で、Microsoft 365 監査ログでサポートされている Microsoft Dynamics のアクティビティがサポートされるようになりました。
+Cloud App Security で、Office 365 監査ログでサポートされている Microsoft Dynamics のアクティビティがサポートされるようになりました。
 
 - **暗号化されたコンテンツのスキャン (プレビュー)**  
 Cloud App Security では、Azure Information Protection の保護ラベルによって保護されているコンテンツをスキャンできるようになりました。 これにより、Azure Information Protection によって既に暗号化されているファイルでも、機密性の高いコンテンツを検索できるようになります。
@@ -650,8 +657,8 @@ Cloud App Security では、アプリを承認したユーザーのグループ 
 
 リリース日: 2018 年 9 月 25 日
 
-- **パブリックプ レビューになった Microsoft 365 向けアプリの条件付きアクセス制御**  
-  - アプリの条件付きアクセス制御によって、Microsoft 365 と Open ID Connect で構成されているすべてのアプリも、サポートされるようになりました。
+- **パブリックプ レビューになった Office 365 向けアプリの条件付きアクセス制御**  
+  - アプリの条件付きアクセス制御で、Office 365 と、Open ID Connect で構成されているすべてのアプリも、サポートされるようになりました。
   - セッション内からフィードバックを提供する: この新しいツールを使用すると、セッションの制御下にあるアプリケーションのパフォーマンスに関するフィードバックを、セッション内から直接 Cloud App Security チームに提供できます。
 
 - **企業の範囲を超えた Shadow IT Discovery のための Microsoft Defender ATP とのネイティブ統合**  
@@ -675,7 +682,7 @@ Cloud Discovery で、Forcepoint Web Security Cloud のログ形式がサポー�
 リリース日: 2018 年 8 月 22 日
 
 - **新しいメニュー バー**  
-Microsoft 365 製品全体で管理者エクスペリエンスの一貫性を高め、Microsoft のセキュリティ ソリューション間の切り替えを間単にするため、Cloud App Security ポータルのメニュー バーが画面の左側に移動されました。 この一貫したナビゲーション エクスペリエンスによって、ある Microsoft セキュリティ ポータルから別のセキュリティ ポータルへの移動が容易になります。
+Office 365 製品全体で管理者エクスペリエンスの一貫性を高め、Microsoft のセキュリティ ソリューション間の切り替えを簡単にするため、Cloud App Security ポータルのメニュー バーが画面の左側に移動されました。 この一貫したナビゲーション エクスペリエンスによって、ある Microsoft セキュリティ ポータルから別のセキュリティ ポータルへの移動が容易になります。
 
 - **OAuth アプリ スコアへの影響**  
 Cloud App Security チームにフィードバックを送信して、悪意があると思われる OAuth アプリが組織内で検出されたことを通知できます。 この新機能により、ユーザーはセキュリティ コミュニティの一員となり、OAuth アプリのリスク スコアと分析を強化することができます。 詳細については、[OAuth アプリのアクセス許可の管理](manage-app-permissions.md)に関するページを参照してください。
@@ -722,7 +729,7 @@ Azure では、ユーザー アカウント アクティビティが Azure ア�
 
 リリース日: 2018 年 7 月 8 日
 
-- Microsoft 365 の全般的なアクティビティを表示する機能が提供されました。 **アクティビティ ログ**と**アクティビティ ポリシー**で、Microsoft 365 のアクティビティをフィルター処理して**指定なし**のアクティビティを抽出できるようになりました。 これらのアクティビティを確認することで、Cloud App Security の種類によってまだ分類されていない、実行されたアクティビティに関する情報を調査できます。また、これらのアクティビティを使用して、Cloud App Security チームに要求を送り、これらのアクティビティに基づく新しいアクティビティの種類を作成することができます。
+- Office 365 の全般的なアクティビティを表示する機能が提供されました。 **アクティビティ ログ**と**アクティビティ ポリシー**で、Office 365 のアクティビティをフィルター処理して**指定なし**のアクティビティを抽出できるようになりました。 これらのアクティビティを確認することで、Cloud App Security の種類によってまだ分類されていない、実行されたアクティビティに関する情報を調査できます。また、これらのアクティビティを使用して、Cloud App Security チームに要求を送り、これらのアクティビティに基づく新しいアクティビティの種類を作成することができます。
 
 ## <a name="cloud-app-security-release-126"></a>Cloud App Security リリース 126
 
@@ -780,7 +787,7 @@ Microsoft Cloud App Security 管理者に対する管理アクセス許可を、
 
 - **Microsoft データ分類サービスとの統合**  
 Microsoft Cloud App Security では、Microsoft データ分類サービスをネイティブに利用して、クラウド アプリ内のファイルを分類できるようになりました。   
-Microsoft データ分類サービスによって、Microsoft 365、Azure Information Protection、Microsoft Cloud App Security に対して統一された情報保護エクスペリエンスが提供されます。 これにより、Microsoft Cloud App Security によって保護されているサードパーティのクラウド アプリまで同じデータ分類フレームワークを拡張し、さらに多くのアプリに対して既に行った決定を利用できます。
+Microsoft データ分類サービスでは、Office 365、Azure Information Protection、Microsoft Cloud App Security に対して統一された情報保護エクスペリエンスが提供されます。 これにより、Microsoft Cloud App Security によって保護されているサードパーティのクラウド アプリまで同じデータ分類フレームワークを拡張し、さらに多くのアプリに対して既に行った決定を利用できます。
 
 - **Microsoft Azure への接続** (段階的ロールアウト)  
 Microsoft Cloud App Security では IaaS 監視機能が拡張されており、アマゾン ウェブ サービスだけでなく、Microsoft Azure もサポートされるようになっています。 これにより、Cloud App Security ですべての Azure サブスクリプションをシームレスに接続し、監視できます。 この接続では、次のような、Azure 環境を保護するための一連の強力なツールが提供されます。
@@ -832,7 +839,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 リリース日: 2018 年 4 月 8 日
 
-- Microsoft 365 と Azure AD では、ユーザー アカウント アクティビティが Microsoft 365 と Azure AD アプリケーション (内部と外部の両方) によって実行された内部アプリケーションを検出する機能が、段階的にロールアウトされています。 これにより、アプリケーションで予期されないアクティビティや承認されていないアクティビティが実行された場合にアラートを生成するポリシーを作成できます。
+- Office 365 と Azure AD では、ユーザー アカウント アクティビティが Office 365 と Azure AD アプリケーション (内部と外部の両方) によって実行された内部アプリケーションを検出する機能が、段階的にロールアウトされています。 これにより、アプリケーションで予期されないアクティビティや承認されていないアクティビティが実行された場合にアラートを生成するポリシーを作成できます。
 
 - アプリのアクセス許可の一覧を csv にエクスポートすると、発行元、アクセス許可レベル、コミュニティの使用状況などの追加フィールドが、コンプライアンスと調査のプロセスを支援するために含まれます。
 
@@ -842,7 +849,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 リリース日: 2018 年 3 月 18 日
 
-- IP アドレス範囲のページには、Cloud App Security によって検出された組み込みの IP アドレスが含まれます。 これには、Azure や Microsoft 365 などの識別されたクラウド サービスの IP アドレスだけでなく、既知の危険な IP アドレスに関する情報で IP アドレスを自動的に強化する脅威インテリジェンスのフィードが含まれます。
+- IP アドレス範囲のページには、Cloud App Security によって検出された組み込みの IP アドレスが含まれます。 これには、Azure や Office 365 などの識別されたクラウド サービスの IP アドレスだけでなく、既知の危険な IP アドレスに関する情報で IP アドレスを自動的に強化する脅威インテリジェンスのフィードが含まれます。
 
 - Cloud App Security では、ファイルに対するガバナンス アクションを実行しようとして、ファイルがロックされているために失敗した場合、ガバナンス アクションが自動的に再試行されるようになりました。
 

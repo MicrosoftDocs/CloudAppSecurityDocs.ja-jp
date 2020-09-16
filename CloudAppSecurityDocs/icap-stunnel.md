@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: a80d54546b93545b65082115c939190f65b3801d
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 4a774d5f642def30fffd4b29c9973f925257eb55
+ms.sourcegitcommit: 30bd09cd5a05bf19818a3f3a7e1b2ac0dc25d420
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781448"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89598271"
 ---
 # <a name="external-dlp-integration"></a>外部 DLP 統合
 
@@ -27,7 +27,7 @@ ms.locfileid: "88781448"
 
 Microsoft Cloud App Security は、既存の DLP ソリューションと統合して、オンプレミスとクラウドのアクティビティ全体で一貫性のある統一されたポリシーを維持しながら、これらのコントロールをクラウドに拡張させることができます。 このプラットフォームは、REST API や ICAP など、使いやすいインターフェイスをエクスポートします。Symantec Data Loss Prevention (以前の Vontu Data Loss Prevention) や Forcepoint DLP など、コンテンツ分類システムと統合できます。
 
-統合は標準 ICAP プロトコルを使用して行われます。これは [RFC 3507](https://tools.ietf.org/html/rfc3507) で説明されている http 型のプロトコルです。 データ転送のために ICAP をセキュリティで保護するには、DLP ソリューションと Cloud App Security の間にセキュリティで保護された SSL トンネル (stunnel) を設定する必要があります。 stunnel を構築することで、DLP サーバーと Cloud App Security の間で送信されるデータが TLS で暗号化されます。
+統合は標準 ICAP プロトコルを使用して行われます。これは [RFC 3507](https://tools.ietf.org/html/rfc3507) で説明されている http 型のプロトコルです。 データ転送のために ICAP をセキュリティで保護するには、DLP ソリューションと Cloud App Security の間にセキュリティで保護された TLS トンネル (stunnel) を設定する必要があります。 stunnel を構築することで、DLP サーバーと Cloud App Security の間で送信されるデータが TLS で暗号化されます。
 
 本ガイドでは、Cloud App Security と stunnel セットアップで ICAP 接続を構成し、通信を保護するために必要な手順について説明します。
 
@@ -82,7 +82,7 @@ stunnel インストール対応のサーバーの種類については、[stunn
 
 4. 次のいずれかの方法で証明書を作成します。
 
-    - 証明書管理サーバーを使用して、ICAP サーバーで SSL 証明書を作成します。 次に、stunnel インストール用に準備したサーバーにキーをコピーします。
+    - 証明書管理サーバーを使用して、ICAP サーバーで TLS 証明書を作成します。 次に、stunnel インストール用に準備したサーバーにキーをコピーします。
     - あるいは、stunnel サーバーで、次の OpenSSL コマンドを利用して秘密キーと自己署名証明書を生成します。 次の変数を置き換えます。
         - **key.pem** を秘密キーの名前に変更
         - **cert.pem** を証明書の名前に変更
@@ -153,7 +153,7 @@ stunnel をバックグラウンド サービスとして実行できるよう�
 
 次のいずれかの方法で証明書を作成できます。
 
-- 証明書管理サーバーを使用して、ICAP サーバーで SSL 証明書を作成します。 次に、stunnel インストール用に準備したサーバーにキーをコピーします。
+- 証明書管理サーバーを使用して、ICAP サーバーで TLS 証明書を作成します。 次に、stunnel インストール用に準備したサーバーにキーをコピーします。
 - あるいは、stunnel サーバーで、次の OpenSSL コマンドを利用して秘密キーと自己署名証明書を生成します。
 次の変数を置き換えます。
   - **key.pem** を秘密キーの名前に変更
