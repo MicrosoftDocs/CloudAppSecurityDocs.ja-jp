@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 06/29/2020
+ms.date: 09/15/2020
 ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1a066955c2a832f46f38c128a908c9f772f0dbe3
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 31fb5ddc618ce1600e41a1437759b2558b3350c1
+ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963983"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90524193"
 ---
 # <a name="security-configuration-for-azure"></a>Azure のセキュリティ構成
 
@@ -27,25 +27,13 @@ ms.locfileid: "88963983"
 
 Microsoft Cloud App Security では、お客様の Azure 環境のセキュリティ構成の評価を得ることができます。 この評価では、Azure Security Center を利用して、不足している構成とセキュリティ制御に関する推奨事項が提供されます。
 
-## <a name="enable-security-configuration-recommendations"></a>セキュリティ構成に関する推奨事項を有効にする
+## <a name="prerequisites"></a>前提条件
 
-この機能を使用するには、Azure AD と Azure portal での適切なアクセス許可が必要です。 既定では、Azure AD グローバル管理者のロールでは、Azure サブスクリプションにはアクセスできません。 自分や他のユーザーに対して Azure サブスクリプションへのアクセスを許可するには、ご自分のアクセス許可を昇格させます。
-
-> [!IMPORTANT]
-> 次のプロセスを完了した後は、この昇格を無効にすることをお勧めします。
+組織は、Azure のセキュリティ構成を評価する対象となるすべてのサブスクリプションに対して Azure Security Center ライセンスを持っている必要があります。
 
 ## <a name="how-to-enable-azure-security-recommendations"></a>Azure のセキュリティに関する推奨事項を有効にする方法
 
-Microsoft Cloud App Security でセキュリティ構成に関する推奨事項を有効にするには、次を実行します。
-
-1. <a href="https://docs.microsoft.com/azure/security-center/security-center-management-groups" target="_blank">Azure Security Center に対するテナント全体の可視性を確保します</a>。 このプロセスには次のものが含まれます。
-
-    - 自分自身と、このページへのアクセスを許可する他のすべての Microsoft Cloud App Security 管理者に対して、すべてのサブスクリプションの閲覧者のロールを付与する。
-    - Azure Security Center のルート管理グループにロールを割り当てる
-    - ご自分の Azure AD グローバル管理者を昇格させて、Azure サブスクリプションへのアクセスを許可する。
-    - この記事では、セキュリティ管理者になるためのプロセスについて説明しています。 この統合を機能させるために必要な最小限のアクセス許可は、**閲覧者**です。
-
-1. 変更を有効にするために、<a href="https://ms.portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0" target="_blank">Azure Security Center</a> を必ず開いてください。
+Cloud App Security でセキュリティ構成に関する推奨事項を有効にするには、<a href="https://ms.portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0" target="_blank">ポータル</a>に移動して、Azure Security Center サブスクリプションをアクティブ化します。
 
 ## <a name="how-to-view-azure-security-recommendations"></a>Azure のセキュリティに関する推奨事項を表示する方法
 

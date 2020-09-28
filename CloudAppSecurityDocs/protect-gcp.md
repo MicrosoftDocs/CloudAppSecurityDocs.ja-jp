@@ -5,14 +5,14 @@ author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
 ms.topic: article
-ms.date: 12/04/2019
+ms.date: 09/15/2020
 ms.collection: M365-security-compliance
-ms.openlocfilehash: de9a6d460725766dee348fdd91f8c12a9bfe5745
-ms.sourcegitcommit: db5ec79d219dd6674939c872ace7cd2ca80860a4
+ms.openlocfilehash: 9271b856cffaea72c38aa6f9a2a85768bb52e7f8
+ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75190082"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90524176"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-google-cloud-platform-gcp-environment"></a>Cloud App Security は Google Cloud Platform (GCP) 環境の保護にどのように役立つか
 
@@ -33,6 +33,7 @@ GCP を Cloud App Security に接続すると、管理およびサインイン�
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [フォレンジック調査のためにアクティビティの監査証跡を使用する](best-practices.md#use-the-audit-trail-of-activities-for-forensic-investigations)
+- [セキュリティ構成に関する推奨事項を確認する](security-config-gcp.md)
 
 ## <a name="control-gcp-with-built-in-policies-and-policy-templates"></a>組み込みのポリシーおよびポリシー テンプレートを使用して GCP を制御する
 
@@ -54,6 +55,14 @@ GCP を Cloud App Security に接続すると、管理およびサインイン�
 | ユーザー ガバナンス | - Google へのパスワードのリセットをユーザーに求める (リンク先 G Suite インスタンスの接続が必要)<br />- ユーザーを停止する (リンク先 G Suite インスタンスの接続が必要)<br />- アラートをユーザーに通知する (Azure AD 経由)<br />- ユーザーにもう一度サインインするよう要求する (Azure AD 経由)<br />- ユーザーを停止する (Azure AD 経由) |
 
 アプリからの脅威の修復の詳細については、「[接続されているアプリを管理する](governance-actions.md)」を参照してください。
+
+## <a name="security-recommendations"></a>セキュリティに関する推奨事項
+
+Cloud App Security では、GCP 用の Center for Internet Security (CIS) ベンチマークに基づいて、すべての GCP プロジェクトの GCP プラットフォーム構成コンプライアンスの概要が示されます。
+
+プラットフォームのセキュリティ体制の現状を査定および評価し、構成の重要な差異を特定するために、セキュリティに関する推奨事項を継続的に確認する必要があります。 次に、GCP プラットフォームの問題を軽減する計画を作成する必要があります。
+
+詳細については、[GCP のセキュリティに関する推奨事項](security-config-gcp.md)を参照してください。
 
 ## <a name="protect-gcp-in-real-time"></a>GCP をリアルタイムで保護する
 

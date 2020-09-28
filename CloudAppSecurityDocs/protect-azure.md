@@ -5,14 +5,14 @@ author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
 ms.topic: article
-ms.date: 12/04/2019
+ms.date: 09/15/2020
 ms.collection: M365-security-compliance
-ms.openlocfilehash: f6638891b8a3dbd75fe103bac7042b572c647e1a
-ms.sourcegitcommit: db5ec79d219dd6674939c872ace7cd2ca80860a4
+ms.openlocfilehash: 3fde8f4de6eaed15191f773562342195bbe41471
+ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75190062"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90524159"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-azure-environment"></a>Cloud App Security は Azure 環境の保護にどのように役立つか
 
@@ -34,6 +34,7 @@ Azure を Cloud App Security に接続すると、管理およびサインイン
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)
 - [フォレンジック調査のためにアクティビティの監査証跡を使用する](best-practices.md#use-the-audit-trail-of-activities-for-forensic-investigations)
+- [セキュリティ構成に関する推奨事項を確認する](security-config-azure.md)
 
 ## <a name="control-azure-with-built-in-policies-and-policy-templates"></a>組み込みのポリシーおよびポリシー テンプレートを使用して Azure を制御する
 
@@ -44,6 +45,14 @@ Azure を Cloud App Security に接続すると、管理およびサインイン
 | 組み込みの異常検出ポリシー | [匿名 IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-anonymous-ip-addresses)<br />[頻度の低い国からのアクティビティ](anomaly-detection-policy.md#activity-from-infrequent-country)<br />[不審な IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-suspicious-ip-addresses)<br />[終了させられたユーザーによって実行されるアクティビティ (IdP として AAD が必要)](anomaly-detection-policy.md#activity-performed-by-terminated-user)<br />[複数回失敗したログイン試行](anomaly-detection-policy.md#multiple-failed-login-attempts)<br />[通常とは異なる管理アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user)<br />[通常とは異なる複数のストレージ削除アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー)<br />[複数の VM 削除アクティビティ](anomaly-detection-policy.md#multiple-delete-vm-activities)<br />[通常とは異なる複数の VM 作成アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー) |
 
 ポリシー作成の詳細については、「[ポリシーの作成](control-cloud-apps-with-policies.md#create-a-policy)」を参照してください。
+
+## <a name="security-recommendations"></a>セキュリティに関する推奨事項
+
+Cloud App Security では、Azure プラットフォームのテナントレベルのビューが提供され、テナント内のすべての Azure サブスクリプションのセキュリティに関する推奨事項が一覧表示されます。 [Azure のセキュリティ ベンチマーク](/azure/security/benchmarks/introduction)に照らし、100 以上の Azure リソースに対して Azure のセキュリティに関する既定の推奨事項を使用したり、[カスタムの推奨事項](/azure/security-center/custom-security-policies)を使用したりできます。 既定の推奨事項には、仮想マシン、ID とアクセス、データとストレージ、コンピューティングとアプリ、ネットワーク、コンテナー、アプリ サービスなどの種類のリソースが含まれます。
+
+プラットフォームのセキュリティ体制の現状を査定および評価し、構成の重要な差異を特定するために、セキュリティに関する推奨事項を継続的に確認する必要があります。 次に、Azure プラットフォームの問題を軽減する計画を作成する必要があります。
+
+詳細については、[Azure の推奨事項のガイド](/azure/security-center/recommendations-reference)と [Azure のセキュリティに関する推奨事項](security-config-azure.md)を参照してください。
 
 ## <a name="automate-governance-controls"></a>ガバナンス コントロールを自動化する
 

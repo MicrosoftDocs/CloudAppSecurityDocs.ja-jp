@@ -5,14 +5,14 @@ author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
 ms.topic: article
-ms.date: 12/04/2019
+ms.date: 09/15/2020
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 112f85ef89670f6e7fb6a256597bce72101c01ba
-ms.sourcegitcommit: 2cf3c78a1b45a5b6ca534fdd12fd97afc51726e3
+ms.openlocfilehash: 24f4598958361d2ea705f08bc0fb3d5fa8a19324
+ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "80291160"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "90524142"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-amazon-web-services-aws-environment"></a>Cloud App Security でアマゾン ウェブ サービス (AWS) 環境を保護する利点
 
@@ -35,6 +35,7 @@ AWS を Cloud App Security に接続すると、管理およびサインイン�
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)
 - [セキュリティの構成に関する最新の推奨事項を常に把握する](security-config-aws.md)
 - [フォレンジック調査のためにアクティビティの監査証跡を使用する](best-practices.md#use-the-audit-trail-of-activities-for-forensic-investigations)
+- [セキュリティ構成に関する推奨事項を確認する](security-config-aws.md)
 
 ## <a name="control-aws-with-built-in-policies-and-policy-templates"></a>組み込みのポリシーおよびポリシー テンプレートを使用して AWS を制御する
 
@@ -43,7 +44,7 @@ AWS を Cloud App Security に接続すると、管理およびサインイン�
 | Type | 名前 |
 | ---- | ---- |
 | アクティビティ ポリシー テンプレート | 管理コンソールへのサインインの失敗<br />CloudTrail 構成の変更<br />EC2 インスタンス構成の変更<br />IAM ポリシーの変更<br />危険な IP アドレスからのログオン<br />ネットワーク アクセス制御リスト (ACL) の変更<br />ネットワーク ゲートウェイの変更<br />S3 構成の変更<br />セキュリティ グループ構成の変更<br />仮想プライベート ネットワークの変更 |
-| 組み込みの異常検出ポリシー | [匿名 IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-anonymous-ip-addresses)<br />[頻度の低い国からのアクティビティ](anomaly-detection-policy.md#activity-from-infrequent-country)<br />[不審な IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-suspicious-ip-addresses)<br />[あり得ない移動](anomaly-detection-policy.md#impossible-travel)<br />[解雇されたユーザーによって実行されたアクティビティ](anomaly-detection-policy.md#activity-performed-by-terminated-user) (IdP として AAD が必要)<br />[複数回失敗したログイン試行](anomaly-detection-policy.md#multiple-failed-login-attempts)<br />[通常とは異なる管理アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user)<br />[通常とは異なる複数のストレージ削除アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー)<br />[複数の VM 削除アクティビティ](anomaly-detection-policy.md#multiple-delete-vm-activities)<br />[通常とは異なる複数の VM 作成アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー)<br />[クラウド リソースの通常とは異なるリージョン](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー) |
+| 組み込みの異常検出ポリシー | [匿名 IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-anonymous-ip-addresses)<br />[頻度の低い国からのアクティビティ](anomaly-detection-policy.md#activity-from-infrequent-country)<br />[不審な IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-suspicious-ip-addresses)<br />[あり得ない移動](anomaly-detection-policy.md#impossible-travel)<br />[終了させられたユーザーによって実行されるアクティビティ (IdP として AAD が必要)](anomaly-detection-policy.md#activity-performed-by-terminated-user)<br />[複数回失敗したログイン試行](anomaly-detection-policy.md#multiple-failed-login-attempts)<br />[通常とは異なる管理アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user)<br />[通常とは異なる複数のストレージ削除アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー)<br />[複数の VM 削除アクティビティ](anomaly-detection-policy.md#multiple-delete-vm-activities)<br />[通常とは異なる複数の VM 作成アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー)<br />[クラウド リソースの通常とは異なるリージョン](anomaly-detection-policy.md#unusual-activities-by-user) (プレビュー) |
 | ファイル ポリシー テンプレート | S3 バケットがパブリックにアクセス可能 |
 
 ポリシーの作成の詳細については、「[ポリシーの作成](control-cloud-apps-with-policies.md#create-a-policy)」を参照してください。
@@ -58,6 +59,14 @@ AWS を Cloud App Security に接続すると、管理およびサインイン�
 | データ ガバナンス | - S3 バケットをプライベートにする<br />- S3 バケットのコラボレーターを削除する |
 
 アプリからの脅威の修復の詳細については、「[接続されているアプリを管理する](governance-actions.md)」を参照してください。
+
+## <a name="security-recommendations"></a>セキュリティに関する推奨事項
+
+Cloud App Security では、AWS 用の Center for Internet Security (CIS) ベンチマークに基づいて、すべての AWS アカウントの AWS プラットフォーム構成コンプライアンスの概要が示されます。
+
+プラットフォームのセキュリティ体制の現状を査定および評価し、構成の重要な差異を特定するために、セキュリティに関する推奨事項を継続的に確認する必要があります。 次に、AWS プラットフォームの問題を軽減する計画を作成する必要があります。
+
+詳細については、[AWS のセキュリティに関する推奨事項](security-config-aws.md)を参照してください。
 
 ## <a name="protect-aws-in-real-time"></a>AWS をリアルタイムで保護する
 
