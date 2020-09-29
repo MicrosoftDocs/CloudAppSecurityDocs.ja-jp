@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: e7b5a4f1e703afb09a819e37296d7f57f31cd6c4
-ms.sourcegitcommit: ce980a54370383fe09e45bbec6d41109b39b0386
+ms.openlocfilehash: 202ca0a4a68225beca03804dd636e89ca64fa9f7
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "85241621"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880228"
 ---
 # <a name="what-are-the-differences-between-microsoft-cloud-app-security-and-office-365-cloud-app-security"></a>Microsoft Cloud App Security と Office 365 Cloud App Security の違いは何ですか。
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud App Security と Office 365 Cloud App Security の違いについて説明します。 Office 365 Cloud App Security については、「[Office 365 Cloud App Security の概要](https://support.office.com/article/Get-started-with-Advanced-Management-Security-d9ee4d67-f2b3-42b4-9c9e-c4529904990a)」を参照してください。
 
@@ -66,4 +66,4 @@ Office 365 Cloud App Security は Microsoft Cloud App Security に含まれ、Of
 
 基本については、「[Cloud App Security の使用を開始する](getting-started-with-cloud-app-security.md)」をご覧ください。
 
-[!INCLUDE [Open support ticket](includes/support.md)] にする必要があります。
+[!INCLUDE [Open support ticket](includes/support.md)].

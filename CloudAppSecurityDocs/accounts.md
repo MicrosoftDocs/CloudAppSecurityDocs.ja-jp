@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 726e6abcdecf1f25c58ad212f8259a66aa638b6d
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: 9d59c944fb2467eef98ac13f8d6a3673b2049a8c
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89666971"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880253"
 ---
 # <a name="accounts"></a>[アカウント]
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、接続されているアプリのアカウントを表示できます。 アプリ コネクタを使用して Cloud App Security をアプリに接続すると、接続されたアプリに関連付けられているアカウント情報が Cloud App Security によって読み取られます。 [アカウント] ページでは、これらのアカウント、アクセス許可、所属するグループ、エイリアス、使用しているアプリを調べることができます。 また、接続されているいずれかのアプリ (アクティビティやファイル共有など) で以前は存在しなかった新しいアカウントを Cloud App Security が検出した場合は、そのアカウントがそのアプリのアカウントの一覧に追加されます。 これにより、クラウド アプリとやり取りする外部ユーザーのアクティビティを表示できます。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 82564af9e8690550bdb28730f8a7e018fa02465b
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 46a2493d86650a0040eb3a5664b99ed5fc9fe799
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781737"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879453"
 ---
 # <a name="investigate"></a>調査
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 クラウド環境で Microsoft Cloud App Security を実行するようになると、学習と調査のステージが必要になります。 Microsoft Cloud App Security ツールを使用して、クラウド環境で起こっていることをより深く理解する方法について説明します。 特定の環境および使用状況に基づいて、組織をリスクから保護するための要件を特定できます。 この記事では、ご使用のクラウド環境について理解を深めるために調査を行う方法について説明します。
 
@@ -163,4 +163,4 @@ ms.locfileid: "88781737"
 
 組織のクラウド アプリを制御する方法については、「[制御](control.md)」を参照してください。
 
-[!INCLUDE [Open support ticket](includes/support.md)] にする必要があります。
+[!INCLUDE [Open support ticket](includes/support.md)].

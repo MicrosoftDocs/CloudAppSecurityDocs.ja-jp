@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: d57c2568ed52eccad862a689b157f460e8b591c8
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: 3e1270829fd335dd2d7a0bc933c78d553d3a749d
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89666875"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881623"
 ---
 # <a name="azure-information-protection-integration"></a>Azure Information Protection の統合
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security を使用すると、Azure Information Protection 分類ラベル (保護あり、または保護なし) をファイル ポリシーのガバナンス アクションとして、自動的にファイルに適用することができます。 また、Cloud App Security ポータル内で、適用された分類ラベルをフィルタリングしてファイルを調査することもできます。 分類を使用すると、クラウドでの機密データの可視性と制御が大幅に向上します。 Azure Information Protection と Cloud App Security の統合は、1 つのチェック ボックスをオンにするだけで簡単に行うことができます。
 

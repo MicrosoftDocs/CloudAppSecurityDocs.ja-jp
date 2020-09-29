@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7901653d3788bed9e8a04e5e0c2c118f6d2681e3
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 5114b50577d75d2301fae189e1c61275444fe2ca
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779850"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880135"
 ---
 # <a name="admin-user-settings"></a>管理者ユーザー設定
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、管理者ユーザー設定をカスタマイズできます。 通知設定により、管理者は、アラートについて、電子メールまたはテキスト通知を受け取るかどうかを指定できます。
 

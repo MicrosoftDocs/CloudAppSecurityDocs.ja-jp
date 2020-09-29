@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 8739566fb2bd9413651c9f1e14257e62e6f4589e
-ms.sourcegitcommit: c114a9e04589e1a3e0b5350862b3e6daf18e3d30
+ms.openlocfilehash: 2da4b992d0c9eab2830793d026c0fd37ccd390be
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88658866"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880621"
 ---
 # <a name="create-ip-address-range---data-enrichment-api"></a>IP アドレス範囲を作成する - Data Enrichment API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 新しい IP アドレス範囲を追加する POST 要求を実行します。
 

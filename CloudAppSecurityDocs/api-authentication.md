@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 7eeeea75c084acddac195021d7ee7a6f3d533da6
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: b651ce17b8bcda01047cbb84be61eb1137864a4f
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781414"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880628"
 ---
 # <a name="managing-api-tokens"></a>API トークンの管理
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud App Security API にアクセスするには、API トークンを作成し、それをソフトウェアで使用して API に接続する必要があります。 このトークンは、Cloud App Security で API 要求を行うときにヘッダーに含まれます。
 

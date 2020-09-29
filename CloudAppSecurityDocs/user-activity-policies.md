@@ -10,16 +10,16 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 10b67848b1f8b2e7e18ab31a4869eae3071ee797
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: fe73288981009f8fe1f94126d39522d2730d0a6d
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780003"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878433"
 ---
 # <a name="activity-policies"></a>アクティビティ ポリシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 アクティビティ ポリシーにより、アプリ プロバイダーの API を使用して、幅広い自動プロセスを適用できます。 これらのポリシーにより、さまざまなユーザーによって実行される特定のアクティビティを監視したり、予期しない高い割合の 1 つの特定の種類のアクティビティを追跡したりできます。
 

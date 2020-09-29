@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: ba025bc688342c51cdb1ab7450b5cb3e02c288cb
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 3d7d005940b032cd6e9b9f4bb5f1f3be13ababcb
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779799"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880704"
 ---
 # <a name="additional-integrations-with-external-solutions"></a>外部ソリューションとの追加の統合
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security とお客様のその他のセキュリティ投資を統合して、統合された保護エコシステムを活用および強化することができます。 たとえば、外部のモバイル デバイス管理ソリューション、UEBA ソリューション、および外部の脅威インテリジェンス フィードと統合できます。
 

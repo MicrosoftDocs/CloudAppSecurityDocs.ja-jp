@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0c5cb9d6604fead5090c68ae74d9919d4ab0b3e4
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: f7f3fe7ba1df0a62950f88d1053c8f9709cae8c6
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254620"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881602"
 ---
 # <a name="how-to-find-built-in-deprecating-reports"></a>非推奨になる組み込みレポートを検索する方法
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft では、組み込みレポートの機能をポータルの他の部分に埋め込むことによって更新しています。 この機能の更新は、Microsoft Cloud App Security レポートを改善するために継続されています。
 

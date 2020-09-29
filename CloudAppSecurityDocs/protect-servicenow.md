@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: article
 ms.date: 12/04/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 48b1325a9e492713912f00bfc871460f23b4b1f3
-ms.sourcegitcommit: db5ec79d219dd6674939c872ace7cd2ca80860a4
+ms.openlocfilehash: 7a8838ed08b6ffdc3949234204a957f2a28a0eeb
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75190172"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880426"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-servicenow-environment"></a>Cloud App Security は ServiceNow 環境の保護にどのように役立つか
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 主要な CRM クラウド プロバイダーである ServiceNow では、顧客、内部プロセス、インシデント、および組織内のレポートに関する大量の機密情報が組み込まれます。 ビジネスに不可欠なアプリである ServiceNow は、組織内のユーザーのほか、組織外のユーザー (パートナーや請負業者など) によっても、さまざまな目的でアクセスされ使用されます。 多くの場合、ServiceNow にアクセスするユーザーの大部分はセキュリティに対する意識が低く、機密情報を誤って共有することによってそれを危険にさらしてしまう可能性があります。 他の例では、悪意のあるアクターが最も機密性の高い顧客関連資産にアクセスできる可能性があります。
 
@@ -30,7 +30,7 @@ ServiceNow を Cloud App Security に接続すると、ユーザーのアクテ�
 - ランサムウェア
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [クラウドに格納されている規制対象の機密データを検出、分類、ラベル付け、保護する](best-practices.md#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
@@ -46,7 +46,7 @@ ServiceNow を Cloud App Security に接続すると、ユーザーのアクテ�
 | ---- | ---- |
 | 組み込みの異常検出ポリシー | [匿名 IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-anonymous-ip-addresses)<br />[頻度の低い国からのアクティビティ](anomaly-detection-policy.md#activity-from-infrequent-country)<br />[不審な IP アドレスからのアクティビティ](anomaly-detection-policy.md#activity-from-suspicious-ip-addresses)<br />[あり得ない移動](anomaly-detection-policy.md#impossible-travel)<br />[終了させられたユーザーによって実行されるアクティビティ (IdP として AAD が必要)](anomaly-detection-policy.md#activity-performed-by-terminated-user)<br />[複数回失敗したログイン試行](anomaly-detection-policy.md#multiple-failed-login-attempts)<br />[ランサムウェアの検出](anomaly-detection-policy.md#ransomware-activity)<br />[通常とは異なる複数ファイルのダウンロード アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) |
 | アクティビティ ポリシー テンプレート | 危険な IP アドレスからのログオン<br />単独のユーザーによる大量ダウンロード<br />ランサムウェアの可能性があるアクティビティ |
-| ファイル ポリシー テンプレート | 承認されていないドメインで共有されたファイルを検出<br />個人用メール アドレスで共有されたファイルを検出<br />PII/PCI/PHI を使用したファイルを検出 |
+| ファイル ポリシー テンプレート | 承認されていないドメインで共有されたファイルの検出<br />個人用メール アドレスで共有されたファイルの検出<br />PII/PCI/PHI を使用したファイルを検出 |
 
 ポリシー作成の詳細については、「[ポリシーの作成](control-cloud-apps-with-policies.md#create-a-policy)」を参照してください。
 

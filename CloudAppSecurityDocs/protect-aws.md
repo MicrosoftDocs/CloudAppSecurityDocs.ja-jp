@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: article
 ms.date: 09/15/2020
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 24f4598958361d2ea705f08bc0fb3d5fa8a19324
-ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
+ms.openlocfilehash: bdf597d8cd387d2d062a96cb18e80a71d4c2926b
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90524142"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880491"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-amazon-web-services-aws-environment"></a>Cloud App Security でアマゾン ウェブ サービス (AWS) 環境を保護する利点
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 アマゾン ウェブ サービスは、組織がそのワークロード全体をクラウド内でホストして管理することを可能にする IaaS プロバイダーです。 クラウド内のインフラストラクチャを活用できる利点があると同時に、組織の最も重要な資産が脅威にさらされる可能性があります。 さらされる資産には、機密性が高い情報を含む可能性があるストレージ インスタンス、ご利用の最も重要なアプリケーションの一部を操作するコンピューティング リソース、ポート、および組織へのアクセスを可能にする仮想プライベート ネットワークなどがあります。
 

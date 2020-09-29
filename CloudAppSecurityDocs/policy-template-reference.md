@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9e8b9060163e9756660719ab390f260337f14192
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 28b78dfb0a295d341d9f43d9bd6cc6efacda0aa7
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779119"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880500"
 ---
 # <a name="policy-template-reference"></a>ポリシー テンプレート リファレンス
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Microsoft Cloud App Security に含まれるポリシー テンプレートについて説明します。
 

@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
-ms.openlocfilehash: ae59702910ca7c36a03f3a05b73b9747906fce99
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 8be4442c3fc01af52aec52fa6373a13405e55208
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780258"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880255"
 ---
 # <a name="docker-on-windows-on-premises"></a>オンプレミスの Windows 上の Docker
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Windows 上の Docker を使用して、Cloud App Security の継続的レポートに対する自動ログ アップロードを構成できます。
 
@@ -35,7 +35,7 @@ Windows 上の Docker を使用して、Cloud App Security の継続的レポー
 
 * ディスク領域: 250 GB
 
-* CPU: 2
+* CPU:2
 
 * RAM:4 GB
 
@@ -165,7 +165,7 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 
 ### <a name="optional---create-custom-continuous-reports"></a>省略可能 - カスタムの継続的レポートを作成する<a name="continuous-reports"></a>
 
-ログが Cloud App Security にアップロードされていることと、レポートが生成されていることを確認します。 確認したら、カスタム レポートを作成します。 Azure Active Directory ユーザー グループに基づいて、カスタム検出レポートを作成できます。 たとえば、マーケティング部門のクラウドの使用状況を確認したい場合は、ユーザー グループのインポート機能を使用してマーケティング グループをインポートします。 次に、このグループのカスタム レポートを作成します。 また、IP アドレス タグや IP アドレスの範囲に基づいてレポートをカスタマイズすることもできます。
+ログが Cloud App Security にアップロードされていることと、レポートが生成されていることを確認します。 確認したら、カスタム レポートを作成します。 Azure Active Directory ユーザー グループに基づいて、カスタム探索レポートを作成できます。 たとえば、マーケティング部門のクラウドの使用状況を確認したい場合は、ユーザー グループのインポート機能を使用してマーケティング グループをインポートします。 次に、このグループのカスタム レポートを作成します。 また、IP アドレス タグや IP アドレスの範囲に基づいてレポートをカスタマイズすることもできます。
 
 1. Cloud App Security ポータルの設定の歯車アイコンの下で、[Cloud Discovery の設定]、 **[継続的レポート]** の順に選択します。
 1. **[レポートの作成]** ボタンをクリックし、フィールドに入力します。

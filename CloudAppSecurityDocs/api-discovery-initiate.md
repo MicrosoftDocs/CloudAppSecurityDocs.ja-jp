@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: a4b86ef7bdda32e66744960dd3902aaef7e3034a
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: 027f9df535f3dc660879d622d0658587eef65338
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657777"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880579"
 ---
 # <a name="initiate-file-upload---cloud-discovery-api"></a>ファイルのアップロードの開始 - Cloud Discovery API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 アップロード プロセスを開始する GET 要求を実行します。 3 つのうちの 1 つ目のこの呼び出しからは、後でアップロード (PUT) 要求を実行するために使用される URL が返されます。
 

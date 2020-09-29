@@ -11,16 +11,16 @@ ms.service: cloud-app-security
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1b9da95ccef98320314ccedd646be757b29dced5
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: 719da19742facca2cecd3cc1aba27046a05e00b3
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89667026"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879553"
 ---
 # <a name="quickstart-get-started-with-microsoft-cloud-app-security"></a>クイック スタート:Microsoft Cloud App Security を使ってみる
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 このクイックスタートでは、Cloud App Security を起動して実行する手順について説明します。 Microsoft Cloud App Security は、企業リソースの制御を維持しながら、クラウド アプリケーションの利点を活用するのに役立ちます。 これは、クラウド アクティビティの可視性を向上させ、企業データの保護を強化することによって機能します。 この記事では、Microsoft Cloud App Security を設定して使用する手順について説明します。
 
@@ -169,4 +169,4 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 > [!div class="nextstepaction"]
 > [ポリシーによるクラウド アプリの制御](control-cloud-apps-with-policies.md)
 
-[!INCLUDE [Open support ticket](includes/support.md)] にする必要があります。
+[!INCLUDE [Open support ticket](includes/support.md)].

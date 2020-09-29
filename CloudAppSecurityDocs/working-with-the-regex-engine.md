@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5f418760ec40d8d93dce623acb81f5ebf015dc27
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 87d08111ba38590dfa4c1b32986a15a556e258ae
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779935"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881119"
 ---
 # <a name="working-with-the-regex-engine"></a>RegEx エンジンの操作
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud App Security ポリシーでパターン マッチングに RegEx を使用する手順について説明します。
 

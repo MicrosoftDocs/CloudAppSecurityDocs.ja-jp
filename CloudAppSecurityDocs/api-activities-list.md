@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 76dbe592fd827ebd5790d927f2dd2eb39946e536
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: f2a0f245994852c0e48f6c334a7172ffa14950a1
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657539"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880075"
 ---
 # <a name="list---activities-api"></a>一覧表示 - Activities API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 指定したフィルターと一致するアクティビティの一覧をフェッチする GET または POST 要求を実行します。
 

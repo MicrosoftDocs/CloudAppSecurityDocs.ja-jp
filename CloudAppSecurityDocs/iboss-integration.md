@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 8d849ed2b95577a805355eaae744ff81d2eb8176
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 69b70614bf62f91c6d0d9743e863239217542f1e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781720"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881044"
 ---
 # <a name="integrate-cloud-app-security-with-iboss"></a>Cloud App Security を iboss と統合する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud App Security と iboss の両方を使用している場合は、この 2 つの製品を統合して、お使いの Cloud Discovery のセキュリティを強化することができます。 iboss は、あなたの組織のトラフィックを監視し、トランザクションをブロックするポリシーを設定できる、スタンドアロンのセキュリティで保護されたクラウド ゲートウェイです。 Cloud App Security と iboss を共に使用すると、次の機能が提供されます。
 
@@ -49,9 +49,9 @@ Cloud App Security と iboss の両方を使用している場合は、この 2 
 
         ![データ ソース iboss](media/iboss-integration.png)
 
-    4. **[期待されるログ ファイルのサンプルを表示]** をクリックします。 次に、 **[サンプル ログのダウンロード]** をクリックしてサンプルの検出ログを表示し、それがお使いのログと一致していることを確認します。<br />
+    4. **[期待されるログ ファイルのサンプルを表示]** をクリックします。 次いで、 **[サンプル ログのダウンロード]** をクリックしてサンプルの検出ログを表示し、それがお使いのログと一致していることを確認します。<br />
 
-1. ご自分のネットワークで検出されたクラウド アプリを調査します。 詳細および調査手順については、[Cloud Discovery の操作](working-with-cloud-discovery-data.md)に関するページを参照してください。
+1. ネットワークで検出されたクラウド アプリを調査します。 詳細および調査手順については、[Cloud Discovery の操作](working-with-cloud-discovery-data.md)に関するページを参照してください。
 
 1. iboss により、Cloud App Security に設定した承認されていないすべてのアプリが、10 分ごとに ping され、自動的にブロックされます。 承認されないアプリの詳細については、[アプリの承認と却下](governance-discovery.md#BKMK_SanctionApp)に関するページを参照してください。
 

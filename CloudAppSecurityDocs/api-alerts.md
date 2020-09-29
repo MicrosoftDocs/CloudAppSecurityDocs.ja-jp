@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 0363d275c764d1e92d8d3f295de82e0c5bd2143a
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: 54aa8efa3ad214ff55f3800ffb95126766e549e4
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505441"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880650"
 ---
 # <a name="alerts-api"></a>Alerts API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Alerts API を使用すると、Cloud App Security によって特定された、注意が必要な緊急リスクに関する情報を取得できます。 アラートは、不審な使用パターンや、会社のポリシーに違反するコンテンツを含むファイルから生成される可能性があります。
 
@@ -37,7 +37,7 @@ Alerts API を使用すると、Cloud App Security によって特定された�
 
 フィルターの動作の詳細については、「[フィルター](api-introduction.md#filters)」を参照してください。
 
-サポートされているフィルターを次の表に示します。
+次の表では、サポートされているフィルターについて説明します。
 
 | フィルター | Type | 演算子 | [説明] |
 | --- | --- | --- | --- |

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 135dd542bce61796d0de8bce81fd735f2c87df53
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 0b3dcf585f394b3e2752ac46ea799a34a13373db
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780445"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880345"
 ---
 # <a name="docker-on-linux-in-azure"></a>Azure の Linux 上の Docker
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Docker を使用して、Cloud App Security での継続的レポートのためにログの自動アップロードを構成できます。
 
@@ -43,7 +43,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 * [ネットワークの要件](network-requirements.md#log-collector)に関する記事の説明に従ってファイアウォールを設定する
 
 > [!NOTE]
-> 既存のログ コレクターがあり、それを再度展開する前に削除したい場合、または単純に削除したい場合は、次のコマンドを実行します。
+> 既存のログ コレクターがあり、それを再度デプロイする前に削除したい場合、または単純に削除したい場合は、次のコマンドを実行します。
 >
 > ```console
 > docker stop <collector_name>
@@ -87,7 +87,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
     f. ネットワークのトラフィックを検出するために使用できるログの取得先であるファイアウォールおよびプロキシそれぞれに対して、この手順を繰り返します。 次のことを可能にするために、ネットワーク デバイスごとに専用のデータ ソースを設定することをお勧めします。
 
     * 調査のために、各デバイスの状態を個別に監視する。
-    * デバイスごとに Shadow IT Discovery を探索する (各デバイスが異なるユーザー セグメントによって使用されている場合)
+    * デバイスごとに Shadow IT Discovery を探索する (各デバイスが異なるユーザー セグメントによって使用されている場合)。
 
 1. 画面上部の **[ログ コレクター]** タブに移動します。
 
@@ -122,7 +122,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
     1. **[受信セキュリティ規則]** にアクセスし、 **[追加]** をクリックします。![受信セキュリティ規則の追加](media/ubuntu-azure.png)
     1. 次の規則を ( **[詳細設定]** モードで) 追加します。
 
-    |名前|宛先ポート範囲|プロトコル|ソース|Destination|
+    |名前|宛先ポート範囲|プロトコル|source|Destination|
     |----|----|----|----|----|
     |caslogcollector_ftp|21|TCP|<アプライアンスの IP アドレスのサブネット>|任意|
     |caslogcollector_ftp_passive|20000-20099|TCP|<アプライアンスの IP アドレスのサブネット>|任意|
@@ -179,7 +179,7 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 
 ### <a name="optional---create-custom-continuous-reports"></a>省略可能 - カスタムの継続的レポートを作成する
 
-ログが Cloud App Security にアップロードされていることと、レポートが生成されていることを確認します。 確認したら、カスタム レポートを作成します。 Azure Active Directory ユーザー グループに基づいて、カスタム検出レポートを作成できます。 たとえば、マーケティング部門のクラウドの使用状況を確認したい場合は、ユーザー グループのインポート機能を使用してマーケティング グループをインポートします。 次に、このグループのカスタム レポートを作成します。 また、IP アドレス タグや IP アドレスの範囲に基づいてレポートをカスタマイズすることもできます。
+ログが Cloud App Security にアップロードされていることと、レポートが生成されていることを確認します。 確認したら、カスタム レポートを作成します。 Azure Active Directory ユーザー グループに基づいて、カスタム探索レポートを作成できます。 たとえば、マーケティング部門のクラウドの使用状況を確認したい場合は、ユーザー グループのインポート機能を使用してマーケティング グループをインポートします。 次に、このグループのカスタム レポートを作成します。 また、IP アドレス タグや IP アドレスの範囲に基づいてレポートをカスタマイズすることもできます。
 
 1. Cloud App Security ポータルの設定の歯車アイコンの下で、[Cloud Discovery の設定]、 **[継続的レポート]** の順に選択します。 
 1. **[レポートの作成]** ボタンをクリックし、フィールドに入力します。

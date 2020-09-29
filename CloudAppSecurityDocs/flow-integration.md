@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
-ms.openlocfilehash: c2d208fa3570f32719e247b006c831755ab80173
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 6ea53492ebb2b3edbc08ebd7568b809953e8a6cb
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963779"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878213"
 ---
 # <a name="integrate-with-microsoft-power-automate-for-custom-alert-automation"></a>カスタム アラートの自動化のために Microsoft Power Automate と統合する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud App Security と [Microsoft Power Automate](/flow/getting-started) を統合すると、カスタム アラートの自動化とオーケストレーションのプレイブックが提供されます。 Power Automate で利用できる[コネクタのエコシステム](/connectors/)を使用することにより、Cloud App Security でアラートが生成されたときのプレイブックのトリガーを自動化できます。 たとえば、[ServiceNow コネクタ](/connectors/service-now/)を使用してチケット システムで問題を自動的に作成したり、Cloud App Security でアラートがトリガーされたときにカスタム ガバナンス アクションを実行するための承認メールを自動的に送信したりできます。
 

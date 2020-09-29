@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 4a774d5f642def30fffd4b29c9973f925257eb55
-ms.sourcegitcommit: 30bd09cd5a05bf19818a3f3a7e1b2ac0dc25d420
+ms.openlocfilehash: fd2898fe31d9f282e0893aa0b689f4d86c8f2918
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89598271"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881024"
 ---
 # <a name="external-dlp-integration"></a>外部 DLP 統合
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security は、既存の DLP ソリューションと統合して、オンプレミスとクラウドのアクティビティ全体で一貫性のある統一されたポリシーを維持しながら、これらのコントロールをクラウドに拡張させることができます。 このプラットフォームは、REST API や ICAP など、使いやすいインターフェイスをエクスポートします。Symantec Data Loss Prevention (以前の Vontu Data Loss Prevention) や Forcepoint DLP など、コンテンツ分類システムと統合できます。
 

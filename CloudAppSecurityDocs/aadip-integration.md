@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 17c963eb51b5b90a6ab07ec3337600b463fd9684
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 31b732fc51a61606bd2b7b3a25bbb00714901af4
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88779646"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880167"
 ---
 # <a name="azure-active-directory-identity-protection-integration"></a>Azure Active Directory Identity Protection の統合
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security は Azure Active Directory Identity Protection (Identity Protection) と統合され、ハイブリッド環境全体でユーザー エンティティ行動分析 (UEBA) を提供します。 Identity Protection によって提供される機械学習と行動分析の詳細については、「[Identity Protection とは](/azure/active-directory/identity-protection/overview-identity-protection)」を参照してください。
 

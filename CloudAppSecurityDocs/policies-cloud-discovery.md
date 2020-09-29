@@ -9,16 +9,16 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: e8f60e2412ab32fd5cb22adb78e482d6359697f6
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: 54df0eef56e31d8391d2bb7cfa80a98650dfdd9e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89667159"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877908"
 ---
 # <a name="cloud-discovery-policies"></a>Cloud Discovery ポリシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud Discovery を使用して組織全体のシャドウ IT を可視化するために、Cloud App Security の使用を開始する方法の概要について説明します。
 

@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: f08abe53f9eec3b229282fcf373f02b1ca3ff3d4
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: e7904bcd421d5c2132c1202d2b644a2ee9f52599
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657624"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879978"
 ---
 # <a name="bulk-resolve---alerts-api"></a>一括解決 - Alerts API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 指定したフィルターと一致する複数のアラートを解決する POST 要求を実行します。
 

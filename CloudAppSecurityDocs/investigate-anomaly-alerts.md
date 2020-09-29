@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: itfalcon
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7b93a60c42b024b03a048848d048f4ed93d13f17
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 60314be5b2dba1ec3ff5a35eb7d4e836a2a9d34d
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963473"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881659"
 ---
 # <a name="how-to-investigate-anomaly-detection-alerts"></a>異常検出アラートを調査する方法
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、悪意のあるアクティビティに対するセキュリティ検出とアラートが提供されます。 このガイドの目的は、調査と修復のタスクを支援するために、各アラートについての一般的で実用的な情報を提供することです。 このガイドに記載されているのは、アラートがトリガーされる条件に関する一般的な情報です。 ただし、異常検出は本質的に不明確であるため、標準とは異なる動作が発生した場合にのみトリガーされることに注意してください。 最後に、一部のアラートはプレビュー段階である可能性があるため、定期的に公式ドキュメントで更新されたアラートの状態を確認してください。
 

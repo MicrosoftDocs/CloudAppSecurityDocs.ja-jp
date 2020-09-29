@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 61a8c7edb0533d4b7c6cf2228ef7a83c54541bd7
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: d3469f45ed36ea2089ef659e9181fef1857454b2
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657854"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880688"
 ---
 # <a name="mark-as-read---alerts-api"></a>既読としてマークする - Alerts API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 指定した主キーと一致するアラートを既読とマークする POST 要求を実行します。
 

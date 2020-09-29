@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2afdf89e5ccbb42e9cdfb14673e07ce6e0e97de9
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 9b99e5477c96752f65e4b20a1f9d7f977a5b4ad7
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149195"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880981"
 ---
 # <a name="troubleshooting-app-connectors-using-error-messages"></a>エラー メッセージを使用したアプリ コネクタのトラブルシューティング
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、API アプリ コネクタのエラー メッセージの一覧と、各エラーの推奨される解決策について説明します。
 
@@ -52,7 +52,7 @@ API アプリ コネクタを使用してクラウド アプリに接続しよ�
 > |IOException:|Okta|内部エラー。|サポートにお問い合わせください|
 > |HttpRequestFailure:Server returned:404 Not Found|Okta|内部エラー。|サポートにお問い合わせください|
 > |HttpRequestFailure:Server returned:400 Bad Request: {"error":{"code":"AF20012","message":"Specified tenant ID (Tenant_ID goes here) is incorrectly configured in the system."|Office 365 |割り当てられた Office 365 ライセンスが見つかりませんでした。 |テナントに少なくとも 1 つの Office 365 ライセンスを割り当ててください。|
-> |Microsoft.Office.Compliance.Audit.DataServiceException:Tenant 998cea7e-35cd-46a5-ab3c-8ec88a45d7d5 does not exist or {"error":"code":"AF20023","message":"The subscription was disabled."|Office 365|Office 365 で監査ログが有効になっていません|Office 365 で監査ログを有効にしてください。 [詳細情報](connect-office-365-to-microsoft-cloud-app-security.md#how-to-connect-microsoft-365-to-cloud-app-security)|
+> |Microsoft.Office.Compliance.Audit.DataServiceException:Tenant 998cea7e-35cd-46a5-ab3c-8ec88a45d7d5 does not exist or {"error":"code":"AF20023","message":"The subscription was disabled."|Office 365|Office 365 で監査ログが有効になっていません|Office 365 で監査ログを有効にしてください。 [詳細情報](connect-office-365-to-microsoft-cloud-app-security.md#how-to-connect-office-365-to-cloud-app-security)|
 > |HttpRequestFailure:Server returned:401 Unauthorized|Office 365|内部の問題|[今すぐテストする] リンクをもう一度クリックします|
 > |TokenRefreshException: {"error":"invalid_grant","error_description":"AADSTS70002:Error validating credentials. AADSTS70008:The provided authorization code or refresh token is expired. Send a new interactive authorization request for this user and resource.|Office 365|トークンが期限切れです|プロセスに従って Office 365 を Cloud App Security に接続し直してください。|
 > |SocketTimeoutException:Read timed out|Office 365|内部エラー。|[今すぐテストする] リンクをもう一度クリックします|

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 55c3a9f1edfadcaa686a54a3b69f95e319a55320
-ms.sourcegitcommit: 740357159d8bc405412ca3c36757647b5f1c7623
+ms.openlocfilehash: 84aed2a0a5fc96ee3c8ca06723fe3ee0028bf275
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "89316963"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878414"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-integration-with-microsoft-cloud-app-security"></a>Microsoft Defender Advanced Threat Protection と Microsoft Cloud App Security の統合
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security は、Microsoft Defender Advanced Threat Protection (ATP) とネイティブに統合されます。 統合により、Cloud Discovery のロールアウトが簡単になり、Cloud Discovery の機能が企業ネットワークを超えて拡張され、コンピューター ベースの調査が可能になります。 [Microsoft Defender ATP](/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) は、インテリジェントな保護、検出、調査、対応のためのセキュリティ プラットフォームです。 Microsoft Defender ATP を使うと、エンドポイントがサイバー脅威から保護され、高度な攻撃とデータ侵害が検出され、セキュリティ インシデントが自動化されて、セキュリティ体制が強化されます。
 

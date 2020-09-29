@@ -10,16 +10,16 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.reviewer: dannyk
 ms.suite: ems
-ms.openlocfilehash: 7252a7c18278a6e536c26b3f84f5c51d09c72efe
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 48b5c30fe95e75a68e896b1d366f8a1bdeec4665
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88964068"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881144"
 ---
 # <a name="tutorial-investigate-risky-users"></a>チュートリアル:危険性の高いユーザーを調査する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 セキュリティ運用チームは、ID 攻撃の対象となるあらゆる次元において、疑いのあるなしに関わらずユーザーの利用状況を監視することが求められています。その際、互いに接続されていないことの多い複数のセキュリティ ソリューションが使われます。 現在、多くの企業では、各自の環境内の脅威を積極的に特定するための捜索チームが設けられていますが、膨大な量のデータの中から何を探せばよいのか、把握するのが困難になる場合があります。 Microsoft Cloud App Security では、複雑な相関関係のルールの作成を不要にすることで、これが簡略化されます。また、お客様のクラウドおよびオンプレミス ネットワーク全体にわたる攻撃を検索することができます。
 

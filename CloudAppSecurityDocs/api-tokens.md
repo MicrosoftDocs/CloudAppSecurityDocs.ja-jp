@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0748928a0d31e7486253c060609664061e3b8535
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 9a60fb663857c83dcbc11cab67f7926110e4d498
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781363"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880532"
 ---
 # <a name="api-tokens"></a>API トークン
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security API を使用すると、REST API エンドポイントを介して、プログラムで Cloud App Security にアクセスできます。 アプリケーションでは、API を使用して、Cloud App Security のデータとオブジェクトに対する読み取りと更新の操作を実行できます。 たとえば、Cloud App Security API では、ユーザー オブジェクトに対する次の一般的な操作がサポートされています。
 

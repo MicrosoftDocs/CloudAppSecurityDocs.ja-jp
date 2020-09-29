@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 4f8e5c59de4dd05730dc6970ae1cbebe8f941356
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 33078d72d6bbcb5430f207a029c3352d776958ba
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88964051"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881121"
 ---
 # <a name="tutorial-automatically-apply-azure-information-protection-classification-labels"></a>チュートリアル:Azure Information Protection 分類ラベルの自動適用
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 理想の世界では、社員が全員、情報保護の重要性を理解し、会社の方針から外れることなく仕事をします。 しかしながら、現実の世界では、経理を担当する社員が間違ったアクセス許可で会社の Box リポジトリにドキュメントをアップロードすることがあります。 1 週間後、会社の機密情報が競合他社に漏れたことが判明します。 Microsoft Cloud App Security は、この種の災難を発生前に止める目的で役立ちます。 この機能は Box、SharePoint、OneDrive for Business で利用できます。 Azure Information Protection ラベルの適用は、利用できるさまざまな[ガバナンス アクション](governance-actions.md)の 1 つです。
 

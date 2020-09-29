@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 262163c5063e856957477166c6989a9bc5ae8e72
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: ef438a397c06b1232a90e9a6b291721f6d93a270
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657811"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880669"
 ---
 # <a name="mark-as-unread---alerts-api"></a>未読としてマークする - Alerts API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 指定した主キーと一致するアラートを未読とマークする POST 要求を実行します。
 

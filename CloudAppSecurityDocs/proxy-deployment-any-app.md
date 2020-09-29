@@ -12,16 +12,16 @@ ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
-ms.openlocfilehash: 830eae43a1bd33df1669bc05e9cbc125794af75b
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 6ccaf32072dd012ab694457f7a4fb89a34a01965
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88964017"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880375"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-app"></a>任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security のセッション制御は、任意の Web アプリと連動するように構成できます。 この記事では、セッション制御を使用した Azure Active Directory (Azure AD) アプリケーション プロキシを介してホストされるカスタムの基幹業務アプリ、おすすめ以外の SaaS アプリ、およびオンプレミスのアプリをオンボードして展開する方法について説明します。
 

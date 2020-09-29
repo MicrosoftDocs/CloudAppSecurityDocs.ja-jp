@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: ebbe2f53f184cf8668a9cf3443ade3dedb42733f
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 8711209823bdb2ea010dbb734fc67c03561122ed
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85623352"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881450"
 ---
 # <a name="configure-automatic-log-upload-for-continuous-reports-on-a-virtual-appliance---deprecated"></a>仮想アプライアンスでの継続的なレポートのために自動ログ アップロードを構成する - 非推奨
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 > [!WARNING]
 > 柔軟性の高い展開を実現するために、[Docker](discovery-docker.md) を使用してログのアップロードを構成することを強くお勧めします。
@@ -32,7 +32,7 @@ ms.locfileid: "85623352"
 
 - ハイパーバイザー: Hyper-V または VMware
 - ディスク領域: 250 GB
-- CPU: 2
+- CPU:2
 - RAM:4 GB
 - [ネットワークの要件](network-requirements.md#log-collector)に関するセクションで説明されているとおりにファイアウォールを設定する
 

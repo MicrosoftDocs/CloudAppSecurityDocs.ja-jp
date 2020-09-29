@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: article
 ms.date: 12/04/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 9ee405188d0f338bfe43ca9a08730baa6054a844
-ms.sourcegitcommit: 582779b75be41e57fb1d773d1cf01f6b8598521e
+ms.openlocfilehash: 2ff5f5ffb2dfe58833f556a6aebe1d4b99b8c061
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "78274637"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880367"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-workday-environment"></a>Cloud App Security は Workday 環境の保護にどのように役立つか
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Workday は主要な HCM ソリューションの 1 つであり、従業員の個人データ、契約、ベンダーの詳細など、組織内の最も機密性の高い情報の一部が保持されます。 このデータの漏えいを防ぐには、悪意のある当事者やセキュリティ認識の低い内部関係者が機密情報を持ち出すことがないように、継続的な監視を行う必要があります。
 
@@ -29,7 +29,7 @@ Workday を Cloud App Security に接続すると、ユーザーのアクティ�
 - セキュリティ認識の不足
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [フォレンジック調査のためにアクティビティの監査証跡を使用する](best-practices.md#use-the-audit-trail-of-activities-for-forensic-investigations)

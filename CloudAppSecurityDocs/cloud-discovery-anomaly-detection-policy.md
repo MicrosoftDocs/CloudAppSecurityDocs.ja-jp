@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b85d234a05741dd7a158259c111a60bed3e6f524
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 7eaa223ba6c9f7bcf1c789fdce59b75739a0bc12
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781244"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881524"
 ---
 # <a name="cloud-discovery-anomaly-detection-policy"></a>Cloud Discovery 異常検出ポリシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、ポリシーの詳細について説明します。 各ポリシーの種類の説明と、ポリシーに対して構成できるフィールドの一覧を示します。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 69d194d0921613b5e5741a7e20fb366875f0278c
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: d50d185ce75b5ca301dd55681c11fbca8039491e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89666861"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881340"
 ---
 # <a name="connect-office-365-to-microsoft-cloud-app-security"></a>Office 365 を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリ コネクタ API を使用して Microsoft Cloud App Security を既存の Office 365 アカウントに接続する方法について説明します。 この接続を使用すると、Microsoft Office 365 の使用状況を表示したり制御したりできます。 Cloud App Security で Microsoft Office 365 を保護する方法の詳細については、[Microsoft Office 365 の保護](protect-office-365.md)に関するページを参照してください。
   

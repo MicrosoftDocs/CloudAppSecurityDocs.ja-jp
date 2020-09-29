@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5bf75b479f3568b7c6451880f3a2774104d8115a
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 7aa2b2ac172608d445860c1ddce4b9125657e18e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149646"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880127"
 ---
 # <a name="get-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を取得する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security の異常検出ポリシーにより、すぐに使用できるユーザーとエンティティの行動分析 (UEBA) と機械学習 (ML) が提供されるため、クラウド環境全体で高度な脅威検出を最初から実行できます。 それらは自動的に有効になるため、ネットワークに接続されているユーザー、コンピューター、デバイスのさまざまな動作の異常を対象として、新しい異常検出ポリシーにより結果の検出と照合のプロセスが開始されます。 さらに、これらのポリシーでは、Cloud App Security 検出エンジンからより多くのデータが公開され、調査プロセスの高速化と、進行中の脅威の阻止に役立ちます。
 
@@ -81,7 +81,7 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
     > * ボックス
     > * ドロップボックス
     > * G Suite
-    > * Microsoft 365 (Office 365 Advanced Threat Protection P1 の有効なライセンスが必要)
+    > * Office 365 (Office 365 Advanced Threat Protection P1 の有効なライセンスが必要)
 
 ### <a name="activity-from-anonymous-ip-addresses"></a>匿名 IP アドレスからのアクティビティ
 

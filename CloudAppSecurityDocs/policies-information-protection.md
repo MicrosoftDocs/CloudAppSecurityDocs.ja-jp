@@ -9,16 +9,16 @@ ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b4be7d9e31f2fc0bf71175a9c7fb3d07c38262a4
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: d5b42984d8e0f1b16db5a92116e4d7835d3882b8
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254807"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877863"
 ---
 # <a name="information-protection-policies"></a>情報保護に関するポリシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud App Security のファイル ポリシーを使用すると、さまざまな自動プロセスを適用できます。 ポリシーを設定することで、継続的なコンプライアンス スキャン、法的な電子情報開示タスク、一般公開されている機密コンテンツの DLP などの情報保護を提供できます。
 

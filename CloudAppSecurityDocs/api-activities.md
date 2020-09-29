@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 73045177f79bb17c5adbf2d19c9c41875e135b51
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 9ba5e83c10406308a1faf6e323fcfb9837da4b12
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149722"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880035"
 ---
 # <a name="activities-api"></a>Activities API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Activity API を使用すると、クラウド アプリで実行されたすべてのアクションを把握できます。 この API のデータでは、誰が、いつ、どのアプリにログインしたか、どのファイルが疑わしい場所からダウンロードされているか、などに関する情報を提供できます。
 
@@ -53,7 +53,7 @@ Activity API を使用すると、クラウド アプリで実行されたすべ
 | location.organizations | string | eq、neq、isset、isnotset、contains | 指定した組織から開始されたアクティビティをフィルター処理します |
 | ip.address | string | eq、startswith、doesnotstartwith、isset、isnotset、neq | 指定した IP アドレスから開始されたアクティビティをフィルター処理します |
 | fileSelector | file | eq、neq | 指定したファイルまたはフォルダーが含まれるアクティビティをフィルター処理します |
-| office365url | string | startswith、eq、endswith | Microsoft 365 の URL でアクティビティをフィルター処理します |
+| office365url | string | startswith、eq、endswith | Office 365 の URL でアクティビティをフィルター処理します |
 | fileId | string | eq | ID でファイルを検索します |
 | ip.category | integer | eq、neq | 指定したサブネット カテゴリでアクティビティをフィルター処理します。 次の値を指定できます。<br /><br />**1**:企業<br />**2**:管理<br />**3**:危険<br />**4**:VPN<br />**5**:クラウド プロバイダー<br />**6**: その他 |
 | ip.tags | string | eq、neq | IP タグ ID でアクティビティをフィルター処理します |

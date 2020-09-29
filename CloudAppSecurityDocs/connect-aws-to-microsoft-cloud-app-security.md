@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: dff661d7db60a01cb9d66fc131add97db7598e04
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 62dfd007a54df2365aff04178d172257e3d15b44
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781261"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881511"
 ---
 # <a name="connect-aws-to-microsoft-cloud-app-security"></a>AWS を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、コネクタ API を使用して既存のアマゾン ウェブ サービス (AWS) アカウントを Microsoft Cloud App Security に接続する手順について説明します。 Cloud App Security で AWS を保護する方法の詳細については、[AWS の保護](protect-aws.md)に関するページを参照してください。
 

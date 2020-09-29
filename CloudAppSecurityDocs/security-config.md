@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0a78f81a81c1482c4c2da8aab0ab14f62238da83
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 3103a55484ec094948cef1bb457632d28e661c73
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781516"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878813"
 ---
 # <a name="security-configuration-overview"></a>セキュリティ構成の概要
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、Azure、Amazon Web Services (AWS)、Google Cloud Platform (GCP) のセキュリティ構成の評価を得ることができます。 推奨事項の対象となるのは、あらゆる Azure サブスクリプション、メンバー アカウントを含む AWS アカウント、組織に接続されているあらゆる GCP プロジェクトです。 複数のクラウドを対象にクラウド プラットフォーム セキュリティ構成のあらゆる推奨事項をこのように表示できることで、セキュリティ管理者は、Cloud App Security におけるセキュリティ構成のギャップをすべて調査できます。
 

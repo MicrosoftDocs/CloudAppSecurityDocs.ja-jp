@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: a2cc37a22d339b721111948b277135382a2c7c8a
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 5af1ab07a90430d025c780327b6a99344f906345
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781091"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881366"
 ---
 # <a name="connect-dropbox-to-microsoft-cloud-app-security"></a>Dropbox を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Dropbox アカウントに接続する方法を説明します。 この接続を使用すると、Dropbox の使用状況を表示したり制御したりできます。 Cloud App Security での Dropbox の保護方法の詳細については、[Dropbox の保護](protect-dropbox.md)に関する記事を参照してください。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 9fdea4bcf8db70a1f8eed023cb8af81d328b8771
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 49f61cbad04b6c4f559ec47bc9bdc6047f016b1a
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963524"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877617"
 ---
 # <a name="access-policies"></a>アクセス ポリシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security アクセス ポリシーでは、ユーザー、場所、デバイス、アプリを基準に、クラウド アプリへのアクセスをリアルタイムで監視し、制御できます。 クライアント証明書をマネージド デバイスにロールアウトするか、サード パーティの MDM 証明書などの既存の証明書を使用することで、(Hybrid Azure AD Join ではなく、Microsoft Intune によって管理されないデバイスを含めた) 任意のデバイス用のアクセス ポリシーを作成できます。 たとえば、マネージド デバイスにクライアント証明書をデプロイし、その後、証明書のないデバイスからのアクセスをブロックできます。
 
@@ -33,7 +33,7 @@ Microsoft Cloud App Security アクセス ポリシーでは、ユーザー、�
 ## <a name="prerequisites-to-using-access-policies"></a>アクセス ポリシーを使用するための前提条件
 
 - Azure AD Premium P1 ライセンス、または ID プロバイダー (IdP) ソリューションに必要なライセンス
-- 関連するアプリを、[アプリの条件付きアクセス制御と共にデプロイする](proxy-deployment-aad.md)必要があります。
+- 関連するアプリを、[アプリの条件付きアクセス制御と共にデプロイする](proxy-deployment-aad.md)必要があります
 - 次のように、Cloud App Security と連動するように IdP ソリューションを構成します。
   - [Azure AD 条件付きアクセス](/azure/active-directory/active-directory-conditional-access-azure-portal)については、[Azure AD との統合を構成する](proxy-deployment-aad.md#configure-integration-with-azure-ad)方法に関するページを参照してください
   - その他の IdP ソリューションについては、[その他の IdP ソリューションとの統合を構成する](proxy-deployment-aad.md#configure-integration-with-other-idp-solutions)方法に関するページを参照してください。

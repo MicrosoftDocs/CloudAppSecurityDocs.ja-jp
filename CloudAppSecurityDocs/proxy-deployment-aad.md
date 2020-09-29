@@ -10,16 +10,16 @@ ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: a706367211dbf6446168e33128676b6227b18ae3
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 4e47e58f3568fb8180359828d4b1a3cb0291880b
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88964034"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880405"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security のセッション コントロールは、おすすめアプリと連動します。 Cloud App Security でおすすめされている、すぐに使用できるアプリの一覧については、[Cloud App Security のアプリの条件付きアクセス制御を使用したアプリの保護](proxy-intro-aad.md#featured-apps)に関する記事をご覧ください。
 

@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: article
 ms.date: 09/15/2020
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3fde8f4de6eaed15191f773562342195bbe41471
-ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
+ms.openlocfilehash: 44e15814bf3a7017d44eb7fb3465245b8ad8e43b
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90524159"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877534"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-azure-environment"></a>Cloud App Security は Azure 環境の保護にどのように役立つか
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Azure は、組織がそのワークロード全体をクラウド内でホストして管理することを可能にする IaaS プロバイダーです。 クラウド内のインフラストラクチャを活用できる利点があると同時に、組織の最も重要な資産が脅威にさらされる可能性があります。 さらされる資産には、機密性が高い情報を含む可能性があるストレージ インスタンス、最も重要なアプリケーションの一部を操作するコンピューティング リソース、ポート、および組織へのアクセスを可能にする仮想プライベート ネットワークなどがあります。
 
@@ -29,7 +29,7 @@ Azure を Cloud App Security に接続すると、管理およびサインイン
 - データ漏えい
 - リソースの構成に誤りがあり、アクセス制御が不十分である
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 072a4205c62158f73922d4648d5d10890d73b82c
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: f9e226f117de70c98125708b93ea1badf67aa06d
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624476"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880182"
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud App Security についてよく寄せられる質問とその回答について説明します。
 

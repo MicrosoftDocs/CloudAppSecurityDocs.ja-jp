@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c4102b65899b9579d5aed5d719a6a0bbecb4ae2f
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: c08938f5317d5862b480a0498949df6930910e63
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781295"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881574"
 ---
 # <a name="generate-data-management-reports"></a>データ管理レポートの生成
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、クラウド アプリ内のファイルの概要を提供するレポートを生成することができます。
 

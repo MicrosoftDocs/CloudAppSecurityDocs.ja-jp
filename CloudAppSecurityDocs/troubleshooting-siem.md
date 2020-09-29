@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7b3757c49d4f72acbc4daf04f3c7fcecec2241cb
-ms.sourcegitcommit: 03c7cbed4207f06b5d49cf19d690114a59916f9c
+ms.openlocfilehash: effcab71a9b359aeb5d97ab2dc889e10133f7b9e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89422773"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877012"
 ---
 # <a name="troubleshooting-the-siem-agent"></a>SIEM エージェントのトラブルシューティング
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、SIEM を Cloud App Security に接続した場合に発生する可能性のある問題のリストと、考えられる解決策を提供します。
 
@@ -81,7 +81,7 @@ Microsoft Cloud App Security ポータルで SIEM エージェントの状態が
 
 エージェントの実行中に、コマンド プロンプトで次のいずれかのエラーが表示された場合は、次の手順を使用して問題を修復します。
 
-|エラー|説明|解決策|
+|エラー|[説明]|解決策|
 |----|----|----|
 |ブートストラップ中の一般エラー|エージェントのブートストラップ中に予期しないエラーが発生しました。|サポートにお問い合わせください。|
 |重大なエラーが多すぎる|コンソールへの接続中に発生した重大なエラーが多すぎます。 シャットダウンしています。|サポートにお問い合わせください。|
@@ -90,7 +90,7 @@ Microsoft Cloud App Security ポータルで SIEM エージェントの状態が
 
 エージェントを作成したら、Cloud App Security ポータルの SIEM エージェント ページを確認します。 次の**エージェント通知**のいずれかが表示された場合は、次の手順を使用して問題を修復します。
 
-|エラー|説明|解決策|
+|エラー|[説明]|解決策|
 |----|----|----|
 |**内部エラー**|SIEM エージェントで不明な問題が発生しました。|サポートにお問い合わせください。|
 |**データ サーバー送信エラー**|このエラーは、TCP 経由で Syslog サーバーを使用している場合に発生する場合があります。 SIEM エージェントが Syslog サーバーに接続できません。  このエラーが発生した場合、修正されるまでエージェントによって新しいアクティビティのプルが停止されます。 エラーが表示されなくなるまで、修復手順に従ってください。|1.Syslog サーバーが正しく定義されていることを確認する: Cloud App Security UI で、前述のように SIEM エージェントを編集します。 サーバーの名前が正しく記述されていることを確認し、適切なポートを設定します。 </br>2.Syslog サーバーへの接続を確認する: ファイアウォールによって通信がブロックされていないことを確認します。|

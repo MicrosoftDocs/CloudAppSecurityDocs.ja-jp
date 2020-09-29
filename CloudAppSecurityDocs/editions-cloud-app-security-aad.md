@@ -13,32 +13,32 @@ ms.service: cloud-app-security
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 825a8532588cc479bcc37e5373bff23ccc841d8d
-ms.sourcegitcommit: 0b929f7c8feed7dfb40d5294179fd5c6fc079614
+ms.openlocfilehash: f507b287f04789967b04abbb804d6f2b406e2ca2
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "74461040"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877649"
 ---
 # <a name="what-are-the-differences-in-discovery-capabilities-for-azure-active-directory-and-microsoft-cloud-app-security"></a>Azure Active Directory と Microsoft Cloud App Security では、検出機能にどのような違いがありますか。
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
-この記事では、Cloud App Security と Azure Active Directory (Azure AD) の検出機能の違いについて説明します。
+この記事では、Microsoft Cloud App Security と Azure Active Directory (Azure AD) の検出機能の相違点について説明します。
 
 ライセンスの詳細については、「[Microsoft Cloud App Security ライセンス データシート](https://aka.ms/mcaslicensing)」を参照してください。
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
-Microsoft Cloud App Security は包括的なクロス SaaS ソリューションであり、深い可視性、強力なデータ制御、強化された脅威保護をクラウド アプリにもたらします。 Cloud Discovery は Cloud App Security の機能の 1 つであり、使用中のクラウド アプリを検出することでシャドウ IT を見えるようにします。
+Microsoft Cloud App Security は包括的なクロス SaaS ソリューションです。高度な可視化、強力なデータ管理、高性能な脅威防御といった機能をクラウド アプリにもたらします。 Cloud Discovery は、Cloud App Security の機能の 1 つであり、使用中のクラウド アプリを検出することで、シャドウ IT に可視性を確保することができます。
 
-## <a name="enhanced-cloud-app-discovery-in-azure-active-directory"></a>Azure Active Directory の強化された Cloud App Discovery
+## <a name="enhanced-cloud-app-discovery-in-azure-active-directory"></a>Azure Active Directory で強化された Cloud App Discovery
 
-Azure Active Directory Premium P1 には追加コストなしで [Azure Active Directory Cloud App Discovery](https://aka.ms/caddocsnew) が含まれます。 この機能は、組織のクラウド アプリ使用状況が詳しく見えるようになる Microsoft Cloud App Security Cloud Discovery 機能を基盤にしています。 [Microsoft Cloud App Security にアップグレードする](https://www.microsoft.com/cloud-platform/cloud-app-security)と、Microsoft Cloud App Security の Cloud App Security Broker (CASB) 機能が一式全部与えられます。
+Azure Active Directory Premium P1 には、[Azure Active Directory Cloud App Discovery](https://aka.ms/caddocsnew) が含まれており、追加費用はかかりません。 この機能は、Microsoft Cloud App Security Cloud Discovery 機能に基づいており、組織内のクラウド アプリの使用状況により詳細な可視性を提供します。 [Microsoft Cloud App Security をアップグレード](https://www.microsoft.com/cloud-platform/cloud-app-security)すると、Microsoft Cloud App Security で提供される Cloud App Security Broker (CASB) の各種機能を受け取ります。
 
 ### <a name="feature-comparison"></a>機能の比較
 
-次の表は、Microsoft Cloud App Security と Azure AD の検出機能を比較したものです。
+Microsoft Cloud App Security と Azure AD の検出機能の比較を次の表に示します。
 
 |機能|機能|Microsoft Cloud App Security|Azure AD Cloud App Discovery|
 |----|----|----|----|
@@ -65,4 +65,4 @@ Azure Active Directory Premium P1 には追加コストなしで [Azure Active D
 
 基本については、「[Cloud App Security の使用を開始する](getting-started-with-cloud-app-security.md)」をご覧ください。
 
-[!INCLUDE [Open support ticket](includes/support.md)] にする必要があります。
+[!INCLUDE [Open support ticket](includes/support.md)].

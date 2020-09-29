@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2d3bf0f715379d753d56fc74a4dcb0cae5cbb31f
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 6d5765c89498df4f7140ad9adbbab949b8970cbb
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781006"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881317"
 ---
 # <a name="connect-okta-to-microsoft-cloud-app-security"></a>Okta を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Okta アカウントに接続する手順について説明します。 この接続を使用すると、Okta の使用状況を表示したり制御したりできます。 Cloud App Security で Okta を保護する方法の詳細については、[Okta の保護](protect-okta.md)に関する記事を参照してください。
 

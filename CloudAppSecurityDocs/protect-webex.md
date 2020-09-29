@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: article
 ms.date: 12/04/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 5ee11b6c97bc8aa5b0ec35394ac6f1f40bd3873a
-ms.sourcegitcommit: db5ec79d219dd6674939c872ace7cd2ca80860a4
+ms.openlocfilehash: 1c813d804b2f9ef4df1ede9ea85542fdd22f38d9
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75190212"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880416"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-cisco-webex-environment"></a>Cloud App Security は Cisco Webex 環境の保護にどのように役立つか
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 コミュニケーションおよびコラボレーションのプラットフォームである Cisco Webex では、組織全体の円滑なコミュニケーションとコラボレーションを実現することができます。 データと資産のやりとりに Cisco Webex を使用すると、たとえば、外部ユーザーが従業員との会話にも参加している可能性があるチャット ルームなどで、組織の機密情報が外部ユーザーに公開される可能性がありま。
 
@@ -43,7 +43,7 @@ Cisco Webex を Cloud App Security に接続すると、ユーザーのアクテ
 | Type | 名前 |
 | ---- | ---- |
 | 組み込みの異常検出ポリシー | [終了させられたユーザーによって実行されるアクティビティ (IdP として AAD が必要)](anomaly-detection-policy.md#activity-performed-by-terminated-user)<br />[複数回失敗したログイン試行](anomaly-detection-policy.md#multiple-failed-login-attempts)<br />[ランサムウェアの検出](anomaly-detection-policy.md#ransomware-activity)<br />[異常なファイル削除アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user)<br />[異常なファイル共有アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user)<br />[通常とは異なる複数ファイルのダウンロード アクティビティ](anomaly-detection-policy.md#unusual-activities-by-user) |
-| ファイル ポリシー テンプレート | 承認されていないドメインで共有されたファイルを検出<br />個人用メール アドレスで共有されたファイルを検出<br />PII/PCI/PHI を使用したファイルを検出 |
+| ファイル ポリシー テンプレート | 承認されていないドメインで共有されたファイルの検出<br />個人用メール アドレスで共有されたファイルの検出<br />PII/PCI/PHI を使用したファイルを検出 |
 | アクティビティ ポリシー テンプレート | 単独のユーザーによる大量ダウンロード<br />ランサムウェアの可能性があるアクティビティ |
 
 ポリシー作成の詳細については、「[ポリシーの作成](control-cloud-apps-with-policies.md#create-a-policy)」を参照してください。

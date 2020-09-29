@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c32d5343d9069104e0cf02fa1f900dd58c20b3c2
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: c13cf89f2a929046c846289f0065bc29b0e6d578
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781125"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881351"
 ---
 # <a name="connect-box-to-microsoft-cloud-app-security"></a>Box を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリ コネクタ API を使用して Microsoft Cloud App Security を Box アカウントに接続する方法を説明します。 この接続を使用すると、Box の使用状況を表示したり制御したりできます。 Cloud App Security での Box の保護方法の詳細については、[Box の保護](protect-box.md)に関する記事を参照してください。
 

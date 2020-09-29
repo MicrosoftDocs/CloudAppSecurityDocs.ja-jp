@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 707bdbe5e5be0ad506451257f7364197b77e5079
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 89342994a408ae1b03bd50c3c1fa4adc9dd12bc4
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781193"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881432"
 ---
 # <a name="connect-g-suite-to-microsoft-cloud-app-security"></a>G Suite を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の G Suite アカウントに接続する手順について説明します。 この接続を使用すると、G Suite の使用状況を表示したり制御したりできます。 Cloud App Security で G Suite を保護する方法の詳細については、[G Suite の保護](protect-gsuite.md)に関するページを参照してください。
 

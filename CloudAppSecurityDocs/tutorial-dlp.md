@@ -12,16 +12,16 @@ ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
-ms.openlocfilehash: c0ba4e4271b39adf3fa574459c15641bce5b3c26
-ms.sourcegitcommit: 7b6124e5ecb3fa8fc1176d89e06b052f2a53a310
+ms.openlocfilehash: 4a75a256f8d4fa2e9483a153fce7ba1e1ab28376
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83856095"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880938"
 ---
 # <a name="tutorial-discover-and-protect-sensitive-information-in-your-organization"></a>チュートリアル:組織の機密情報を検出して保護する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 理想の世界では、社員が全員、情報保護の重要性を理解し、会社の方針から外れることなく仕事をします。 実際には、会計情報を頻繁に使用している多忙なパートナーが、機密情報を誤ったアクセス許可でうっかり Box リポジトリにアップロードしてしまう可能性があります。 1 週間後、会社の機密情報が競合他社に漏れたことが判明します。
 

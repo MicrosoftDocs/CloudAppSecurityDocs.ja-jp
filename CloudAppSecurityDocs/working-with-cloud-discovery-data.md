@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 05af62c1754484572ff36510aedca113cdae8d5e
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 1406212b95a790aea489f4580fa821206139d5ae
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624713"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878113"
 ---
 # <a name="working-with-discovery-data"></a>探索データの操作
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud Discovery ダッシュボードは、組織におけるクラウド アプリの利用状況を詳細に理解できるように設計されています。 使用されているアプリ、未処理のアラート、組織のアプリのリスク レベルをひとめで確認できます。 また、アプリを一番多く使っている人が表示され、アプリの本社が地図で示されます。 Cloud Discovery ダッシュボードには、データをフィルター処理するためのさまざまなオプションがあります。 フィルター処理を使用すると、わかりやすいグラフィックスを使用してひとめで全体像を把握できるため、ご自分が最も関心のあるものに応じて特定のビューを生成できます。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 6ea6a6c8d544fe3dbfc4ceaf63f7d5c91d98054a
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 0c18810e5fc6c4aa94fecd2db5e6b8a03d82ae20
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780394"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880763"
 ---
 # <a name="use-a-custom-log-parser"></a>カスタム ログ パーサーを使用する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud App Security では、Cloud Discovery に使用できるように、ログの形式を一致させて処理するためのカスタム パーサーを構成できます。 通常、ファイアウォールまたはデバイスが Cloud App Security によって明示的にサポートされていない場合に、カスタム パーサーを使用します。 CSV パーサーまたはカスタム キー値パーサーを使用できます。
 

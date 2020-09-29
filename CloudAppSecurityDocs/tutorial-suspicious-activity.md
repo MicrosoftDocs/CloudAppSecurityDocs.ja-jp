@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: galz
 ms.suite: ems
-ms.openlocfilehash: 00646b44cb9c2095e3beaaa98f3528c6eb7b31db
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: bdf58b83e01dc6ab088d3956f2a71ef52f368438
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254824"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881181"
 ---
 # <a name="tutorial-detect-suspicious-user-activity-with-ueba"></a>チュートリアル:UEBA を使用して疑わしいユーザー アクティビティを検出する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security は、侵害されたユーザー、内部の脅威、流出、ランサムウェアなどに対する攻撃キル チェーン全体にクラス最高の検出を提供します。 この包括的なソリューションは、ユーザーが環境内でどのようにアプリを使用しているかについて幅広い視野を提供するため、異常検出、行動分析 (UEBA)、ルールベースのアクティビティ検出などの複数の検出方法を組み合わせることで実現されています。
 

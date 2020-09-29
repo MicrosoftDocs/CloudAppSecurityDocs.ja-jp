@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 93b285abfbbffad4a9a033e39cb226100ecd519a
-ms.sourcegitcommit: c9b7aa05694a1825f0b32b677b5a6549b846c554
+ms.openlocfilehash: 0964983a0e91ff7ee0b8fb33c0f42d6f76c08c1e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2020
-ms.locfileid: "90056746"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880308"
 ---
 # <a name="protect-apps-with-microsoft-cloud-app-security-conditional-access-app-control"></a>Microsoft Cloud App Security のアプリの条件付きアクセス制御を使用してアプリを保護する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 今日の職場では、多くの場合、クラウド環境で起きていることを、それが起きた後で知るのでは十分ではありません。 従業員が意図的または不注意にデータと組織を危険にさらす前に、侵害とリークをリアルタイムで停止する必要があります。 組織内のユーザーがクラウド アプリで利用できるサービスとツールを最大限に活用し、自分のデバイスを持ち込んで使用できるようにすることが重要です。 同時に、データの漏洩やデータの盗難から、リアルタイムで組織を保護するためのツールが必要です。 Microsoft Cloud App Security では、任意の ID プロバイダー (IdP) と統合することにより、これらの機能がアクセス制御およびセッション制御と共に提供されます。 Azure Active Directory (Azure AD) を IdP として使用している場合、これらの制御は、Azure AD の [条件付きアクセス ツール](/azure/active-directory/conditional-access/overview)を基に構築されたよりシンプルで調整されたデプロイ用に、統合および合理化されています。
 

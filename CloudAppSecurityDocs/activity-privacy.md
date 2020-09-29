@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2d642a834111a1b8cadc3e997bdb63a19426aac1
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 89a5f95512a2cfd3eb64c181b5e805944c0275eb
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149909"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880924"
 ---
 # <a name="activity-privacy"></a>アクティビティのプライバシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security を使用することで、企業では、グループのメンバーシップに基づいて監視するユーザーを細かく決定できます。 アクティビティのプライバシーにより、ユーザーのプライバシーを侵害することなく組織のコンプライアンス規制に従う機能が追加されます。 これは、お客様がユーザーを監視しながら、アクティビティ ログでアクティビティを非表示にすることによってユーザーのプライバシーを維持することで実現されます。 承認された管理者のみがこれらのプライベート アクティビティを表示することを選択できます。各インスタンスはガバナンス ログで監査されます。
 
@@ -32,7 +32,7 @@ Cloud App Security で監視したいユーザーがいるが、コンプライ�
 
 ユーザーのプライバシー グループを構成するには、まず Cloud App Security に[ユーザー グループをインポートする](user-groups.md)必要があります。 既定では、次のグループが表示されます。
 
-- **[アプリケーション]** ユーザー グループ - Microsoft 365 および Azure AD アプリケーションによって実行されるアクティビティを表示できる、組み込みのグループです。
+- **[アプリケーション]** ユーザー グループ - Office 365 および Azure AD アプリケーションによって実行されるアクティビティを表示できる、組み込みのグループです。
 
 - **[外部ユーザー]** グループ - 組織用に構成したいずれかのマネージド ドメインのメンバーではないすべてのユーザー。
 

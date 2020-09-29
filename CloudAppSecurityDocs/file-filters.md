@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2cd1042c28ee35ee0afc77292ac523e521bc5b16
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 50e6d6855a6e1b94a4d10cb47b31321e0ee242ae
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780122"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879634"
 ---
 # <a name="files"></a>ファイル
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 データ保護を提供するために、Microsoft Cloud App Security では、接続されているアプリのすべてのファイルを表示することができます。 アプリ コネクタを使用して Microsoft Cloud App Security をアプリに接続した後、すべてのファイル (たとえば、OneDrive や Salesforce に格納されているすべてのファイル) が Microsoft Cloud App Security によってスキャンされます。 その後、各ファイルは変更されるたびに Cloud App Security によって再スキャンされます。内容、メタデータ、または共有アクセス許可の変更を対象にできます。 スキャン時間は、アプリに格納されているファイルの数によって異なります。 また、 **[ファイル]** ページを使用してファイルをフィルター処理し、クラウド アプリに保存されているデータの種類を調査することもできます。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 3fc036277fac599f3075cd3c9cf765a0623e79a9
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: c1b33c82b74f9b7b648bcae3c9bdc20949319fc8
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963932"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878783"
 ---
 # <a name="session-policies"></a>セッション ポリシー
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security のセッション ポリシーを使用すると、セッション レベルのリアルタイム監視が可能になり、クラウド アプリの詳細な可視性が提供され、ユーザー セッションに対して設定したポリシーに応じて異なるアクションを実行できるようになります。 セッション制御では、[アクセスを完全に許可またはブロックする](access-policy-aad.md)のではなく、アプリの条件付きアクセス制御のリバース プロキシ機能を使用して、セッションを監視しながらアクセスを許可したり、特定のセッション アクティビティを制限したりできます。
 

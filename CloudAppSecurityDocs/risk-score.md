@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 074ff2ae9e23cdcb351a34f937103e311441aa7f
-ms.sourcegitcommit: 45a23730c2beda00c32b0d6cb8da872dc2bf0e14
+ms.openlocfilehash: 4cbc15f85c40d8a36750df20c701900df7a0b8c8
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86137965"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879145"
 ---
 # <a name="working-with-app-risk-scores"></a>アプリのリスク スコアの操作
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 クラウド アプリ カタログを使用すると、Cloud Discovery で識別されたものの全体像を把握できます。 Cloud Discovery では、16,000 以上のクラウド アプリを掲載した Microsoft Cloud App Security のクラウド アプリ カタログに照らしてトラフィック ログが分析されます。 これらのアプリは、80 以上のリスク要因に基づいてランク付けおよびスコア付けされます。これにより、クラウドの使用状況、シャドウ IT、シャドウ IT が組織にもたらすリスクを継続的に把握することができます。 この記事では、Cloud App Security アプリのリスク スコアを使用およびカスタマイズする方法について説明します。
 
@@ -116,7 +116,7 @@ Cloud Discovery では、環境全体で使用されるクラウド アプリの
 
 3. さらに、スコア計算で特定の値を使用不可または適用外とするかどうかを設定できます。 このような値を設定すると、該当なしの値 (N/A 値) が、計算されたスコアのマイナスに寄与します。
 
-    ![スコア](media/score.png "スコア メトリック")
+    ![スコア メトリック](media/score.png)
 
 Cloud App Security のリスク スコアの計算方法を理解するために必要な情報はすべて、Cloud App Security ポータルから参照できます。 特定のリスク カテゴリのリスク要因の重み付けの説明を見るには、アプリのプロファイルで各フィールド名の右側にある [i] ボタンを使用します。 特定のリスク要因の Cloud App Security によるスコア付けの正確性に関する情報が表示されます。 スコアは、1 ～ 10 のスケールで表したリスク要因の値と、リスク カテゴリにおけるその重み付けを合算した値です。
 

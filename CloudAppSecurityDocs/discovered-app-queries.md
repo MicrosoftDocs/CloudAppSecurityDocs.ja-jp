@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f31b8937d1eeb9781b677da154880ab699ef131e
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: ef61d90f23eb9e15b8b84f926b0b4424f4b3b36b
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780309"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881678"
 ---
 # <a name="discovered-app-filters-and-queries"></a>検出されたアプリのフィルターとクエリ
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 検出されたアプリの数が多い場合は、フィルター処理してクエリを実行すると便利です。 この記事では、利用可能なフィルターと、検出されたアプリに対するクエリの実行方法について説明します。
 

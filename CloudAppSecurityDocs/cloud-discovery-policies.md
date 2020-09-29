@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: e80e2530ec5f2a157287661403e429817f8e36a3
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 2561017dec734db588b31789a078156fbe4bc59e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781210"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881470"
 ---
 # <a name="create-cloud-discovery-policies"></a>Cloud Discovery ポリシーの作成
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 アプリ検出ポリシーを作成して、新しいアプリが検出されたときにアラートさせることができます。 Cloud App Security では、Cloud Discovery 内のすべてのログでも異常が検出されます。
 

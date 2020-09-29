@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 082ca682594dbb8902605993d8ccfa1721d1c0ae
-ms.sourcegitcommit: c737a1ad67b4f7efa302d1aa92fce50f75c94d2d
+ms.openlocfilehash: fd54a610c074bc69b4d9f78dd46d32978f93a75e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "86926742"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877202"
 ---
 # <a name="troubleshooting-cloud-discovery"></a>Cloud Discovery のトラブルシューティング
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud Discovery のエラーと、それぞれの推奨される解決策の一覧を示します。
 

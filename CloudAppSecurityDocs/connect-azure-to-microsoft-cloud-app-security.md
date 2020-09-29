@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 58a8fad9c99fdf71c8ba17089083d02b15cdd8cf
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 942c8702a6e42799780caa9b77514995b3f87789
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781108"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881426"
 ---
 # <a name="connect-azure-to-microsoft-cloud-app-security"></a>Azure を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリ コネクタ API を使用して Microsoft Cloud App Security を既存の Azure アカウントに接続する方法について説明します。 この接続を使用すると、Azure の使用状況を表示したり制御したりできます。 Cloud App Security での Azure の保護方法の詳細については、[Azure の保護](protect-azure.md)に関する記事を参照してください。
 

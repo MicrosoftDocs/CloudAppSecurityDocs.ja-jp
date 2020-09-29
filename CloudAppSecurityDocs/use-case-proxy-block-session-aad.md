@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: e3b170d932c66532d421604f63f956a891d17663
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: f145c8f76e205e24703742d4162c8766b2785588
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963847"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877042"
 ---
 # <a name="tutorial-block-download-of-sensitive-information"></a>チュートリアル:機密情報のダウンロードをブロックする
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 今日の IT 管理者は、ジレンマを感じています。 従業員の生産性を高めたい。 これは、任意のデバイスからいつでも作業できるように、従業員にアプリへのアクセスを許可することを意味します。 それでいて、会社独自の機密情報を含めた資産を保護したいと考えています。 データを保護しながら、従業員がクラウド アプリにアクセスできるようにするにはどうすればよいでしょうか。 **このチュートリアルでは、アンマネージド デバイスまたは社外のネットワークの場所からエンタープライズ クラウド アプリの機密データにアクセスできるユーザーによるダウンロードをブロックできるようになります。**
 

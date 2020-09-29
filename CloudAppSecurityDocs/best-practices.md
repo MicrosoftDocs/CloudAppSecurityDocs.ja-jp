@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: quickstart
 ms.date: 10/24/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 83b84e4839044cd16ec37a4ecd121ada1f702212
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: 2202c6ab86d6cf68e6ddf5588f09134284e5219e
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89149518"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881688"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Microsoft Cloud App Security を使用して組織を保護するためのベスト プラクティスについて説明します。 これらのベスト プラクティスは、Cloud App Security に関する Microsoft の経験と、お客様の経験から得られたものです。
 
@@ -87,12 +87,12 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 
 ## <a name="limit-exposure-of-shared-data-and-enforce-collaboration-policies"></a>共有データの公開を制限し、コラボレーション ポリシーを適用する
 
-**ベスト プラクティス**:Microsoft 365 の接続  
-**詳細**:Microsoft 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Microsoft 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
+**ベスト プラクティス**:Office 365 の接続  
+**詳細**:Office 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Office 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
 **参照項目**:
 
 * [アプリの接続](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)
-* [Microsoft 365 を Microsoft Cloud App Security に接続する](connect-office-365-to-microsoft-cloud-app-security.md)
+* [Office 365 を Microsoft Cloud App Security に接続する](connect-office-365-to-microsoft-cloud-app-security.md)
 
 ---
 
@@ -117,7 +117,7 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 ---
 
 **ベスト プラクティス**:個人アカウントとの共有を削除するポリシーを作成する  
-**詳細**:Microsoft 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Microsoft 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
+**詳細**:Office 365 を Cloud App Security に接続すると、ユーザーのアクティビティやアクセスしているファイルを瞬時に表示でき、Office 365、SharePoint、OneDrive、Teams、Power BI、Exchange、Dynamics のガバナンス アクションが提供されます。  
 **参照項目**:
 
 * [接続されているアプリを管理する](governance-actions.md)

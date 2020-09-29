@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7540ac541f3a6c83191f54c2b4d2df773483299e
-ms.sourcegitcommit: c174a7ada5c6a14f0fea9870672898c54e5e3b52
+ms.openlocfilehash: c2f478c48280fb9fce63d23af0662cec59d61abf
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/30/2020
-ms.locfileid: "89150130"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881068"
 ---
 # <a name="basic-setup-for-cloud-app-security"></a>Cloud App Security の基本的なセットアップ
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 次の手順では、Microsoft Cloud App Security ポータルをカスタマイズする手順について説明します。
 
@@ -59,7 +59,7 @@ US Government GCC High のお客様の場合は、次の IP アドレスもフ�
 
 1. Azure Information Protection 統合と統合する場合は、「[Azure Information Protection の統合](azip-integration.md)」を参照してください。
 
-    * Azure Information Protection の統合を進めるには、[Microsoft 365 のアプリ コネクタ](connect-office-365-to-microsoft-cloud-app-security.md)を有効にする必要があります。
+    * Azure Information Protection の統合を進めるには、[Office 365 のアプリ コネクタ](connect-office-365-to-microsoft-cloud-app-security.md)を有効にする必要があります。
 
 1. Azure Advanced Threat Protection 統合と統合する場合は、「[Azure Advanced Threat Protection の統合](azip-integration.md)」を参照してください。
 

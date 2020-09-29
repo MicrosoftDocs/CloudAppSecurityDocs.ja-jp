@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 8cfefb76ec1c464ace29717ba069f82a456554ad
-ms.sourcegitcommit: 30bd09cd5a05bf19818a3f3a7e1b2ac0dc25d420
+ms.openlocfilehash: 0f74f1ad1cec5a8a3f57298378ef00e6f89c71ca
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89598253"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880792"
 ---
 # <a name="create-snapshot-cloud-discovery-reports"></a>Cloud Discovery のスナップショット レポートを作成する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 自動ログ コレクターを使用する前に、手動でログをアップロードし、Microsoft Cloud App Security でログ解析することが重要です。 ログ コレクターのしくみと予想されるログ形式の詳細については、「[Cloud Discovery にトラフィック ログを使用する](#log-format)」を参照してください。
 

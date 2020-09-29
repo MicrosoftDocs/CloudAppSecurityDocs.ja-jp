@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0959a4e5c1b0cf05987b2f74dfcd35eb7cd7260d
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: f8b92170f67cd31351341deaebde8aa53fbba19a
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780071"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877690"
 ---
 # <a name="configure-automatic-log-upload-for-continuous-reports"></a>継続的なレポートのために自動ログ アップロードを構成する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 ログ コレクターを使用すると、ネットワークからのログのアップロードを簡単に自動化することができます。 ログ コレクターをネットワーク上で実行すると、Syslog または FTP でログを受け取ります。 各ログは自動的に処理および圧縮されてから、ポータルに送信されます。 ファイルがログ コレクターに FTP 転送された後、FTP ログが Microsoft Cloud App Security にアップロードされます。 Syslog の場合、ログ コレクターに受信されたログがディスクに書き込まれます。 その後、ファイル サイズが 40 KB を超えると、コレクターから Cloud App Security にファイルがアップロードされます。
 

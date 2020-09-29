@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 75bc58df1ea45eb4d00498cb9fb2d7a061dac9b4
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 5274e9d4d358730d8e2e44d02c886aa637b3409a
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780853"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881264"
 ---
 # <a name="connect-servicenow-to-microsoft-cloud-app-security"></a>ServiceNow を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリ コネクタ API を使用して Microsoft Cloud App Security を既存の ServiceNow アカウントに接続する方法について説明します。 この接続を使用すると、ServiceNow の使用状況を表示したり制御したりできます。 Cloud App Security での ServiceNow の保護方法の詳細については、[ServiceNow の保護](protect-servicenow.md)に関する記事を参照してください。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 53eaa7b96a22c7574a63b6051dce64076fafaa39
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: a53ebad2900fe14a570b048f285d56b620bf4135
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781669"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879333"
 ---
 # <a name="log-collector-ftp-configuration"></a>ログ コレクターの FTP 構成
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud App Security Cloud Discovery docker の構成を変更する方法について説明します。
 

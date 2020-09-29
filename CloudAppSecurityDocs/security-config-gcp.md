@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 653b9faef5819a1e2733091b7d2ca98d36334281
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: a77ff2f9cd7b814d755cec2d0087088cc71abbf0
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780020"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878942"
 ---
 # <a name="security-configuration-for-google-cloud-platform"></a>Google Cloud Platform のセキュリティ構成
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、Google Cloud Platform (GCP) 環境のセキュリティ構成の評価を得ることができます。 この評価では、[GCP の Center for Internet Security (CIS) ベンチマーク](https://www.cisecurity.org/benchmark/google_cloud_computing_platform/)、バージョン 1.1.0 に基づく基本的なセキュリティに関する推奨事項が提供されます。
 

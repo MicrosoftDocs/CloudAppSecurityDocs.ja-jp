@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: c5c5dfb141347b1a08f850335c82e54393bbf4c6
-ms.sourcegitcommit: 7b6124e5ecb3fa8fc1176d89e06b052f2a53a310
+ms.openlocfilehash: 64f591056b90c242af20bf9dbddf3b6dc619f7f3
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83854254"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880766"
 ---
 # <a name="working-with-the-dashboard"></a>ダッシュボードの操作
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、Cloud App Security で日常行う必要があることについて説明します。  
 

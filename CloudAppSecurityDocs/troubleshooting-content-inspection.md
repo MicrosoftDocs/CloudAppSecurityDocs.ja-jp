@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 2f4c9f5ddb7219356b808cf4d8829ea87ff795ee
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 9ac46552691fd3298ab8ffb81355aed48a680c45
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624765"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877215"
 ---
 # <a name="troubleshooting-content-inspection"></a>コンテンツ検査のトラブルシューティング
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、コンテンツ検査の状態とその意味の一覧を示します。
 

@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 31fb5ddc618ce1600e41a1437759b2558b3350c1
-ms.sourcegitcommit: 7d05b81a839286d2afae4cdad2c2d59e7becc1f9
+ms.openlocfilehash: 6f1b55e3675b9419ca1e53ddeea9189e260b8022
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/15/2020
-ms.locfileid: "90524193"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880195"
 ---
 # <a name="security-configuration-for-azure"></a>Azure のセキュリティ構成
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security では、お客様の Azure 環境のセキュリティ構成の評価を得ることができます。 この評価では、Azure Security Center を利用して、不足している構成とセキュリティ制御に関する推奨事項が提供されます。
 

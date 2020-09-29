@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 3cadc2f470065d9576dad94ac9139d122c986bee
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 73d475cea1f0fded9aea955e19a92ed88a493472
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88778864"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877228"
 ---
 # <a name="integrate-cloud-app-security-with-zscaler"></a>Cloud App Security を Zscaler と統合する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Cloud App Security と Zscaler の両方を使用している場合は、この 2 つの製品を統合して、Cloud Discovery のセキュリティを強化できます。 スタンドアロン クラウド プロキシとして Zscaler を使用すると、組織のトラフィックを監視し、トランザクションをブロックするポリシーを設定できます。 Cloud App Security と Zscaler を共に使用すると、次の機能が提供されます。
 

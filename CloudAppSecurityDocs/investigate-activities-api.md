@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: a2465690efe239e3a420a1fe6f651346e7730c81
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 7eabf167dacf06a51a8c78951a89923a5c8d01bd
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781431"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879402"
 ---
 # <a name="investigate-activities-using-the-api"></a>API を使用したアクティビティの調査
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security には、サービスをプログラムで操作するための、完全にサポートされた REST API が用意されています。
 

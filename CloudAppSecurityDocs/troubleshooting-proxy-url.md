@@ -11,15 +11,16 @@ ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: bd4becdf1d2f7cbeb7dff529302405b19881cc3a
-ms.sourcegitcommit: 9395620dfc916b0954207c4fe26f58c76cdfe0d0
+ms.openlocfilehash: c62229f209dc1a7862a2f4b4442a663aacce58bc
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/05/2020
-ms.locfileid: "85953676"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90877109"
 ---
 # <a name="troubleshooting---what-is-casms-mcasms-or-mcas-govus"></a>トラブルシューティング - `*.cas.ms`、`*.mcas.ms`、または `*.mcas-gov.us` とは
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリの条件付きアクセス制御によって使用される `cas.ms`、`mcas.ms`、または `mcas-gov.us` の URL サフィックスについて説明します。
 

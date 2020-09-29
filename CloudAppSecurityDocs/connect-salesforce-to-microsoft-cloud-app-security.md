@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 81ad720b3230ab49a752671bcdc7d45cf789aad7
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 9809f3f2d95497b1813d44f82261cf0d2fb11213
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780887"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880865"
 ---
 # <a name="connect-salesforce-to-microsoft-cloud-app-security"></a>Salesforce を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリ コネクタ API を使用して Microsoft Cloud App Security を既存の Salesforce アカウントに接続する方法を説明します。 この接続を使用すると、Salesforce の使用状況を表示したり制御したりできます。 Cloud App Security での Salesforce の保護方法の詳細については、[Salesforce の保護](protect-salesforce.md)に関する記事を参照してください。
 

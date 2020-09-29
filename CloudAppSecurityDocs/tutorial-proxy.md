@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: tutorial
 ms.date: 01/01/2020
 ms.collection: M365-security-compliance
-ms.openlocfilehash: fec6182d004b934f564291e4ca9f4fe06aa8d723
-ms.sourcegitcommit: 0b929f7c8feed7dfb40d5294179fd5c6fc079614
+ms.openlocfilehash: bb0ae32a16d9ea9a8f36a0bd0ae0405b1d28b273
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "75667562"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881198"
 ---
 # <a name="tutorial-protect-any-apps-in-use-in-your-organization-in-real-time"></a>チュートリアル:組織で使用中の任意のアプリをリアルタイムで保護する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 従業員に対して使用を承認したアプリには、多くの場合、最も機密性の高い企業データや機密情報の一部が格納されています。 最新のワークプレースでは、ユーザーは多くの危険な状況でこれらのアプリにアクセスしています。 このようなユーザーとしては、把握が難しい組織のパートナー、またはアンマネージド デバイスを使用している従業員やパブリック IP アドレスから利用している従業員などが考えられます。 このような状況でのリスクは広範囲にわたるため、ゼロトラストの戦略を採用する必要があります。 多くの場合、このようなアプリでの侵害とデータの損失を事後に把握するだけでは十分ではありません。そのため、情報保護とサイバー脅威に関する多くのシナリオを、リアルタイムで対処または防止する必要があります。
 

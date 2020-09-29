@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 27378482ecc530890b66c930ec5ad60fcfa6cdc6
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: a701de6959bdaba8045c42d6317b62bd42645d0f
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780666"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880848"
 ---
 # <a name="control-cloud-apps-with-policies"></a>ポリシーによるクラウド アプリの制御
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 ポリシーを使用すると、クラウドでユーザーがどのように行動してもらいたいかを定義できます。 それらによって、クラウド環境内の危険な動作、違反、疑わしいデータ ポイントとアクティビティを検出できます。 必要に応じて、修復作業フローを統合して、完全なリスク軽減を実現できます。 クラウド環境について収集する必要があるさまざまな種類の情報と、実行する可能性のある修復アクションの種類に関連して、多くの種類のポリシーがあります。
 

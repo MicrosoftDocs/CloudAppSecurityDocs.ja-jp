@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: d5080886b2b21c345b7ec65c3874ec0a3192b4fc
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 63d4e269287f8f8f58722e11fe3b80cfe3252e5d
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624788"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878436"
 ---
 # <a name="protecting-your-organization-from-ransomware"></a>ランサムウェアから組織を保護する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 最近の大規模なランサムウェア攻撃 WannaCry では、150 か国にわたり推定 20 万台のコンピューターが感染し、コンピューターの世界が激しく攻撃されました。 ランサムウェア攻撃はこの数年間で増加しており、2015 年には月平均 25,000 回、2016 年には 56,000 回の攻撃がありました。そのため、ネットワークとクラウドが危険にさらされていないことを積極的に確認することがサイバーセキュリティに必要になってきています。 この記事では、Cloud App Security を使用してクラウドを監視し、脅威を検出して緩和し、ランサムウェアから環境を保護するためのベスト プラクティスを適用する方法について説明します。
 

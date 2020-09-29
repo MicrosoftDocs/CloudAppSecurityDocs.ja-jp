@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: d55eb6d29586ba68cb46bd97b6718529da87ea51
-ms.sourcegitcommit: 286f8d5d940d1bb9a09daa3070ac4fc3768208f8
+ms.openlocfilehash: 9b6d7c4428b8383a4107a824a6113fcd3362dfa1
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "84505221"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881103"
 ---
 # <a name="entities-api"></a>Entities API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 > [!NOTE]
 > この API は、Office 365 Cloud App Security では使用できません。
@@ -36,7 +36,7 @@ Entities API を使用すると、組織のクラウド アプリを使用する
 
 フィルターの動作の詳細については、「[フィルター](api-introduction.md#filters)」を参照してください。
 
-サポートされているフィルターを次の表に示します。
+次の表では、サポートされているフィルターについて説明します。
 
 | フィルター | Type | 演算子 | [説明] |
 | --- | --- | --- | --- |

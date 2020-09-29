@@ -7,16 +7,16 @@ ms.service: cloud-app-security
 ms.topic: article
 ms.date: 12/04/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: d62b7d9d91d5f627217caaccbec462aa20d2fcd2
-ms.sourcegitcommit: db5ec79d219dd6674939c872ace7cd2ca80860a4
+ms.openlocfilehash: 4d62ee849743ebb520460844e22d8ef213efd2e8
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75190092"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880458"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-okta-environment"></a>Cloud App Security は Okta 環境の保護にどのように役立つか
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 ID およびアクセス管理ソリューションである Okta では組織の最上位のビジネス クリティカル サービスのキーが保持されます。 ユーザーと顧客の認証および承認のプロセスは、Okta によって管理されます。 悪意のあるアクターまたは人為的なミスによって Okta が悪用されると、最も重要な資産やサービスが潜在的な攻撃にさらされる可能性があります。
 

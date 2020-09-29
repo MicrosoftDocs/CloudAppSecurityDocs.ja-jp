@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 78f41250805255f9a17a9dcd62aade52274091a1
-ms.sourcegitcommit: 6e47d0348283d105614d81db4e7737fc837ed20b
+ms.openlocfilehash: 9d1d06e3951322036b4a4344d85f3ba960582637
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88657692"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880901"
 ---
 # <a name="fetch---files-api"></a>フェッチ - Files API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 > [!NOTE]
 > この要求は、Office 365 Cloud App Security では使用できません。

@@ -12,16 +12,16 @@ ms.prod: ''
 ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
-ms.openlocfilehash: ae33c53a8067b91aa1d1b6eb8ad78533fbac3161
-ms.sourcegitcommit: 4b92203500955b3e12f751348725384615b671db
+ms.openlocfilehash: 069ed5a6182c88bef89c792793c9bab2e0700f56
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "90723046"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881007"
 ---
 # <a name="tutorial-manage-cloud-platform-security"></a>チュートリアル:クラウド プラットフォームのセキュリティを管理する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 多くの場合、リモート作業では、一般的なビジネス タスクに対してクラウド アプリとクラウド プラットフォームが広く使用されており、クラウド環境をセキュリティで保護し、クラウド セキュリティ製品を導入することが必要となっています。 [共有責任モデル](/azure/security/fundamentals/shared-responsibility)によれば、組織はクラウド プラットフォームの管理とセキュリティ保護に責任を持ちます。これには、ID アクセス管理 (IAM)、仮想マシン (VM) とそのコンピューティング リソース、データとストレージ、ネットワーク リソースが含まれます。
 

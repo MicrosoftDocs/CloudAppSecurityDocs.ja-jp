@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: e10c3c838e52c3616a7bc550880526f722897e00
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: d06817890b94ddc5f37742fcff70654feb494d17
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88780904"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90881297"
 ---
 # <a name="connect-workday-to-microsoft-cloud-app-security"></a>Workday を Microsoft Cloud App Security に接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、アプリ コネクタ API を使用して Microsoft Cloud App Security を既存の Workday アカウントに接続する方法について説明します。 この接続を使用すると、Workday の使用状況を表示したり制御したりできます。 Cloud App Security で Workday を保護する方法の詳細については、[Workday の保護](protect-workday.md)に関するページを参照してください。
 

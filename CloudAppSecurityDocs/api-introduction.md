@@ -10,16 +10,16 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 31190fd4df5dc9c3bac19794ff1fd78c4982100d
-ms.sourcegitcommit: 5ace3437d49c7bbde2266a6f1565a65a379b9c2c
+ms.openlocfilehash: cb66e8d45d74d57adf71a095851c40087d102ce4
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/06/2020
-ms.locfileid: "89499494"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880550"
 ---
 # <a name="cloud-app-security-rest-api"></a>Cloud App Security REST API
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、HTTPS を使用して Cloud App Security を操作する方法について説明します。
 

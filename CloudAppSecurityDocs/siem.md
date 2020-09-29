@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b0b928f095769a1051f825748941ed818401e6d3
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: e587bd1a3c339160504f1fbfebf1523bc4d3da9a
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89667079"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878724"
 ---
 # <a name="generic-siem-integration"></a>汎用 SIEM の統合
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security と汎用 SIEM サーバーを統合し、接続アプリから、アラートとアクティビティを一元的に監視できます。 接続アプリでは新しいアクティビティとイベントがサポートされるため、それらの表示が Microsoft Cloud App Security にロールアウトされます。 SIEM サービスとの統合により、通常のセキュリティ ワークフローを維持し、セキュリティ手順を自動化してクラウドベースのイベントとオンプレミス イベントを関連付けた状態で、クラウド アプリケーションの保護を強化できます。 Microsoft Cloud App Security SIEM エージェントはサーバー上で実行され、Microsoft Cloud App Security からアラートとアクティビティを取得し、SIEM サーバーに送ります。
 

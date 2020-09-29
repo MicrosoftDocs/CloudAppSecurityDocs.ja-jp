@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: fc68868e2fed402d245be5bae4ad8ea713dea4e9
-ms.sourcegitcommit: 870ca47381a36b4bc04e1ccb9b2a522944431fed
+ms.openlocfilehash: 154cb0eda5a223c31813e1753b9dc0bcb8836436
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "88963898"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878717"
 ---
 # <a name="azure-sentinel-integration-preview"></a>Azure Sentinel の統合 (プレビュー)
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security を Azure Sentinel (スケーラブルでクラウドネイティブな SIEM および SOAR) と統合することにより、アラートと探索データを一元的に監視できます。 Azure Sentinel との統合により、クラウド アプリケーションの保護を強化しながら、通常のセキュリティ ワークフローを維持し、セキュリティ手順を自動化し、クラウドベースのイベントとオンプレミス イベントを関連付けることができます。
 
@@ -88,7 +88,7 @@ Azure Sentinel では、 **[ログ]** の **[Security Insights]\(セキュリテ
 
 次の表に、**McasShadowItReporting** スキーマの各フィールドの説明を示します。
 
-| フィールド | 型 | 説明 | 例 |
+| フィールド | 型 | [説明] | 例 |
 | --- | --- | --- | --- |
 | TenantId | 文字列型 | ワークスペース ID | b459b4u5-912x-46d5-9cb1-p43069212nb4 |
 | SourceSystem | 文字列型 | ソース システム – 静的な値 | Azure |

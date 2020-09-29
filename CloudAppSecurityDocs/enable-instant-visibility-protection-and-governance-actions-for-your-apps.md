@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1275d29f301f407dfd9198e5278bd4bd75ce7d39
-ms.sourcegitcommit: 98c8dd439d1183af3d8598c676c8ff041a88bd88
+ms.openlocfilehash: 2e23caa4e0ca986bb17d9e5014b328b214d0aeef
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "89666917"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90880210"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 アプリ コネクタを使用するとアプリ プロバイダーの API を利用できるため、Microsoft Cloud App Security による接続先アプリの表示および制御がしやすくなります。
 

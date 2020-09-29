@@ -14,16 +14,16 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f9f2be5488be8b6f7431b146947545b80594a467
-ms.sourcegitcommit: 29a8e66c665f51d831516924ae4d9d8047b39276
+ms.openlocfilehash: 5313745b303e6ff4e8dee19f7fe496c059b15288
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/24/2020
-ms.locfileid: "88781652"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879312"
 ---
 # <a name="email-notification-preferences"></a>電子メール通知の基本設定
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 この記事では、侵害が検出されたときに Cloud App Security から送信される電子メール通知を、ご自分のユーザー向けにカスタマイズする方法について説明します。
 
