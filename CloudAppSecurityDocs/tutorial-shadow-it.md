@@ -13,16 +13,16 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.reviewer: dannyk
 ms.suite: ems
-ms.openlocfilehash: 6145c6dade8729c3572f9c491ad9743899b3b92e
-ms.sourcegitcommit: 5f3b3f11bfb6f677b8666a4566e7abbb873567d1
+ms.openlocfilehash: f8e273a21b049592f575429ab23a4231440d98ab
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/12/2020
-ms.locfileid: "86279981"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90878516"
 ---
 # <a name="tutorial-discover-and-manage-shadow-it-in-your-network"></a>チュートリアル:ネットワーク内のシャドウ IT の検出と管理
 
-*適用対象:Microsoft Cloud App Security*
+[!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 IT 管理者に、従業員が使用していると考えられるクラウド アプリの数をたずねた場合、平均で 30 から 40 と答えます。しかし実際には、組織内の従業員によって使用されている個別のアプリの平均数は 1000 を超えています。 Shadow IT は、使用されているアプリとそのリスク レベルを把握し、特定するのに役立ちます。 従業員の 80% は、誰もレビューしていない未承認のアプリを使用しており、セキュリティとコンプライアンスのポリシーに準拠していない可能性があります。 また、従業員は企業ネットワークの外部からリソースやアプリにアクセスできるので、ファイアウォールに関するルールやポリシーだけでは不十分になっています。
 
@@ -87,7 +87,7 @@ IT 管理者に、従業員が使用していると考えられるクラウド �
 
 * **Azure Active Directory (Azure AD) ギャラリーを使用して検出されたアプリを管理する**<a name ="gallery-apps"></a>:Cloud App Security では、Azure AD ギャラリーで検出されたアプリを管理できるようにするために、Azure AD とのネイティブ統合も活用されます。 Azure AD ギャラリーに既に表示されているアプリの場合は、シングル サインオンを適用し、Azure AD でアプリを管理できます。 これを行うには、関連するアプリが表示されている行の行末の 3 つの点を選択し、 **[Manage app with Azure AD]\(Azure AD でアプリを管理する\)** を選択します。
 
-    ![シャドウ IT ライフサイクル](media/manage-app-in-azure-ad-gallery.png)
+    ![Azure AD ギャラリーでのアプリの管理](media/manage-app-in-azure-ad-gallery.png)
 
 * **継続的監視**:これで、アプリを十分に調査したので、アプリを監視し、必要に応じて制御するためのポリシーを設定することができます。
 

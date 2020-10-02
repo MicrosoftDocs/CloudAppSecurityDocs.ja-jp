@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 578e4a7a22da188e4cc196c7b8dc217a7a249e54
-ms.sourcegitcommit: c9b7aa05694a1825f0b32b677b5a6549b846c554
+ms.openlocfilehash: aef7ad8efedb26f8b8d5bea902c1eeda387ba696
+ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/13/2020
-ms.locfileid: "90056780"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "90879002"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -25,6 +25,10 @@ ms.locfileid: "90056780"
 この記事は、Cloud App Security の最新リリースの新機能がわかるように頻繁に更新されます。
 
 RSS フィード:ご自身のフィード リーダーに次の URL をコピーして貼り付けることで、このページの更新時に通知を受け取ることができます。`https://docs.microsoft.com/api/search/rss?search=%22This+article+is+updated+frequently+to+let+you+know+what%27s+new+in+the+latest+release+of+Cloud+App+Security%22&locale=en-us`
+
+> [!IMPORTANT]
+>
+> Microsoft による脅威の防止用製品の名前が変更されています。 この点や他の更新の詳細については、[こちら](https://www.microsoft.com/security/blog/?p=91813)をご覧ください。 今後のリリースでは、新しい名前が使用される予定です。
 
 ## <a name="cloud-app-security-release-182-and-183"></a>Cloud App Security リリース 182 と 183
 
