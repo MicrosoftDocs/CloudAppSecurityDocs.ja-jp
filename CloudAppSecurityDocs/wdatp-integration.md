@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 84aed2a0a5fc96ee3c8ca06723fe3ee0028bf275
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 2f267febaa980964b26685fb7aa6d64af08a607a
+ms.sourcegitcommit: 9aae0f85debf0c9b8c3e26770c0c285ac251c008
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878414"
+ms.lasthandoff: 09/30/2020
+ms.locfileid: "91570947"
 ---
 # <a name="microsoft-defender-advanced-threat-protection-integration-with-microsoft-cloud-app-security"></a>Microsoft Defender Advanced Threat Protection と Microsoft Cloud App Security の統合
 
@@ -102,7 +102,7 @@ Microsoft Defender ATP と Cloud App Security を統合した後は、Cloud Disc
 >
 > - Microsoft Defender ATP により、データは最大 4 MB のチャンクで Cloud App Security に転送されます (最大 4,000 のエンドポイント トランザクション)
 > - 1 時間以内に 4 MB の制限に達しない場合、Microsoft Defender ATP では、過去 1 時間に実行されたすべてのトランザクションが報告されます。
-> - エンドポイント デバイスがフォワード プロキシの内側にある場合、トラフィック データは Microsoft Defender ATP に認識されないため、Cloud Discovery のレポートに含まれません。 詳細については、「[フォワード プロキシの内側にあるネットワーク接続の監視](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Monitoring-network-connection-behind-forward-proxy-Public/ba-p/758274)」を参照してください。
+> - エンドポイント デバイスがフォワード プロキシの内側にある場合、トラフィック データは Microsoft Defender ATP に認識されないため、Cloud Discovery のレポートに含まれません。 このトラフィックを表示する別の方法については、[フォワード プロキシの内側にあるネットワーク接続の監視](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Monitoring-network-connection-behind-forward-proxy-Public/ba-p/758274)に関する記事をご覧ください。
 
 ## <a name="investigate-device-network-events-in-microsoft-defender-atp"></a>Microsoft Defender ATP でデバイス ネットワーク イベントを調査する
 

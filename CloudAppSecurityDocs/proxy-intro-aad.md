@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0964983a0e91ff7ee0b8fb33c0f42d6f76c08c1e
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: d180b65125316fe4f5f630166002d0675589ae43
+ms.sourcegitcommit: d44833cbc0cb264a244819b8a3be67aa142d2cc8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880308"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91614480"
 ---
 # <a name="protect-apps-with-microsoft-cloud-app-security-conditional-access-app-control"></a>Microsoft Cloud App Security のアプリの条件付きアクセス制御を使用してアプリを保護する
 
@@ -29,13 +29,13 @@ ms.locfileid: "90880308"
 
 > [!NOTE]
 >
-> - Cloud App Security のアプリの条件付きアクセス制御を使用するには、[Azure Active Directory P1 ライセンス](https://azure.microsoft.com/pricing/details/active-directory/)、または IdP ソリューションに必要なライセンスと、Cloud App Security ライセンスが必要です。
+> - 有効な Cloud App Security ライセンスに加えて、Cloud App Security のアプリの条件付きアクセス制御を使用するには、[Azure Active Directory P1 ライセンス](https://azure.microsoft.com/pricing/details/active-directory/)、または IdP ソリューションに必要なライセンスと、Cloud App Security ライセンスも必要です。
 
 ## <a name="how-it-works"></a>しくみ
 
 アプリの条件付きアクセス制御は、リバース プロキシ アーキテクチャが使用されていて、IdP と統合されます。 Azure AD の条件付きアクセスと統合するときは、わずか数回のクリックでアプリの条件付きアクセス制御と連携するようにアプリを構成できます。これにより、条件付きアクセスの条件に基づいて、組織のアプリに対してアクセス制御とセッション制御を簡単かつ選択的に適用できます。 条件では、条件付きアクセス ポリシーを "*誰に*" (ユーザーまたはユーザーのグループ)、"*何に*" (クラウド アプリ)、"*どこに*" (場所とネットワーク) 適用するかを定義します。 条件を決定した後は、アクセス制御とセッション制御を適用することにより、アプリの条件付きアクセス制御でデータを保護できる Cloud App Security にユーザーをルーティングできます。
 
-アプリの条件付きアクセス制御を使用すると、ユーザーは、アクセスとセッションのポリシーに基づいて、アプリのアクセスとセッションをリアルタイムで監視および制御することができます。 アクセス ポリシーとセッション ポリシーは、フィルターをさらに調整し、ユーザーに対して実行されるアクションを設定するために、Cloud App Security ポータル内で使用されます。 アクセス ポリシーとセッション ポリシーを使用すると、次のことができます。
+アプリの条件付きアクセス制御を使用すると、ユーザーは、アクセスとセッションのポリシーに基づいて、アプリのアクセスとセッションをリアルタイムで監視および制御することができます。 アクセス ポリシーとセッション ポリシーは、フィルターをさらに調整し、ユーザーに対して実行されるアクションを設定するため、 Cloud App Security ポータル内で使用されます。 アクセス ポリシーとセッション ポリシーを使用すると、次のことができます。
 
 - **データ窃盗を防ぐ**:たとえばアンマネージド デバイスなどで、機密性の高いドキュメントのダウンロード、切り取り、コピー、および印刷をブロックできます。
 
