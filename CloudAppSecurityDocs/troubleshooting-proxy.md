@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.prod: ''
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: f9d29046b0a63b89926d3ba95bab75aba5964cad
-ms.sourcegitcommit: 75cdc376a0aea79dc7f339af52a90f0ec6dfc526
+ms.openlocfilehash: b5efb0ebc30167f98c5361dbc037ef139836889f
+ms.sourcegitcommit: 52875173d3528cc8ae1121cf9f3acde2126d9e52
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88514356"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "91990834"
 ---
 # <a name="troubleshooting-access-and-session-controls"></a>アクセスおよびセッション制御のトラブルシューティング
 
@@ -191,9 +191,9 @@ Azure AD の条件付きアクセスでは、Intune に準拠している、お�
 | ブラウザー | 手順 |
 |---|---|
 | Microsoft Internet Explorer | 1.Internet Explorer を開きます<br />2. **[ツール]**  >  **[インターネット オプション]**  >  **[詳細]** タブの順に選択します<br />3. **[セキュリティ]** で、 **[既存のクライアント証明書が 1 つしか存在しない場合の証明書の選択]** を選択します<br />4. **[適用]** 、 **[OK]** の順に選択します<br />5.ブラウザーを再起動し、追加のプロンプトなしでアプリにアクセスできることを確認します |
-| Microsoft Edge / Edge Chromium | 1.タスク バーから [検索] を開き、"インターネット オプション" を検索します<br />2. **[インターネット オプション]** を選択します<br />3. **[セキュリティ]** で、 **[既存のクライアント証明書が 1 つしか存在しない場合の証明書の選択]** を選択します<br />4. **[適用]** 、 **[OK]** の順に選択します<br />5.ブラウザーを再起動し、追加のプロンプトなしでアプリにアクセスできることを確認します |
+| Microsoft Edge / Edge Chromium | 1.タスク バーから [検索] を開き、"インターネット オプション" を検索します<br />2. **[インターネット オプション]** を選択します<br />3. **[セキュリティ]** を選択し、 **[ローカル イントラネット]** を選択してから、 **[レベルのカスタマイズ]** をクリックします<br />4. **[その他]**  >  **[既存のクライアント証明書が 1 つしか存在しない場合の証明書の選択]** で、 **[無効]** を選択します<br />5. **[OK]** をクリックして、[レベルのカスタマイズ] ダイアログ ボックスを閉じます<br />6. **[適用]** をクリックし、 **[OK]** を選択して、インターネット オプションを閉じます<br />7.ブラウザーを再起動し、追加のプロンプトなしでアプリにアクセスできることを確認します |
 
-<a name="device-identification-additional-considerations"></a>
+<a name="device-identification-additional-considerations"></a>s
 
 #### <a name="additional-considerations"></a>その他の考慮事項
 
