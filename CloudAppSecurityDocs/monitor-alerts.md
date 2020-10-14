@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 6bb43764f9a8e200b79a81dfe0dc97db557b6fe0
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: e5effef1c69cf3a8ce44218a8838bbb4d0ef1614
+ms.sourcegitcommit: b173d24dba412e81801c498cc0c3623ad9e31601
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878025"
+ms.lasthandoff: 10/11/2020
+ms.locfileid: "91941583"
 ---
 # <a name="monitor-alerts-in-cloud-app-security"></a>Cloud App Security でアラートを監視する
 
@@ -45,6 +45,37 @@ ms.locfileid: "90878025"
   - 問題の調査を開始しても、忘れないように残しておきたい場合は、**未読としてマーク**します。
   - 今後のアラートの一致を向上させるために、アラートと一致した**ポリシーを調整**します。
   - アラートを解決すると、コメントを入力し、**Cloud App Security チームにフィードバックを送信する**ことができます。
+
+## <a name="deployment-of-our-enhanced-alert-monitoring-and-management-experience"></a>拡張されたアラートの監視と管理エクスペリエンスのデプロイ
+
+アラートの監視と管理に関する継続的な改善の一環として、フィードバックに基づいて Cloud App Security のアラートのページが改善されました。 拡張されたエクスペリエンスでは、 **[解決済み]** と **[破棄]** の状態が **[終了]** 状態に置き換えられ、終了したアラートには次のいずれかの解決の種類が設定されます。
+
+- **真陽性**:悪意が確認されたアクティビティに関するアラート
+- **無害**:侵入テストや他の承認された疑わしいアクションなど、疑わしいが悪意のないアクティビティに関するアラート
+- **偽陽性**:悪意のないアクティビティに関するアラート
+
+> [!NOTE]
+> この拡張されたエクスペリエンスは、新しいアラートにのみ適用され、 **[解決済み]** または **[破棄]** だった既存の (レガシ) アラートの状態には影響しません。
+
+![拡張されたアラートのページ](media/monitor-alerts/enhanced-alerts.png)
+
+### <a name="enhanced-alert-monitoring"></a>拡張されたアラートの監視
+
+拡張されたアラートのページの **[状態]** 列には、アラートが未解決か終了しているかが表示されます。また、 **[解決の種類]** 列には、アラートを終了するときに使用した解決の種類が表示されます。 **[状態]** フィルターを使用して、アラートが未解決か、または終了しているかを特定し、 **[詳細設定]** フィルターの **[解決の種類]** で、拡張されたものと従来の両方の解決の種類を使用して、終了したアラートをさらに調べることができます。
+
+![高度なフィルターを示す拡張されたアラートのページ](media/monitor-alerts/enhanced-alerts-advanced-filter.png)
+
+### <a name="enhanced-alert-management"></a>拡張されたアラートの管理
+
+アラートを閉じるときは、次のいずれかの解決方法を選択します。
+
+- **[Close as true positive]\(真陽性として閉じる\)** : アクティビティが悪意のあるものと確認された場合
+- **[Close as benign]\(無害として閉じる\)** : 侵入テストや他の承認された疑わしいアクションなど、疑わしいが悪意のないアクティビティである場合
+- **[Close as false positive]\(擬陽性として閉じる\)** : アクティビティが悪意のないものと確認された場合
+
+表示されるポップアップに、アラートを閉じる理由を入力し、必要に応じてその他の詳細を入力して、 **[アラートを閉じる]** をクリックします。
+
+![拡張されたアラートを閉じるポップアップ](media/monitor-alerts/enhanced-alerts-close-resolution.png)
 
 ## <a name="built-in-alerts"></a>組み込みアラート
 
