@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 07/09/2020
+ms.date: 10/14/2020
 ms.topic: conceptual
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: d180b65125316fe4f5f630166002d0675589ae43
-ms.sourcegitcommit: d44833cbc0cb264a244819b8a3be67aa142d2cc8
+ms.openlocfilehash: f9b273f2e89bd3cff380fbdcd2c183827f58f903
+ms.sourcegitcommit: 5041a8bfae9c9a1a3425c0a0fd75ac60ed1fe9cc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91614480"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92053848"
 ---
 # <a name="protect-apps-with-microsoft-cloud-app-security-conditional-access-app-control"></a>Microsoft Cloud App Security のアプリの条件付きアクセス制御を使用してアプリを保護する
 
@@ -144,7 +144,7 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 > - Cloud App Security では、クラス最高レベルの暗号化の提供に、トランスポート層セキュリティ (TLS) プロトコル 1.2 以降を使用しています。 TLS 1.2 以降をサポートしていないネイティブ クライアント アプリとブラウザーは、セッション制御が構成されていると、アクセスできなくなります。 ただし、TLS 1.1 以下を使用している SaaS アプリは、Cloud App Security を使用して構成されている場合、TLS 1.2 以降を使用しているようにブラウザーに表示されます。
 > - セッション コントロールを portal.office.com に適用するには、Microsoft 365 管理センターをオンボードする必要があります。 アプリのオンボードの詳細については、「[任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開](proxy-deployment-any-app.md)」を参照してください。
 
-<a name="featured-apps"></a>[前に説明した認証プロトコル](#supported-apps-and-clients)を使用して構成されている Web アプリは、アクセス制御とセッション制御で動作するようにオンボードできます。 さらに、次のアプリは Cloud App Security でサポートされており、既にオンボードされ、任意のテナントで使用できる状態になっています。
+<a name="featured-apps"></a>[前に説明した認証プロトコル](#supported-apps-and-clients)を使用して構成されている Web アプリは、アクセス制御とセッション制御で動作するようにオンボードできます。 さらに、次のアプリには、アクセスとセッションの両方の制御が既にオンボードされています。
 
 - AWS
 - Azure DevOps (Visual Studio Team Services)
@@ -175,9 +175,9 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 - Workplace by Facebook
 - Yammer (プレビュー)
 
-### <a name="office-365-featured-apps"></a><a name="O365-apps"></a>Office 365 のおすすめアプリ
+### <a name="office-365-cloud-app-security-featured-apps"></a><a name="O365-apps"></a>Office 365 Cloud App Security のおすすめアプリ
 
-以下の一覧は、Office 365 Cloud App Security でサポートされているおすすめアプリです。 これらのアプリを Cloud App Security で使用するには、Office 365 E5 ライセンスが必要です。
+以下の一覧は、[Office 365 Cloud App Security](editions-cloud-app-security-o365.md) でサポートされているおすすめアプリです。
 
 - Exchange Online
 - OneDrive for Business

@@ -334,14 +334,14 @@
               href: api-alerts.md
             - name: アラートの一覧表示
               href: api-alerts-list.md
-            - name: 一括破棄
-              href: api-alerts-bulk-dismiss.md
-            - name: 一括解決
-              href: api-alerts-bulk-resolve.md
+            - name: 問題のないものを閉じる
+              href: api-alerts-close-benign.md
+            - name: 偽陽性を閉じる
+              href: api-alerts-close-false-positive.md
+            - name: 真陽性を閉じる
+              href: api-alerts-close-true-positive.md
             - name: フェッチ アラート
               href: api-alerts-fetch.md
-            - name: アラートを無視する
-              href: api-alerts-dismiss.md
             - name: アラートを開封済みとしてマーク
               href: api-alerts-mark-read.md
             - name: 警告を未読としてマーク

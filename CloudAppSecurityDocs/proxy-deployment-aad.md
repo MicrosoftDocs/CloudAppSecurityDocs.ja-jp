@@ -10,12 +10,12 @@ ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 4e47e58f3568fb8180359828d4b1a3cb0291880b
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 0df2a20c1c8c8bb1aef440cf3eb8bf16634e6ce0
+ms.sourcegitcommit: 812cb1e24ec18de2c4818970f3042ac06acea14c
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880405"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "92212019"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 
@@ -76,7 +76,7 @@ Microsoft Cloud App Security のセッション コントロールは、おす�
 
 ### <a name="configure-integration-with-other-idp-solutions"></a>その他の IdP ソリューションとの統合を構成する
 
-次の手順に従って、他の IdP ソリューションから Cloud App Security にアプリ セッションをルーティングします。 Azure AD については、「[Azure AD との統合を構成する](#configure-integration-with-azure-ad)」をご覧ください。
+次の手順に従って、他の IdP ソリューションから Cloud App Security にアプリ セッションをルーティングします。 Azure AD については、「[Azure AD との統合を構成する](#configure-integration-with-azure-ad)」をご覧ください。 IdP ソリューションの構成例については、[IdP の構成](proxy-idp-examples.md)に関する記事を参照してください。
 
 1. Cloud App Security で、 **[調査]**  >  **[接続アプリ]**  >  **[アプリの条件付きアクセス制御アプリ]** の順に移動します。
 
