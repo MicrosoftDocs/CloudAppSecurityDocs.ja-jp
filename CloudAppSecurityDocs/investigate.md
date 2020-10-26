@@ -15,10 +15,10 @@ ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
 ms.openlocfilehash: 46a2493d86650a0040eb3a5664b99ed5fc9fe799
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.sourcegitcommit: ce4c0c03292c75a515938433951bdb78270d75a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
+ms.lasthandoff: 10/22/2020
 ms.locfileid: "90879453"
 ---
 # <a name="investigate"></a>調査
@@ -55,7 +55,7 @@ ms.locfileid: "90879453"
 
 - Cloud App Security コンソールで、[アプリ カタログ] または [検出されたアプリ] に移動します。
 
-- アプリの一覧で、承認済みとしてタグ付けしようとするアプリが表示されている行で、端にある 3 つのドット (![["承認された" としてタグ付けする] ドット](media/sanction-three-dots.png "["承認された" としてタグ付けする] ドット")) を選択し、 **[承認済みとしてマークを付ける]** を選択します。
+- アプリの一覧で、承認済みとしてタグ付けしようとするアプリが表示されている行で、端にある 3 つのドット ( ![["承認された" としてタグ付けする] ドット](media/sanction-three-dots.png "["承認された" としてタグ付けする] ドット")) を選択し、 **[承認済みとしてマークを付ける]** を選択します。
 
     ![["承認された" としてタグ付けする]](media/mark-as-sanctioned.png "["承認された" としてタグ付けする]")
 
@@ -115,7 +115,7 @@ ms.locfileid: "90879453"
 
     ![アプリ ダッシュボード](media/investigate-app.png "アプリの調査")
 
-5. **Cloud Discovery ダッシュボード**に移動し、次の項目を確認します。
+5. **Cloud Discovery ダッシュボード** に移動し、次の項目を確認します。
 
     - どのクラウド アプリが、どの程度、どのユーザーによって使用されていますか。
 

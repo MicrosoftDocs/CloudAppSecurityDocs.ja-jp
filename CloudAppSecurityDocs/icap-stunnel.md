@@ -15,10 +15,10 @@ ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
 ms.openlocfilehash: fd2898fe31d9f282e0893aa0b689f4d86c8f2918
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.sourcegitcommit: ce4c0c03292c75a515938433951bdb78270d75a3
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
+ms.lasthandoff: 10/26/2020
 ms.locfileid: "90881024"
 ---
 # <a name="external-dlp-integration"></a>外部 DLP 統合
@@ -98,7 +98,7 @@ stunnel インストール対応のサーバーの種類については、[stunn
 
 7. cert.pem と key.pem を連結し、ファイルに保存します。 `type cert.pem key.pem >> stunnel-key.pem`
 
-8. [公開キーをダウンロード](https://adaprodconsole.blob.core.windows.net/icap/publicCert.pem)し、**C:\Program Files (x86)\stunnel\config\MCASca.pem** に保存します。
+8. [公開キーをダウンロード](https://adaprodconsole.blob.core.windows.net/icap/publicCert.pem)し、 **C:\Program Files (x86)\stunnel\config\MCASca.pem** に保存します。
 
 9. Windows ファイアウォールでポートを開くための次の規則を追加します。
 
@@ -114,7 +114,7 @@ stunnel インストール対応のサーバーの種類については、[stunn
 
     ![Windows Server 構成を編集する](media/stunnel-windows.png)
 
-12. ファイルを開き、次のサーバー構成行を貼り付けます。 **DLP Server IP** は ICAP サーバーの IP アドレスです。**stunnel-key** は前の手順で作成したキーです。**MCASCAfile** は Cloud App Security stunnel クライアントの公開証明書です。 サンプル テキストがあればそれを削除し (例では Gmail テキストが表示されています)、次のテキストをファイルにコピーします。
+12. ファイルを開き、次のサーバー構成行を貼り付けます。 **DLP Server IP** は ICAP サーバーの IP アドレスです。 **stunnel-key** は前の手順で作成したキーです。 **MCASCAfile** は Cloud App Security stunnel クライアントの公開証明書です。 サンプル テキストがあればそれを削除し (例では Gmail テキストが表示されています)、次のテキストをファイルにコピーします。
 
     ```ini
     [microsoft-Cloud App Security]
@@ -149,7 +149,7 @@ stunnel-version
 ### <a name="generate-certificates"></a>証明書を生成する
 
 ICAP サーバーと Cloud App Security では、stunnel 全体でのサーバーの暗号化と認証に秘密キーと公開証明書が使用されます。
-stunnel をバックグラウンド サービスとして実行できるように、パス フレーズなしで秘密キーを作成してください。 また、ファイルのアクセス許可を、stunnel 所有者は**読み取り可能**に、その他のユーザーは**なし**に設定してください。
+stunnel をバックグラウンド サービスとして実行できるように、パス フレーズなしで秘密キーを作成してください。 また、ファイルのアクセス許可を、stunnel 所有者は **読み取り可能** に、その他のユーザーは **なし** に設定してください。
 
 次のいずれかの方法で証明書を作成できます。
 
@@ -176,7 +176,7 @@ stunnel 構成は stunnel.conf ファイルで設定されます。
 
 1. 次のディレクトリで stunnel.conf ファイルを作成します。 **vim /etc/stunnel/stunnel.conf**
 
-2. ファイルを開き、次のサーバー構成行を貼り付けます。  **DLP Server IP** は ICAP サーバーの IP アドレスです。**stunnel-key** は前の手順で作成したキーです。**MCASCAfile** は Cloud App Security stunnel クライアントの公開証明書です。
+2. ファイルを開き、次のサーバー構成行を貼り付けます。  **DLP Server IP** は ICAP サーバーの IP アドレスです。 **stunnel-key** は前の手順で作成したキーです。 **MCASCAfile** は Cloud App Security stunnel クライアントの公開証明書です。
 
     ```ini
     [microsoft-Cloud App Security]
@@ -266,7 +266,7 @@ sudo /sbin/iptables-save > /etc/iptables/rules.v4
 
 7. **[次へ]** をクリックします。 Cloud App Security により、構成したサーバーへの接続がテストされます。 エラーが発生した場合、マニュアルとネットワーク設定を見直してください。 正常に接続されたら、 **[終了]** をクリックします。
 
-8. 次に、この外部 DLP サーバーにトラフィックを送信するために、 **[コンテンツ検査方法]** で**ファイル ポリシー**を作成するときに、作成した接続を選択します。 ファイル ポリシーの作成方法については[こちら](data-protection-policies.md)をご覧ください。
+8. 次に、この外部 DLP サーバーにトラフィックを送信するために、 **[コンテンツ検査方法]** で **ファイル ポリシー** を作成するときに、作成した接続を選択します。 ファイル ポリシーの作成方法については[こちら](data-protection-policies.md)をご覧ください。
 
 ## <a name="appendix-a-forcepoint-icap-server-setup"></a>付録 A:ForcePoint ICAP サーバー セットアップ <a name="forcepoint"></a>
 
@@ -329,7 +329,7 @@ Cloud App Security は、Symantec DLP と共に含まれる全種類の検出ル
 
     ![自動応答](media/icap-automated-response.png)
 
-3. ルールの名前を入力します (この例では、「**Block HTTP/HTTPS (HTTP/HTTPS のブロック)** 」)。 **[Actions]\(アクション\)** で **[Block HTTP/HTTPS]\(HTTP/HTTPS のブロック\)** を選択して、 **[Save]\(保存\)** をクリックします。
+3. ルールの名前を入力します (この例では、「 **Block HTTP/HTTPS (HTTP/HTTPS のブロック)** 」)。 **[Actions]\(アクション\)** で **[Block HTTP/HTTPS]\(HTTP/HTTPS のブロック\)** を選択して、 **[Save]\(保存\)** をクリックします。
 
     ![HTTP のブロック](media/icap-block-http.png)
 
