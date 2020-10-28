@@ -5,17 +5,17 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 03/27/2020
+ms.date: 10/20/2020
 ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 54aa8efa3ad214ff55f3800ffb95126766e549e4
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c5b927cf1cfaa1038b4b2ab1aa096978ec9c964c
+ms.sourcegitcommit: ee40375712d2cc4090bd4e9cb58df486ec02aa62
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880650"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "92326944"
 ---
 # <a name="alerts-api"></a>Alerts API
 
@@ -26,12 +26,25 @@ Alerts API を使用すると、Cloud App Security によって特定された�
 サポートされている要求は次のとおりです。
 
 - [アラートの一覧表示](api-alerts-list.md)
-- [一括無視](api-alerts-bulk-dismiss.md)
-- [一括解決](api-alerts-bulk-resolve.md)
+- [問題のないものを閉じる](api-alerts-close-benign.md)
+- [偽陽性を閉じる](api-alerts-close-false-positive.md)
+- [真陽性を閉じる](api-alerts-close-true-positive.md)
 - [アラートのフェッチ](api-alerts-fetch.md)
-- [アラートの無視](api-alerts-dismiss.md)
 - [アラートを既読としてマークする](api-alerts-mark-read.md)
 - [アラートを未読としてマークする](api-alerts-mark-unread.md)
+
+## <a name="deprecated-requests"></a>非推奨の要求
+
+古いため非推奨とされる要求と、それらを置き換える要求を次の表に一覧表示します。
+
+| 古い要求 | 代替手段 |
+| --- | --- |
+| 一括破棄 | [偽陽性を閉じる](api-alerts-close-false-positive.md) |
+| 一括解決 | [真陽性を閉じる](api-alerts-close-true-positive.md) |
+| アラートを無視 | [偽陽性を閉じる](api-alerts-close-false-positive.md) |
+
+> [!NOTE]
+> 非推奨の要求は、中断を避けるために、代替手段にマップされています。 ただし、お使いの環境で古い要求を使用している場合は、それらを代替手段に更新することをお勧めします。
 
 ## <a name="filters"></a>フィルタ
 
@@ -47,8 +60,8 @@ Alerts API を使用すると、Cloud App Security によって特定された�
 | entity.instance | integer | eq、neq | 指定したインスタンスに関連するアラートをフィルター処理します。例:11770、1059065 |
 | entity.policy | string | eq、neq | 指定したポリシーに関連するアラートをフィルター処理します |
 | entity.file | string | eq、neq | 指定したファイルに関連するアラートをフィルター処理します |
-| severity | integer | eq、neq | 重要度でフィルター処理します。 次の値を指定できます。<br /><br />**0**:低<br />**1**:中間<br/>**2**:高 |
-| resolutionStatus | integer | eq、neq | アラートの解決状態でフィルター処理します。次の値を指定できます。<br /><br />**0**:オープン<br />**1**:破棄<br />**2**:解決済み |
+| severity | integer | eq、neq | 重要度でフィルター処理します。 次の値を指定できます。<br /><br />**0** :低<br />**1** :中間<br/>**2** :高 |
+| resolutionStatus | integer | eq、neq | アラートの解決状態でフィルター処理します。次の値を指定できます。<br /><br />**0** :オープン<br />**1** :破棄<br />**2** :解決済み |
 | read | boolean | eq | "true" に設定すると、既読のアラートのみが返され、"false" に設定すると、未読のアラートのみが返されます。 |
 | date | timestamp | lte、gte、range、lte_ndays、gte_ndays | アラートがトリガーされた時刻でフィルター処理します |
 | resolutionDate | timestamp | lte、gte、range | アラートが解決された時刻でフィルター処理します |
