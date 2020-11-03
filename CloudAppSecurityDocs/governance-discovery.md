@@ -14,18 +14,18 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 7755472923ece469299082afd0608ee97681c7c4
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 73309d7edba1493c941af201aef300deed6b0314
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881071"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93185979"
 ---
 # <a name="govern-discovered-apps"></a>検出されたアプリの管理
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
-環境内で検出されたアプリの一覧を確認したら、次の方法で、安全なアプリを承認する (**承認された**) か、または不要なアプリを禁止する (**承認されていない**) ことによって、環境をセキュリティで保護できます。
+環境内で検出されたアプリの一覧を確認したら、次の方法で、安全なアプリを承認する ( **承認された** ) か、または不要なアプリを禁止する ( **承認されていない** ) ことによって、環境をセキュリティで保護できます。
 
 ## <a name="sanctioningunsanctioning-an-app"></a><a name="BKMK_SanctionApp"></a> アプリの承認/非承認
 
@@ -38,13 +38,13 @@ ms.locfileid: "90881071"
 承認されていないアプリの一覧をクエリするには、[Cloud App Security API を使用してブロック スクリプトを生成](api-discovery-script.md)できます。
 
 > [!NOTE]
-> テナントで Microsoft Defender Advanced Threat Protection (ATP)、Zscaler NSS、または iboss を使用している場合は、承認されていないとマークしたすべてのアプリが Cloud App Security によって自動的にブロックされ、ブロックするスクリプトの作成に関する以下のセクションは不要になります。 詳細については、[Microsoft Defender ATP との統合](wdatp-integration.md)、[Zscaler との統合](zscaler-integration.md)、[iboss との統合](iboss-integration.md)に関するそれぞれのページをご覧ください。
+> テナントで Microsoft Defender Advanced Threat Protection (ATP)、Zscaler NSS、または iboss を使用している場合は、承認されていないとマークしたすべてのアプリが Cloud App Security によって自動的にブロックされ、ブロックするスクリプトの作成に関する以下のセクションは不要になります。 詳細については、[Microsoft Defender ATP との統合](mde-integration.md)、[Zscaler との統合](zscaler-integration.md)、[iboss との統合](iboss-integration.md)に関するそれぞれのページをご覧ください。
 
 ## <a name="export-a-block-script-to-govern-discovered-apps"></a>検出されたアプリを管理するためにブロック スクリプトをエクスポートする
 
 Cloud App Security により、既存のオンプレミスのセキュリティ アプライアンスを使用して、承認されていないアプリへのアクセスをブロックできます。 専用ブロック スクリプトを生成し、それをアプライアンスにインポートできます。 このソリューションでは、組織のすべての Web トラフィックをプロキシにリダイレクトする必要はありません。
 
-1. Cloud Discovery ダッシュボードで、ブロックするすべてのアプリに、**承認されていない**とタグ付けします。
+1. Cloud Discovery ダッシュボードで、ブロックするすべてのアプリに、 **承認されていない** とタグ付けします。
 
     ![承認されていないとタグ付けする](media/tag-as-unsanctioned.png)
 

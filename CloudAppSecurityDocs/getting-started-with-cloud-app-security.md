@@ -11,12 +11,12 @@ ms.service: cloud-app-security
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 719da19742facca2cecd3cc1aba27046a05e00b3
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: d7e32b00bc555dd5c9fb58bc874a3f149521d390
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879553"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93185880"
 ---
 # <a name="quickstart-get-started-with-microsoft-cloud-app-security"></a>クイック スタート:Microsoft Cloud App Security を使ってみる
 
@@ -73,7 +73,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 1. 一覧からポリシー テンプレートを選択し、(+) **[ポリシーの作成]** を選択します。
 1. ポリシーをカスタマイズ (フィルター、アクション、およびその他の設定を選択) し、 **[作成]** を選択します。
 1. **[ポリシー]** タブでポリシーを選択して、関連する一致項目 (アクティビティ、ファイル、アラート) を確認します。
- ヒント:すべてのクラウド環境のセキュリティ シナリオに対応するには、**リスク カテゴリ**ごとにポリシーを作成します。
+ ヒント:すべてのクラウド環境のセキュリティ シナリオに対応するには、 **リスク カテゴリ** ごとにポリシーを作成します。
 
 ### <a name="how-can-policies-help-your-organization"></a>ポリシーは企業でどのように役立つか
 
@@ -83,7 +83,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 
 必須のタスク:クラウド アプリの使用状況を表示するには、Cloud App Security を有効にします
 
-1. [Microsoft Defender ATP と統合](wdatp-integration.md)することで、Cloud App Security が自動的に有効にされ、会社内外のご利用の Windows 10 デバイスを監視できるようになります。
+1. [Microsoft Defender ATP と統合](mde-integration.md)することで、Cloud App Security が自動的に有効にされ、会社内外のご利用の Windows 10 デバイスを監視できるようになります。
 1. [Zscaler](zscaler-integration.md) を使用する場合は、これを Cloud App Security と統合します。
 1. 完全なカバレッジを実現するために、継続的な Cloud Discovery レポートを作成する
 
@@ -140,7 +140,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 1. 設定の歯車アイコンで、 **[Cloud Discovery 設定]** を選択します。
 1. 設定の歯車アイコンから **[IP アドレスの範囲]** を選択します。
 1. プラス記号をクリックして、IP アドレスの範囲を追加します。
-1. IP 範囲の**詳細**、**場所**、**タグ**、および**カテゴリ**を入力します。
+1. IP 範囲の **詳細** 、 **場所** 、 **タグ** 、および **カテゴリ** を入力します。
 1. **[作成]** を選択します。
 
     これで、ポリシーを作成するときや、継続的なレポートをフィルター処理および作成するときに、IP タグを使用できるようになりました。
