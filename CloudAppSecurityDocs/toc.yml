@@ -116,7 +116,7 @@
             - name: Cloud Discovery の設定
               href: set-up-cloud-discovery.md
             - name: Microsoft Defender ATP との統合
-              href: wdatp-integration.md
+              href: mde-integration.md
             - name: Zscaler との統合
               href: zscaler-integration.md
             - name: iboss との統合
