@@ -10,12 +10,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 5e82cd32197013160bb671850dad0854ab57c739
-ms.sourcegitcommit: 4ddf7bc78697b88a2e3e34e15b1fc09020970b20
+ms.openlocfilehash: 706a90ff21e4dde66ed0b221e4fc5c94a7663368
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91620394"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93186132"
 ---
 # <a name="set-up-cloud-discovery"></a>Cloud Discovery の設定
 
@@ -25,18 +25,20 @@ Cloud Discovery では、16,000 以上のクラウド アプリを掲載した M
 
 ## <a name="snapshot-and-continuous-risk-assessment-reports"></a>スナップショットと継続的なリスク評価レポート
 
-次の 2 種類のレポートを生成できます。
+次の種類のレポートを生成できます。
 
 - **スナップショット レポート** - ファイアウォールやプロキシから手動でアップロードするトラフィック ログのセットに対するアドホックな可視性が提供されます。
 
 - **継続的レポート** - Cloud App Security を使用してネットワークから転送されるすべてのログが分析されます。 すべてのデータの可視性が向上し、Machine Learning の異常検出エンジンまたはユーザー定義のカスタム ポリシーを使用して、異常な使用が自動的に識別されます。 これらのレポートは、次の方法で接続することによって作成できます。
 
-  - [**Microsoft Defender ATP の統合**](wdatp-integration.md):Cloud App Security は、Microsoft Defender Advanced Threat Protection (ATP) にネイティブに統合されており、Cloud Discovery のロールアウトが簡素化され、企業ネットワークを超えて Cloud Discovery の機能が拡張され、コンピューター ベースの調査が有効になります。
+  - [**Microsoft Defender for Endpoint 統合**](mde-integration.md):Cloud App Security は、Defender for Endpoint とネイティブに統合されており、Cloud Discovery のロールアウトが簡素化され、企業ネットワークを超えて Cloud Discovery の機能が拡張され、コンピューター ベースの調査が有効になります。
   - [**ログ コレクター**](discovery-docker.md):ログ コレクターを使用すると、ネットワークからのログのアップロードを簡単に自動化することができます。 ログ コレクターをネットワーク上で実行すると、Syslog または FTP でログを受け取ります。
   - **Secure Web Gateway (SWG)** :Cloud App Security と次の SWG のいずれかの両方を使用している場合は、製品を統合して、お使いの Cloud Discovery のセキュリティを強化することができます。 Cloud App Security と SWG を一緒に使用すると、Cloud Discovery のシームレスなデプロイ、承認されていないアプリの自動的なブロック、SWG のポータルでの直接的なリスク評価が提供されます。
     - [Zscaler の統合](zscaler-integration.md)
     - [iboss の統合](iboss-integration.md)
     - [Corrata の統合](corrata-integration.md)
+
+- **[Cloud Discovery API](api-discovery.md)** -Cloud App Security の Cloud Discovery API を使用して、トラフィック ログのアップロードを自動化し、Cloud Discovery のレポートとリスク評価を自動で取得します。 また、API を使用して[ブロック スクリプトを生成](api-discovery-script.md)し、ネットワーク アプライアンスに対して直接アプリ制御を合理化することもできます。
 
 ## <a name="log-process-flow-from-raw-data-to-risk-assessment"></a>ログ プロセス フロー: 生データからリスク評価へ
 
@@ -100,38 +102,38 @@ Cloud Discovery では、16,000 以上のクラウド アプリを掲載した M
 
 | データ ソース | ターゲット アプリの URL | ターゲット アプリの IP | Username | 送信元の IP | 合計トラフィック | アップロードされたバイト数 |
 |----------------------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-| Barracuda | **あり** | **はい** | **あり** | **あり** | いいえ | いいえ |
-| Blue Coat | **あり** | いいえ | **あり** | **はい** | **あり** | **あり** |
+| Barracuda | **あり** | **あり** | **はい** | **はい** | いいえ | いいえ |
+| Blue Coat | **あり** | いいえ | **あり** | **あり** | **はい** | **あり** |
 | Check Point | いいえ | **はい** | いいえ | **はい** | いいえ | いいえ |
 | Cisco ASA (Syslog) | いいえ | **はい** | いいえ | **はい** | **はい** | いいえ |
-| Cisco ASA と FirePOWER | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| Cisco Cloud Web Security |**あり**|**はい**|**あり**|**あり**|**あり**|**あり**|
+| Cisco ASA と FirePOWER | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Cisco Cloud Web Security |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
 | Cisco FWSM | いいえ | **はい** | いいえ | **はい** | **はい** | いいえ |
-| Cisco Ironport WSA | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
+| Cisco Ironport WSA | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
 | Cisco Meraki | **あり** | **はい** | いいえ | **はい** | いいえ | いいえ |
-| Clavister NGFW (Syslog) | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| ContentKeeper | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| Corrata | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| SonicWall (旧 Dell) | **あり** | **はい** | いいえ | **はい** | **はい** | **あり** |
-| Digital Arts i-FILTER | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| ForcePoint LEEF |**あり**|**はい**|**あり**|**あり**|**あり**|**あり**|
-| ForcePoint Web Security Cloud\* |**あり**|**はい**|**あり**|**あり**|**あり**|**あり**|
-| Fortigate | いいえ | **はい** | いいえ | **はい** | **はい** | **あり** |
-| Fortinet FortiOS |**あり**|**はい**|いいえ|**はい**|**はい**|**あり**|
-| iboss |**あり**|**はい**|**あり**|**あり**|**あり**|**あり**|
-| Juniper SRX | いいえ | **はい** | いいえ | **はい** | **はい** | **あり** |
-| Juniper SSG | いいえ | **はい** | **はい** | **あり** | **あり** | **あり** |
-| McAfee SWG | **あり** | いいえ | いいえ | **はい** | **はい** | **あり** |
-| Menlo Security (CEF) | **はい** | **はい** | **はい** | **あり** | **あり** | **あり** |
-| MS TMG | **あり** | いいえ | **あり** | **はい** | **あり** | **あり** |
-| Palo Alto Networks | いいえ | **はい** | **はい** | **あり** | **あり** | **あり** |
-| Sophos | **あり** | **はい** | **あり** | **あり** | **あり** | いいえ |
-| Squid (Common) | **あり** | いいえ | **あり** | **はい** | **あり** | いいえ |
-| Squid (Native) | **あり** | いいえ | **あり** | **はい** | いいえ | いいえ |
-| Stormshield | いいえ | **はい** | **はい** | **あり** | **あり** | **あり** |
-| Websense - 調査詳細レポート (CSV) | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| Websense - インターネット アクティビティ ログ (CEF) | **あり** | **はい** | **あり** | **あり** | **あり** | **あり** |
-| Zscaler | **あり** | **はい** | **あり** | **はい** | **はい** | **はい** |
+| Clavister NGFW (Syslog) | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| ContentKeeper | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Corrata | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| SonicWall (旧 Dell) | **あり** | **はい** | いいえ | **あり** | **はい** | **あり** |
+| Digital Arts i-FILTER | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| ForcePoint LEEF |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
+| ForcePoint Web Security Cloud\* |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
+| Fortigate | いいえ | **はい** | いいえ | **あり** | **はい** | **あり** |
+| Fortinet FortiOS |**あり**|**はい**|いいえ|**あり**|**はい**|**あり**|
+| iboss |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
+| Juniper SRX | いいえ | **はい** | いいえ | **あり** | **はい** | **あり** |
+| Juniper SSG | いいえ | **あり** | **あり** | **あり** | **はい** | **あり** |
+| McAfee SWG | **あり** | いいえ | いいえ | **あり** | **はい** | **はい** |
+| Menlo Security (CEF) | **はい** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| MS TMG | **あり** | いいえ | **あり** | **あり** | **はい** | **あり** |
+| Palo Alto Networks | いいえ | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Sophos | **あり** | **あり** | **あり** | **はい** | **はい** | いいえ |
+| Squid (Common) | **あり** | いいえ | **あり** | **はい** | **はい** | いいえ |
+| Squid (Native) | **あり** | いいえ | **はい** | **はい** | いいえ | いいえ |
+| Stormshield | いいえ | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Websense - 調査詳細レポート (CSV) | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Websense - インターネット アクティビティ ログ (CEF) | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
+| Zscaler | **あり** | **はい** | **はい** | **はい** | **はい** | **はい** |
 
 \* Forcepoint Web Security Cloud のバージョン 8.5 以降はサポートされていません
 

@@ -10,12 +10,12 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: c5b927cf1cfaa1038b4b2ab1aa096978ec9c964c
-ms.sourcegitcommit: ee40375712d2cc4090bd4e9cb58df486ec02aa62
+ms.openlocfilehash: f1176967bfcf67a458f55fe9421575df329aabe7
+ms.sourcegitcommit: 6ae1c05025a49ad3c8e8cecd0c10dc05edcd9bf8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92326944"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "92929082"
 ---
 # <a name="alerts-api"></a>Alerts API
 
@@ -60,8 +60,9 @@ Alerts API を使用すると、Cloud App Security によって特定された�
 | entity.instance | integer | eq、neq | 指定したインスタンスに関連するアラートをフィルター処理します。例:11770、1059065 |
 | entity.policy | string | eq、neq | 指定したポリシーに関連するアラートをフィルター処理します |
 | entity.file | string | eq、neq | 指定したファイルに関連するアラートをフィルター処理します |
+| alertOpen | boolean | eq | "true" に設定すると、未処理のアラートのみが返され、"false" に設定すると、閉じられたアラートのみが返されます |
 | severity | integer | eq、neq | 重要度でフィルター処理します。 次の値を指定できます。<br /><br />**0** :低<br />**1** :中間<br/>**2** :高 |
-| resolutionStatus | integer | eq、neq | アラートの解決状態でフィルター処理します。次の値を指定できます。<br /><br />**0** :オープン<br />**1** :破棄<br />**2** :解決済み |
+| resolutionStatus | integer | eq、neq | アラートの解決状態でフィルター処理します。次の値を指定できます。<br /><br />**0** :オープン <br />**1** :破棄 (レガシ状態)<br />**2** :解決済み (レガシ状態)<br />**3** :擬陽性として閉じられた<br />**4** :無害として閉じられた<br />**5** :真陽性として閉じられた |
 | read | boolean | eq | "true" に設定すると、既読のアラートのみが返され、"false" に設定すると、未読のアラートのみが返されます。 |
 | date | timestamp | lte、gte、range、lte_ndays、gte_ndays | アラートがトリガーされた時刻でフィルター処理します |
 | resolutionDate | timestamp | lte、gte、range | アラートが解決された時刻でフィルター処理します |

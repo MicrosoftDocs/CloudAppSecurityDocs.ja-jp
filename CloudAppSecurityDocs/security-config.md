@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 3103a55484ec094948cef1bb457632d28e661c73
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c7906ca0ee69297e449f1f4b713a24e49a6befc6
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878813"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93186138"
 ---
 # <a name="security-configuration-overview"></a>セキュリティ構成の概要
 
@@ -32,6 +32,17 @@ Microsoft Cloud App Security では、Azure、Amazon Web Services (AWS)、Google
 - **[Azure 推奨事項](security-config-azure.md)** :Azure Security Center から表示される Azure ベスト プラクティス セキュリティ推奨事項。
 - **[AWS 推奨事項](security-config-aws.md)** :AWS 向け Center for Internet Security (CIS) ベンチマーク、バージョン 1.2.0 に基づくセキュリティ推奨事項。AWS Security Hub から表示。
 - **[GCP 推奨事項](security-config-gcp.md)** :GCP 向け CIS ベンチマーク、バージョン 1.1.0 に基づくセキュリティ推奨事項。Google Security Command Center と Security Health Analytics から表示。
+
+## <a name="security-recommendations-report"></a>セキュリティに関する推奨事項のレポート
+
+Cloud App Security を使用すると、クラウド環境の監視、理解、カスタマイズを行い、組織の保護を強化するために役立つ、セキュリティに関する推奨事項の詳細な一覧をエクスポートできます。
+
+セキュリティに関する推奨事項の一覧をエクスポートするには、次の手順を実行します。
+
+1. Cloud App Security で、 **[調査]**  >  **[セキュリティの構成]** を参照します。
+
+1. 関連するクラウドのセキュリティの推奨事項タブを選択します。
+1. 推奨事項テーブルの右上にある **[エクスポート]** をクリックします。
 
 ## <a name="next-steps"></a>次のステップ
 

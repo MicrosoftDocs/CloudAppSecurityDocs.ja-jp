@@ -6,12 +6,12 @@ ms.author: shsagir
 ms.service: cloud-app-security
 ms.topic: tutorial
 ms.date: 04/27/2020
-ms.openlocfilehash: 2f06ed5a9eb5b029367b1ff05231b5a35fcc6d19
-ms.sourcegitcommit: b15034dd50142afd8e95de22a9232f711b1eae6e
+ms.openlocfilehash: 9b8cb1021c3aca223edf4f8b9b2e98d67e014480
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85624999"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93186269"
 ---
 # <a name="tutorial-extend-governance-to-endpoint-remediation"></a>チュートリアル:エンドポイントの修復までガバナンスを拡張する
 
@@ -57,7 +57,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 ## <a name="phase-2-create-a-flow-to-run-an-antivirus-scan"></a>フェーズ 2:ウイルス対策スキャンを実行するフローを作成する<a name="create-flow"></a>
 
 > [!NOTE]
-> Defender ATP コネクタを使用してフローを以前に作成している場合は、Power Automate によってコネクタが自動的に再利用されるため、**サインイン**の手順を省略できます。
+> Defender ATP コネクタを使用してフローを以前に作成している場合は、Power Automate によってコネクタが自動的に再利用されるため、 **サインイン** の手順を省略できます。
 
 1. [Power Automate ポータル](https://flow.microsoft.com/)に移動し、 **[テンプレート]** を選択してください。
 
@@ -67,7 +67,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 
     ![検索結果を示す Power Automate のテンプレート ページのスクリーンショット。](media/tutorial-flow-templates-search.png)
 
-1. アプリの一覧で、**Microsoft Defender ATP コネクタ**が表示されている行で、 **[サインイン]** をクリックします。
+1. アプリの一覧で、 **Microsoft Defender ATP コネクタ** が表示されている行で、 **[サインイン]** をクリックします。
 
     ![サインイン プロセスを示す Power Automate のテンプレート ページのスクリーンショット。](media/tutorial-flow-templates-signin.png)
 
@@ -94,7 +94,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 
     ![完了したアクションと [続行] ボタンを示す、Power Automate のテンプレート ウィンドウのスクリーンショット。](media/tutorial-flow-templates-continue.png)
 
-1. すべてのコネクタが正常に接続されたら、フローのページの **[Apply to each machine]\(各マシンに適用\)** で、必要に応じてコメントとスキャンの種類を変更し、 **[保存]** をクリックします。
+1. すべてのコネクタが正常に接続されたら、フローのページの **[Apply to each device]\(各デバイスに適用\)** で、必要に応じてコメントとスキャンの種類を変更し、 **[保存]** をクリックします。
 
     ![スキャンの設定セクションがある Flow ページのスクリーンショット。](media/tutorial-flow-templates-scan.png)
 

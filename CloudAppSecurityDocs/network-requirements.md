@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.technology: ''
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1542e3c10adcb3df2c58fefb0e2e9e62ca985cb8
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c3551532dbd9e436369cae913e74a743bfadc8d6
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877985"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93186166"
 ---
 # <a name="network-requirements"></a>ネットワークの要件
 
@@ -32,7 +32,7 @@ ms.locfileid: "90877985"
 
 接続しているデータ センターを確認するには、次の手順を実行します。
 
-1. Cloud App Security ポータルで、メニュー バーの**疑問符アイコン**をクリックします。 次に、 **[バージョン情報]** を選択します。
+1. Cloud App Security ポータルで、メニュー バーの **疑問符アイコン** をクリックします。 次に、 **[バージョン情報]** を選択します。
 
     ![[バージョン情報] をクリックする](media/about-menu.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "90877985"
 
 ## <a name="portal-access"></a>ポータル アクセス
 
-Cloud App Security ポータルへのアクセスのために、お使いのファイアウォールの許可リストに、以下の IP アドレスと DNS 名に対する**送信ポート 443** を追加します。
+Cloud App Security ポータルへのアクセスのために、お使いのファイアウォールの許可リストに、以下の IP アドレスと DNS 名に対する **送信ポート 443** を追加します。
 
 ```ini
     portal.cloudappsecurity.com
@@ -87,7 +87,7 @@ US Government GCC High のお客様の場合は、次の DNS 名もファイア�
 
 ### <a name="commercial-customers"></a>商用のお客様
 
-商用のお客様の場合は、Cloud App Security のリバース プロキシを有効にするために、お使いのファイアウォールの許可リストに、以下の IP アドレスと DNS 名に対する**送信ポート 443** を追加します。
+商用のお客様の場合は、Cloud App Security のリバース プロキシを有効にするために、お使いのファイアウォールの許可リストに、以下の IP アドレスと DNS 名に対する **送信ポート 443** を追加します。
 
 ```ini
     *.cas.ms
@@ -108,7 +108,7 @@ US Government GCC High のお客様の場合は、次の DNS 名もファイア�
 
 ### <a name="us-government-gcc-high-customers"></a>US Government GCC High のお客様
 
-US Government GCC High のお客様の場合は、Cloud App Security のリバース プロキシを有効にするために、お使いのファイアウォールの許可リストに、以下の DNS 名に対する**送信ポート 443** を追加します。
+US Government GCC High のお客様の場合は、Cloud App Security のリバース プロキシを有効にするために、お使いのファイアウォールの許可リストに、以下の DNS 名に対する **送信ポート 443** を追加します。
 
 ```ini
     *.mcas-gov.us
@@ -118,7 +118,7 @@ US Government GCC High のお客様の場合は、Cloud App Security のリバ�
 
 ## <a name="siem-agent-connection"></a>SIEM エージェント接続
 
-Cloud App Security から SIEM への接続を有効にするには、お使いのファイアウォールの許可リストに、以下の IP アドレスに対する**送信ポート 443** を追加します。
+Cloud App Security から SIEM への接続を有効にするには、お使いのファイアウォールの許可リストに、以下の IP アドレスに対する **送信ポート 443** を追加します。
 
 |データ センター|IP アドレス|
 |----|----|
@@ -210,7 +210,7 @@ MailChimp を使用するには、次の IP アドレスをスパム対策の許
 
 > [!NOTE]
 >
-> - ファイアウォールで静的 IP アドレスのアクセス リストが要求されていて、URL に基づくホワイトリスト登録がサポートされていない場合は、ログ コレクターがポート 443 で [Microsoft Azure データセンターの IP 範囲](https://www.microsoft.com/download/details.aspx?id=56519)への送信トラフィックを開始できるようにします。
+> - ファイアウォールで静的 IP アドレスのアクセス リストが要求されていて、URL に基づく許可がサポートされていない場合は、ログ コレクターがポート 443 で [Microsoft Azure データセンターの IP 範囲](https://www.microsoft.com/download/details.aspx?id=56519)への送信トラフィックを開始できるようにします。
 > - ログ コレクターが、Cloud App Security ポータルへの送信トラフィックを開始できるようにします。
 > - ログ コレクターを設定するときにプロキシを指定しなかった場合は、ポート 80 での http://ocsp.msocsp.com/ と ocsp.digicert.com への HTTP 接続を許可する必要があります。 これは、Cloud App Security ポータルに接続するときに証明書の失効状態を確認するために使用されます。
 

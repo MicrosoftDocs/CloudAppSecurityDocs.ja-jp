@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f145c8f76e205e24703742d4162c8766b2785588
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 3dec3c1729d63649a754098ace7f638ccc3029bc
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877042"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93185939"
 ---
 # <a name="tutorial-block-download-of-sensitive-information"></a>チュートリアル:機密情報のダウンロードをブロックする
 
@@ -34,7 +34,7 @@ ms.locfileid: "90877042"
 
 ## <a name="the-threat"></a>脅威
 
-組織内のアカウント マネージャーが、個人のノート PC で、週末に自宅から Salesforce の情報を確認したいと考えています。 Salesforce のデータには、クライアントのクレジット カード情報や個人情報が含まれる可能性があります。 自宅の PC は管理されていません。 Salesforce からドキュメントを PC にダウンロードすると、マルウェアに感染する可能性があります。 紛失または盗難にあったコンピューターが、パスワードで保護されていない可能性があります。そして、それに気づいたユーザーは機密情報にアクセスすることができます。
+組織内のアカウント マネージャーが、個人のノート PC で、週末に自宅から Salesforce の情報を確認したいと考えています。 Salesforce のデータには、クライアントのクレジット カード情報や個人情報が含まれる可能性があります。 自宅の PC は管理されていません。 Salesforce からドキュメントを PC にダウンロードすると、マルウェアに感染する可能性があります。 デバイスを紛失したり、盗難にあった場合、それがパスワードで保護されておらず、誰でも機密情報にアクセスできる可能性があります。
 
 ## <a name="the-solution"></a>解決策
 
@@ -70,7 +70,7 @@ Cloud App Security セッション ポリシーを使用すると、デバイス
 
 2. **[ポリシー]** ページで、 **[Create policy]\(ポリシーを作成する\)** に続けて **[セッション ポリシー]** をクリックします。
 
-3. **[セッション ポリシーの作成]** ページで、ポリシーの名前と説明を入力します。 たとえば、**アンマネージド デバイスで Salesforce からのダウンロードをブロックする**などです。
+3. **[セッション ポリシーの作成]** ページで、ポリシーの名前と説明を入力します。 たとえば、 **アンマネージド デバイスで Salesforce からのダウンロードをブロックする** などです。
 
 4. **[ポリシー重要度]** および **[カテゴリ]** を割り当てます。
 

@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: b95b38aadc1d8794b1c8cab927e2735415172421
-ms.sourcegitcommit: 56d63e09b48bb9d34218b30f1776e25499517e30
+ms.openlocfilehash: f89b3daceacca86faaec840e9faeec1c1aac577d
+ms.sourcegitcommit: b0ad9e8e6b5668849e1c292c43084480f229d981
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "91997088"
+ms.lasthandoff: 11/01/2020
+ms.locfileid: "93147477"
 ---
 # <a name="manage-admin-access"></a>管理者アクセスを管理する
 
@@ -31,7 +31,7 @@ Microsoft Cloud App Security はロールベースのアクセス制御に対応
 
 既定では、Office 365 と [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) の次の管理者ロールで Cloud App Security にアクセスできます。
 
-- **全体管理者、セキュリティ管理者:** **フル アクセス**の権限を持つ管理者には、Cloud App Security での完全なアクセス許可があります。 管理者の追加、ポリシーと設定の追加、ログのアップロード、ガバナンス アクションの実行を行うことができます。
+- **全体管理者、セキュリティ管理者:** **フル アクセス** の権限を持つ管理者には、Cloud App Security での完全なアクセス許可があります。 管理者の追加、ポリシーと設定の追加、ログのアップロード、ガバナンス アクションの実行を行うことができます。
 
 - **コンプライアンス管理者:** 読み取り専用アクセス許可を持ち、アラートを管理できます。 クラウド プラットフォームのセキュリティに関する推奨事項にはアクセスできません。 ファイル ポリシーの作成と変更、ファイル ガバナンス アクションの許可、データ管理でのすべての組み込みレポートの表示を行うことができます。
 
@@ -108,7 +108,7 @@ Cloud App Security ポータルでは、次の Cloud App Security 固有の管�
   - アプリのアクセス許可 - アクセス許可なし
   - ファイル ページ - アクセス許可なし
   - アプリの条件付きアクセス制御 - アクセス許可なし
-  - セキュリティ拡張機能 - アクセス許可なし
+  - セキュリティ拡張機能 - 独自の API トークンの作成と削除
   - ガバナンス アクション - Cloud Discovery 関連のアクションのみ
   - クラウド プラットフォームのセキュリティに関する推奨事項 - アクセス許可なし
 
@@ -119,7 +119,7 @@ Cloud App Security ポータルでは、次の Cloud App Security 固有の管�
 
 ## <a name="override-admin-permissions"></a>管理者アクセス許可をオーバーライドする
 
-Azure Active Directory または Office 365 からの管理者のアクセス許可をオーバーライドする場合は、Cloud App Security にユーザーを手動で追加し、ユーザーにアクセス許可を割り当てることによって行うことができます。 たとえば、Azure Active Directory のセキュリティ閲覧者であるユーザーに、Cloud App Security での**フル アクセス**を割り当てる場合は、ユーザーを手動で Cloud App Security に追加し、**フル アクセス**を割り当ててロールをオーバーライドし、Cloud App Security での必要なアクセス許可を付与します。
+Azure Active Directory または Office 365 からの管理者のアクセス許可をオーバーライドする場合は、Cloud App Security にユーザーを手動で追加し、ユーザーにアクセス許可を割り当てることによって行うことができます。 たとえば、Azure Active Directory のセキュリティ閲覧者であるユーザーに、Cloud App Security での **フル アクセス** を割り当てる場合は、ユーザーを手動で Cloud App Security に追加し、 **フル アクセス** を割り当ててロールをオーバーライドし、Cloud App Security での必要なアクセス許可を付与します。
 
 ## <a name="add-additional-admins"></a>管理者をさらに追加する
 
@@ -134,7 +134,7 @@ Azure Active Directory または Office 365 からの管理者のアクセス許
 
     ![管理者を追加する](media/add-admin.png)
 
-3. 次に、ドロップダウンをクリックして、管理者が持つロールの種類 (**グローバル管理者**、**セキュリティ閲覧者**、**コンプライアンス管理者**、**アプリ/インスタンスの管理者**、**ユーザー グループの管理者**、**Cloud Discovery のグローバル管理者**、または **Cloud Discovery のレポート管理者**) を設定します。**アプリ/インスタンス管理者** を選択する場合は、管理者がアクセス許可を持つ対象のアプリとインスタンスを選択します。
+3. 次に、ドロップダウンをクリックして、管理者が持つロールの種類 ( **グローバル管理者** 、 **セキュリティ閲覧者** 、 **コンプライアンス管理者** 、 **アプリ/インスタンスの管理者** 、 **ユーザー グループの管理者** 、 **Cloud Discovery のグローバル管理者** 、または **Cloud Discovery のレポート管理者** ) を設定します。 **アプリ/インスタンス管理者** を選択する場合は、管理者がアクセス許可を持つ対象のアプリとインスタンスを選択します。
 
     >[!NOTE]
     > アクセス権が制限されている管理者は、制限付きページへのアクセスまたは制限されたアクションの実行を試みると、ページへのアクセスまたはアクションの実行を許可されていないというエラーを受け取ります。
@@ -161,7 +161,7 @@ Cloud App Security を使用すると、外部のマネージド セキュリテ
 
 ![テナントを選択する](media/choose-tenant.png "テナントを選択する")
 
-## <a name="next-steps"></a>次のステップ  
+## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
 > [Cloud Discovery を設定する](set-up-cloud-discovery.md)

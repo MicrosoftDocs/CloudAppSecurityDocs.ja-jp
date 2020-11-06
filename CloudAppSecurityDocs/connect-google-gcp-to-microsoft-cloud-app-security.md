@@ -9,12 +9,12 @@ ms.date: 06/28/2020
 ms.topic: how-to
 ms.service: cloud-app-security
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 2729785ec2de681c422c0fd8b9442a7a41886307
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c9390b6a74c51e684109e5f3c4d3cb25abf00120
+ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881406"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "93186039"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -22,7 +22,7 @@ ms.locfileid: "90881406"
 
 この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Google Cloud Platform (GCP) アカウントに接続する手順について説明します。 この接続を使用すると、GCP の使用状況を表示したり制御したりできます。 Cloud App Security で GCP を保護する方法の詳細については、[GCP の保護](protect-gcp.md)に関するページを参照してください。
 
-安定した統合を維持し、セットアップ プロセスが削除または変更されるのを防ぐために、統合に専用のプロジェクトを使用し、プロジェクトへのアクセスを制限することをお勧めします。 また、GCP インスタンスが、Cloud App Security に既に接続されている G Suite インスタンスの一部である場合は、GCP 接続の詳細を追加するときに、「**接続されている G Suite 組織の一部である GCP インスタンスの場合**」の手順に従うことをお勧めします。
+安定した統合を維持し、セットアップ プロセスが削除または変更されるのを防ぐために、統合に専用のプロジェクトを使用し、プロジェクトへのアクセスを制限することをお勧めします。 また、GCP インスタンスが、Cloud App Security に既に接続されている G Suite インスタンスの一部である場合は、GCP 接続の詳細を追加するときに、「 **接続されている G Suite 組織の一部である GCP インスタンスの場合** 」の手順に従うことをお勧めします。
 
 ## <a name="prerequisites"></a>[前提条件]
 
@@ -33,8 +33,8 @@ ms.locfileid: "90881406"
 
 Cloud App Security 接続には、次の GCP の一方または両方を接続できます。
 
-- **セキュリティ監査**: この接続を使用すると、GCP アプリの使用状況を表示したり制御したりすることができます。
-- **セキュリティ構成**: この接続では、GCP の Center for Internet Security (CIS) ベンチマークに基づいたセキュリティに関する基本的な推奨事項が提供されます。
+- **セキュリティ監査** : この接続を使用すると、GCP アプリの使用状況を表示したり制御したりすることができます。
+- **セキュリティ構成** : この接続では、GCP の Center for Internet Security (CIS) ベンチマークに基づいたセキュリティに関する基本的な推奨事項が提供されます。
 
 接続のいずれか一方または両方を追加できるため、この記事では、各接続の手順を個別の手順として説明します。 接続のいずれか一方を既に追加している場合は、必要に応じて既存の構成を編集してください。
 
@@ -114,7 +114,7 @@ GCP のセキュリティ監査を Cloud App Security に接続するには、�
     ![秘密キーの作成ダイアログを示すスクリーンショット](media/connect-gcp-create-private-key.png)
 
     > [!NOTE]
-    > 後でコンピューターにダウンロードされる JSON ファイルが必要になります。
+    > 後でデバイスにダウンロードされる JSON ファイルが必要になります。
 
 #### <a name="retrieve-your-organization-id"></a>組織 ID を取得する
 
@@ -244,7 +244,7 @@ GCP のセキュリティ構成を Cloud App Security に接続するには、�
     ![専用サービス アカウントの秘密キーの作成ダイアログを示すスクリーンショット](media/connect-gcp-security-configuration-4.png)
 
     > [!NOTE]
-    > 後でコンピューターにダウンロードされる JSON ファイルが必要になります。
+    > 後でデバイスにダウンロードされる JSON ファイルが必要になります。
 
 #### <a name="retrieve-your-organization-id"></a>組織 ID を取得する
 
