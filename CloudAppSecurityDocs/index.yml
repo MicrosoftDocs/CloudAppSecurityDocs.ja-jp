@@ -12,12 +12,12 @@ metadata:
   author: shsagir
   ms.author: shsagir
   ms.date: 09/24/2019
-  ms.openlocfilehash: c8a659bad9ef721459aa6116c3f26b3e8d2fbcda
-  ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+  ms.openlocfilehash: f2e47c0792474782ea513ed31388c5cfcfe89f55
+  ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 11/02/2020
-  ms.locfileid: "93185738"
+  ms.lasthandoff: 11/08/2020
+  ms.locfileid: "94370799"
 landingContent:
 - title: Cloud App Security について
   linkLists:
@@ -131,7 +131,7 @@ landingContent:
       url: set-up-cloud-discovery.md
   - linkListType: how-to-guide
     links:
-    - text: Microsoft Defender Advanced Threat Protection との統合
+    - text: Microsoft Defender for Endpoint と統合する
       url: mde-integration.md
     - text: Cloud Discovery の強化
       url: cloud-discovery-aad-enrichment.md
