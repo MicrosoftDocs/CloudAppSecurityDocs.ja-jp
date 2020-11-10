@@ -260,8 +260,8 @@
           href: governance-actions.md
         - name: 検出されたアプリの管理
           href: governance-discovery.md
-        - name: Azure ATP の統合
-          href: aatp-integration.md
+        - name: Microsoft Defender for Identity の統合
+          href: mdi-integration.md
         - name: Azure AD Identity Protection の統合
           href: aadip-integration.md
         - name: Azure Information Protection の統合
