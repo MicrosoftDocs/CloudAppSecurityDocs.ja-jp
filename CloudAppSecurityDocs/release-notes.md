@@ -11,12 +11,12 @@ ms.collection: M365-security-compliance
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: aae8887a3a71d9b63c9af7464a8da75977120b07
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: faf7d4fcfbdf37d7a38d155deb65aa2693e846af
+ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186180"
+ms.lasthandoff: 11/08/2020
+ms.locfileid: "94371288"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -38,7 +38,7 @@ RSS フィード:ご自身のフィード リーダーに次の URL をコピー
 アラートの監視と管理に関する継続的な改善の一環として、フィードバックに基づいて Cloud App Security のアラートのページが改善されました。 強化されたエクスペリエンスでは、 **[解決済み]** と **[破棄]** の状態が、 **[終了]** 状態と解決の種類に置き換えられます。 [詳細情報](monitor-alerts.md#deployment-of-our-enhanced-alert-monitoring-and-management-experience)
 
 - **Microsoft Defender for Endpoint に送信されるシグナルの新しいグローバル重要度設定**  
-Microsoft Defender for Endpoint に送信されるシグナルのグローバル重要度設定を指定する機能が追加されました。 詳細については、「[Defender for Endpoint を Cloud App Security と統合する方法](mde-integration.md#how-to-integrate-defender-for-endpoint-with-cloud-app-security)」をご覧ください。
+Microsoft Defender for Endpoint に送信されるシグナルのグローバル重要度設定を指定する機能が追加されました。 詳細については、「[Microsoft Defender for Endpoint を Cloud App Security と統合する方法](mde-integration.md#how-to-integrate-microsoft-defender-for-endpoint-with-cloud-app-security)」を参照してください。
 
 - **新しいセキュリティに関する推奨事項のレポート**  
 Cloud App Security を使用すると、Azure、アマゾン ウェブ サービス (AWS)、および Google Cloud Platform (GCP) のセキュリティ構成に関する評価が提供され、マルチクラウド環境におけるセキュリティ構成のギャップについての分析情報を得られます。 クラウド環境の監視、理解、カスタマイズを行い、組織の保護を強化するために役立つ、セキュリティに関する推奨事項の詳細なレポートをエクスポートできるようになりました。 レポートのエクスポートについて詳しくは、「[セキュリティに関する推奨事項のレポート](security-config.md#security-recommendations-report)」をご覧ください。
@@ -447,7 +447,7 @@ Cloud App Security は実行されたアクティビティの包括的な監視�
 リリース日: 2019 年 6 月 9 日
 
 - **ハイブリッド UEBA - Azure ATP とのネイティブ統合 (プレビュー)**  
-Cloud App Security は Azure ATP とネイティブで統合され、クラウド アプリとオンプレミス ネットワークの両方に ID アクティビティの 1 つのビューが用意されました。 詳細については、「[Azure Advanced Threat Protection integration (Azure Advanced Threat Protection の統合)](aatp-integration.md)」を参照してください。
+Cloud App Security は Azure ATP とネイティブで統合され、クラウド アプリとオンプレミス ネットワークの両方に ID アクティビティの 1 つのビューが用意されました。 詳細については、「[Azure Advanced Threat Protection integration (Azure Advanced Threat Protection の統合)](mdi-integration.md)」を参照してください。
 - **UEBA の機能強化**  
 レーダーで検知されない脅威を特定しやすくするために、Cloud App Security では独自のプロファイリングを使用して個々のアクティビティとアラートのリスク スコアを表示できるようになりました。 リスク スコアを使用すると、単体ではアラートをトリガーするほど疑わしくないアクティビティを特定できます。 ただし、Cloud App Security でリスク スコアをユーザーの **調査の優先順位のスコア** に集計することで、危険な行動を特定し、調査に集中することができます。 これらの新機能が、再設計されたユーザー ページで使用できるようになりました。
 - **クラウド アプリ カタログに追加された新しいリスク要因**  

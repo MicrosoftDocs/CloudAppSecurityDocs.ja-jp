@@ -10,19 +10,21 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 9d1d06e3951322036b4a4344d85f3ba960582637
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 5127f1e09fc5cd34ce0a45fd05ed1714e94cd94a
+ms.sourcegitcommit: 288f3011c0ce0e5f2d8cbaa9057a63be044465f7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880901"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94375068"
 ---
 # <a name="fetch---files-api"></a>フェッチ - Files API
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 > [!NOTE]
-> この要求は、Office 365 Cloud App Security では使用できません。
+>
+> - この API はまもなく非推奨になります。 Microsoft Cloud App Security により、ポリシーに違反するファイルを識別して対処するための新しいソリューションが開発されています。
+> - この API は、Office 365 Cloud App Security では使用できません。
 
 指定した主キーと一致するファイルをフェッチする GET 要求を実行します。
 

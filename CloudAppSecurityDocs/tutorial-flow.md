@@ -1,23 +1,23 @@
 ---
 title: エンドポイントの修復までガバナンスを拡張する
-description: このチュートリアルでは、Microsoft Power Automate ワークフローをトリガーして Microsoft Defender Advanced Threat Protection 修復アクションを実行するために、Microsoft Cloud App Security ポリシー アラートを構成するプロセスについて説明します。
+description: このチュートリアルでは、Microsoft Power Automate ワークフローをトリガーして Microsoft Defender for Endpoint 修復アクションを実行するために、Microsoft Cloud App Security ポリシー アラートを構成するプロセスについて説明します。
 author: shsagir
 ms.author: shsagir
 ms.service: cloud-app-security
 ms.topic: tutorial
 ms.date: 04/27/2020
-ms.openlocfilehash: 9b8cb1021c3aca223edf4f8b9b2e98d67e014480
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 213b041630a1367a4f505643e73482490456682d
+ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186269"
+ms.lasthandoff: 11/08/2020
+ms.locfileid: "94370666"
 ---
 # <a name="tutorial-extend-governance-to-endpoint-remediation"></a>チュートリアル:エンドポイントの修復までガバナンスを拡張する
 
 Cloud App Security には、ユーザーを停止したり、ファイルを非公開にするなどの定義済みのポリシーのガバナンス オプションがあります。 Microsoft Power Automate とのネイティブ統合を使用すると、サービスとしてのソフトウェア (SaaS) コネクタの大規模なエコシステムを使用して、修復などのプロセスを自動化するワークフローを構築できます。
 
-たとえば、危険なマルウェアである可能性の兆候が検出された場合、ワークフローを使用して、ウイルス対策スキャンの実行やエンドポイントの分離などの Microsoft Defender Advanced Threat Protection (ATP) 修復アクションを開始できます。
+たとえば、危険なマルウェアである可能性の兆候が検出された場合、ワークフローを使用して、ウイルス対策スキャンの実行やエンドポイントの分離などの Microsoft Defender for Endpoint 修復アクションを開始できます。
 
 このチュートリアルでは、ワークフローを使用するポリシー ガバナンス アクションを構成して、ユーザーが疑わしい動作をしているエンドポイントでウイルス対策スキャンを実行する方法について説明します。
 
@@ -36,8 +36,8 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 ## <a name="prerequisites"></a>[前提条件]
 
 * 有効な [Microsoft Power Automate プランが必要](https://flow.microsoft.com/pricing)
-* 有効な Microsoft Defender ATP プランが必要
-* Power Automate 環境が Azure AD と同期され、Defender ATP の監視対象で、ドメイン参加済みである
+* 有効な Microsoft Defender for Endpoint プランが必要
+* Power Automate 環境が Azure AD と同期され、Defender for Endpoint の監視対象で、ドメイン参加済みである
 
 ## <a name="phase-1-generate-a-cloud-app-security-api-token"></a>フェーズ 1:Cloud App Security の API トークンを生成する<a name="generate-token"></a>
 
@@ -57,7 +57,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 ## <a name="phase-2-create-a-flow-to-run-an-antivirus-scan"></a>フェーズ 2:ウイルス対策スキャンを実行するフローを作成する<a name="create-flow"></a>
 
 > [!NOTE]
-> Defender ATP コネクタを使用してフローを以前に作成している場合は、Power Automate によってコネクタが自動的に再利用されるため、 **サインイン** の手順を省略できます。
+> Defender for Endpoint コネクタを使用してフローを以前に作成している場合は、Power Automate によってコネクタが自動的に再利用されるため、 **サインイン** の手順を省略できます。
 
 1. [Power Automate ポータル](https://flow.microsoft.com/)に移動し、 **[テンプレート]** を選択してください。
 
@@ -67,7 +67,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 
     ![検索結果を示す Power Automate のテンプレート ページのスクリーンショット。](media/tutorial-flow-templates-search.png)
 
-1. アプリの一覧で、 **Microsoft Defender ATP コネクタ** が表示されている行で、 **[サインイン]** をクリックします。
+1. アプリの一覧で、 **Microsoft Defender for Endpoint コネクタ** が表示されている行で、 **[サインイン]** をクリックします。
 
     ![サインイン プロセスを示す Power Automate のテンプレート ページのスクリーンショット。](media/tutorial-flow-templates-signin.png)
 
@@ -110,7 +110,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 
 これで、このポリシーに対して生成されたすべてのアラートで、ウイルス対策スキャンを実行するフローが開始されます。
 
-このチュートリアルの手順を使用すると、Cloud App Security の修復機能を拡張するさまざまなワークフローを使用したアクションを作成できます。これには、その他の Defender ATP アクションも含まれます。 Power Automate に定義済みの Cloud App Security ワークフローの一覧を表示するには、["Cloud App Security" を検索](https://go.microsoft.com/fwlink/?linkid=2102574)してください。
+このチュートリアルの手順を使用すると、Cloud App Security の修復機能を拡張するさまざまなワークフローを使用したアクションを作成できます。これには、その他の Defender for Endpoint アクションも含まれます。 Power Automate に定義済みの Cloud App Security ワークフローの一覧を表示するには、["Cloud App Security" を検索](https://go.microsoft.com/fwlink/?linkid=2102574)してください。
 
 ## <a name="see-also"></a>関連項目
 

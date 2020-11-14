@@ -7,12 +7,12 @@ ms.service: cloud-app-security
 ms.topic: quickstart
 ms.date: 10/24/2019
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a7c2dc834173dc212d783ba5853dff6186410e34
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 555ae29e4121207d87105b597bc5c973fe8a9a07
+ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93185768"
+ms.lasthandoff: 11/08/2020
+ms.locfileid: "94371036"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 
@@ -36,13 +36,13 @@ ms.locfileid: "93185768"
 
 ## <a name="discover-and-assess-cloud-apps"></a>クラウド アプリの検出と評価
 
-Cloud App Security と Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP) を統合すると、企業ネットワークやセキュリティで保護された Web ゲートウェイを越えて Cloud Discovery を使用できるようになります。 ユーザーとデバイスの情報を組み合わせることで、Microsoft Defender ATP ポータルで危険なユーザーやデバイスを特定したり、使用されているアプリを確認したり、さらなる詳細を調べたりできます。
+Cloud App Security と Microsoft Defender for Endpoint を統合すると、企業ネットワークやセキュリティで保護された Web ゲートウェイを越えて Cloud Discovery を使用できるようになります。 ユーザーとデバイスの情報を組み合わせることで、Defender for Endpoint ポータルで危険なユーザーやデバイスを特定したり、使用されているアプリを確認したり、さらなる詳細を調べたりできます。
 
-**ベスト プラクティス** :Microsoft Defender ATP を使用して Shadow IT Discovery を有効にする  
-**詳細** :Cloud Discovery を使用して、Microsoft Defender ATP により収集されたトラフィック ログを分析し、特定したアプリをクラウド アプリ カタログに照らして評価して、コンプライアンスとセキュリティの情報を取得します。 Cloud Discovery を構成することにより、クラウドの使用状況、シャドウ IT、および承認されていないアプリのユーザー使用の継続的な監視を可視化できます。  
+**ベスト プラクティス** :Defender for Endpoint を使用して Shadow IT Discovery を有効にする  
+**詳細** :Cloud Discovery を使用して、Defender for Endpoint により収集されたトラフィック ログを分析し、特定したアプリをクラウド アプリ カタログに照らして評価して、コンプライアンスとセキュリティの情報を取得します。 Cloud Discovery を構成することにより、クラウドの使用状況、シャドウ IT、および承認されていないアプリのユーザー使用の継続的な監視を可視化できます。  
 **参照項目** :
 
-* [Cloud App Security と Microsoft Defender ATP の統合](mde-integration.md)
+* [Microsoft Defender for Endpoint と Cloud App Security の統合](mde-integration.md)
 * [Cloud Discovery を設定する](set-up-cloud-discovery.md)
 * [ネットワーク内のシャドウ IT の検出と管理](tutorial-shadow-it.md)
 

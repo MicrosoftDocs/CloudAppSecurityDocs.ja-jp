@@ -1,6 +1,6 @@
 ---
-title: Webex を Cloud App Security に接続する
-description: この記事では、お使いの Webex アプリを、使用状況を表示および制御する API コネクタを使用して、Cloud App Security に接続する方法について説明します。
+title: Webex Teams を Cloud App Security に接続する
+description: この記事では、お使いの Webex Teams アプリを、使用状況を表示および制御する API コネクタを使用して、Cloud App Security に接続する方法について説明します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
@@ -14,23 +14,23 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 21e882a513c0a35b32d4e993aa18877880852da3
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 6b995b6ec4e7ba4cf04407df9f4badb08b303931
+ms.sourcegitcommit: 9391853beca4bd62e0f05bd457faac97e7dec646
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881275"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93278514"
 ---
-# <a name="connect-cisco-webex-to-microsoft-cloud-app-security"></a>Cisco Webex を Microsoft Cloud App Security に接続する
+# <a name="connect-cisco-webex-teams-to-microsoft-cloud-app-security"></a>Cisco Webex Teams を Microsoft Cloud App Security に接続する
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
-この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Cisco Webex アカウントに接続する方法を説明します。 この接続を使用すると、Webex のユーザー、アクティビティ、ファイルについて、表示したり制御したりできます。 Cloud App Security での Cisco Webex の保護方法の詳細については、[Cisco Webex の保護](protect-webex.md)に関する記事を参照してください。
+この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Cisco Webex アカウントに接続する方法を説明します。 この接続を使用すると、Webex のユーザー、アクティビティ、ファイルについて、表示したり制御したりできます。 Cloud App Security での Cisco Webex Teams の保護方法の詳細については、[Cisco Webex Teams の保護](protect-webex.md)に関する記事を参照してください。
 
 ## <a name="prerequisites"></a>[前提条件]
 
 - 接続専用のサービス アカウントを作成することをお勧めします。 これにより、Webex で送信されたメッセージの削除など、Webex で実行されるガバナンス アクションがこのアカウントから実行されていることを確認できます。 それ以外の場合は、Webex に Cloud App Security を接続した管理者の名前が、アクションを実行したユーザーとして表示されます。
-- Webex において、完全な権限を持つ管理者**および**コンプライアンス管理者のアクセス許可を持っている必要があります。
+- Webex において、完全な権限を持つ管理者 **および** コンプライアンス管理者のアクセス許可を持っている必要があります。
 
 ## <a name="how-to-connect-webex-to-cloud-app-security"></a>Webex を Cloud App Security に接続する方法
 

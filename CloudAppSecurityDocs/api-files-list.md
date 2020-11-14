@@ -10,19 +10,22 @@ ms.topic: reference
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
-ms.openlocfilehash: 2dac75e59e95e01f11e0dc2af0d4dc44ffb9a284
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 4cfe5e15964be0a4add19f11b571254235e1a72c
+ms.sourcegitcommit: 288f3011c0ce0e5f2d8cbaa9057a63be044465f7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879657"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94375042"
 ---
 # <a name="list---files-api"></a>一覧表示 - Files API
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 > [!NOTE]
-> この要求は、Office 365 Cloud App Security では使用できません。
+>
+> - この API はまもなく非推奨になります。 Microsoft Cloud App Security により、ポリシーに違反するファイルを識別して対処するための新しいソリューションが開発されています。
+> - このエンドポイントは、大規模なコレクションのフィルター処理とページ番号付けを行うとタイムアウトする場合があります。
+> - この API は、Office 365 Cloud App Security では使用できません。
 
 指定したフィルターと一致するファイルの一覧をフェッチする GET または POST 要求を実行します。
 

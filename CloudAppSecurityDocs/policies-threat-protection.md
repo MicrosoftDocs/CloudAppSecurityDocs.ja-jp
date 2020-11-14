@@ -3,18 +3,18 @@ title: 脅威防止ポリシー - Cloud App Security
 description: このトピックでは、Cloud App Security で多数の脅威防止ポリシーを構成する手順の概要について説明します。
 author: shsagir
 ms.author: shsagir
-ms.date: 06/13/2019
+ms.date: 11/08/2020
 ms.topic: conceptual
 ms.collection: M365-security-compliance
 ms.service: cloud-app-security
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 92a02c1810c427de10719193bd0b75249c9e6c21
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 50e9e52ba245520f25f3b014d6fc63325dd1dbb9
+ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186071"
+ms.lasthandoff: 11/08/2020
+ms.locfileid: "94371118"
 ---
 # <a name="threat-protection-policies"></a>脅威保護に関するポリシー
 
@@ -23,7 +23,7 @@ ms.locfileid: "93186071"
 Cloud App Security を使用すると、リスクの高い使用とクラウドのセキュリティの問題を特定し、異常なユーザー動作を検出して、承認されたクラウド アプリでの脅威を防ぐことができます。 ユーザーと管理者のアクティビティの内容を把握し、疑わしい動作またはリスクがあると考えられる特定のアクティビティが検出されたときに自動的にアラートを出すように、ポリシーを定義します。 Microsoft の脅威インテリジェンスおよびセキュリティ研究に関する膨大なデータを利用して、承認されたアプリに必要なすべてのセキュリティ制御が確実に実施され、それらに対する管理が維持されるようにします。
 
 > [!NOTE]
-> Cloud App Security と Azure Advanced Threat Protection (Azure ATP) を統合すると、Azure ATP のポリシーもポリシー ページに表示されます。 Azure ATP ポリシーの一覧については、[セキュリティ アラート](/azure-advanced-threat-protection/suspicious-activity-guide)に関するページを参照してください。
+> Cloud App Security と Microsoft Defender for Identity を統合すると、Defender for Identity のポリシーもポリシー ページに表示されます。 Defender for Identity ポリシーの一覧については、[セキュリティ アラート](/defender-for-identity/suspicious-activity-guide)に関するページを参照してください。
 
 ## <a name="detect-and-control-user-activity-from-unfamiliar-locations"></a>不明な場所からのユーザーアクティビティを検出して制御する
 
@@ -44,6 +44,7 @@ Cloud App Security を使用すると、リスクの高い使用とクラウド�
 ### <a name="prerequisites"></a>[前提条件]
 
 [アプリ コネクタ](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)を使用して接続されているアプリ、または[セッション制御によるアプリの条件付きアクセス制御](proxy-deployment-aad.md)を使用してオンボードされたアプリが、少なくとも 1 つ必要です。
+
 ### <a name="steps"></a>手順
 
 1. この検出は、あり得ない場所からのアクセスがあったらアラートが生成されるように、何もしなくても自動的に構成されます。 このポリシーを構成するために何らかの操作を行う必要はありません。 詳しくは、[異常検出ポリシー](anomaly-detection-policy.md)に関する記事をご覧ください。
@@ -186,7 +187,7 @@ Cloud App Security の Microsoft 脅威インテリジェンス エンジンと�
 
 ### <a name="prerequisites"></a>[前提条件]
 
-- Office 365 のマルウェア検出の場合は、Office 365 Advanced Threat Protection P1 の有効なライセンスが必要です。
+- Office 365 のマルウェア検出の場合は、Microsoft Defender for Office 365 P1 の有効なライセンスが必要です。
 - [アプリ コネクタ](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)を使用して接続されているアプリが、少なくとも 1 つ必要です。
 
 ### <a name="steps"></a>手順

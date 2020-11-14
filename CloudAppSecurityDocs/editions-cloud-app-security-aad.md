@@ -13,12 +13,12 @@ ms.service: cloud-app-security
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f507b287f04789967b04abbb804d6f2b406e2ca2
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 7007f8aad61c1f504a73855360fad40f0c58bcc4
+ms.sourcegitcommit: 138d435905eaf29584f50d6dac30489d2104189a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877649"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "93415421"
 ---
 # <a name="what-are-the-differences-in-discovery-capabilities-for-azure-active-directory-and-microsoft-cloud-app-security"></a>Azure Active Directory と Microsoft Cloud App Security では、検出機能にどのような違いがありますか。
 
@@ -34,7 +34,7 @@ Microsoft Cloud App Security は包括的なクロス SaaS ソリューション
 
 ## <a name="enhanced-cloud-app-discovery-in-azure-active-directory"></a>Azure Active Directory で強化された Cloud App Discovery
 
-Azure Active Directory Premium P1 には、[Azure Active Directory Cloud App Discovery](https://aka.ms/caddocsnew) が含まれており、追加費用はかかりません。 この機能は、Microsoft Cloud App Security Cloud Discovery 機能に基づいており、組織内のクラウド アプリの使用状況により詳細な可視性を提供します。 [Microsoft Cloud App Security をアップグレード](https://www.microsoft.com/cloud-platform/cloud-app-security)すると、Microsoft Cloud App Security で提供される Cloud App Security Broker (CASB) の各種機能を受け取ります。
+Azure Active Directory Premium P1 には、[Azure Active Directory Cloud App Discovery](./set-up-cloud-discovery.md) が含まれており、追加費用はかかりません。 この機能は、Microsoft Cloud App Security Cloud Discovery 機能に基づいており、組織内のクラウド アプリの使用状況により詳細な可視性を提供します。 [Microsoft Cloud App Security をアップグレード](https://www.microsoft.com/cloud-platform/cloud-app-security)すると、Microsoft Cloud App Security で提供される Cloud App Security Broker (CASB) の各種機能を受け取ります。
 
 ### <a name="feature-comparison"></a>機能の比較
 
@@ -51,7 +51,7 @@ Microsoft Cloud App Security と Azure AD の検出機能の比較を次の表�
 ||継続的な分析と報告|はい|はい|
 ||検出されたアプリの異常検出|はい||
 |情報の保護|データ損失防止 (DLP) サポート|クロス SaaS DLP とデータ共有制御||
-||アプリのアクセス許可とアクセスを取り消す機能|はい||
+||アプリのアクセス許可とアクセスを取り消す機能 (OAuth アプリ)|はい||
 ||ポリシー設定と適用|はい||
 ||Azure Information Protection との統合 |はい||
 ||サード パーティ製の DLP ソリューションとの統合|はい||

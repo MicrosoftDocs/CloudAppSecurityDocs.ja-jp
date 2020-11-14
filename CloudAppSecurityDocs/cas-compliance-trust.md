@@ -9,12 +9,12 @@ ms.date: 10/18/2020
 ms.collection: M365-security-compliance
 ms.custom: seodec18
 ms.suite: ems
-ms.openlocfilehash: 411d3005a04949b083947a07d0c2a2c493e55f35
-ms.sourcegitcommit: 956139c1dbc47ab6c61b4a1725a174f41de58cae
+ms.openlocfilehash: eef7eaab53ddeb8ef26cb3c9f1603c1f66a17922
+ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/18/2020
-ms.locfileid: "92163702"
+ms.lasthandoff: 11/08/2020
+ms.locfileid: "94371021"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -61,7 +61,7 @@ Microsoft Cloud App Security は、次のようなさまざまな国際的およ
 ### <a name="youre-the-owner-of-your-data"></a>お客様のデータの所有者はお客様です
 
 - Microsoft Cloud App Security では、管理者は検索バーを使用してポータルからサービスに格納されている識別可能な個人データを表示できます。
-- 管理者は、特定のユーザーのメタデータまたはユーザーのアクティビティを検索できます。 エンティティをクリックすると、 **[[ユーザーとアカウント](accounts.md)]** が開きます。 **[ユーザーとアカウント]** ページでは、接続されたクラウド アプリケーションから取得されたエンティティに関する包括的な詳細情報が提供されます。 また、ユーザーのアクティビティ履歴とユーザーに関連するセキュリティ アラートも提供されます。
+- 管理者は、特定のユーザーのメタデータまたはユーザーのアクティビティを検索できます。 エンティティをクリックすると、 **[ [ユーザーとアカウント](accounts.md)]** が開きます。 **[ユーザーとアカウント]** ページでは、接続されたクラウド アプリケーションから取得されたエンティティに関する包括的な詳細情報が提供されます。 また、ユーザーのアクティビティ履歴とユーザーに関連するセキュリティ アラートも提供されます。
 
 - お客様は自分のデータを所有しており、いつでもサブスクリプションをキャンセルしたり、データの削除を要求したりできます。 サブスクリプションを更新しない場合、データは[オンライン サービス条件](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)で指定されたタイムライン内で削除されます。
 
@@ -127,7 +127,7 @@ Cloud App Security では、通常のセキュリティ ワークフローを中
 
 | 製品 | 公開されるデータ | 構成 |
 | --- | --- | --- |
-| Microsoft Threat Protection | アラートとユーザー アクティビティ | オンボード時に Microsoft Threat Protection で自動的に有効化されます |
+| Microsoft 365 Defender | アラートとユーザー アクティビティ | オンボード時に Microsoft 365 Defender で自動的に有効化されます |
 | Azure Sentinel | アラートと探索データ | [Cloud App Security で有効化](siem-sentinel.md)され、[Azure Sentinel で構成](/azure/sentinel/connect-cloud-app-security)されます |
 | Office セキュリティ/コンプライアンス センター | Office 365 に対するアラート | Office セキュリティ/コンプライアンス センターに自動的にストリーミングされます |
 | Azure Security Center | Azure に対するアラート | Cloud App Security で既定で有効化され、Azure Security Center で無効にできます |

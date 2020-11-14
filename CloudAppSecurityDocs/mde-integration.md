@@ -1,6 +1,6 @@
 ---
 title: Microsoft Defender for Endpoint を Cloud App Security と統合する
-description: この記事では、Microsoft Defender Advanced Threat Protection と Cloud App Security を統合して、シャドウ IT とリスク管理の可視性を向上させる方法について説明します。
+description: この記事では、Microsoft Defender for Endpoint と Cloud App Security を統合して、シャドウ IT とリスク管理の可視性を向上させる方法について説明します。
 keywords: ''
 author: shsagir
 ms.author: shsagir
@@ -14,18 +14,18 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 0812aba9855c61cfa4e34d336b7f3ec4624b03cc
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 95e8271a26828ad4e3adb73727e2692cac3a8d23
+ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186369"
+ms.lasthandoff: 11/08/2020
+ms.locfileid: "94371150"
 ---
-# <a name="microsoft-defender-advanced-threat-protection-integration-with-microsoft-cloud-app-security"></a>Microsoft Defender Advanced Threat Protection と Microsoft Cloud App Security の統合
+# <a name="microsoft-defender-for-endpoint-integration-with-microsoft-cloud-app-security"></a>Microsoft Defender for Endpoint と Microsoft Cloud App Security の統合
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
-Microsoft Cloud App Security は、Microsoft Defender for Endpoint とネイティブに統合されます。 統合により、Cloud Discovery のロールアウトが簡単になり、Cloud Discovery の機能が企業ネットワークを超えて拡張され、デバイス ベースの調査が可能になります。 [Microsoft Defender for Endpoint](/windows/security/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) は、インテリジェントな保護、検出、調査、対応を行うためのセキュリティ プラットフォームです。 Defender for Endpoint を使うと、エンドポイントがサイバー脅威から保護され、高度な攻撃とデータ侵害が検出され、セキュリティ インシデントが自動化されて、セキュリティ体制が強化されます。
+Microsoft Cloud App Security は、Microsoft Defender for Endpoint とネイティブに統合されます。 統合により、Cloud Discovery のロールアウトが簡単になり、Cloud Discovery の機能が企業ネットワークを超えて拡張され、デバイス ベースの調査が可能になります。 [Microsoft Defender for Endpoint](/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) は、インテリジェントな保護、検出、調査、対応を行うためのセキュリティ プラットフォームです。 Defender for Endpoint を使うと、エンドポイントがサイバー脅威から保護され、高度な攻撃とデータ侵害が検出され、セキュリティ インシデントが自動化されて、セキュリティ体制が強化されます。
 
 Cloud App Security では、IT によって管理される Windows 10 デバイスからアクセスされているクラウド アプリとサービスについての、Defender for Endpoint によって収集されたトラフィック情報が使用されます。 ネイティブ統合により、パブリック Wi-Fi を使用して、ローミング中に、およびリモート アクセス経由で、企業ネットワーク内の任意のデバイスで Cloud Discovery を実行できます。 また、デバイス ベースの調査も可能になります。
 
@@ -56,7 +56,7 @@ Cloud App Security 自体では、[ユーザーがアップロードしたログ
 
 Defender for Endpoint と Cloud App Security を使用する利点を示す、[こちらの動画をご覧ください](#related-videos)。
 
-## <a name="how-to-integrate-defender-for-endpoint-with-cloud-app-security"></a>Defender for Endpoint を Cloud App Security と統合する方法
+## <a name="how-to-integrate-microsoft-defender-for-endpoint-with-cloud-app-security"></a>Microsoft Defender for Endpoint を Cloud App Security と統合する方法
 
 Defender for Endpoint と Cloud App Security の統合を有効にするには:
 
@@ -122,7 +122,7 @@ Microsoft Defender for Endpoint でデバイスのネットワーク アクテ�
 1. **[フィルター]** で **[ネットワーク イベント]** を選択します。
 1. 必要に応じて、デバイスのネットワーク イベントを調査します。
 
-![Microsoft Defender セキュリティ センターのデバイス タイムラインを示すスクリーンショット](media/mdatp-selected-device.png)
+![Microsoft Defender セキュリティ センターのデバイス タイムラインを示すスクリーンショット](media/mde-selected-device.png)
 
 ## <a name="investigate-app-usage-in-defender-for-endpoint-with-advanced-hunting"></a>高度なハンティングを使用して Defender for Endpoint でアプリの使用状況を調査する
 
@@ -142,7 +142,7 @@ Defender for Endpoint でアプリ関連のネットワーク イベントをよ
 
 1. クエリを実行し、このアプリのネットワーク イベントを調査します。
 
-![Microsoft Defender セキュリティ センターの [高度な捜索] を示すスクリーンショット](media/mdatp-advanced-hunting.png)
+![Microsoft Defender セキュリティ センターの [高度な捜索] を示すスクリーンショット](media/mde-advanced-hunting.png)
 
 ## <a name="block-access-to-unsanctioned-cloud-apps"></a>承認されていないクラウド アプリへのアクセスをブロックする
 
@@ -158,13 +158,13 @@ Cloud App Security で **承認されていない** としてマークされた�
 
 1. Cloud App Security の設定歯車で **[設定]** を選択し、 **[Cloud Discovery]** で **[Microsoft Defender for Endpoint]** を選択して、 **[承認されていないアプリのブロック]** を選択します。
 
-    ![Defender for Endpoint でブロックを有効にする方法を示すスクリーンショット](media/defender-atp-integration.png)
+    ![Defender for Endpoint でブロックを有効にする方法を示すスクリーンショット](media/mde-integration.png)
 
 1. Microsoft Defender セキュリティ センターで、 **[設定]**  >  **[高度な機能]** に移動し、 **[Custom network indicators]\(カスタム ネットワーク インジケーター\)** を選択します。 ネットワーク インジケーターの詳細については、[IP および URL とドメインに対するインジケーターの作成](/windows/security/threat-protection/microsoft-defender-atp/manage-indicators#create-indicators-for-ips-and-urlsdomains-preview)に関するページを参照してください。
 
     これにより、Microsoft Defender ウイルス対策ネットワーク保護機能を利用し、Cloud App Security を使用して定義済みの URL セットへのアクセスをブロックすることができます。そのためには、特定のアプリに[アプリ タグ](governance-discovery.md#BKMK_SanctionApp)を手動で割り当てるか、[アプリ検出ポリシー](cloud-discovery-policies.md#creating-an-app-discovery-policy)を自動的に使用します。
 
-    ![Defender for Endpoint でカスタム ネットワーク インジケーターを有効にする方法を示すスクリーンショット](media/defender-atp-custom-network-indicators.png)
+    ![Defender for Endpoint でカスタム ネットワーク インジケーターを有効にする方法を示すスクリーンショット](media/mde-custom-network-indicators.png)
 
 ## <a name="investigate-unsanctioned-apps-in-microsoft-defender-security-center"></a>Microsoft Defender セキュリティ センターで承認されていないアプリを調査する
 
@@ -172,7 +172,7 @@ Cloud App Security で **承認されていない** としてマークされた�
 
 エンドポイント デバイスが正しく構成されていないため、または強制ポリシーがエンドポイントにまだ反映されていないために、承認されていないアプリへのアクセスがブロックされないことがあります。 そのような場合、Defender for Endpoint 管理者は、承認されていないアプリがブロックされなかったことを示すアラートを Microsoft Defender セキュリティ センターで受け取ります。
 
-![Defender for Endpoint の承認されていないアプリのアラートを示すスクリーンショット](media/defender-atp-unsanctioned-app-alert.png)
+![Defender for Endpoint の承認されていないアプリのアラートを示すスクリーンショット](media/mde-unsanctioned-app-alert.png)
 
 > [!NOTE]
 >
