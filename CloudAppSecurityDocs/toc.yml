@@ -115,7 +115,7 @@
           items:
             - name: Cloud Discovery の設定
               href: set-up-cloud-discovery.md
-            - name: Microsoft Defender ATP との統合
+            - name: Microsoft Defender for Endpoint と統合する
               href: mde-integration.md
             - name: Zscaler との統合
               href: zscaler-integration.md
