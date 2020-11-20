@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: f7c12272b89beb27f6740d6ffed106840bcfe417
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: 0c5bb0d20a4e82280841d95352181739be8ea4fa
+ms.sourcegitcommit: 66d818441eaae1e07c4bb2ce35bbcb833febf622
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94371372"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94428110"
 ---
 # <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender for Identity の統合
 
@@ -56,7 +56,7 @@ Cloud App Security と Defender for Identity の統合を有効にするには:
 > [!NOTE]
 > 統合が有効になるまで、最大 12 時間かかることがあります。
 
-Defender for Identity 統合を有効にすると、組織内のすべてのユーザーのオンプレミス アクティビティを確認できるようになります。 クラウド環境とオンプレミス環境をまたいで、アラートと疑わしいアクティビティを組み合わせたユーザーの高度な分析情報も得られるようになります。 さらに、Defender for Identity のポリシーが Cloud App Security のポリシー ページに表示されるようになります。 Defender for Identity ポリシーの一覧については、[セキュリティ アラート](/defender-for-identity/suspicious-activity-guide)に関するページを参照してください。
+Defender for Identity 統合を有効にすると、組織内のすべてのユーザーのオンプレミス アクティビティを確認できるようになります。 クラウド環境とオンプレミス環境をまたいで、アラートと疑わしいアクティビティを組み合わせたユーザーの高度な分析情報も得られるようになります。 さらに、Defender for Identity のポリシーが Cloud App Security のポリシー ページに表示されるようになります。 Defender for Identity ポリシーの一覧については、[セキュリティ アラート](/defender-for-identity/suspicious-activity-guide)に関するページを参照してください。 これらのポリシーを編集するには、「[検出からのエンティティの除外](/defender-for-identity/excluding-entities-from-detections)」を参照してください。
 
 **Defender for Identity 構成** リンクを使用して、Cloud App Security に関連する Defender for Identity 設定を構成する必要もあります。 これらの設定の詳細については、次の情報を参照してください。
 

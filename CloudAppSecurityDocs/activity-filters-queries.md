@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: fa30bef49788834233a8aa44b9e6d165c1b83658
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 8acd6889c8c5f3a1a8a1c4610b2ba990ec4cd13c
+ms.sourcegitcommit: 1349f6d9c8f4994cd2ec722d3def227153d93397
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877788"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "94551631"
 ---
 # <a name="activity-filters-and-queries"></a>アクティビティ フィルターとクエリ
 
@@ -126,7 +126,7 @@ ms.locfileid: "90877788"
 
    ![クエリを開く](media/select-activity-query.png)
 
-Cloud App Security には**クエリ候補**の機能もあります。 クエリ候補によってアクティビティが絞り込まれ、推奨する調査対象が提示されます。 これらのクエリを編集して、カスタム クエリとして保存することができます。 オプションのクエリ候補には、以下のものがあります。
+Cloud App Security には **クエリ候補** の機能もあります。 クエリ候補によってアクティビティが絞り込まれ、推奨する調査対象が提示されます。 これらのクエリを編集して、カスタム クエリとして保存することができます。 オプションのクエリ候補には、以下のものがあります。
 
 - 管理者のアクティビティ - すべてのアクティビティのうち、管理者が関与したアクティビティのみを表示します。
 
@@ -150,7 +150,7 @@ Cloud App Security には**クエリ候補**の機能もあります。 クエ�
 
 ![アクティビティのクエリ](media/queries-activity.png)
 
-さらに、クエリ候補を新しいクエリの土台として使用できます。 まず、クエリ候補の 1 つを選択します。 次に、必要に応じて変更を加え、最後に **[名前を付けて保存]** をクリックして、新しい**保存済みクエリ**を作成します。
+さらに、クエリ候補を新しいクエリの土台として使用できます。 まず、クエリ候補の 1 つを選択します。 次に、必要に応じて変更を加え、最後に **[名前を付けて保存]** をクリックして、新しい **保存済みクエリ** を作成します。
 
 ## <a name="next-steps"></a>次のステップ
 

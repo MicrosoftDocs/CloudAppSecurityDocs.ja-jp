@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 06/28/2020
+ms.date: 11/10/2020
 ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: d06817890b94ddc5f37742fcff70654feb494d17
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c849aace75d1d4268a44e02feaecdcd032a53888
+ms.sourcegitcommit: 98f1b892294beb74157cb3452aa5d489e78bbef4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881297"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94424539"
 ---
 # <a name="connect-workday-to-microsoft-cloud-app-security"></a>Workday を Microsoft Cloud App Security に接続する
 
@@ -73,7 +73,7 @@ Workday 統合ユーザー、セキュリティ グループ、アクセス許�
     | クライアント名 | Microsoft Cloud App Security |
     | Client Grant Type (クライアント付与タイプ) | Authorization Code Grant (認証コード付与) |
     | Access Token Type (アクセス トークンの種類) | Bearer |
-    | Redirection URI (リダイレクト URI) | `https://portal.cloudappsecurity.com/api/oauth/connect` |
+    | Redirection URI (リダイレクト URI) | `https://portal.cloudappsecurity.com/api/oauth/connect`<br /><br />**注**:US Government GCC High のお客様の場合は、「`https://portal.cloudappsecurity.us/api/oauth/connect`」という値を入力します。 |
     | Non-Expiring Refresh Tokens (有効期限のない更新トークン) | はい |
     | OAuth2 Scopes (OAuth2 スコープ) | **Staffing** (スタッフ) および **System** (システム) |
     | Scope (Functional Areas) (スコープ (機能領域)) | **Staffing** (スタッフ) および **System** (システム) |

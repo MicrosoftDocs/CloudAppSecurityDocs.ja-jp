@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 06/28/2020
+ms.date: 11/10/2020
 ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -15,12 +15,12 @@ ROBOTS: NOINDEX
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 3a6b0137fa50fecae56113c952031b998357d703
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 774fd931210f5e3303b94e5903a724811583e61e
+ms.sourcegitcommit: 98f1b892294beb74157cb3452aa5d489e78bbef4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881382"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94424522"
 ---
 # <a name="connect-github-enterprise-cloud-to-microsoft-cloud-app-security"></a>GitHub Enterprise Cloud を Microsoft Cloud App Security に接続する
 
@@ -69,6 +69,9 @@ GitHub で組織のページを参照し、URL から、組織のログイン名
         - **[アプリケーション名]** ボックスに、アプリの名前を入力します。
         - **[ホームページ URL]** ボックスに、アプリのホーム ページの URL を入力します。
         - **[認証コールバックの URL]** ボックスに、「`https://portal.cloudappsecurity.com/api/oauth/connect`」という値を入力します。
+
+            > [!NOTE]
+            > US Government GCC High のお客様の場合は、「`https://portal.cloudappsecurity.us/api/oauth/connect`」という値を入力します。
 
         ![OAuth アプリの登録を示すスクリーンショット](media/connect-github-register-oauth-app.png)
 
