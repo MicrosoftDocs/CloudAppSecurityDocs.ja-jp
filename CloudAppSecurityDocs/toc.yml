@@ -133,10 +133,8 @@
               href: discovery-docker-ubuntu.md
             - name: Azure の Linux 上の Docker
               href: discovery-docker-ubuntu-azure.md
-            - name: ログ コレクターの FTP 構成
-              href: log-collector-ftp.md
-            - name: プロキシの内側にあるログ コレクター
-              href: log-collector-proxy.md
+            - name: ログ コレクターの詳細な管理
+              href: log-collector-advanced-management.md
             - name: カスタム ログ パーサーの使用
               href: custom-log-parser.md
         - name: Cloud Discovery の強化
