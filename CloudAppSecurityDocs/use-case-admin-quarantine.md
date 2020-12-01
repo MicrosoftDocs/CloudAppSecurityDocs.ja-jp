@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security 管理者検疫によるファイルの保護
 description: このチュートリアルでは、管理者検疫を使用してデータ侵害を制御するシナリオについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 7/30/2019
 ms.topic: tutorial
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 2835a0f8bc66f937d8569c327c5fd61c0e6ebac9
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 5d0a9e666b415806a0cb6a3a047f0b81e2b2a4fc
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881166"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315771"
 ---
 # <a name="tutorial-protect-files-with-admin-quarantine"></a>チュートリアル:管理者検疫によるファイルの保護
 
@@ -27,7 +16,7 @@ ms.locfileid: "90881166"
 
 [ファイル ポリシー](data-protection-policies.md)は、情報保護ポリシーに対する脅威を見つけるための優れたツールです。 たとえば、クラウド内でユーザーが機密情報、クレジット カード番号、サードパーティの ICAP ファイルを格納した場所を発見するファイル ポリシーを作成します。
 
-このチュートリアルでは、Microsoft Cloud App Security を使用して、脆弱なままのクラウドに格納されている不要なファイルを検出し、それらのファイルの追跡を停止するアクションをただちに実行すると共に、**管理者検疫**を使ってクラウド内のファイルを保護することで脅威を及ぼすファイルを封鎖して、それ以上の漏洩の発生を防ぐことができます。
+このチュートリアルでは、Microsoft Cloud App Security を使用して、脆弱なままのクラウドに格納されている不要なファイルを検出し、それらのファイルの追跡を停止するアクションをただちに実行すると共に、**管理者検疫** を使ってクラウド内のファイルを保護することで脅威を及ぼすファイルを封鎖して、それ以上の漏洩の発生を防ぐことができます。
 
 > [!div class="checklist"]
 >
@@ -42,11 +31,11 @@ ms.locfileid: "90881166"
 > * SharePoint または OneDrive 内のファイルがマルウェアとして検出された場合、それは Cloud App Security ポータルで検疫されません。
 > * ラベルの付いたファイルは検疫できません。
 
-1. ファイルがポリシーに一致する場合、ファイルに**管理者検疫**のオプションを使用できます。
+1. ファイルがポリシーに一致する場合、ファイルに **管理者検疫** のオプションを使用できます。
 
 2. ファイルを検疫するには、次のいずれかのアクションを実行します。
 
-    * **管理者検疫**処理を手動で適用します。
+    * **管理者検疫** 処理を手動で適用します。
 
     ![検疫処理](media/quarantine-action.png)
 
@@ -54,7 +43,7 @@ ms.locfileid: "90881166"
 
     ![自動検疫](media/quarantine-automated.png)
 
-3. **管理者検疫**を適用すると、バックグラウンドで次のことが行われます。
+3. **管理者検疫** を適用すると、バックグラウンドで次のことが行われます。
 
     1. 元のファイルは、設定した管理者検疫フォルダーに移動されます。
     2. 元のファイルは削除されます。

@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security でのユーザー データの匿名化
 description: この記事では、Cloud Discovery データ内のユーザー名を匿名化して、ユーザーのプライバシーを保護する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 04/20/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: da5092903eb11d73726fe7f2f73da1ffd94b57b9
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: bb8befb8c65f766118f6a3221b382c6699b17a0e
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93185899"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313527"
 ---
 # <a name="cloud-discovery-data-anonymization"></a>Cloud Discovery データの匿名化
 
@@ -40,7 +29,7 @@ Cloud Discovery データを匿名化することで、ユーザーのプライ�
     - [新しいスナップショット レポートを作成](create-snapshot-cloud-discovery-reports.md)し、 **[個人情報の匿名化]** を選択して、特定のログ ファイルのデータを匿名化するように設定できます。  
     ![スナップショット データの匿名化](media/anonymize-log.png)
 
-    - 新しいデータ ソースを追加するときに **「Anonymize private information」** (個人情報の匿名化) を選択し、 [新しいデータ ソースの自動アップロード](configure-automatic-log-upload-for-continuous-reports.md)に関するページを参照してデータを匿名化するように設定できます。  
+    - 新しいデータ ソースを追加するときに **「Anonymize private information」** (個人情報の匿名化) を選択し、[新しいデータ ソースの自動アップロード](configure-automatic-log-upload-for-continuous-reports.md)に関するページを参照してデータを匿名化するように設定できます。  
     ![ログ データの匿名化](media/anonymize-autolog.png)
 
     - 次のように、アップロードされたログ ファイルからのスナップショット レポートと、ログ コレクタからの継続的レポートの両方からのデータをすべて匿名化するように、Cloud App Security で既定値を設定できます。

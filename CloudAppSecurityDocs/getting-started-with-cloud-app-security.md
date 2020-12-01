@@ -1,22 +1,14 @@
 ---
 title: Cloud App Security を展開する
 description: このクイックスタートでは、クラウド アプリの使用状況、分析情報、および制御を得るために Cloud App Security を起動して実行するプロセスについて概説します。
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/07/2020
 ms.topic: quickstart
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: d7e32b00bc555dd5c9fb58bc874a3f149521d390
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 17a6416c7af8a6da814ad267307eea603e50604b
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93185880"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314887"
 ---
 # <a name="quickstart-get-started-with-microsoft-cloud-app-security"></a>クイック スタート:Microsoft Cloud App Security を使ってみる
 
@@ -73,7 +65,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 1. 一覧からポリシー テンプレートを選択し、(+) **[ポリシーの作成]** を選択します。
 1. ポリシーをカスタマイズ (フィルター、アクション、およびその他の設定を選択) し、 **[作成]** を選択します。
 1. **[ポリシー]** タブでポリシーを選択して、関連する一致項目 (アクティビティ、ファイル、アラート) を確認します。
- ヒント:すべてのクラウド環境のセキュリティ シナリオに対応するには、 **リスク カテゴリ** ごとにポリシーを作成します。
+ ヒント:すべてのクラウド環境のセキュリティ シナリオに対応するには、**リスク カテゴリ** ごとにポリシーを作成します。
 
 ### <a name="how-can-policies-help-your-organization"></a>ポリシーは企業でどのように役立つか
 
@@ -140,7 +132,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 1. 設定の歯車アイコンで、 **[Cloud Discovery 設定]** を選択します。
 1. 設定の歯車アイコンから **[IP アドレスの範囲]** を選択します。
 1. プラス記号をクリックして、IP アドレスの範囲を追加します。
-1. IP 範囲の **詳細** 、 **場所** 、 **タグ** 、および **カテゴリ** を入力します。
+1. IP 範囲の **詳細**、**場所**、**タグ**、および **カテゴリ** を入力します。
 1. **[作成]** を選択します。
 
     これで、ポリシーを作成するときや、継続的なレポートをフィルター処理および作成するときに、IP タグを使用できるようになりました。

@@ -1,25 +1,14 @@
 ---
 title: Microsoft Defender for Identity を Cloud App Security と統合する
 description: この記事では、ハイブリッド リスク検出のために Cloud App Security で Microsoft Defender for Identity の分析情報を利用する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/08/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 0c5bb0d20a4e82280841d95352181739be8ea4fa
-ms.sourcegitcommit: 66d818441eaae1e07c4bb2ce35bbcb833febf622
+ms.openlocfilehash: 260effd5750af75e8ca5bc58d566c6cbb95b1cd3
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94428110"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315108"
 ---
 # <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender for Identity の統合
 

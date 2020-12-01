@@ -1,25 +1,14 @@
 ---
 title: G Suite を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して G Suite を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/27/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 89342994a408ae1b03bd50c3c1fa4adc9dd12bc4
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 1f406c75039cccf81df75b8e6589bb4f63ad2710
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881432"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313080"
 ---
 # <a name="connect-g-suite-to-microsoft-cloud-app-security"></a>G Suite を Microsoft Cloud App Security に接続する
 
@@ -59,7 +48,7 @@ ms.locfileid: "90881432"
     >
     > ![Google API を有効にする](media/google-api.png)
     >
-    > 現時点では、**認証情報**の警告を無視します。
+    > 現時点では、**認証情報** の警告を無視します。
 
 1. メニューを選択し、 **[API とサービス]**  >  **[ダッシュボード]** に移動して、次の API が有効になっていることを確認します。
 
@@ -83,7 +72,7 @@ ms.locfileid: "90881432"
 
     ![Google でのサービス アカウント キーの作成](media/google9.png)
 
-1. **[認証情報]** 画面で、右端にある **[サービス アカウントを管理]** をクリックします。 サービス アカウントに割り当てられている**メール アドレス**をコピーしておきます。これは後で必要になります。
+1. **[認証情報]** 画面で、右端にある **[サービス アカウントを管理]** をクリックします。 サービス アカウントに割り当てられている **メール アドレス** をコピーしておきます。これは後で必要になります。
 
     ![G Suite 認証情報サービス アカウント](media/google10.png)
 
@@ -104,7 +93,7 @@ ms.locfileid: "90881432"
 
     1. **[詳細設定]** を展開し、 **[認証]** で **[API クライアント アクセスを管理する]** を選択します。
 
-    1. **[クライアント名]** ボックスに、前にコピーした**クライアント ID** を入力します。  
+    1. **[クライアント名]** ボックスに、前にコピーした **クライアント ID** を入力します。  
 
     1. **[1 つ以上の API スコープ]** ボックスに、次の必要なスコープの一覧を入力します (テキストをコピーしてボックスに貼り付けます)。  
 `https://www.googleapis.com/auth/admin.reports.audit.readonly,https://www.googleapis.com/auth/admin.reports.usage.readonly,https://www.googleapis.com/auth/drive,https://www.googleapis.com/auth/drive.appdata,https://www.googleapis.com/auth/drive.apps.readonly,https://www.googleapis.com/auth/drive.file,https://www.googleapis.com/auth/drive.metadata.readonly,https://www.googleapis.com/auth/drive.readonly,https://www.googleapis.com/auth/drive.scripts,https://www.googleapis.com/auth/admin.directory.user.readonly,https://www.googleapis.com/auth/admin.directory.user.security,https://www.googleapis.com/auth/admin.directory.user.alias,https://www.googleapis.com/auth/admin.directory.orgunit,https://www.googleapis.com/auth/admin.directory.notifications,https://www.googleapis.com/auth/admin.directory.group.member,https://www.googleapis.com/auth/admin.directory.group,https://www.googleapis.com/auth/admin.directory.device.mobile.action,https://www.googleapis.com/auth/admin.directory.device.mobile,https://www.googleapis.com/auth/admin.directory.user`
@@ -135,7 +124,7 @@ ms.locfileid: "90881432"
 
 1. **[設定]** タブを選択します。
 
-    1. 画面上部に表示される**プロジェクト番号 (アプリ ID)** を、後で使用するためにコピーします。
+    1. 画面上部に表示される **プロジェクト番号 (アプリ ID)** を、後で使用するためにコピーします。
 
     1. **[アプリケーション名]** に「**Microsoft Cloud App Security**」と入力します。  
 **[アプリケーションの説明]** に、「Microsoft Cloud App Security はクラウド アプリケーションを可視化し、クラウド アプリケーションの使用を制御、調査、および管理するのに役立ちます。企業データをセキュリティ保護します。任意のクラウド アプリケーションの疑わしいアクティビティを検出します。」と入力します。
@@ -202,13 +191,13 @@ ms.locfileid: "90881432"
 
     ![Cloud App Security での G Suite 構成](media/gsuite-config-cas.png "Cloud App Security での G Suite 構成")
 
-    1. 前にコピーした**サービス アカウント ID**、**メール アドレス**を入力します。
+    1. 前にコピーした **サービス アカウント ID**、**メール アドレス** を入力します。
 
     1. 前にコピーした **プロジェクト番号 (アプリ ID)** を入力します。
 
-    1. 前に保存した P12 **証明書**ファイルをアップロードします。
+    1. 前に保存した P12 **証明書** ファイルをアップロードします。
 
-    1. G Suite 管理者の 1 つの**管理者アカウントのメール アドレス**を入力します。
+    1. G Suite 管理者の 1 つの **管理者アカウントのメール アドレス** を入力します。
 
     1. G Suite Business または Enterprise アカウントを使用している場合は、このチェック ボックスをオンにします。 G Suite Business または Enterprise の場合の Cloud App Security で使用できる機能の詳細については、[アプリの表示、保護、およびガバナンス アクションをすぐに有効にする](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)方法に関するページを参照してください。
 

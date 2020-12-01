@@ -1,21 +1,14 @@
 ---
 title: Cloud App Security Alerts API
 description: この記事では、Alerts API の使用方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/20/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: f1176967bfcf67a458f55fe9421575df329aabe7
-ms.sourcegitcommit: 6ae1c05025a49ad3c8e8cecd0c10dc05edcd9bf8
+ms.openlocfilehash: 8ff6871cac8aa11678fc058bfdc328642ad70ba0
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "92929082"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314547"
 ---
 # <a name="alerts-api"></a>Alerts API
 
@@ -61,8 +54,8 @@ Alerts API を使用すると、Cloud App Security によって特定された�
 | entity.policy | string | eq、neq | 指定したポリシーに関連するアラートをフィルター処理します |
 | entity.file | string | eq、neq | 指定したファイルに関連するアラートをフィルター処理します |
 | alertOpen | boolean | eq | "true" に設定すると、未処理のアラートのみが返され、"false" に設定すると、閉じられたアラートのみが返されます |
-| severity | integer | eq、neq | 重要度でフィルター処理します。 次の値を指定できます。<br /><br />**0** :低<br />**1** :中間<br/>**2** :高 |
-| resolutionStatus | integer | eq、neq | アラートの解決状態でフィルター処理します。次の値を指定できます。<br /><br />**0** :オープン <br />**1** :破棄 (レガシ状態)<br />**2** :解決済み (レガシ状態)<br />**3** :擬陽性として閉じられた<br />**4** :無害として閉じられた<br />**5** :真陽性として閉じられた |
+| severity | integer | eq、neq | 重要度でフィルター処理します。 次の値を指定できます。<br /><br />**0**:低<br />**1**:中間<br/>**2**:高 |
+| resolutionStatus | integer | eq、neq | アラートの解決状態でフィルター処理します。次の値を指定できます。<br /><br />**0**:オープン <br />**1**:破棄 (レガシ状態)<br />**2**:解決済み (レガシ状態)<br />**3**:擬陽性として閉じられた<br />**4**:無害として閉じられた<br />**5**:真陽性として閉じられた |
 | read | boolean | eq | "true" に設定すると、既読のアラートのみが返され、"false" に設定すると、未読のアラートのみが返されます。 |
 | date | timestamp | lte、gte、range、lte_ndays、gte_ndays | アラートがトリガーされた時刻でフィルター処理します |
 | resolutionDate | timestamp | lte、gte、range | アラートが解決された時刻でフィルター処理します |

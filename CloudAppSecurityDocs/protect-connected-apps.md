@@ -1,25 +1,14 @@
 ---
 title: クラウド サービス プロバイダーを使用して環境内のアプリを保護する
 description: この記事では、接続されているアプリを Cloud App Security で保護する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 02/20/2020
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: fa1dfb6cd91e0072503462ea4b91ccfebedab1cc
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: ac06786b3aa7dbe5fac1c9c3ee9be6a276d3c176
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93185991"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315363"
 ---
 # <a name="protecting-connected-apps"></a>接続されているアプリの保護
 

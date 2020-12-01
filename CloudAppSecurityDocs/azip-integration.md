@@ -1,25 +1,14 @@
 ---
 title: Azure Information Protection を Cloud App Security と統合する
 description: この記事では、Cloud App Security で Azure Information Protection タグを活用して、組織のクラウド アプリの使用状況をさらに制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/09/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 3e1270829fd335dd2d7a0bc933c78d553d3a749d
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 864111ba6d1877c24a70f0de83aa66104fb8c1f4
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881623"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313714"
 ---
 # <a name="azure-information-protection-integration"></a>Azure Information Protection の統合
 
@@ -94,7 +83,7 @@ Cloud App Security で、コンテンツ検査を有効にして分類ラベル�
 Azure Information Protection を有効にすると、分類ラベルが付いているファイルを表示し、Cloud App Security でラベルによってフィルタリングできます。 Cloud App Security がクラウド アプリに接続されたら、Azure Information Protection 統合機能を使用して、Cloud App Security ポータルで Azure Information Protection 分類ラベル (保護あり、または保護なし) を適用することができます。これは、ファイルに直接追加するか、ガバナンス アクションとして分類ラベルを自動的に適用するファイル ポリシーを構成することで行います。
 
 > [!NOTE]
-> 自動スキャンでは、既存のファイルは変更されない限りスキャンされません。 既存のファイルで Azure Information Protection 分類ラベルについてスキャンするには、コンテンツ検査を含む **ファイル ポリシー**が少なくとも 1 つ必要です。 ない場合は、新しい**ファイル ポリシー**を作成し、 **[検査方法]** の下で事前設定されたすべてのフィルターを削除し、 **[組み込み DLP]** を選択します。 **[コンテンツ検査]** フィールドで、 **[事前設定した式と一致するファイルを含める]** を選択し、事前定義された値を選択して、ポリシーを保存します。 これにより、Azure Information Protection 分類ラベルを自動的に検出するコンテンツ検査が有効になります。
+> 自動スキャンでは、既存のファイルは変更されない限りスキャンされません。 既存のファイルで Azure Information Protection 分類ラベルについてスキャンするには、コンテンツ検査を含む **ファイル ポリシー** が少なくとも 1 つ必要です。 ない場合は、新しい **ファイル ポリシー** を作成し、 **[検査方法]** の下で事前設定されたすべてのフィルターを削除し、 **[組み込み DLP]** を選択します。 **[コンテンツ検査]** フィールドで、 **[事前設定した式と一致するファイルを含める]** を選択し、事前定義された値を選択して、ポリシーを保存します。 これにより、Azure Information Protection 分類ラベルを自動的に検出するコンテンツ検査が有効になります。
 
 #### <a name="set-internal-and-external-tags"></a>内部タグと外部タグを設定する
 
@@ -139,7 +128,7 @@ Cloud App Security と Azure Information Protection の連携の詳細につい�
     ![ラベルを適用](media/aip-gov-action.png)
 
 > [!NOTE]
-> ファイル ポリシーを介して、Azure Information Protection のラベルを自動的に適用する機能は強力です。 お客様が多数のファイルに誤ってラベルを適用することを防ぐための安全策として、アプリごと、テナントごとに 1 日に実行できる**ラベルの適用**操作は 100 回に制限されています。 1 日の上限に達すると、ラベルの適用操作は一時的に停止し、翌日 (UTC 12 時 00分 を過ぎてから) に自動的に再開します。 テナントの上限を引き上げるには、サポート チケットを開きます。
+> ファイル ポリシーを介して、Azure Information Protection のラベルを自動的に適用する機能は強力です。 お客様が多数のファイルに誤ってラベルを適用することを防ぐための安全策として、アプリごと、テナントごとに 1 日に実行できる **ラベルの適用** 操作は 100 回に制限されています。 1 日の上限に達すると、ラベルの適用操作は一時的に停止し、翌日 (UTC 12 時 00分 を過ぎてから) に自動的に再開します。 テナントの上限を引き上げるには、サポート チケットを開きます。
 
 ### <a name="control-file-exposure"></a>ファイルの公開を制御する
 

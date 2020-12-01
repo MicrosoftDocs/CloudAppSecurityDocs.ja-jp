@@ -1,25 +1,14 @@
 ---
 title: Salesforce を Cloud App Security に接続する
 description: この記事では、お使いの Salesforce を、使用状況を表示および制御する API コネクタを使用して Cloud App Security に接続する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/06/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 9809f3f2d95497b1813d44f82261cf0d2fb11213
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c2a1514fcb5fc02823f8d365a21fd1f154ab0e86
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880865"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312507"
 ---
 # <a name="connect-salesforce-to-microsoft-cloud-app-security"></a>Salesforce を Microsoft Cloud App Security に接続する
 

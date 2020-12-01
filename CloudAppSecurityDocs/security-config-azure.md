@@ -1,25 +1,14 @@
 ---
 title: Azure のセキュリティ構成に関する推奨事項を取得する
 description: この記事では、Azure Security Center と統合することによって Cloud App Security のセキュリティ構成に関する推奨事項を取得する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 09/15/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 6f1b55e3675b9419ca1e53ddeea9189e260b8022
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: e34cd55f3e09b36c1bbb4641a7842e525f3c56d7
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880195"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315516"
 ---
 # <a name="security-configuration-for-azure"></a>Azure のセキュリティ構成
 

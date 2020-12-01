@@ -1,21 +1,14 @@
 ---
 title: 一覧表示 - Alerts API
 description: この記事では、Cloud App Security の Alerts API の一覧表示要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: c6cb171c5141579364b3b23387591d3f4c5cbfa6
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: a4a24db5bab13a12fdeb7ecbe88ad45c41b90577
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879797"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314584"
 ---
 # <a name="list---alerts-api"></a>一覧表示 - Alerts API
 

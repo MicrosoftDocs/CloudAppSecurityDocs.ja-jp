@@ -1,20 +1,14 @@
 ---
 title: Google Cloud Platform を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して Google Cloud Platform を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.service: cloud-app-security
-ms.collection: M365-security-compliance
-ms.openlocfilehash: c9390b6a74c51e684109e5f3c4d3cb25abf00120
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: bc000751610829d07e0ebd477a716255fdff2fa1
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186039"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313102"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -22,7 +16,7 @@ ms.locfileid: "93186039"
 
 この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Google Cloud Platform (GCP) アカウントに接続する手順について説明します。 この接続を使用すると、GCP の使用状況を表示したり制御したりできます。 Cloud App Security で GCP を保護する方法の詳細については、[GCP の保護](protect-gcp.md)に関するページを参照してください。
 
-安定した統合を維持し、セットアップ プロセスが削除または変更されるのを防ぐために、統合に専用のプロジェクトを使用し、プロジェクトへのアクセスを制限することをお勧めします。 また、GCP インスタンスが、Cloud App Security に既に接続されている G Suite インスタンスの一部である場合は、GCP 接続の詳細を追加するときに、「 **接続されている G Suite 組織の一部である GCP インスタンスの場合** 」の手順に従うことをお勧めします。
+安定した統合を維持し、セットアップ プロセスが削除または変更されるのを防ぐために、統合に専用のプロジェクトを使用し、プロジェクトへのアクセスを制限することをお勧めします。 また、GCP インスタンスが、Cloud App Security に既に接続されている G Suite インスタンスの一部である場合は、GCP 接続の詳細を追加するときに、「**接続されている G Suite 組織の一部である GCP インスタンスの場合**」の手順に従うことをお勧めします。
 
 ## <a name="prerequisites"></a>[前提条件]
 
@@ -33,8 +27,8 @@ ms.locfileid: "93186039"
 
 Cloud App Security 接続には、次の GCP の一方または両方を接続できます。
 
-- **セキュリティ監査** : この接続を使用すると、GCP アプリの使用状況を表示したり制御したりすることができます。
-- **セキュリティ構成** : この接続では、GCP の Center for Internet Security (CIS) ベンチマークに基づいたセキュリティに関する基本的な推奨事項が提供されます。
+- **セキュリティ監査**: この接続を使用すると、GCP アプリの使用状況を表示したり制御したりすることができます。
+- **セキュリティ構成**: この接続では、GCP の Center for Internet Security (CIS) ベンチマークに基づいたセキュリティに関する基本的な推奨事項が提供されます。
 
 接続のいずれか一方または両方を追加できるため、この記事では、各接続の手順を個別の手順として説明します。 接続のいずれか一方を既に追加している場合は、必要に応じて既存の構成を編集してください。
 

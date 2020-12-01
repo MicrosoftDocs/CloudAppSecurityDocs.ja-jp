@@ -1,21 +1,14 @@
 ---
 title: フェッチ - Files API
 description: この記事では、Cloud App Security の Files API のフェッチ要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: 5127f1e09fc5cd34ce0a45fd05ed1714e94cd94a
-ms.sourcegitcommit: 288f3011c0ce0e5f2d8cbaa9057a63be044465f7
+ms.openlocfilehash: 7d3faf9630edf3e277b481d5f8bcea87898e67cd
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "94375068"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314054"
 ---
 # <a name="fetch---files-api"></a>フェッチ - Files API
 

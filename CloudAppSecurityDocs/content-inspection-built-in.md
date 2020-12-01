@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で組み込みの DLP コンテンツの検査が実行される方法
 description: この記事では、Microsoft Cloud App Security によりクラウド内のデータに対して組み込みの DLP コンテンツ検査が実行されるときのプロセスについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 57cb12ae47b153dfd637bd568a2e6e447d264cf5
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 54d8018eb74aa03f6488359893b2d6e35e4d264b
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881240"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312422"
 ---
 # <a name="built-in-content-inspection"></a>組み込みのコンテンツ検査
 

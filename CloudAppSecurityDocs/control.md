@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security でガバナンス アクションを使用する方法
 description: この記事では、組織のクラウド アプリの使用を制御するために Cloud App Security で実行できるガバナンス アクションについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: f2825f1a423f6739e397a497684b930aad7cf3bd
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: d3326bcaca154084b113745359abe382ca47970d
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880818"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312235"
 ---
 # <a name="control"></a>Control
 
@@ -55,7 +44,7 @@ ms.locfileid: "90880818"
 
 ## <a name="apply-governance-actions"></a>ガバナンス アクションの適用
 
-ガバナンス アクションは、ポリシー内、アラート内、**ファイル**ログから適用できます。
+ガバナンス アクションは、ポリシー内、アラート内、**ファイル** ログから適用できます。
 
 **[設定]** (歯車アイコン) に移動して **[ガバナンス ログ]** を選択すると、以前に適用されたすべてのガバナンス アクションの状態をいつでも表示して確認することができます。 ![[設定] アイコン](media/settings-icon.png "設定アイコン")
 
@@ -84,11 +73,11 @@ Cloud App Security では、組織内のどのユーザーがどのアプリを�
 
 次のようなシナリオを想像してください。あなたは最近 Office 365 を購入し、組織内のすべてのユーザーに、他のすべてのクラウド ストレージ アプリの使用を停止して OneDrive の使用を開始してもらいたいと考えています。 次のような操作が必要になります。
 
-1. **Cloud Discovery ダッシュボード**にアクセスし、 **[アプリのカテゴリ]** で、 **[クラウド ストレージ]** によってアプリをフィルター処理します。 **[ユーザー]** または **[IP アドレス]** で結果を並べ替え、最も多く使用されているアプリを確認します。
+1. **Cloud Discovery ダッシュボード** にアクセスし、 **[アプリのカテゴリ]** で、 **[クラウド ストレージ]** によってアプリをフィルター処理します。 **[ユーザー]** または **[IP アドレス]** で結果を並べ替え、最も多く使用されているアプリを確認します。
 
 2. どのユーザーが他のアプリを使用しているかを確認できます。 また、それらのアプリにドリルダウンして、次のように、OneDrive に移行するように通知することもできます。
 
-    1. **Cloud Discovery ダッシュボード**で、 **[Dropbox]** を選択し、 **[IP アドレス]** または **[ユーザー]** タブを選択します。
+    1. **Cloud Discovery ダッシュボード** で、 **[Dropbox]** を選択し、 **[IP アドレス]** または **[ユーザー]** タブを選択します。
 
     2. **[エクスポート]** の矢印アイコンを選択し、エクスポート オプションを選択します。 ![矢印アイコン](media/arrow-icon.png "矢印アイコン")
 
@@ -98,7 +87,7 @@ Cloud App Security サービス カタログを使用すると、ユーザーが
 
 次のようなシナリオを想像してください。あなたは生産性向上ツールの購入を検討していて、ユーザーがそのツールを使用するかどうかがわかりません。
 
-1. **Cloud Discovery ダッシュボード**に移動します。
+1. **Cloud Discovery ダッシュボード** に移動します。
 
 2. **[カテゴリ]** で、 **[生産性]** によってアプリをフィルター処理します。
 

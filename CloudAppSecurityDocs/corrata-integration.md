@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security を Corrata と統合する
 description: この記事では、Microsoft Cloud App Security を Corrata と統合し、シームレスな Cloud Discovery と、承認されていないアプリの自動ブロックを実現する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 05/17/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: borisk
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: be9454c025d0dd2bf7d83954cba48ed349cf08e3
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: b9ec2e83bd99db8c4e884e371edfa5be689813a0
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880806"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312371"
 ---
 # <a name="integrate-cloud-app-security-with-corrata"></a>Cloud App Security を Corrata と統合する
 

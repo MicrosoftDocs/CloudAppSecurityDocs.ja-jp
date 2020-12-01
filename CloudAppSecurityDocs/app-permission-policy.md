@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で OAuth アプリを制御するポリシーを作成する
 description: この記事では、Microsoft Cloud App Security でアプリのアクセス許可ポリシーを作成して使用する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/27/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 56499755612ba1ba5453c694cea84ded4bc153e1
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c97fbd615432b2c1579f406bc57427b261124848
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880511"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313833"
 ---
 # <a name="oauth-app-policies"></a>OAuth アプリ ポリシー
 
@@ -37,7 +26,7 @@ OAuth アプリ ポリシーを使用すると、各アプリで要求された�
 
 1. **[調査]** で、 **[OAuth アプリ]** を選択ます。
 
-1. ニーズに従ってアプリをフィルター処理します。たとえば、**メールボックスの予定表の変更**に対する**アクセス許可**を要求しているすべてのアプリを表示できます。
+1. ニーズに従ってアプリをフィルター処理します。たとえば、**メールボックスの予定表の変更** に対する **アクセス許可** を要求しているすべてのアプリを表示できます。
 1. **[検索に基づく新しいポリシー]** ボタンをクリックします。
     ![検索に基づく新しいポリシー](media/app-permissions-filter.png)
 1. **[コミュニティの利用状況]** フィルターを使用して、このアプリに対してアクセスを許可することが、一般的か、一般的ではないか、珍しいか、に関する情報を取得できます。 このフィルターは、珍しいアプリで、重要度レベルが高いアクセス許可、または多くのユーザーからのアクセス許可が要求されている場合に役立ちます。

@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security のポリシー テンプレート リファレンス
 description: この記事では、Microsoft Cloud App Security に含まれるポリシー テンプレートについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/1/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 28b78dfb0a295d341d9f43d9bd6cc6efacda0aa7
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 6ae6eec80234a858e1d854db004cc5a2615d1c79
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880500"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310926"
 ---
 # <a name="policy-template-reference"></a>ポリシー テンプレート リファレンス
 

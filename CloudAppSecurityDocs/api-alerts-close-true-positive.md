@@ -1,21 +1,14 @@
 ---
 title: 真陽性を閉じる - Alerts API
 description: この記事では、Cloud App Security の Alerts API の、アラートを真陽性として一括で閉じる要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/20/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: 1da36127115b2b3204d33a467b01bc7544838936
-ms.sourcegitcommit: ee40375712d2cc4090bd4e9cb58df486ec02aa62
+ms.openlocfilehash: b501f28a098217074c5bbbe912f781ae69d33c23
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92327066"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314632"
 ---
 # <a name="close-true-positive---alerts-api"></a>真陽性を閉じる - Alerts API
 

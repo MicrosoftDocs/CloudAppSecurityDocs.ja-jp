@@ -1,18 +1,14 @@
 ---
 title: Cloud App Security は Azure 環境の保護にどのように役立つか
 description: この記事では、API コネクタを使用して Azure アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 09/15/2020
-ms.collection: M365-security-compliance
-ms.openlocfilehash: 44e15814bf3a7017d44eb7fb3465245b8ad8e43b
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: 2eeaca28f55bd836774e0388923ddbdb1a40eadd
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877534"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310892"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-azure-environment"></a>Cloud App Security は Azure 環境の保護にどのように役立つか
 
@@ -29,7 +25,7 @@ Azure を Cloud App Security に接続すると、管理およびサインイン
 - データ漏えい
 - リソースの構成に誤りがあり、アクセス制御が不十分である
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)

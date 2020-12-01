@@ -1,24 +1,14 @@
 ---
 title: Cloud App Security と Azure Sentinel の統合
 description: この記事では、Azure Sentinel と Cloud App Security の統合に関する情報を提供します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 08/23/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 154cb0eda5a223c31813e1753b9dc0bcb8836436
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: e30981259f1ee0c6894918f12ebfa2c370e72564
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878717"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315465"
 ---
 # <a name="azure-sentinel-integration-preview"></a>Azure Sentinel の統合 (プレビュー)
 
@@ -56,7 +46,7 @@ Azure Sentinel と統合するには:
 
 ### <a name="integrating-with-azure-sentinel"></a>Azure Sentinel との統合
 
-1. Cloud App Security ポータルの**設定**の歯車で、 **[セキュリティ拡張機能]** をクリックします。
+1. Cloud App Security ポータルの **設定** の歯車で、 **[セキュリティ拡張機能]** をクリックします。
 
 1. **[SIEM エージェント]** タブで、追加 ( **+** ) をクリックし、 **[Azure Sentinel]** を選択します。
 
@@ -88,7 +78,7 @@ Azure Sentinel では、 **[ログ]** の **[Security Insights]\(セキュリテ
 
 次の表に、**McasShadowItReporting** スキーマの各フィールドの説明を示します。
 
-| フィールド | 型 | [説明] | 例 |
+| フィールド | Type | 説明 | 例 |
 | --- | --- | --- | --- |
 | TenantId | 文字列型 | ワークスペース ID | b459b4u5-912x-46d5-9cb1-p43069212nb4 |
 | SourceSystem | 文字列型 | ソース システム – 静的な値 | Azure |

@@ -1,25 +1,14 @@
 ---
 title: AWS のセキュリティ構成に関する推奨事項を取得する
 description: この記事では、アマゾン ウェブ サービスと統合することによって Cloud App Security のセキュリティ構成に関する推奨事項を取得する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 87a3eb690c81930baaa0cee5dba02f5d9fe62e59
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 3d35ffdaeaf858407fd324464383faa2a343f301
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878961"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315533"
 ---
 # <a name="security-configuration-for-aws"></a>AWS のセキュリティ構成
 

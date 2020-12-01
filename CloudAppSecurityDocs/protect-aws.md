@@ -1,18 +1,14 @@
 ---
 title: Cloud App Security でアマゾン ウェブ サービス環境を保護する利点
 description: この記事では、API コネクタを使用して AWS アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 09/15/2020
-ms.collection: M365-security-compliance
-ms.openlocfilehash: bdf597d8cd387d2d062a96cb18e80a71d4c2926b
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: 79c13b4102b69442355071f34a7b36aede1c344b
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880491"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315312"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-amazon-web-services-aws-environment"></a>Cloud App Security でアマゾン ウェブ サービス (AWS) 環境を保護する利点
 
@@ -29,7 +25,7 @@ AWS を Cloud App Security に接続すると、管理およびサインイン�
 - データ漏えい
 - リソースの構成に誤りがあり、アクセス制御が不十分である
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)

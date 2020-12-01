@@ -1,26 +1,14 @@
 ---
 title: GitHub Enterprise Cloud を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して GitHub Enterprise Cloud を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/10/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ROBOTS: NOINDEX
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 774fd931210f5e3303b94e5903a724811583e61e
-ms.sourcegitcommit: 98f1b892294beb74157cb3452aa5d489e78bbef4
+ms.openlocfilehash: f4078d6c00af5dc252b3e33810ebf71d60d950ed
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94424522"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312949"
 ---
 # <a name="connect-github-enterprise-cloud-to-microsoft-cloud-app-security"></a>GitHub Enterprise Cloud を Microsoft Cloud App Security に接続する
 

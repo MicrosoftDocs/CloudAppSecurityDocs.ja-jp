@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で継続的なレポートのために自動ログ アップロードを構成する
 description: この記事では、Cloud App Security での継続的なレポートのために、自動ログ アップロードを構成する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 7/22/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: f8b92170f67cd31351341deaebde8aa53fbba19a
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: f627ae6c1174e84958a09c1d0dfe0645c63d8dda
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877690"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311572"
 ---
 # <a name="configure-automatic-log-upload-for-continuous-reports"></a>継続的なレポートのために自動ログ アップロードを構成する
 

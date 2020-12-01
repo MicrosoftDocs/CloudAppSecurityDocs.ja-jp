@@ -1,25 +1,14 @@
 ---
 title: Okta を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して Okta を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 9/1/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 6d5765c89498df4f7140ad9adbbab949b8970cbb
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 511988d7383ad58d7f572d6c0c3ff1319ed4c92b
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881317"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312609"
 ---
 # <a name="connect-okta-to-microsoft-cloud-app-security"></a>Okta を Microsoft Cloud App Security に接続する
 

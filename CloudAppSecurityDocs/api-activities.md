@@ -1,21 +1,14 @@
 ---
 title: Cloud App Security Activities API
 description: この記事では、Activities API の使用について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: 9ba5e83c10406308a1faf6e323fcfb9837da4b12
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 501d8a5ccaad1673c34aa0367f06531de94035b5
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880035"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314683"
 ---
 # <a name="activities-api"></a>Activities API
 

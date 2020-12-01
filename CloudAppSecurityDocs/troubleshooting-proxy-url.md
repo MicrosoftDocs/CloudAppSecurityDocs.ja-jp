@@ -1,22 +1,14 @@
 ---
 title: トラブルシューティング - cas.ms、mcas.ms、または mcas-gov.us とは
 description: この記事では、アプリの条件付きアクセス制御によって使用される cas.ms、mcas.ms、または mcas-gov.us の URL サフィックスについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/18/2020
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: c62229f209dc1a7862a2f4b4442a663aacce58bc
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: a6dd901f5ed191f6c6a02514a7ddf44adf2b81ac
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877109"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315907"
 ---
 # <a name="troubleshooting---what-is-casms-mcasms-or-mcas-govus"></a>トラブルシューティング - `*.cas.ms`、`*.mcas.ms`、または `*.mcas-gov.us` とは
 

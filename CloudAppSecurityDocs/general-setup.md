@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で組織の設定をセットアップする
 description: この記事では、Cloud App Security で組織に関する情報を提供する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/08/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: ed63850fb9f2f9f5d949a1c5890a6a5b2d2c7be1
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: d070b45db464c5789446dc87c4216b1e4e3370c8
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94370873"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314904"
 ---
 # <a name="basic-setup-for-cloud-app-security"></a>Cloud App Security の基本的なセットアップ
 

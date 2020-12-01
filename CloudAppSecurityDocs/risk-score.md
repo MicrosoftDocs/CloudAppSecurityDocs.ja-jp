@@ -1,25 +1,14 @@
 ---
-title: リスク スコアの操作 - Cloud App Security
+title: リスク スコアの操作
 description: この記事では、Cloud App Security アプリのリスク スコアを使用およびカスタマイズする方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 1/27/2019
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 4cbc15f85c40d8a36750df20c701900df7a0b8c8
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 45fa50a02ec9d1d10031920f90f0a516b32dc53d
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879145"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315669"
 ---
 # <a name="working-with-app-risk-scores"></a>アプリのリスク スコアの操作
 
@@ -29,7 +18,7 @@ ms.locfileid: "90879145"
 
 ## <a name="the-cloud-app-catalog"></a>クラウド アプリ カタログ
 
-**クラウド アプリ カタログ**では、規制遵守の認定、業界標準、ベスト プラクティスに基づいて、クラウド アプリのリスクを評価します。 クラウド アプリ カタログを最新に保つために、次の 4 つの補完的なプロセスが実行されます。
+**クラウド アプリ カタログ** では、規制遵守の認定、業界標準、ベスト プラクティスに基づいて、クラウド アプリのリスクを評価します。 クラウド アプリ カタログを最新に保つために、次の 4 つの補完的なプロセスが実行されます。
 
 1. クラウド アプリからデータを直接、自動的に抽出します。 抽出は、SOC 2 コンプライアンス、サービス利用規約、サインイン URL、プライバシー ポリシー、本社の場所などの属性を対象としています。
 2. Cloud App Security のアルゴリズムを使用したデータの高度な自動抽出 (HTTP セキュリティ ヘッダーなどの属性)。

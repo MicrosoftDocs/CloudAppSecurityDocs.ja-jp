@@ -1,25 +1,14 @@
 ---
 title: Azure Active Directory Identity Protection を Cloud App Security と統合する
 description: この記事では、ハイブリッド リスク検出のために Cloud App Security で Identity Protection のアラートを利用する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 31b732fc51a61606bd2b7b3a25bbb00714901af4
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: f699809c340dfbb45a5c6ee0aae98da13b815fff
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880167"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311385"
 ---
 # <a name="azure-active-directory-identity-protection-integration"></a>Azure Active Directory Identity Protection の統合
 

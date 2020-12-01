@@ -1,25 +1,14 @@
 ---
 title: サポートされていないログ用の Cloud App Security カスタム ログ パーサー
 description: この記事では、カスタム ログ パーサーを使用して、Cloud App Security に対してサポートされていないデバイスのログをアップロードする方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 0c18810e5fc6c4aa94fecd2db5e6b8a03d82ae20
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: a70e7930dcbf1d5932c02beeb03d006f6229c705
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880763"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312023"
 ---
 # <a name="use-a-custom-log-parser"></a>カスタム ログ パーサーを使用する
 
@@ -65,7 +54,7 @@ Cloud App Security では、Cloud Discovery に使用できるように、ログ
 11. ログ ファイルのアップロード後、ファイルの解析および分析には多少時間がかかります。
     ログ ファイルの処理が完了すると、終了したことを通知する電子メールを受信します。
 
-12. 通知バナーが、**Cloud Discovery ダッシュボード**の上部にあるステータス バーに表示されます。 バナーにより、ログ ファイルの最新の処理状態が通知されます。
+12. 通知バナーが、**Cloud Discovery ダッシュボード** の上部にあるステータス バーに表示されます。 バナーにより、ログ ファイルの最新の処理状態が通知されます。
     ![処理中のログ ファイル メニュー バー](media/processing-log-file-menu-bar.png)
 
 13. ログが正常にアップロードされると、ログ ファイルの処理が正常に完了したことを知らせる通知が表示されます。 この時点で、ステータス バーのリンクをクリックするか、設定の歯車アイコンに移動して [ **[Cloud Discovery settings]\(Cloud Discovery の設定\)** ] を選択することで、レポートを表示できます。

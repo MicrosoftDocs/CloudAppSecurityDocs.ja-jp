@@ -9,10 +9,10 @@ ms.date: 11/24/2019
 ms.author: shsagir
 ms.custom: include file
 ms.openlocfilehash: b855a1c202c0c8f47bc1ec99e4329331a7d462a9
-ms.sourcegitcommit: b0ad9e8e6b5668849e1c292c43084480f229d981
+ms.sourcegitcommit: 06471b9b3d20868d36e76e4b1cc9c61feab19f64
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "74458155"
+ms.lasthandoff: 11/26/2020
+ms.locfileid: "96231233"
 ---
 問題が発生した場合は、こちらを参照してください。 製品の問題について支援やサポートやを受けるには、[サポート チケットを作成](../support-and-ts.md)してください。

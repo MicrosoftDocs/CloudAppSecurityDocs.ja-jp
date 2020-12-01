@@ -1,25 +1,14 @@
 ---
 title: ServiceNow を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して ServiceNow を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 6/24/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 5274e9d4d358730d8e2e44d02c886aa637b3409a
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 29243ffb26ff008b72bfad2d2d7b3b386df9cd38
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881264"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312490"
 ---
 # <a name="connect-servicenow-to-microsoft-cloud-app-security"></a>ServiceNow を Microsoft Cloud App Security に接続する
 
@@ -32,7 +21,7 @@ ms.locfileid: "90881264"
 > 以前のリリースでは、ユーザーとパスワードに基づいて、[レガシ接続モード](#legacy-servicenow-connection)を使用できます。 指定されたユーザー名/パスワードは API トークンの生成にのみ使用され、最初の接続処理の後に保存されることはありません。
 
 > [!NOTE]
-> Cloud App Security では、次の ServiceNow バージョンがサポートされています。Eureka、Fiji、Geneva、Helsinki、Istanbul、Jakarta、Kingston、London、Madrid、および New York。 ServiceNow を Cloud App Security に接続するには、**管理者**ロールを保持していることと、ServiceNow インスタンスが API アクセスをサポートしていることを確認する必要があります。 詳細については、[ServiceNow の製品ドキュメント](https://wiki.servicenow.com/index.php?title=Base_System_Roles#gsc.tab=0)を参照してください。
+> Cloud App Security では、次の ServiceNow バージョンがサポートされています。Eureka、Fiji、Geneva、Helsinki、Istanbul、Jakarta、Kingston、London、Madrid、および New York。 ServiceNow を Cloud App Security に接続するには、**管理者** ロールを保持していることと、ServiceNow インスタンスが API アクセスをサポートしていることを確認する必要があります。 詳細については、[ServiceNow の製品ドキュメント](https://wiki.servicenow.com/index.php?title=Base_System_Roles#gsc.tab=0)を参照してください。
 
 ## <a name="how-to-connect-servicenow-to-cloud-app-security-using-oauth"></a>OAuth を使用して ServiceNow を Cloud App Security に接続する方法
 
@@ -41,7 +30,7 @@ ms.locfileid: "90881264"
     > [!NOTE]
     > 指定されたユーザー名/パスワードは API トークンの生成にのみ使用され、最初の接続処理の後に保存されることはありません。
 
-2. **フィルター ナビゲーター**の検索バーに、「**OAuth**」と入力し、 **[Application Registry]** を選択します。
+2. **フィルター ナビゲーター** の検索バーに、「**OAuth**」と入力し、 **[Application Registry]** を選択します。
 
 3. **[Application Registries]** メニュー バーで、 **[New]** をクリックして新しい OAuth プロファイルを作成します。
 

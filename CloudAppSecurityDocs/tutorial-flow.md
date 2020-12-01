@@ -1,17 +1,14 @@
 ---
 title: エンドポイントの修復までガバナンスを拡張する
 description: このチュートリアルでは、Microsoft Power Automate ワークフローをトリガーして Microsoft Defender for Endpoint 修復アクションを実行するために、Microsoft Cloud App Security ポリシー アラートを構成するプロセスについて説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: tutorial
 ms.date: 04/27/2020
-ms.openlocfilehash: 213b041630a1367a4f505643e73482490456682d
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.topic: tutorial
+ms.openlocfilehash: f2e4910c93d4689663a63cc650b160b46afe090e
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94370666"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96316978"
 ---
 # <a name="tutorial-extend-governance-to-endpoint-remediation"></a>チュートリアル:エンドポイントの修復までガバナンスを拡張する
 
@@ -57,7 +54,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 ## <a name="phase-2-create-a-flow-to-run-an-antivirus-scan"></a>フェーズ 2:ウイルス対策スキャンを実行するフローを作成する<a name="create-flow"></a>
 
 > [!NOTE]
-> Defender for Endpoint コネクタを使用してフローを以前に作成している場合は、Power Automate によってコネクタが自動的に再利用されるため、 **サインイン** の手順を省略できます。
+> Defender for Endpoint コネクタを使用してフローを以前に作成している場合は、Power Automate によってコネクタが自動的に再利用されるため、**サインイン** の手順を省略できます。
 
 1. [Power Automate ポータル](https://flow.microsoft.com/)に移動し、 **[テンプレート]** を選択してください。
 
@@ -67,7 +64,7 @@ Power Automate プランがない場合は、[無料試用版アカウントに�
 
     ![検索結果を示す Power Automate のテンプレート ページのスクリーンショット。](media/tutorial-flow-templates-search.png)
 
-1. アプリの一覧で、 **Microsoft Defender for Endpoint コネクタ** が表示されている行で、 **[サインイン]** をクリックします。
+1. アプリの一覧で、**Microsoft Defender for Endpoint コネクタ** が表示されている行で、 **[サインイン]** をクリックします。
 
     ![サインイン プロセスを示す Power Automate のテンプレート ページのスクリーンショット。](media/tutorial-flow-templates-signin.png)
 

@@ -1,25 +1,14 @@
 ---
 title: Microsoft Defender for Endpoint を Cloud App Security と統合する
 description: この記事では、Microsoft Defender for Endpoint と Cloud App Security を統合して、シャドウ IT とリスク管理の可視性を向上させる方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/29/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 95e8271a26828ad4e3adb73727e2692cac3a8d23
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: 9b41cc5ff69e9480e0ad7c3f9f4bc7562c27dea9
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94371150"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315142"
 ---
 # <a name="microsoft-defender-for-endpoint-integration-with-microsoft-cloud-app-security"></a>Microsoft Defender for Endpoint と Microsoft Cloud App Security の統合
 
@@ -87,15 +76,15 @@ Defender for Endpoint を Cloud App Security と統合した後は、Cloud Disco
 2. 上部のナビゲーション バーの **[継続的レポート]** で、 **[Win10 endpoint users]\(Win10 エンドポイント ユーザー\)** を選択します。
   ![Defender for Endpoint のレポート](media/win10-dashboard-report.png)
 3. 上部には、統合後に追加されて検出されたデバイスの数が表示されます。
-4. [ **デバイス** ] タブをクリックします。
+4. [**デバイス**] タブをクリックします。
 5. 一覧に表示されている各デバイスにドリルダウンし、そのタブを使用して調査データを表示できます。 インシデントに関係していたデバイス、ユーザー、IP アドレス、アプリ間の相関関係を見つけます。
 
     - **概要**
-        - **デバイス リスク レベル** :デバイスのプロファイルが組織内の他のデバイスと比較してどの程度危険か示します。これは重要度 (高、中、低、情報) によって示されます。 Cloud App Security では、高度な分析に基づき、Defender for Endpoint からのデバイス プロファイルがデバイスごとに使用されます。 あるデバイスのベースラインに対して異常なアクティビティが評価され、そのデバイスのリスク レベルが決定されます。 デバイス リスク レベルを使用して、最初に調査するデバイスを決定します。
-        - **トランザクション** :選択した期間にデバイスで発生したトランザクションの数に関する情報。
-        - **合計トラフィック** :選択した期間のトラフィックの総量 (MB 単位) に関する情報。
+        - **デバイス リスク レベル**:デバイスのプロファイルが組織内の他のデバイスと比較してどの程度危険か示します。これは重要度 (高、中、低、情報) によって示されます。 Cloud App Security では、高度な分析に基づき、Defender for Endpoint からのデバイス プロファイルがデバイスごとに使用されます。 あるデバイスのベースラインに対して異常なアクティビティが評価され、そのデバイスのリスク レベルが決定されます。 デバイス リスク レベルを使用して、最初に調査するデバイスを決定します。
+        - **トランザクション**:選択した期間にデバイスで発生したトランザクションの数に関する情報。
+        - **合計トラフィック**:選択した期間のトラフィックの総量 (MB 単位) に関する情報。
         - アップロード: 選択した期間にデバイスによってアップロードされたトラフィックの総量 (MB 単位) に関する情報。
-        - **ダウンロード** :選択した期間にデバイスによってダウンロードされたトラフィックの総量 (MB 単位) に関する情報。
+        - **ダウンロード**:選択した期間にデバイスによってダウンロードされたトラフィックの総量 (MB 単位) に関する情報。
     - **検出されたアプリ**  
     デバイスによってアクセスされた、すべての検出されたアプリの一覧が表示されます。
     - **ユーザーの履歴**  
@@ -110,7 +99,7 @@ Defender for Endpoint を Cloud App Security と統合した後は、Cloud Disco
 >
 > - Defender for Endpoint により、データは最大 4 MB のチャンクで Cloud App Security に転送されます (最大 4,000 のエンドポイント トランザクション)
 > - 1 時間以内に 4 MB の制限に達しない場合、Defender for Endpoint によって、過去 1 時間に実行されたすべてのトランザクションが報告されます。
-> - エンドポイント デバイスが転送プロキシの内側にある場合、トラフィック データは Defender for Endpoint に認識されないため、Cloud Discovery のレポートに含まれません。 完全に把握するために、 **自動ログ アップロード** を使用して、転送プロキシのログを Cloud App Security にルーティングすることをお勧めします。 このトラフィックを表示し、転送プロキシの内側にあるデバイスによってアクセスされた URL を調査する別の方法については、[転送プロキシの内側にあるネットワーク接続の監視](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Monitoring-network-connection-behind-forward-proxy-Public/ba-p/758274)に関するページをご覧ください。
+> - エンドポイント デバイスが転送プロキシの内側にある場合、トラフィック データは Defender for Endpoint に認識されないため、Cloud Discovery のレポートに含まれません。 完全に把握するために、**自動ログ アップロード** を使用して、転送プロキシのログを Cloud App Security にルーティングすることをお勧めします。 このトラフィックを表示し、転送プロキシの内側にあるデバイスによってアクセスされた URL を調査する別の方法については、[転送プロキシの内側にあるネットワーク接続の監視](https://techcommunity.microsoft.com/t5/Microsoft-Defender-ATP/MDATP-Monitoring-network-connection-behind-forward-proxy-Public/ba-p/758274)に関するページをご覧ください。
 
 ## <a name="investigate-device-network-events-in-defender-for-endpoint"></a>Defender for Endpoint でデバイス ネットワーク イベントを調査する
 

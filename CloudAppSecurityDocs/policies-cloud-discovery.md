@@ -1,20 +1,14 @@
 ---
-title: Cloud Discovery ポリシー - Cloud App Security
+title: Cloud Discovery ポリシー
 description: この記事では、Cloud App Security で多数の Cloud Discovery ポリシーを構成する手順の概要について説明します。
-author: shsagir
-ms.author: shsagir
 ms.date: 06/13/2019
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 028df24a9efbd88337727032df3941e8b086f6e1
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 5d96558ff1da3c42cd4acff559ca0ec6d7cd65a7
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186091"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310960"
 ---
 # <a name="cloud-discovery-policies"></a>Cloud Discovery ポリシー
 
@@ -59,7 +53,7 @@ Cloud App Security を使用すると、組織の環境内で使用されてい�
 
 2. **[ポリシー テンプレート]** フィールドで、 **[新しい危険なアプリ]** テンプレートを選択して、テンプレートを適用します。
 
-3. **[次のすべてに一致するアプリ]** で、 [[リスク スコア]](risk-score.md) スライダーと [コンプライアンス リスク要因] を設定して、アラートをトリガーするリスクのレベルをカスタマイズし、組織のセキュリティ要件に合わせて他のポリシー フィルターを設定します。
+3. **[次のすべてに一致するアプリ]** で、[[リスク スコア]](risk-score.md) スライダーと [コンプライアンス リスク要因] を設定して、アラートをトリガーするリスクのレベルをカスタマイズし、組織のセキュリティ要件に合わせて他のポリシー フィルターを設定します。
 
     1. オプション:さらに意味のある検出を行うには、アラートがトリガーされるトラフィックの量をカスタマイズします。
 

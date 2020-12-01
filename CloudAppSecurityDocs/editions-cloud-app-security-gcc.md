@@ -1,22 +1,14 @@
 ---
 title: 米国政府機関 GCC High の Microsoft Cloud App Security
 description: この記事では、米国政府機関 GCC High の Microsoft Cloud App Security と商用オファリングとの機能の違いについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 01/30/2020
 ms.topic: overview
-ms.prod: ''
-ms.service: cloud-app-security
-ms.collection: M365-security-compliance
-ms.suite: ems
-ms.openlocfilehash: a44d00c0d259cf2547b486727f805bdc31f9fb16
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 5221b655e429e450f2fc2c44e70819f38e42496c
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877559"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311368"
 ---
 # <a name="microsoft-cloud-app-security-for-us-government-gcc-high"></a>米国政府機関 GCC High の Microsoft Cloud App Security
 

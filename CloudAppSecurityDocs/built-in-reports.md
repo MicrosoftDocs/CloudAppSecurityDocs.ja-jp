@@ -1,25 +1,14 @@
 ---
 title: レポートの生成 - Microsoft Cloud App Security
 description: この記事では、Microsoft Cloud App Security でデータ管理レポートを生成する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: c08938f5317d5862b480a0498949df6930910e63
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 57c0642ec520ec53dbb78b5e036650fb3d47af97
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881574"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313561"
 ---
 # <a name="generate-data-management-reports"></a>データ管理レポートの生成
 
@@ -36,12 +25,12 @@ Microsoft Cloud App Security では、クラウド アプリ内のファイル�
 
 ## <a name="data-sharing-overview"></a>データ共有の概要
 
-このレポートには、各クラウド アプリに保存されているファイルの数がアクセス許可別に一覧表示されます。 クラウド アプリでは、アクセスが容易でどこからでも利用できるため、ファイルを簡単に共有できるようになりました。 **プライベート ファイル**は、その所有者以外のユーザーと共有されることはありません。 ファイルが共有されている場合、Cloud App Security は 4 種類の状態を区別します。
+このレポートには、各クラウド アプリに保存されているファイルの数がアクセス許可別に一覧表示されます。 クラウド アプリでは、アクセスが容易でどこからでも利用できるため、ファイルを簡単に共有できるようになりました。 **プライベート ファイル** は、その所有者以外のユーザーと共有されることはありません。 ファイルが共有されている場合、Cloud App Security は 4 種類の状態を区別します。
 
 - **公開共有 (インターネット)** ファイルは、認証を受けなくても検索エンジンの結果などからアクセスできるファイルです。
-- **公開共有**ファイルは、認証を受けなくてもリンクを使用してアクセスできるファイルです。
-- **外部共有**ファイルは、組織外のユーザーがクラウド アプリの認証を受けてアクセスできるファイルです。
-- **内部共有**ファイルは、組織内のすべてまたは一部のユーザーがアクセスできるファイルです。
+- **公開共有** ファイルは、認証を受けなくてもリンクを使用してアクセスできるファイルです。
+- **外部共有** ファイルは、組織外のユーザーがクラウド アプリの認証を受けてアクセスできるファイルです。
+- **内部共有** ファイルは、組織内のすべてまたは一部のユーザーがアクセスできるファイルです。
 
 ## <a name="outbound-sharing-by-domain"></a>ドメイン別の送信共有
 

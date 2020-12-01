@@ -1,23 +1,14 @@
 ---
 title: 任意のアプリに対して Cloud App Security のアプリの条件付きアクセス制御を展開する
 description: この記事では、任意のアプリに対して Microsoft Cloud App Security のアプリの条件付きアクセス制御のリバース プロキシ機能を展開する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/31/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.suite: ems
-ms.openlocfilehash: 13505c22de0751041bc42f2891248163a51e6239
-ms.sourcegitcommit: 812cb1e24ec18de2c4818970f3042ac06acea14c
+ms.openlocfilehash: 32aa858eca58f8b76cc90bd96f5ebe17516af1e7
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92212036"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315397"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-app"></a>任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開
 

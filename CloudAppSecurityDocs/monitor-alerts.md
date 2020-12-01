@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で発生したアラートを監視する
 description: この記事では、すべてのアラートの一覧と説明を示します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: e5effef1c69cf3a8ce44218a8838bbb4d0ef1614
-ms.sourcegitcommit: b173d24dba412e81801c498cc0c3623ad9e31601
+ms.openlocfilehash: f6346180c3a45fb1c7ae2e885d90732f4a269be3
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/11/2020
-ms.locfileid: "91941583"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311198"
 ---
 # <a name="monitor-alerts-in-cloud-app-security"></a>Cloud App Security でアラートを監視する
 
@@ -35,16 +24,16 @@ ms.locfileid: "91941583"
 
 ![アラート メニュー](media/alert-menu.png)
 
-- 確認して関心がないと判断したら、アラートを**無視**します。
-  - アラートを無視した理由を説明する**コメント**を入力します
+- 確認して関心がないと判断したら、アラートを **無視** します。
+  - アラートを無視した理由を説明する **コメント** を入力します
   - **[このアラートについてフィードバックをお送りください]** は、アラートを改善するためにセキュリティ リサーチ チームによって確認されます。
 
-- アラートを調査してリスクを軽減する場合は、そのアラートを**解決**します。
+- アラートを調査してリスクを軽減する場合は、そのアラートを **解決** します。
 
   - アラートはアラート テーブルに表示されなくなります。
-  - 問題の調査を開始しても、忘れないように残しておきたい場合は、**未読としてマーク**します。
-  - 今後のアラートの一致を向上させるために、アラートと一致した**ポリシーを調整**します。
-  - アラートを解決すると、コメントを入力し、**Cloud App Security チームにフィードバックを送信する**ことができます。
+  - 問題の調査を開始しても、忘れないように残しておきたい場合は、**未読としてマーク** します。
+  - 今後のアラートの一致を向上させるために、アラートと一致した **ポリシーを調整** します。
+  - アラートを解決すると、コメントを入力し、**Cloud App Security チームにフィードバックを送信する** ことができます。
 
 ## <a name="deployment-of-our-enhanced-alert-monitoring-and-management-experience"></a>拡張されたアラートの監視と管理エクスペリエンスのデプロイ
 

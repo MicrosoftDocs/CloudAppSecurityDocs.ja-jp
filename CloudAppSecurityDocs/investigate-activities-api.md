@@ -1,25 +1,14 @@
 ---
-title: API を使用したアクティビティの調査 - Cloud App Security
+title: API を使用したアクティビティの調査
 description: この記事では、ユーザーのアクティビティを Cloud App Security で API を使用して調査する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/26/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 180c7fac97d4ff275c61da48e3f5125432d826d2
-ms.sourcegitcommit: d1bb3a7ecc062e452c051790898c59ee85689c82
+ms.openlocfilehash: 5078775765a7637de9d08b2bc792c42de77671ef
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/22/2020
-ms.locfileid: "95216889"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314870"
 ---
 # <a name="investigate-activities-using-the-api"></a>API を使用したアクティビティの調査
 

@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で Cloud Discovery 異常検出ポリシーを作成する
 description: このトピックでは、Cloud Discovery 異常検出ポリシーの使用方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 7eaa223ba6c9f7bcf1c789fdce59b75739a0bc12
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 371f7b53de7f77d4743df39f1957bb1c411ad14c
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881524"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313425"
 ---
 # <a name="cloud-discovery-anomaly-detection-policy"></a>Cloud Discovery 異常検出ポリシー
 
@@ -65,11 +54,11 @@ Cloud Discovery 異常検出ポリシーを使用すると、クラウド アプ
 
     - **[日次アラート制限]** – 1 日に生成するアラートの数を制限します。 **[アラートをメールで送信]** と **[アラートをテキスト メッセージとして送信する]** のどちらか一方または両方を選択できます。 テキスト メッセージによって送信されるメッセージは、UTC タイムゾーンで 1 日あたり 10 個に制限されます。つまり、UTC タイム ゾーンの午前 0 時に、10 件のメッセージ制限がリセットされます。
 
-    - また、**組織の既定の設定を使用する**オプションを選択することもできます。 このオプションを使用すると、**日次アラート制限**、メール、テキスト メッセージの設定が、組織の既定の設定から入力されます。 既定値を設定するには、 **[アラートの構成]** の設定を指定して、 **[このアラートの設定を組織の既定として保存する]** をクリックします。
+    - また、**組織の既定の設定を使用する** オプションを選択することもできます。 このオプションを使用すると、**日次アラート制限**、メール、テキスト メッセージの設定が、組織の既定の設定から入力されます。 既定値を設定するには、 **[アラートの構成]** の設定を指定して、 **[このアラートの設定を組織の既定として保存する]** をクリックします。
 
 6. **[作成]** をクリックします。
 
-7. すべてのポリシーと同様に、 **[ポリシー]** ページの行の最後にある 3 つの点をクリックして、ポリシーを**編集**、**無効化**、**有効化**できます。 既定では、ポリシーを作成すると有効になります。
+7. すべてのポリシーと同様に、 **[ポリシー]** ページの行の最後にある 3 つの点をクリックして、ポリシーを **編集**、**無効化**、**有効化** できます。 既定では、ポリシーを作成すると有効になります。
 
 ## <a name="next-steps"></a>次のステップ
 

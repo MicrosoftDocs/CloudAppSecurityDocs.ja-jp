@@ -1,24 +1,14 @@
 ---
 title: Cloud App Security と汎用 SIEM の統合
 description: この記事では、汎用 SIEM と Cloud App Security の統合に関する情報を提供します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/08/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: c5fc424ece0dd777760e3d63ab5c41219330f2fe
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: a0c4fffdec7c870254baf0d20cdbaf7f0e40b39c
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94371290"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315414"
 ---
 # <a name="generic-siem-integration"></a>汎用 SIEM の統合
 
@@ -78,7 +68,7 @@ SIEM との統合は次の 3 つの手順で行われます。
     ![SIEM 統合の追加メニューを示すスクリーンショット](media/siem0.png)
 
 1. ウィザードで、 **[ウィザード起動]** をクリックします。
-1. ウィザードで、名前を入力し、 **SIEM 形式を選択** して、その形式に関する **詳細設定** をすべて設定します。 **[次へ]** をクリックします。
+1. ウィザードで、名前を入力し、**SIEM 形式を選択** して、その形式に関する **詳細設定** をすべて設定します。 **[次へ]** をクリックします。
 
     ![SIEM の全般設定](media/siem1.png)
 
@@ -110,7 +100,7 @@ SIEM との統合は次の 3 つの手順で行われます。
 > * ファイル名は、SIEM エージェントのバージョンによって異なる場合があります。
 > * 角かっこ [] で囲まれたパラメーターは省略可能で、関係する場合にのみ使用してください。
 > * サーバーの起動時に JAR を実行することが推奨されます。
->   * Windows:スケジュールされたタスクとして実行し、 **ユーザーがログオンしているかどうかにかかわらず実行する** ようにタスクを構成し、 **[タスクを停止するまでの時間]** チェックボックスをオフにしていることを確認します。
+>   * Windows:スケジュールされたタスクとして実行し、**ユーザーがログオンしているかどうかにかかわらず実行する** ようにタスクを構成し、 **[タスクを停止するまでの時間]** チェックボックスをオフにしていることを確認します。
 >   * Linux: **&** を付けた実行コマンドを rc.local ファイルに追加します。 例: `java -jar mcas-siemagent-0.87.20-signed.jar [--logsDirectory DIRNAME] [--proxy ADDRESS[:PORT]] --token TOKEN &`
 
 各変数の使用方法:

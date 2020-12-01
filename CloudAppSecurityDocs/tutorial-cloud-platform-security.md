@@ -1,23 +1,14 @@
 ---
 title: 組織で使用されるクラウド プラットフォームのセキュリティを管理する
 description: このチュートリアルでは、Microsoft Cloud App Security を使用して、Azure、AWS、および GCP クラウド プラットフォームをセキュリティで保護する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 09/17/2020
 ms.topic: tutorial
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.suite: ems
-ms.openlocfilehash: 069ed5a6182c88bef89c792793c9bab2e0700f56
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 7711285b895d63e47e770a9079ef50bf8a091808
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881007"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315873"
 ---
 # <a name="tutorial-manage-cloud-platform-security"></a>チュートリアル:クラウド プラットフォームのセキュリティを管理する
 
@@ -67,7 +58,7 @@ ms.locfileid: "90881007"
 
 ### <a name="phase-2-monitor-activities-and-alerts-to-detect-suspicious-behavior-across-workloads"></a>フェーズ 2:アクティビティとアラートを監視して、ワークロード間の疑わしい動作を検出する
 
-IAM (ID およびアクセス管理) ロールの変更や CloudTrail 構成の変更など、侵害を示す可能性のある疑わしいアクティビティを追跡します。 たとえば、定義済みの**パブリックにアクセス可能な AWS S3 バケット** [ポリシー テンプレート](policy-template-reference.md)を使用して、S3 バケット構成の変更を追跡します。
+IAM (ID およびアクセス管理) ロールの変更や CloudTrail 構成の変更など、侵害を示す可能性のある疑わしいアクティビティを追跡します。 たとえば、定義済みの **パブリックにアクセス可能な AWS S3 バケット** [ポリシー テンプレート](policy-template-reference.md)を使用して、S3 バケット構成の変更を追跡します。
 
 異常検出ツールの適用は、疑わしい変更の監査ログを監視する場合に最適です。これにより、失敗した複数のログイン試行や、あり得ない移動シナリオと組み合わせた削除済みの複数の VM アクティビティを特定することで、考えられる侵害が通知されます。
 
@@ -93,7 +84,7 @@ Azure サブスクリプション、AWS アカウント、GCP プロジェクト
 * サブスクリプション: 運用以外の環境から運用環境を区別する
 * 重要度: 重要度の低い推奨事項とは異なる SLA およびプロセスを持つことが多い、重要度の高い推奨事項を識別する
 
-Azure のセキュリティ構成に関する推奨事項については、Azure Security Center のベスト プラクティスに基づいて、Azure テナント全体とそのすべてのサブスクリプションの推奨事項を紹介します。 推奨事項を選択すると、Azure Security Center の推奨事項ページにリダイレクトされます。ここでは、推奨事項に関するさらなる詳細を確認し、これを使用してサブスクリプションの所有者による修復を促進することができます。 いくつかの推奨事項では、問題を修復するための**クイック修正**オプションが用意されています。 Azure のセキュリティに関する推奨事項の詳細については、「[Azure のセキュリティ構成](security-config-azure.md)」を参照してください。
+Azure のセキュリティ構成に関する推奨事項については、Azure Security Center のベスト プラクティスに基づいて、Azure テナント全体とそのすべてのサブスクリプションの推奨事項を紹介します。 推奨事項を選択すると、Azure Security Center の推奨事項ページにリダイレクトされます。ここでは、推奨事項に関するさらなる詳細を確認し、これを使用してサブスクリプションの所有者による修復を促進することができます。 いくつかの推奨事項では、問題を修復するための **クイック修正** オプションが用意されています。 Azure のセキュリティに関する推奨事項の詳細については、「[Azure のセキュリティ構成](security-config-azure.md)」を参照してください。
 
 ![Azure の推奨事項を表示する](media/tutorial-cloud-platform-security-view-azure-recommendations.png)
 

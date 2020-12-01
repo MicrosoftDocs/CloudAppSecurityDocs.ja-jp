@@ -1,25 +1,14 @@
 ---
 title: パブリック クラウド プラットフォームのセキュリティ構成に関する推奨事項を取得する
 description: この記事では、組織のパブリック クラウド プラットフォーム用に、Cloud App Security のセキュリティ構成に関する推奨事項を取得する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: c7906ca0ee69297e449f1f4b713a24e49a6befc6
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 95147a89a331da7acda75f595cee1c30bb67e5f7
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186138"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315444"
 ---
 # <a name="security-configuration-overview"></a>セキュリティ構成の概要
 

@@ -1,25 +1,14 @@
 ---
 title: アクセスを許可またはブロックするための Cloud App Security アクセス ポリシーを作成する
 description: この記事では、Azure AD 経由でリバース プロキシ機能を使用して接続したアプリへのアクセスを許可およびブロックするために、Cloud App Security の "アプリの条件付きアクセス制御" アクセス ポリシーを設定する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/31/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 49f61cbad04b6c4f559ec47bc9bdc6047f016b1a
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 21ecae14e030b731028975cc4c72dcd3252adf81
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877617"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311504"
 ---
 # <a name="access-policies"></a>アクセス ポリシー
 
@@ -63,7 +52,7 @@ Microsoft Cloud App Security アクセス ポリシーでは、ユーザー、�
 
     - **[ブロック]** :設定したポリシー フィルターに従って明示的にアクセスをブロックするには、このアクションを設定します。
 
-6. **一致するイベントごとにポリシーの重要度に応じたアラートを作成**し、アラート制限を設定して、アラートをメールとテキスト メッセージのどちらにするか、または両方にするかを選択できます。
+6. **一致するイベントごとにポリシーの重要度に応じたアラートを作成** し、アラート制限を設定して、アラートをメールとテキスト メッセージのどちらにするか、または両方にするかを選択できます。
 
 ## <a name="next-steps"></a>次のステップ
 

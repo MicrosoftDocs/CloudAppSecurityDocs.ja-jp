@@ -1,25 +1,14 @@
 ---
 title: Microsoft Cloud App Security 展開のスコープを指定する
 description: この記事では、Cloud App Security 展開のスコープを指定する方法について説明します。特定のユーザーまたはグループを含めたり除外したりできます。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 8/25/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: d2074b58a4f0411f8272ff3f10241604d06a893b
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 94aec27172d83c2884ea91c944ecd80898ae0381
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879022"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315567"
 ---
 # <a name="scoped-deployment"></a>スコープ付きの展開 <a name="scoped-deployment"></a> 
 
@@ -39,7 +28,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 
 - 包含ルールを設定すると、包含されるグループに入らないすべてのグループが自動的に除外されます。 たとえば、米国オフィス グループのすべてのメンバーを含めるルールを設定すると、そのグループの一部でないグループは監視されません。
 
-- 除外されるユーザー グループは、包含されるユーザー グループより優先されます。 つまり、"英国従業員" というユーザー グループを包含して、"マーケティング" を除外した場合、英国のマーケティング メンバーは、**英国従業員**グループのメンバーであっても監視されません。
+- 除外されるユーザー グループは、包含されるユーザー グループより優先されます。 つまり、"英国従業員" というユーザー グループを包含して、"マーケティング" を除外した場合、英国のマーケティング メンバーは、**英国従業員** グループのメンバーであっても監視されません。
 
 1. メニュー バーで設定の歯車アイコンをクリックし、 **[スコープ付きの展開]** を選択します。
 
@@ -54,7 +43,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 
     1. **[ルール名を入力]** で、ルールにわかりやすい名前を付けます。
     2. **[ユーザー グループの選択]** で、Cloud App Security で監視するグループをすべて選択します。
-    3. 接続されたすべてのアプリにこのルールを適用するのか、**特定のアプリ**のみに適用するのかを選択します。 **特定のアプリ**を選択した場合、ルールは選択したアプリの監視のみに影響します。 たとえば、 **[UI チーム ユーザー]** グループと **[Box]** を選択した場合、Cloud App Security によって UI チーム ユーザー グループ内のユーザーの Box アクティビティのみが監視され、その他すべてのアプリについては、Cloud Apps Security によってすべてのユーザーのすべてのアクティビティが監視されます。
+    3. 接続されたすべてのアプリにこのルールを適用するのか、**特定のアプリ** のみに適用するのかを選択します。 **特定のアプリ** を選択した場合、ルールは選択したアプリの監視のみに影響します。 たとえば、 **[UI チーム ユーザー]** グループと **[Box]** を選択した場合、Cloud App Security によって UI チーム ユーザー グループ内のユーザーの Box アクティビティのみが監視され、その他すべてのアプリについては、Cloud Apps Security によってすべてのユーザーのすべてのアクティビティが監視されます。
 
         ![包含ルール](media/include-rule.png)
 
@@ -66,7 +55,7 @@ Microsoft Cloud App Security を使うと、展開の範囲を限定できます
 
     1. **[ルール名を入力]** で、ルールにわかりやすい名前を付けます。
     **[ユーザー グループの選択]** で、Cloud App Security で監視しないグループをすべて選択します。
-    2. 接続されたすべてのアプリにこのルールを適用するのか、**特定のアプリ**のみに適用するのかを選択します。 **特定のアプリ**を選択すると、選択したグループの Cloud App Security による監視が、選択したアプリに対してのみ停止されます。 つまり、 **[UI チーム ユーザー]** グループと **Active Directory** を選択した場合、UI チーム ユーザーによって実行される Active Directory アクティビティを除くすべてのユーザー アクティビティが、Cloud App Security で監視されます。
+    2. 接続されたすべてのアプリにこのルールを適用するのか、**特定のアプリ** のみに適用するのかを選択します。 **特定のアプリ** を選択すると、選択したグループの Cloud App Security による監視が、選択したアプリに対してのみ停止されます。 つまり、 **[UI チーム ユーザー]** グループと **Active Directory** を選択した場合、UI チーム ユーザーによって実行される Active Directory アクティビティを除くすべてのユーザー アクティビティが、Cloud App Security で監視されます。
 
        ![除外ルール](media/exclude-rule.png)
 

@@ -1,23 +1,14 @@
 ---
 title: PingOne を使用して Web アプリに対して Cloud App Security のアプリの条件付きアクセス制御を展開する
 description: この記事では、PingOne ID プロバイダーを使用して Web アプリに対して Microsoft Cloud App Security のアプリの条件付きアクセス制御を展開する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 09/29/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.suite: ems
-ms.openlocfilehash: d0f36a9abb5b7a1fefed9b32683b926995d3dcd4
-ms.sourcegitcommit: 812cb1e24ec18de2c4818970f3042ac06acea14c
+ms.openlocfilehash: d49d7994e577321cfc276f642f77f7c81e4c9d9f
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92214769"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315244"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-web-app-using-pingone-identity-provider-idp"></a>PingOne ID プロバイダー (IdP) を使用して Web アプリに対してアプリの条件付きアクセス制御をオンボードして展開する
 
@@ -74,7 +65,7 @@ Microsoft Cloud App Security のセッション制御は、任意の Web アプ�
 
     ![Salesforce の SSO 設定を選択する](media/proxy-idp-examples/idp-pingone-sf-select-sso-settings.png)
 
-1. **[SAML シングルサインオン設定]** ページで、Salesforce の**ログイン URL** をメモしておきます。 これは後で必要になります。
+1. **[SAML シングルサインオン設定]** ページで、Salesforce の **ログイン URL** をメモしておきます。 これは後で必要になります。
 
     ![Salesforce の SSO ログイン URL を選択する](media/proxy-idp-examples/idp-pingone-sf-copy-saml-sso-login-url.png)
 
@@ -85,7 +76,7 @@ Microsoft Cloud App Security のセッション制御は、任意の Web アプ�
 1. Cloud App Security で、 **[調査]**  >  **[接続アプリ]**  >  **[アプリの条件付きアクセス制御アプリ]** の順に移動します。
 
 1. プラス記号をクリックし、ポップアップでデプロイするアプリを選択してから、 **[ウィザード起動]** をクリックします。
-1. **[アプリ情報]** ページで、 **[データを手動で入力する]** を選択し、 **[Assertion consumer service URL]** に、前にメモした Salesforce の**ログイン URL** を入力して、 **[次へ]** をクリックします。
+1. **[アプリ情報]** ページで、 **[データを手動で入力する]** を選択し、 **[Assertion consumer service URL]** に、前にメモした Salesforce の **ログイン URL** を入力して、 **[次へ]** をクリックします。
 
     > [!NOTE]
     > アプリで SAML 証明書が提供されている場合は、 **[<アプリ名> の SAML 証明書を使用する]** を選択して、証明書ファイルをアップロードします。
@@ -100,7 +91,7 @@ Microsoft Cloud App Security のセッション制御は、任意の Web アプ�
 
 1. Ping One で、既存の Salesforce アプリを編集します。
 
-1. **[SSO 属性マッピング]** ページで、SAML_SUBJECT 属性と値をメモし、**署名証明書**と **SAML メタデータ**のファイルをダウンロードします。
+1. **[SSO 属性マッピング]** ページで、SAML_SUBJECT 属性と値をメモし、**署名証明書** と **SAML メタデータ** のファイルをダウンロードします。
 
     ![既存の Salesforce アプリの属性をメモする](media/proxy-idp-examples/idp-pingone-sf-app-copy-saml-sso-attributes.png)
 
@@ -131,7 +122,7 @@ Microsoft Cloud App Security のセッション制御は、任意の Web アプ�
     ![カスタム アプリの詳細を入力する](media/proxy-idp-examples/idp-pingone-sf-custom-app-details.png)
 
 1. **[Application Configuration]\(アプリケーション構成\)** ページで、次の操作を行ってから、 **[Continue to Next Step]\(次のステップに進む\)** をクリックします。
-    - **[Assertion Consumer Service (ACS)]** フィールドに、前にメモした Salesforce の**ログイン URL** を入力します。
+    - **[Assertion Consumer Service (ACS)]** フィールドに、前にメモした Salesforce の **ログイン URL** を入力します。
     - **[エンティティ ID]** フィールドに、*https://* で始まる一意の ID を入力します。 これは、既存の Salesforce PingOne アプリの構成とは違うものにしてください。
     - **[エンティティ ID]** をメモしておきます。 これは後で必要になります。
 
@@ -152,7 +143,7 @@ Microsoft Cloud App Security のセッション制御は、任意の Web アプ�
 1. Cloud App Security の **[ID プロバイダー]** ページに戻り、 **[次へ]** をクリックして続行します。
 
 1. 次のページで、 **[データを手動で入力する]** を選択し、次の手順を実行して、 **[次へ]** をクリックします。
-    - **[Assertion Consumer Service URL]** に、前にメモした Salesforce の**ログイン URL** を入力します。
+    - **[Assertion Consumer Service URL]** に、前にメモした Salesforce の **ログイン URL** を入力します。
     - **[Upload identity provider's SAML certificate]\(ID プロバイダーの SAML 証明書をアップロードする\)** を選択し、先ほどダウンロードした証明書ファイルをアップロードします。
 
     ![SSO サービスの URL と SAML 証明書を追加する](media/proxy-idp-examples/idp-pingone-cas-sf-app-idp-info.png)

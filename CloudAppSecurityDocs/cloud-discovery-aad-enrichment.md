@@ -1,25 +1,14 @@
 ---
 title: Azure AD のユーザー名を使用して Cloud App Security Discovery のデータを強化する
 description: この記事では、Azure AD のユーザー名を使用して Cloud App Security Discovery のデータを強化する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: ae44525ae235bd80ce40a80c7c309e20e64cb5a1
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: bcedf73defb825bf3188592f719814755de89a25
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881595"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313476"
 ---
 # <a name="cloud-discovery-enrichment"></a>Cloud Discovery の強化
 

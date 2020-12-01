@@ -1,21 +1,14 @@
 ---
 title: IP アドレス範囲を作成する - Data Enrichment API
 description: この記事では、Cloud App Security の Data Enrichment API での IP アドレス範囲作成要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: 2da4b992d0c9eab2830793d026c0fd37ccd390be
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: ec84185e0523b8b9f9f172e1940302656f10316b
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880621"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314513"
 ---
 # <a name="create-ip-address-range---data-enrichment-api"></a>IP アドレス範囲を作成する - Data Enrichment API
 
@@ -31,7 +24,7 @@ POST /api/v1/subnet/
 
 ## <a name="request-body-parameters"></a>要求本文のパラメーター
 
-| パラメーター | [説明] |
+| パラメーター | 説明 |
 | --- | --- |
 | category | 範囲カテゴリの ID |
 | サブネット | 文字列としてのマスクの配列 (IPv4/IPv6) |

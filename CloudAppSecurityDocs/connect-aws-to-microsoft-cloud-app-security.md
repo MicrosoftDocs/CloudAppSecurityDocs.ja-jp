@@ -1,25 +1,14 @@
 ---
 title: アマゾン ウェブ サービスを Cloud App Security に接続する
 description: この記事では、API コネクタを使用して AWS アプリを Cloud App Security に接続して、使用状況を表示および制御する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/24/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 62dfd007a54df2365aff04178d172257e3d15b44
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: a6ca3938c93e9b1eda2bd518c48443bbad46ad70
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881511"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313289"
 ---
 # <a name="connect-aws-to-microsoft-cloud-app-security"></a>AWS を Microsoft Cloud App Security に接続する
 
@@ -134,7 +123,7 @@ Cloud App Security 接続には、次の AWS の一方または両方を接続�
 
         ![AWS 監査コネクタ名](media/connect-aws-name.png)
 
-    1. [アマゾン ウェブ サービスに接続] ページで、 **[Security auditing]\(セキュリティ監査\)** を選択し、.csv ファイルの**アクセス キー**と**秘密鍵**を関連フィールドに貼り付けて、 **[接続]** をクリックします。
+    1. [アマゾン ウェブ サービスに接続] ページで、 **[Security auditing]\(セキュリティ監査\)** を選択し、.csv ファイルの **アクセス キー** と **秘密鍵** を関連フィールドに貼り付けて、 **[接続]** をクリックします。
 
         ![新しいコネクタ用に AWS アプリのセキュリティ監査を接続する](media/aws-connect-app-audit.png "AWS アプリのセキュリティ監査を接続する")
 
@@ -144,7 +133,7 @@ Cloud App Security 接続には、次の AWS の一方または両方を接続�
 
         ![セキュリティ監査の編集リンクを示す [接続アプリ] ページのスクリーンショット](media/aws-connect-app-edit-audit.png)
 
-    1. [アマゾン ウェブ サービスに接続] ページで、.csv ファイルの**アクセス キー**と**秘密鍵**を関連フィールドに貼り付けて、 **[接続]** をクリックします。
+    1. [アマゾン ウェブ サービスに接続] ページで、.csv ファイルの **アクセス キー** と **秘密鍵** を関連フィールドに貼り付けて、 **[接続]** をクリックします。
 
         ![既存のコネクタ用に AWS アプリのセキュリティ監査を接続する](media/aws-connect-app-edit-audit-creds.png "AWS アプリのセキュリティ監査を接続する")
 
@@ -205,7 +194,7 @@ AWS のセキュリティ構成を接続する前に、セキュリティおよ�
 
     ![AWS でのユーザーのアクセス許可](media/aws-user-permissions.png "AWS でユーザーのアクセス許可を確認する")
 
-1. 成功メッセージが表示されたら、 **[.csv をダウンロード]** をクリックして、**アクセス キー ID** と **秘密アクセス キー**のコピーを保存します。これは、後で必要になります。
+1. 成功メッセージが表示されたら、 **[.csv をダウンロード]** をクリックして、**アクセス キー ID** と **秘密アクセス キー** のコピーを保存します。これは、後で必要になります。
 
     ![AWS で .csv をダウンロードする](media/aws-download-csv.png "AWS で .csv をダウンロードする")
 
@@ -227,7 +216,7 @@ AWS のセキュリティ構成を接続する前に、セキュリティおよ�
 
         ![AWS のセキュリティ構成のコネクタ名](media/aws-connect-name.png)
 
-1. **[アカウントの詳細]** ページで、.csv ファイルの**アクセス キー**と**秘密鍵**を対応するフィールドに貼り付けて、 **[次へ]** をクリックします。
+1. **[アカウントの詳細]** ページで、.csv ファイルの **アクセス キー** と **秘密鍵** を対応するフィールドに貼り付けて、 **[次へ]** をクリックします。
 
     ![AWS アカウントの接続の詳細](media/aws-connect-account-details.png)
 

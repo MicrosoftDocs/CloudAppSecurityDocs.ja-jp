@@ -1,21 +1,14 @@
 ---
 title: ファイルのアップロードの開始 - Cloud Discovery API
 description: この記事では、Cloud App Security の Cloud Discovery API の upload_url 要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/21/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: e9ce97ebd5a9bb3e57b6ed6d0a54d91ad54d6039
-ms.sourcegitcommit: ce4c0c03292c75a515938433951bdb78270d75a3
+ms.openlocfilehash: bc46d4c1fcfd88c751e94eb06c0d858ff2b2c4ba
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92333589"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314445"
 ---
 # <a name="initiate-file-upload---cloud-discovery-api"></a>ファイルのアップロードの開始 - Cloud Discovery API
 

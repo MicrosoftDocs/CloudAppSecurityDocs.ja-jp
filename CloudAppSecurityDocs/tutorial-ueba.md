@@ -1,21 +1,14 @@
 ---
 title: 危険性の高いユーザーを調査する | Microsoft Docs
 description: このチュートリアルでは、ハイブリッド環境全体で、Microsoft Defender for Identity を統合することで Microsoft Cloud App Security で危険性の高いユーザーを調査するプロセスについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
 ms.date: 11/08/2020
 ms.topic: tutorial
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.reviewer: dannyk
-ms.suite: ems
-ms.openlocfilehash: b8dace138aeab11fdd334514bf0dd8850a983f37
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: 9ef0555a8fc7fa82a87fd7238d0abc2ec85e4540
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94371314"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315839"
 ---
 # <a name="tutorial-investigate-risky-users"></a>チュートリアル:危険性の高いユーザーを調査する
 
@@ -110,7 +103,7 @@ Cloud App Security では、リスクを測定するために以下が使用さ�
 * Cloud App Security ポータルから直接、 **[ユーザー アクション]** コントロールをクリックし、ユーザーによるサインインの再試行、ユーザーの停止、またはユーザーの侵害の確認を行う必要があるかどうかを選択します。
 
 * ID が侵害された場合、長さと複雑さに関するベスト プラクティス ガイドラインに基づいてパスワードをリセットするようにユーザーに依頼できます。
-* アラートをドリルダウンした結果、そのアクティビティによってアラートがトリガーされるべきではなかったことがわかった場合は、 [アクティビティ ドロワー](activity-filters.md)で **[フィードバックの送信]** リンクをクリックしてください。お客様の組織のことを考慮に入れながら、アラート システムの微調整を確実に実施いたします。
+* アラートをドリルダウンした結果、そのアクティビティによってアラートがトリガーされるべきではなかったことがわかった場合は、[アクティビティ ドロワー](activity-filters.md)で **[フィードバックの送信]** リンクをクリックしてください。お客様の組織のことを考慮に入れながら、アラート システムの微調整を確実に実施いたします。
 * 問題を修復した後は、アラートを閉じます。
 
 ## <a name="see-also"></a>関連項目

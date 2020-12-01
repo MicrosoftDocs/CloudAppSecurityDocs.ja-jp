@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security を Menlo Security と統合する
 description: この記事では、Microsoft Cloud App Security を Menlo Security と統合し、シームレスな Cloud Discovery と、承認されていないアプリの自動ブロックを実現する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/09/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 79d4e986632e33475be75a808244dc6a61226df5
-ms.sourcegitcommit: 288f3011c0ce0e5f2d8cbaa9057a63be044465f7
+ms.openlocfilehash: 675a45375ef1e4a09c9a1369698512d9eac1f92f
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "94377758"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311147"
 ---
 # <a name="integrate-cloud-app-security-with-menlo-security"></a>Cloud App Security を Menlo Security と統合する
 

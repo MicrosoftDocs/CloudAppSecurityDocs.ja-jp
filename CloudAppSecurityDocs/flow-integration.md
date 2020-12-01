@@ -1,24 +1,14 @@
 ---
 title: Microsoft Power Automate を Microsoft Cloud App Security と統合してカスタム アラートを自動化する
 description: この記事では、Microsoft Power Automate と Cloud App Security を統合することによって、カスタム アラートの自動化を実現する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 04/27/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.openlocfilehash: 6ea53492ebb2b3edbc08ebd7568b809953e8a6cb
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 015657815c2fde3904807363c9e0e6db3d45b3a5
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878213"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314921"
 ---
 # <a name="integrate-with-microsoft-power-automate-for-custom-alert-automation"></a>カスタム アラートの自動化のために Microsoft Power Automate と統合する
 

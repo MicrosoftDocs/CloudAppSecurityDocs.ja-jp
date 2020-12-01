@@ -1,25 +1,14 @@
 ---
-title: SIEM 統合のトラブルシューティング - Cloud App Security
+title: SIEM 統合のトラブルシューティング
 description: この記事では、SIEM を Cloud App Security に接続した場合に発生する可能性のある問題のリストと、それぞれに対する解決策を提供します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/29/2020
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: c7d2a5357273bcefd74db69208b874b21e8169a0
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: f2604ca6a74c70eca40cd2dbbe947e2dcafd7a14
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186191"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315856"
 ---
 # <a name="troubleshooting-the-siem-agent"></a>SIEM エージェントのトラブルシューティング
 
@@ -40,14 +29,14 @@ SIEM エージェントによるアクティビティ配信の問題に関する
 
 1. Cloud App Security ポータルで、[セキュリティ拡張機能] ページにアクセスします。
 1. [SIEM エージェント] タブで、[[新しい SIEM エージェントの追加]](siem.md) をクリックし、ウィザードを使用して、SIEM への接続の詳細を構成します。 たとえば、次の構成で新しい SIEM エージェントを作成できます。
-    - **Protocol** :TCP
+    - **Protocol**:TCP
     - **[リモート ホスト]** : ポートをリッスンできる任意のデバイス。 たとえば、シンプルなソリューションでは、エージェントと同じデバイスを使用し、リモート ホストの IP アドレスを 127.0.0.1 に設定します
     - **[ポート]** :リモート ホスト デバイスでリッスンできる任意のポート
 
     > [!NOTE]
     > このエージェントは、既存のエージェントと並行して実行する必要があるため、ネットワーク構成が同じではない可能性があります。
 
-1. ウィザードで、 **アクティビティのみ** が含まれるようにデータ型を構成し、元の SIEM エージェント (存在する場合) で使用されていたのと同じアクティビティ フィルターを適用します。
+1. ウィザードで、**アクティビティのみ** が含まれるようにデータ型を構成し、元の SIEM エージェント (存在する場合) で使用されていたのと同じアクティビティ フィルターを適用します。
 1. 設定を保存します。
 1. 生成されたトークンを使用して、新しいエージェントを実行します。
 

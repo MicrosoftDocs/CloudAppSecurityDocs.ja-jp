@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security を iboss と統合する
 description: この記事では、Microsoft Cloud App Security を iboss Secure Cloud Gateway と統合し、シームレスな Cloud Discovery と、承認されていないアプリの自動ブロックを実現する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 2/2/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 69b70614bf62f91c6d0d9743e863239217542f1e
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 725d258a18945f22a517dc030416e20b27db6b87
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881044"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314802"
 ---
 # <a name="integrate-cloud-app-security-with-iboss"></a>Cloud App Security を iboss と統合する
 

@@ -1,21 +1,14 @@
 ---
 title: 問題のないものを閉じる - Alerts API
 description: この記事では、Cloud App Security の Alerts API の、アラートを無害として一括で閉じる要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/20/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: aa28010c10702b917ebbfc3996b52161e0c66a46
-ms.sourcegitcommit: ee40375712d2cc4090bd4e9cb58df486ec02aa62
+ms.openlocfilehash: cf137f0476b588e66493fabde7bfae354cf41f15
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92327065"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314666"
 ---
 # <a name="close-benign---alerts-api"></a>問題のないものを閉じる - Alerts API
 
@@ -35,7 +28,7 @@ POST /api/v1/alerts/close_benign/
 | --- | --- |
 | filters | 要求に対してすべての検索フィルターを使用してオブジェクトをフィルター処理します。詳細については、[アラートのフィルター](api-alerts.md#filters)に関するページを参照してください |
 | コメント | アラートが無視される理由に関するコメント |
-| reasonId | アラートを無害として閉じる理由。 理由を指定することで、時間の経過と共に検出の精度を高めることができます。 指定できる値は、次のとおりです。<br /><br />**2** :実際の重要度が低い<br />**4** :その他<br />**5** :エンド ユーザーにより確認された<br />**6** :テストによってトリガーされた |
+| reasonId | アラートを無害として閉じる理由。 理由を指定することで、時間の経過と共に検出の精度を高めることができます。 指定できる値は、次のとおりです。<br /><br />**2**:実際の重要度が低い<br />**4**:その他<br />**5**:エンド ユーザーにより確認された<br />**6**:テストによってトリガーされた |
 | sendFeedback | このアラートに関するフィードバックが提供されることを示すブール値。 既定値: false |
 | feedbackText | フィードバックのテキスト |
 | allowContact | ユーザーに連絡するための同意が与えられることを示すブール値。 既定値: false |

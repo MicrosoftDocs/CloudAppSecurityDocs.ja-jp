@@ -1,25 +1,14 @@
 ---
 title: Microsoft データ分類サービスを使用した Cloud App Security のコンテンツ検査
 description: この記事では、Microsoft データ分類サービスを使用して DLP のコンテンツ検査を実行するときに Cloud App Security が従うプロセスについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/24/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 7cc2438fa97ab50c047c870c7aa5d22be40b789b
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 49eecb4cd91a27ba221f859335ad52b62b77bea8
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880729"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311793"
 ---
 # <a name="microsoft-data-classification-services-integration"></a>Microsoft データ分類サービスの統合
 
@@ -32,12 +21,12 @@ Microsoft Cloud App Security では、Microsoft データ分類サービスを�
 
 ## <a name="enable-content-inspection-with-data-classification-services"></a>データ分類サービスによるコンテンツ検査を有効にする
 
-**Microsoft データ分類サービス**を使用するように **[検査方法]** を設定するオプションがあり、追加の構成は必要ありません。 このオプションは、Microsoft Cloud App Security でファイルのデータ リーク防止ポリシーを作成する場合に便利です。
+**Microsoft データ分類サービス** を使用するように **[検査方法]** を設定するオプションがあり、追加の構成は必要ありません。 このオプションは、Microsoft Cloud App Security でファイルのデータ リーク防止ポリシーを作成する場合に便利です。
 
 1. [ファイル ポリシー](data-protection-policies.md)のページの **[検査方法]** で、 **[データ分類サービス]** を選択します。 また、[セッション ポリシー](session-policy-aad.md)のページの **[検査方法]** で、 **[ファイル ダウンロードの制御 (検査を含む)]** を設定することもできます。
 
     ![データ分類サービスの設定](media/dcs-enable.png)
-2. 条件の**いずれか**または**すべて**のどちらが満たされたときに、ポリシーを適用するかを選択します。
+2. 条件の **いずれか** または **すべて** のどちらが満たされたときに、ポリシーを適用するかを選択します。
 3. **[検査の種類を選択]** で、 **[機密性の高い情報の種類]** を選択します。
 
     ![データ分類サービスの検査の種類の選択](media/dcs-sensitive-information-type.png)

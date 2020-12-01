@@ -1,21 +1,14 @@
 ---
 title: Cloud App Security REST API
 description: この記事では、HTTPS を使用して Cloud App Security を操作する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: cb66e8d45d74d57adf71a095851c40087d102ce4
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 468d039f6bc620616e86b98b4967a055c7d0e380
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880550"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313986"
 ---
 # <a name="cloud-app-security-rest-api"></a>Cloud App Security REST API
 
@@ -36,7 +29,7 @@ Cloud App Security API を使用するには、最初にテナントから API �
 
 テナントに対する Cloud App Security ポータルの URL を取得するには、次の手順のようにします。
 
-1. Cloud App Security ポータルで、メニュー バーの**疑問符アイコン**をクリックします。 次に、 **[バージョン情報]** を選択します。
+1. Cloud App Security ポータルで、メニュー バーの **疑問符アイコン** をクリックします。 次に、 **[バージョン情報]** を選択します。
 
     ![[バージョン情報] をクリックする](media/about-menu.png)
 
@@ -83,7 +76,7 @@ curl -XGET -H "Authorization:Token <your_token_key>" "https://<tenant_id>.<tenan
 
 次の表では、サポートされているフィールドの型について説明します。
 
-|フィールド|[説明]|
+|フィールド|説明|
 |---|---|
 |string|テキスト文字列|
 |boolean|true または false を表すブール値|

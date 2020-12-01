@@ -1,21 +1,14 @@
 ---
 title: Cloud App Security Cloud Discovery API
 description: この記事では、Cloud Discovery API の使用方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: cdf70db4edd8b476a1915b9f54459a8d8b1a7bec
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: bf02c6a77cfaf165c4ae064c77012228846c44cf
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879773"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314309"
 ---
 # <a name="cloud-discovery-api"></a>Cloud Discovery API
 

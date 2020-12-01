@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security のサポートとトラブルシューティングに関する情報
 description: この記事では、Microsoft Cloud App Security のサポートおよびトラブルシューティングのオプションについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/14/2019
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 938631506ee5a56ccc4b2349e560615169e995c2
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 5a7e3a184b99dcc3c1e1d763566c73cf3d9d700f
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878528"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315380"
 ---
 # <a name="support-and-troubleshooting-microsoft-cloud-app-security"></a>Microsoft Cloud App Security のサポートとトラブルシューティング
 
@@ -74,7 +63,7 @@ Azure portal 内からサポート要求を表示できます。 これを実行
 
 1. 管理者の資格情報を使用して Azure ([https://portal.azure.com](https://portal.azure.com/)) にサインインし、 **[?]** を選択します。 アイコンを選択し、 **[ヘルプとサポート]** を選択して、[Azure のヘルプとサポート](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview)のページに移動します。
 
-2. **ヘルプとサポート**のページでは、**最近のサポート要求**の一覧を表示し、さらにそれらを選択して詳細を確認することができます。
+2. **ヘルプとサポート** のページでは、**最近のサポート要求** の一覧を表示し、さらにそれらを選択して詳細を確認することができます。
 
 ## <a name="troubleshooting-microsoft-cloud-app-security-status"></a>Microsoft Cloud App Security の状態のトラブルシューティング
 

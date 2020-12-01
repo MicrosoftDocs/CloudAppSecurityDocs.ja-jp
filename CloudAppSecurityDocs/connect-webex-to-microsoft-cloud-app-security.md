@@ -1,25 +1,14 @@
 ---
 title: Webex Teams を Cloud App Security に接続する
 description: この記事では、お使いの Webex Teams アプリを、使用状況を表示および制御する API コネクタを使用して、Cloud App Security に接続する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 04/16/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 6b995b6ec4e7ba4cf04407df9f4badb08b303931
-ms.sourcegitcommit: 9391853beca4bd62e0f05bd457faac97e7dec646
+ms.openlocfilehash: 32e440f86ad78537066336f339eb41fb6bb5461f
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93278514"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312473"
 ---
 # <a name="connect-cisco-webex-teams-to-microsoft-cloud-app-security"></a>Cisco Webex Teams を Microsoft Cloud App Security に接続する
 

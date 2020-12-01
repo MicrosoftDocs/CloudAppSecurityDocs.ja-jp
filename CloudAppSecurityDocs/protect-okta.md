@@ -1,18 +1,14 @@
 ---
 title: Cloud App Security は Okta 環境の保護にどのように役立つか
 description: この記事では、API コネクタを使用して Okta アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 12/04/2019
-ms.collection: M365-security-compliance
-ms.openlocfilehash: 4d62ee849743ebb520460844e22d8ef213efd2e8
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: aac67b4c39f95ffea36ac20a4cd0c10abb0054c3
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880458"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315210"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-okta-environment"></a>Cloud App Security は Okta 環境の保護にどのように役立つか
 

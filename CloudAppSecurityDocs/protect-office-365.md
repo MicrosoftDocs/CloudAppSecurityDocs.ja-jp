@@ -1,18 +1,14 @@
 ---
 title: Cloud App Security は Office 365 環境の保護にどのように役立つか
 description: この記事では、API コネクタを使用して Office 365 アプリを Cloud App Security に接続し、使用状況を可視化して制御することのベネフィットについて説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 12/04/2019
-ms.collection: M365-security-compliance
-ms.openlocfilehash: 79d79cdbb62881b519c66718dbd66df563cfe676
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: baf1bfac6043850f2f3bacdcfac0a98fe60ca1fc
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877141"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310756"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-office-365-environment"></a>Cloud App Security は Office 365 環境の保護にどのように役立つか
 
@@ -36,7 +32,7 @@ Office 365 コネクタを使用すると、次の製品に対する保護が提
 - Yammer
 
 > [!NOTE]
-> Cloud App Security は [Office 365 の監査ログ](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?view=o365-worldwide&preserve-view=true)と直接統合されて、PowerApps、Forms、Sway、Stream など、**サポートされているすべてのサービス**からすべての監査イベントを受信します。
+> Cloud App Security は [Office 365 の監査ログ](/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log?view=o365-worldwide&preserve-view=true)と直接統合されて、PowerApps、Forms、Sway、Stream など、**サポートされているすべてのサービス** からすべての監査イベントを受信します。
 
 ## <a name="main-threats"></a>主な脅威
 
@@ -49,10 +45,10 @@ Office 365 コネクタを使用すると、次の製品に対する保護が提
 - ランサムウェア
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
-- [クラウドに格納されている規制対象の機密データの検出、分類、ラベル付け、保護を行う](best-practices.md#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
+- [クラウドに格納されている規制対象の機密データを検出、分類、ラベル付け、保護する](best-practices.md#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
 - [環境にアクセスできる OAuth アプリを検出して管理する](manage-app-permissions.md)
 - [クラウドに格納されているデータに DLP ポリシーとコンプライアンス ポリシーを適用する](best-practices.md#enforce-dlp-and-compliance-policies-for-data-stored-in-the-cloud)
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)

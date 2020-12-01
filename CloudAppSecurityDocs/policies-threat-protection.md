@@ -1,20 +1,14 @@
 ---
-title: 脅威防止ポリシー - Cloud App Security
+title: 脅威保護に関するポリシー
 description: このトピックでは、Cloud App Security で多数の脅威防止ポリシーを構成する手順の概要について説明します。
-author: shsagir
-ms.author: shsagir
 ms.date: 11/08/2020
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 50e9e52ba245520f25f3b014d6fc63325dd1dbb9
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: 0bb2b12a528569a8a444a2273ed34154b996804d
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94371118"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315329"
 ---
 # <a name="threat-protection-policies"></a>脅威保護に関するポリシー
 

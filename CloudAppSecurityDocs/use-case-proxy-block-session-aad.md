@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security アプリの条件付きアクセス制御によりアンマネージド デバイスからのダウンロードをブロックする
 description: このチュートリアルでは、Azure AD リバース プロキシ機能を使用して、アンマネージド デバイスによる機密データのダウンロードから組織を保護するシナリオについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/31/2020
 ms.topic: tutorial
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 3dec3c1729d63649a754098ace7f638ccc3029bc
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 7817b7309483556b961eb00d6c267249a1ff07c5
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93185939"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315703"
 ---
 # <a name="tutorial-block-download-of-sensitive-information"></a>チュートリアル:機密情報のダウンロードをブロックする
 
@@ -70,7 +59,7 @@ Cloud App Security セッション ポリシーを使用すると、デバイス
 
 2. **[ポリシー]** ページで、 **[Create policy]\(ポリシーを作成する\)** に続けて **[セッション ポリシー]** をクリックします。
 
-3. **[セッション ポリシーの作成]** ページで、ポリシーの名前と説明を入力します。 たとえば、 **アンマネージド デバイスで Salesforce からのダウンロードをブロックする** などです。
+3. **[セッション ポリシーの作成]** ページで、ポリシーの名前と説明を入力します。 たとえば、**アンマネージド デバイスで Salesforce からのダウンロードをブロックする** などです。
 
 4. **[ポリシー重要度]** および **[カテゴリ]** を割り当てます。
 

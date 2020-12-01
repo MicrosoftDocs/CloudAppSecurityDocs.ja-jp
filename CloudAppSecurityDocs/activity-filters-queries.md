@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security のアクティビティのフィルターとクエリの操作
 description: この記事では、Cloud App Security のアクティビティのフィルターとクエリの一覧を示し、それらを使用する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 8acd6889c8c5f3a1a8a1c4610b2ba990ec4cd13c
-ms.sourcegitcommit: 1349f6d9c8f4994cd2ec722d3def227153d93397
+ms.openlocfilehash: b3557c67ea4ac899f2a9c96525b26c039cd52c47
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "94551631"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311181"
 ---
 # <a name="activity-filters-and-queries"></a>アクティビティ フィルターとクエリ
 

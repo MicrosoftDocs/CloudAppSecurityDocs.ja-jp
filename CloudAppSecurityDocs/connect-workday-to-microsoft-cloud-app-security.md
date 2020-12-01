@@ -1,25 +1,14 @@
 ---
 title: Workday を Cloud App Security (プレビュー) に接続する
 description: この記事では、お使いの Workday アプリを、使用状況を表示および制御する API コネクタを使用して、Cloud App Security に接続する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/10/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: c849aace75d1d4268a44e02feaecdcd032a53888
-ms.sourcegitcommit: 98f1b892294beb74157cb3452aa5d489e78bbef4
+ms.openlocfilehash: 5b9a1e75ab20999d36f18500dfb6037cdf1aeabd
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94424539"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96312575"
 ---
 # <a name="connect-workday-to-microsoft-cloud-app-security"></a>Workday を Microsoft Cloud App Security に接続する
 

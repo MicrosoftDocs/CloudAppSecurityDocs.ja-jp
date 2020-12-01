@@ -1,19 +1,14 @@
 ---
 title: Cloud App Security は GitHub Enterprise 環境の保護にどのように役立つか
 description: この記事では、API コネクタを使用して GitHub Enterprise アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 06/23/2020
-ROBOTS: NOINDEX
-ms.collection: M365-security-compliance
-ms.openlocfilehash: f9a9e8782e331e472d76da768366bab3c2278316
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: be2be8e2b9b7616e2effb3bbec0b977df4b07fa3
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877170"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310705"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-github-enterprise-environment"></a>Cloud App Security は GitHub Enterprise 環境の保護にどのように役立つか
 
@@ -30,7 +25,7 @@ GitHub Enterprise Cloud を Cloud App Security に接続すると、ユーザー
 - セキュリティ認識の不足
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [フォレンジック調査のためにアクティビティの監査証跡を使用する](best-practices.md#use-the-audit-trail-of-activities-for-forensic-investigations)

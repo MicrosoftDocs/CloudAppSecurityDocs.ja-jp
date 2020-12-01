@@ -1,21 +1,14 @@
 ---
 title: フィードバック - Activities API
 description: この記事では、Cloud App Security の Activities API のフィードバック要求について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 03/27/2020
 ms.topic: reference
-ms.collection: M365-security-compliance
-ms.service: cloud-app-security
-ms.suite: ems
-ms.openlocfilehash: b9d073d3b39fbfeee7ee43b18ab05ddf2969c7bf
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: f21dbee6d43236710f6a5846962c8444c52cddc7
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880086"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314734"
 ---
 # <a name="feedback-on-activity---activities-api"></a>アクティビティに関するフィードバック - Activities API
 
