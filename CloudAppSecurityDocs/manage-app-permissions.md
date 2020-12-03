@@ -1,25 +1,14 @@
 ---
-title: アクセス許可を取得するサード パーティのクラウド OAuth アプリを制御する - Cloud App Security
+title: アクセス許可を取得するサード パーティのクラウド OAuth アプリを制御する
 description: この記事では、サードパーティの OAuth アプリを制御、禁止、許可する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 08/05/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 0f6aebe10c147a6be1250ce5f15a208570947edc
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: e83f65e562fc0a587a7e6169acae6d3930d03dce
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879261"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315023"
 ---
 # <a name="manage-oauth-apps"></a>OAuth アプリの管理
 
@@ -61,7 +50,7 @@ Cloud App Security ポータルで、 **[調査]** 、 **[OAuth アプリ]** の
 
 ## <a name="ban-or-approve-an-app"></a>アプリの禁止または承認
 
-1. **[OAuth アプリ]** ページで、アプリをクリックして**アプリ ドロワー**を開くと、アプリとそれに付与されたアクセス許可の詳細を確認できます。
+1. **[OAuth アプリ]** ページで、アプリをクリックして **アプリ ドロワー** を開くと、アプリとそれに付与されたアクセス許可の詳細を確認できます。
 
     - **[アクセス許可]** をクリックして、アプリに付与されたアクセス許可の完全な一覧が表示されます。
     - **[コミュニティの利用状況]** では、アプリが他の組織でどのくらい一般的であるかを確認できます。
@@ -98,9 +87,9 @@ G Suite と Salesforce の場合、アプリに対するアクセス許可を取
 
 OAuth アプリのクエリは、 **[基本]** ビューまたは **[詳細]** ビューのいずれかで実行できます。 1 つまたは複数のドロップダウンから値を選択すると、特定のアプリが [基本] ビューに表示されます。 [詳細] ビューで、 **[フィルターの選択]** ドロップダウン使用して検索を絞り込みます。 選択した値に演算子 (等号または不等号) を追加し、クエリを完成されます。
 
-- クエリをさらに絞り込むには、**フィルターの追加**アイコンを選択してフィルターを追加します。 フィルターが自動的に適用され、アプリの一覧が更新されます。
+- クエリをさらに絞り込むには、**フィルターの追加** アイコンを選択してフィルターを追加します。 フィルターが自動的に適用され、アプリの一覧が更新されます。
 
-- フィルターを削除するには、フィルターの横にある**フィルターの削除**アイコンを選択します。
+- フィルターを削除するには、フィルターの横にある **フィルターの削除** アイコンを選択します。
 
 ## <a name="oauth-app-auditing"></a>OAuth アプリの監査
 

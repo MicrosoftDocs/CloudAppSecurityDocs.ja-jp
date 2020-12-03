@@ -1,18 +1,14 @@
 ---
 title: Cloud App Security は ServiceNow 環境の保護にどのように役立つか
 description: この記事では、API コネクタを使用して ServiceNow アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 12/04/2019
-ms.collection: M365-security-compliance
-ms.openlocfilehash: 7a8838ed08b6ffdc3949234204a957f2a28a0eeb
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: 7c317ec64859b8bc1ed56bb7ebb6e815aa035595
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880426"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315193"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-servicenow-environment"></a>Cloud App Security は ServiceNow 環境の保護にどのように役立つか
 
@@ -20,7 +16,7 @@ ms.locfileid: "90880426"
 
 主要な CRM クラウド プロバイダーである ServiceNow では、顧客、内部プロセス、インシデント、および組織内のレポートに関する大量の機密情報が組み込まれます。 ビジネスに不可欠なアプリである ServiceNow は、組織内のユーザーのほか、組織外のユーザー (パートナーや請負業者など) によっても、さまざまな目的でアクセスされ使用されます。 多くの場合、ServiceNow にアクセスするユーザーの大部分はセキュリティに対する意識が低く、機密情報を誤って共有することによってそれを危険にさらしてしまう可能性があります。 他の例では、悪意のあるアクターが最も機密性の高い顧客関連資産にアクセスできる可能性があります。
 
-ServiceNow を Cloud App Security に接続すると、ユーザーのアクティビティに関するより深い分析情報が得られ、機械学習ベースの異常検出を使用した脅威検出、機密の顧客情報が ServiceNow クラウドにアップロードされたタイミングの特定などの情報保護検出を行えるようになります。
+ServiceNow を Cloud App Security に接続すると、ユーザーのアクティビティに関するより深い分析情報が得られ、機械学習ベースの異常検出を使用した脅威検出、顧客の機密情報が ServiceNow クラウドにアップロードされる場合の特定などの情報保護検出を行えるようになります。
 
 ## <a name="main-threats"></a>主な脅威
 
@@ -30,7 +26,7 @@ ServiceNow を Cloud App Security に接続すると、ユーザーのアクテ�
 - ランサムウェア
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
 - [クラウドに格納されている規制対象の機密データを検出、分類、ラベル付け、保護する](best-practices.md#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)

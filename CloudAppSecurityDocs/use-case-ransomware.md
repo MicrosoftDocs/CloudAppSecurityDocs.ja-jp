@@ -1,25 +1,14 @@
 ---
-title: 脅威保護シナリオの概要 - Cloud App Security
+title: 脅威保護シナリオの概要
 description: このトピックでは、クラウド環境内の脅威から組織を保護するシナリオについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/14/2018
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 63d4e269287f8f8f58722e11fe3b80cfe3252e5d
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 0476e4ac0066e3f3584b12646e9c0143b9d64e04
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90878436"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315686"
 ---
 # <a name="protecting-your-organization-from-ransomware"></a>ランサムウェアから組織を保護する
 

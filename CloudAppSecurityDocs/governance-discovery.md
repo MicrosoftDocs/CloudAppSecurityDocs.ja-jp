@@ -1,31 +1,20 @@
 ---
-title: 検出されたアプリのブロック - Cloud App Security
+title: 検出されたアプリのブロック
 description: この記事では、検出されたアプリのブロック スクリプトをエクスポートする手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/12/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: dc6eb398526c416af306881d9fd17c71992b8c86
-ms.sourcegitcommit: 5367d8fdf99d61719a395728f2ef4b014604e3bc
+ms.openlocfilehash: ee1deba23e7f2eb8ae002af414094b8912a03ac8
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/08/2020
-ms.locfileid: "94370925"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314853"
 ---
 # <a name="govern-discovered-apps"></a>検出されたアプリの管理
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
-環境内で検出されたアプリの一覧を確認したら、次の方法で、安全なアプリを承認する ( **承認された** ) か、または不要なアプリを禁止する ( **承認されていない** ) ことによって、環境をセキュリティで保護できます。
+環境内で検出されたアプリの一覧を確認したら、次の方法で、安全なアプリを承認する (**承認された**) か、または不要なアプリを禁止する (**承認されていない**) ことによって、環境をセキュリティで保護できます。
 
 ## <a name="sanctioningunsanctioning-an-app"></a><a name="BKMK_SanctionApp"></a> アプリの承認/非承認
 
@@ -44,7 +33,7 @@ ms.locfileid: "94370925"
 
 Cloud App Security により、既存のオンプレミスのセキュリティ アプライアンスを使用して、承認されていないアプリへのアクセスをブロックできます。 専用ブロック スクリプトを生成し、それをアプライアンスにインポートできます。 このソリューションでは、組織のすべての Web トラフィックをプロキシにリダイレクトする必要はありません。
 
-1. Cloud Discovery ダッシュボードで、ブロックするすべてのアプリに、 **承認されていない** とタグ付けします。
+1. Cloud Discovery ダッシュボードで、ブロックするすべてのアプリに、**承認されていない** とタグ付けします。
 
     ![承認されていないとタグ付けする](media/tag-as-unsanctioned.png)
 

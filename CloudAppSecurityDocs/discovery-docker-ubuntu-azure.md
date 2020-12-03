@@ -1,25 +1,14 @@
 ---
 title: Azure の Docker を使用したログの自動アップロードを構成する
 description: この記事では、Azure の Linux 上の Docker を使用して、Cloud App Security での継続的レポートのためにログの自動アップロードを構成する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/02/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 0b3dcf585f394b3e2752ac46ea799a34a13373db
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 0e34ebfc6d4afcb8ecf0967ddecc7b8dbd0b885f
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880345"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311878"
 ---
 # <a name="docker-on-linux-in-azure"></a>Azure の Linux 上の Docker
 
@@ -93,13 +82,13 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 
     1. **[ログ コレクターを追加]** をクリックします。
     1. ログ コレクターに **[名前]** を付けます。
-    1. Docker のデプロイに使用するマシンの**ホスト IP アドレス**を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
-    1. コレクターに接続するすべての**データ ソース**を選択し、 **[更新]** をクリックして構成内容を保存します。  
+    1. Docker のデプロイに使用するマシンの **ホスト IP アドレス** を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
+    1. コレクターに接続するすべての **データ ソース** を選択し、 **[更新]** をクリックして構成内容を保存します。  
     ![データ ソースの選択](media/ubuntu2.png)
 
-1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを**コピー**します。 クリップボードにコピー アイコンを使用できます。 ![クリップボードにコピー アイコン](media/copy-icon.png)
+1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを **コピー** します。 クリップボードにコピー アイコンを使用できます。 ![クリップボードにコピー アイコン](media/copy-icon.png)
 
-1. 予想されるデータ ソースの構成を**エクスポート**します。 この構成は、アプライアンスでログのエクスポートをどのように設定するかを示しています。
+1. 予想されるデータ ソースの構成を **エクスポート** します。 この構成は、アプライアンスでログのエクスポートをどのように設定するかを示しています。
 
     ![ログ コレクターを作成する](media/windows7.png)
 
@@ -107,7 +96,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
     >
     > * 1 つのログ コレクターで複数のデータ ソースを処理できます。
     > * Cloud App Security と通信するようにログ コレクターを構成するときに情報が必要になるため、画面の内容をコピーします。 Syslog を選択した場合、この情報には、Syslog リスナーがリッスンするポートに関する情報が含まれます。
-    > * FTP を使用して初めてログ データを送信するユーザーについては、FTP ユーザーのパスワードを変更することをお勧めします。 詳細については、「[FTP のパスワードの変更](log-collector-ftp.md#changing-the-ftp-password)」をご覧ください。
+    > * FTP を使用して初めてログ データを送信するユーザーについては、FTP ユーザーのパスワードを変更することをお勧めします。 詳細については、「[FTP のパスワードの変更](log-collector-advanced-management.md#changing-the-ftp-password)」をご覧ください。
 
 ### <a name="step-2--deployment-of-your-machine-in-azure"></a>手順 2 – Azure でのマシンのデプロイ
 
@@ -122,7 +111,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
     1. **[受信セキュリティ規則]** にアクセスし、 **[追加]** をクリックします。![受信セキュリティ規則の追加](media/ubuntu-azure.png)
     1. 次の規則を ( **[詳細設定]** モードで) 追加します。
 
-    |名前|宛先ポート範囲|プロトコル|source|Destination|
+    |名前|宛先ポート範囲|Protocol|source|Destination|
     |----|----|----|----|----|
     |caslogcollector_ftp|21|TCP|<アプライアンスの IP アドレスのサブネット>|任意|
     |caslogcollector_ftp_passive|20000-20099|TCP|<アプライアンスの IP アドレスのサブネット>|任意|
@@ -150,7 +139,7 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 1. コマンドを実行して、ログ コレクターを展開します。
 
     ```bash
-    (echo db3a7c73eb7e91a0db53566c50bab7ed3a755607d90bb348c875825a7d1b2fce) | docker run --name MyLogCollector -p 21:21 -p 20000-20099:20000-20099 -e "PUBLICIP='192.168.1.1'" -e "PROXY=192.168.10.1:8080" -e "CONSOLE=mod244533.us.portal.cloudappsecurity.com" -e "COLLECTOR=MyLogCollector" --security-opt apparmor:unconfined --cap-add=SYS_ADMIN --restart unless-stopped -a stdin -i microsoft/caslogcollector starter
+    (echo db3a7c73eb7e91a0db53566c50bab7ed3a755607d90bb348c875825a7d1b2fce) | docker run --name MyLogCollector -p 21:21 -p 20000-20099:20000-20099 -e "PUBLICIP='192.168.1.1'" -e "PROXY=192.168.10.1:8080" -e "CONSOLE=mod244533.us.portal.cloudappsecurity.com" -e "COLLECTOR=MyLogCollector" --security-opt apparmor:unconfined --cap-add=SYS_ADMIN --restart unless-stopped -a stdin -i mcr.microsoft.com/mcas/logcollector starter
     ```
 
     ![Ubuntu プロキシ](media/ubuntu-proxy.png)
@@ -190,6 +179,6 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 ## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
-> [ログ コレクターの FTP 構成](log-collector-ftp.md)
+> [ログ コレクターの FTP 構成を変更する](log-collector-advanced-management.md)
 
 [!INCLUDE [Open support ticket](includes/support.md)]

@@ -1,25 +1,14 @@
 ---
-title: Cloud Discovery エラーのトラブルシューティング - Cloud App Security
+title: Cloud Discovery エラーのトラブルシューティング
 description: この記事では、Cloud Discovery の頻繁なエラーと、それぞれの推奨される解決策の一覧を示します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 04/19/2019
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 7f693684e34892dc70a09f28a18fd4035993b7f1
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 96ff00be024688a025d30c03dca8194a99413038
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186246"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315941"
 ---
 # <a name="troubleshooting-cloud-discovery"></a>Cloud Discovery のトラブルシューティング
 
@@ -44,7 +33,7 @@ Microsoft Defender ATP と Cloud App Security を統合した場合に、統合�
 
 |エラー|説明|解決策|
 |----|----|----|
-|サポートされていないファイルの種類|アップロードされたファイルは有効なログ ファイルではありません (画像ファイルなど)。|ファイアウォールまたはプロキシから直接エクスポートされた **テキスト** 、**zip、または **gzip** ファイルをアップロードします。|
+|サポートされていないファイルの種類|アップロードされたファイルは有効なログ ファイルではありません (画像ファイルなど)。|ファイアウォールまたはプロキシから直接エクスポートされた **テキスト**、**zip、または **gzip** ファイルをアップロードします。|
 |ログの形式が一致していません|アップロードしたログの形式が、このデータ ソースに予期されるログの形式と一致していません。|1.ログが破損していないことを確認します。 <br /> 2.ログを、アップロード ページに表示されるサンプル形式と比較して照合します。|
 |トランザクションが 90 日以上経過しています|すべてのトランザクションが 90 日以上経過しているため、無視されます。|最新のイベントを含む新しいログをエクスポートし、再度アップロードします。|
 |カタログ化されたクラウド アプリに対するトランザクションがない|認識されたクラウド アプリに対するトランザクションがログに見つかりません。|ログに送信トラフィック情報が含まれていることを確認します。|
@@ -59,7 +48,7 @@ Microsoft Defender ATP と Cloud App Security を統合した場合に、統合�
 |コレクターに送信されたログがポータルに表示されません | 1.ガバナンス ログに失敗した解析タスクがあるかどうかを確認します。  <br />  &nbsp;&nbsp;&nbsp;&nbsp;その場合は、上記のログ解析エラー テーブルを使用して、エラーのトラブルシューティングを行います。<br /> 2.そうでない場合は、ポータルでデータ ソースとログ コレクターの構成を確認します。 <br /> &nbsp;&nbsp;&nbsp;&nbsp;a. [データ ソース] ページで、データ ソースの名前が **NSS** であり、正しく構成されていることを確認します。 <br />&nbsp;&nbsp;&nbsp;&nbsp;b. [ログ コレクター] ページで、データ ソースが適切なログ コレクターにリンクされていることを確認します。 <br /> 3.オンプレミスのログ コレクター マシンのローカル構成を確認します。  <br />&nbsp;&nbsp;&nbsp;&nbsp;a. SSH 経由でログ コレクターにログインし、collector_config ユーティリティを実行します。<br/>&nbsp;&nbsp;&nbsp;&nbsp;b. 定義したプロトコル (Syslog/TCP、Syslog/UDP、または FTP) を使用して、ファイアウォールまたはプロキシがログ コレクターにログを送信していること、およびそれらを正しいポートとディレクトリに送信していることを確認します。<br /> &nbsp;&nbsp;&nbsp;&nbsp;c. コンピューターで netstat を実行し、ファイアウォールまたはプロキシから着信接続を受信することを確認します <br /> 4. ログ コレクターがポート 443 で送信トラフィックを開始できることを確認します。 |
 |ログ コレクターの状態:作成日 | ログ コレクターのデプロイが完了しませんでした。 デプロイ ガイドに従って、オンプレミスのデプロイ手順を完了します。|
 |ログ コレクターの状態:切断 | リンクされたどのデータ ソースからも過去 24 時間でデータを受信していません。 |
-|最新のコレクターイメージのプルに失敗した| Docker のデプロイ中にこのエラーが発生した場合は、ホストに十分なメモリがない可能性があります。 これを確認するには、ホストで `docker pull microsoft/caslogcollector` コマンドを実行します。 それによって、エラー `failed to register layer: Error processing tar file(exist status 1): write /opt/jdk/jdk1.8.0_152/src.zip: no space left on device` が返された場合、ホスト マシンの管理者に、領域を増やすように問い合わせてください。|
+|最新のコレクターイメージのプルに失敗した| Docker のデプロイ中にこのエラーが発生した場合は、ホストに十分なメモリがない可能性があります。 これを確認するには、ホストで `docker pull mcr.microsoft.com/mcas/logcollector` コマンドを実行します。 それによって、エラー `failed to register layer: Error processing tar file(exist status 1): write /opt/jdk/jdk1.8.0_152/src.zip: no space left on device` が返された場合、ホスト マシンの管理者に、領域を増やすように問い合わせてください。|
 
 ## <a name="discovery-dashboard-errors"></a>Discovery ダッシュボードのエラー
 

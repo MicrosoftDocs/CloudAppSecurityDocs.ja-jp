@@ -1,24 +1,14 @@
 ---
-title: ネットワークの要件 - Cloud App Security
+title: ネットワークの要件
 description: この記事では、Cloud App Security を使用するために開く必要がある IP アドレスとポートについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 11/01/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: c3551532dbd9e436369cae913e74a743bfadc8d6
-ms.sourcegitcommit: e711727f2f00ee3b54e08337a5040449e352ca46
+ms.openlocfilehash: 78f054b4ba8ea1a2d11ddfd70e40aa2cbd7b8430
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/02/2020
-ms.locfileid: "93186166"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310875"
 ---
 # <a name="network-requirements"></a>ネットワークの要件
 
@@ -45,29 +35,29 @@ ms.locfileid: "93186166"
 Cloud App Security ポータルへのアクセスのために、お使いのファイアウォールの許可リストに、以下の IP アドレスと DNS 名に対する **送信ポート 443** を追加します。
 
 ```ini
-    portal.cloudappsecurity.com
-    *.portal.cloudappsecurity.com
-    cdn.cloudappsecurity.com
-    https://adaproddiscovery.azureedge.net
-    *.s-microsoft.com
-    *.msecnd.net
-    dev.virtualearth.net
-    *.cloudappsecurity.com
-    flow.microsoft.com
-    static2.sharepointonline.com
-    dc.services.visualstudio.com
-    *.blob.core.windows.net
+portal.cloudappsecurity.com
+*.portal.cloudappsecurity.com
+cdn.cloudappsecurity.com
+https://adaproddiscovery.azureedge.net
+*.s-microsoft.com
+*.msecnd.net
+dev.virtualearth.net
+*.cloudappsecurity.com
+flow.microsoft.com
+static2.sharepointonline.com
+dc.services.visualstudio.com
+*.blob.core.windows.net
 ```
 
 US Government GCC High のお客様の場合は、次の DNS 名もファイアウォールの許可リストに追加して、Cloud App Security GCC High ポータルにアクセスできるようにする必要があります。
 
 ```ini
-    portal.cloudappsecurity.us
-    *.portal.cloudappsecurity.us
-    cdn.cloudappsecurity.com
+portal.cloudappsecurity.us
+*.portal.cloudappsecurity.us
+cdn.cloudappsecurity.com
 ```
 
-また、使用するデータ センターに応じて、次の項目をホワイトリストに登録する必要があります。
+また、使用するデータ センターに応じて、次の項目を許可する必要があります。
 
 |データ センター|IP アドレス|DNS 名|
 |----|----|----|
@@ -90,13 +80,13 @@ US Government GCC High のお客様の場合は、次の DNS 名もファイア�
 商用のお客様の場合は、Cloud App Security のリバース プロキシを有効にするために、お使いのファイアウォールの許可リストに、以下の IP アドレスと DNS 名に対する **送信ポート 443** を追加します。
 
 ```ini
-    *.cas.ms
-    *.mcas.ms
-    *.admin-mcas.ms
-    mcasproxy.azureedge.net
+*.cas.ms
+*.mcas.ms
+*.admin-mcas.ms
+mcasproxy.azureedge.net
 ```
 
-また、使用するデータ センターに応じて、次の項目をホワイトリストに登録する必要があります。
+また、使用するデータ センターに応じて、次の項目を許可する必要があります。
 
 |データ センター|IP アドレス|DNS 名|
 |----|----|----|----|----|
@@ -111,9 +101,9 @@ US Government GCC High のお客様の場合は、次の DNS 名もファイア�
 US Government GCC High のお客様の場合は、Cloud App Security のリバース プロキシを有効にするために、お使いのファイアウォールの許可リストに、以下の DNS 名に対する **送信ポート 443** を追加します。
 
 ```ini
-    *.mcas-gov.us
-    *.admin-mcas-gov.us
-    mcasproxy.azureedge.net
+*.mcas-gov.us
+*.admin-mcas-gov.us
+mcasproxy.azureedge.net
 ```
 
 ## <a name="siem-agent-connection"></a>SIEM エージェント接続
@@ -130,7 +120,7 @@ Cloud App Security から SIEM への接続を有効にするには、お使い�
 |Gov US1|13.72.19.4、52.227.143.223|
 
 > [!NOTE]
-> Cloud App Security SIEM エージェントを設定するときにプロキシを指定しなかった場合は、ポート 80 での http://ocsp.msocsp.com/ と ocsp.digicert.com への HTTP 接続を許可する必要があります。 これは、Cloud App Security ポータルに接続するときに証明書の失効状態を確認するために使用されます。
+> Cloud App Security SIEM エージェントを設定するときにプロキシを指定しなかった場合は、[Azure TLS 証明書の変更](/azure/security/fundamentals/tls-certificate-changes#will-this-change-affect-me)に関するページに記載されている URL に対して、ポート 80 での HTTP 接続を許可する必要があります。 これは、Cloud App Security ポータルに接続するときに証明書の失効状態を確認するために使用されます。
 
 ## <a name="app-connector"></a>アプリ コネクタ
 
@@ -154,7 +144,7 @@ Cloud App Security からアクセスされる一部のサード パーティ製
 
 Cloud App Security から stunnel 経由で ICAP サーバーにデータを送信できるようにするには、次の IP アドレスに対して、動的ソース ポート番号を使用して DMZ ファイアウォールを開きます。
 
-1. **ソース アドレス** - これらのアドレスは、API コネクタのサード パーティ製アプリ用の上記の一覧のように、ホワイトリストに登録する必要があります
+1. **ソース アドレス** - これらのアドレスは、API コネクタのサード パーティ製アプリ用の上記の一覧のように許可する必要があります
 2. **ソース TCP ポート** - 動的
 3. **宛先アドレス** - 外部 ICAP サーバーに接続されている stunnel の 1 または 2 つの IP アドレス
 4. **宛先 TCP ポート** - ネットワーク内の定義に従います
@@ -212,7 +202,7 @@ MailChimp を使用するには、次の IP アドレスをスパム対策の許
 >
 > - ファイアウォールで静的 IP アドレスのアクセス リストが要求されていて、URL に基づく許可がサポートされていない場合は、ログ コレクターがポート 443 で [Microsoft Azure データセンターの IP 範囲](https://www.microsoft.com/download/details.aspx?id=56519)への送信トラフィックを開始できるようにします。
 > - ログ コレクターが、Cloud App Security ポータルへの送信トラフィックを開始できるようにします。
-> - ログ コレクターを設定するときにプロキシを指定しなかった場合は、ポート 80 での http://ocsp.msocsp.com/ と ocsp.digicert.com への HTTP 接続を許可する必要があります。 これは、Cloud App Security ポータルに接続するときに証明書の失効状態を確認するために使用されます。
+> - ログ コレクターを設定するときにプロキシを指定しなかった場合は、[Azure TLS 証明書の変更](/azure/security/fundamentals/tls-certificate-changes#will-this-change-affect-me)に関するページに記載されている URL に対して、ポート 80 での HTTP 接続を許可する必要があります。 これは、Cloud App Security ポータルに接続するときに証明書の失効状態を確認するために使用されます。
 
 ## <a name="next-steps"></a>次のステップ
 

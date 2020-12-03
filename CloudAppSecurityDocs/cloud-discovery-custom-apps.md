@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security で Cloud Discovery にカスタム アプリを追加する
 description: このトピックでは、シャドウ IT を監視するために Cloud App Security で Cloud Discovery にカスタム アプリを追加する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: fb2086ea657b54ee5b8b072072779d88dd3031b4
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: c757d320b242a8cccdde312835ec9e35299f6bdf
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881483"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313255"
 ---
 # <a name="add-custom-apps-to-cloud-discovery"></a>Cloud Discovery にカスタム アプリを追加する
 
@@ -45,7 +34,7 @@ Cloud Discovery では、Microsoft Cloud App Security のクラウド アプリ 
 
     ![カスタム アプリ](media/add-custom-app.png)
 
-4. **[ドメイン]** に、カスタム アプリへのアクセス時に使用される一意のドメインを入力します。 これらのドメインは、このアプリへのトラフィック ログ メッセージを照合するために使用されます。 使用しているデータ ソースにアプリの URL の情報が含まれていない場合は、**IPv4** アドレスと **IPv6** アドレスのフィールドに入力してください。
+4. **[ドメイン]** に、カスタム アプリへのアクセス時に使用される一意のドメインを入力します。 これらのドメインは、このアプリへのトラフィック ログ メッセージを照合するために使用されます。 使用しているデータ ソースにアプリの URL の情報が含まれていない場合は、**IPv4** および **IPv6** のアドレスのフィールドを入力してください。
 5. **[ホスティング プラットフォーム]** と **[Azure サブスクリプション ID]** を追加します。 必要に応じて、アプリの **[部署]** を指定します。
 6. リスクの **[スコア]** を割り当てて、このレコードに対する変更の追跡に役立つ **[アプリのメモ]** を追加します。
 7. **[作成]** をクリックします。

@@ -1,25 +1,14 @@
 ---
-title: クラウド アプリのアクティビティの可視化 - Cloud App Security
+title: クラウド アプリのアクティビティの可視化
 description: この記事では、アクティビティ ポリシーに適用できるアクティビティ、フィルター、一致パラメーターの一覧を挙げます。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/16/2018
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 4a77fca73283f203ecb3ec1f542422c1de843862
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 9ddac3a554c4697e095857302466d61b2f89c3e0
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880330"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311249"
 ---
 # <a name="activities"></a>アクティビティ
 
@@ -30,9 +19,9 @@ Microsoft Cloud App Security では、接続されているお使いのアプリ
 > [!NOTE]
 > Cloud App Security によって監視されている Office 365 のアクティビティの完全な一覧は、「[Office 365 のセキュリティ センターとコンプライアンス センターで監査ログを検索する](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US#ID0EABAAA=Audited_activities)」を参照してください。
 
-**アクティブ ログ**をフィルターして、特定のアクティビティを見つけることができます。 ポリシーはアクティビティに基づいて作成し、何の警告を受けるかおよび何に対してアクションを実行するかを定義します。 特定のファイルで実行されたアクティビティを検索することもできます。 アクティビティの種類とアクティビティごとに得られる情報は、アプリと、アプリから提供されるデータの種類によって異なります。
+**アクティブ ログ** をフィルターして、特定のアクティビティを見つけることができます。 ポリシーはアクティビティに基づいて作成し、何の警告を受けるかおよび何に対してアクションを実行するかを定義します。 特定のファイルで実行されたアクティビティを検索することもできます。 アクティビティの種類とアクティビティごとに得られる情報は、アプリと、アプリから提供されるデータの種類によって異なります。
 
-たとえば、あなたの組織で、最新ではないオペレーティング システムまたはブラウザーを使用しているユーザーを、**アクティビティ ログ**で次のように検索できます。アプリを Cloud App Security に接続した後、 **[アクティビティ ログ]** ページで、詳細設定フィルターを使用して **[ユーザー エージェント タグ]** を選択します。 次に、 **[Outdated browser]** (古いブラウザー) または **[Outdated operating system]** (古いオペレーティング システム) を選択します。
+たとえば、あなたの組織で、最新ではないオペレーティング システムまたはブラウザーを使用しているユーザーを、**アクティビティ ログ** で次のように検索できます。アプリを Cloud App Security に接続した後、 **[アクティビティ ログ]** ページで、詳細設定フィルターを使用して **[ユーザー エージェント タグ]** を選択します。 次に、 **[Outdated browser]** (古いブラウザー) または **[Outdated operating system]** (古いオペレーティング システム) を選択します。
 
 ![古いブラウザーのアクティビティの例](media/activity-example-outdated.png)
 

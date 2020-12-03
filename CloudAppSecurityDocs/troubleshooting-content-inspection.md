@@ -1,25 +1,14 @@
 ---
-title: コンテンツ検査エラーのトラブルシューティング - Cloud App Security
+title: コンテンツ検査エラーのトラブルシューティング
 description: この記事では、コンテンツ検査の状態とその意味の一覧を示します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 05/25/2020
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 9ac46552691fd3298ab8ffb81355aed48a680c45
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 9b31c7d12dcd91d3f3aa2a0ccbc99a4b3497debd
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877215"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315924"
 ---
 # <a name="troubleshooting-content-inspection"></a>コンテンツ検査のトラブルシューティング
 

@@ -1,25 +1,14 @@
 ---
-title: クラウド アプリでファイルを監視および保護する - Cloud App Security
+title: クラウド アプリでファイルを監視および保護する
 description: この記事では、組織のクラウド アプリで使用されるデータとファイルを監視および制御するためのデータ ポリシーを設定する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 10/7/2019
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 8e1d6285e4aa4f551f58af417c01e489ae4c19ed
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 215606ce154ea47f850b247cbfa60c73a93ac676
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880744"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311963"
 ---
 # <a name="file-policies"></a>ファイル ポリシー
 
@@ -80,7 +69,7 @@ Cloud App Security の組み込み DLP エンジンは、Office、Open Office、
 
 1. 2 番目の **[適用対象]** フィルターで、 **[すべてのファイル所有者]** 、 **[選択されたユーザー グループのファイル所有者]** 、または **[all file owners excluding selected groups]** \(選択したグループを除くすべてのファイル所有者\) を選択します。 次に、関連するユーザー グループを選択して、ポリシーに含めるユーザーとグループを決定します。
 
-1. **[コンテンツ検査方法]** を選択します。 [ **[組み込み DLP]** ](content-inspection-built-in.md) または [ **[データ分類サービス]** ](content-inspection.md) を選択できます。 **[データ分類サービス]** を使用することをお勧めします。
+1. **[コンテンツ検査方法]** を選択します。 [ **[組み込み DLP]**](content-inspection-built-in.md) または [ **[データ分類サービス]**](content-inspection.md) を選択できます。 **[データ分類サービス]** を使用することをお勧めします。
 
     コンテンツ検査を有効にしたら、事前設定された式を使用するか、他のカスタマイズされた式を検索するかを選択できます。
 

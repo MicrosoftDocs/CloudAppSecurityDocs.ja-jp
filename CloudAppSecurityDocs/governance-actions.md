@@ -1,25 +1,14 @@
 ---
-title: 接続アプリを制御するためのガバナンス アクション - Cloud App Security
+title: 接続アプリを制御するためのガバナンス アクション
 description: この記事では、Cloud App Security で実行できるすべてのガバナンス アクションと、それらを追跡するログ メッセージを示して説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: de58d785d221876ac92cd1d2b600def4e6c4a647
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: d782e94c59ebb1df993cf9d761c1939fa35ecc84
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90879473"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314836"
 ---
 # <a name="governing-connected-apps"></a>接続されているアプリを管理する
 
@@ -105,9 +94,9 @@ ms.locfileid: "90879473"
 
 ### <a name="conflicts-between-policies"></a>ポリシー間の競合
 
-- あるポリシーのアクションに、別のポリシーのアクションが含まれている場合 (たとえば、**外部共有を削除する**は**非公開にする**に含まれます)、Cloud App Security は競合を解決して、強い方のアクションを適用します。
-- アクションが無関係である場合 (たとえば、**所有者に通知**と**非公開にする**)。 両方のアクションが実行されます。
-- アクションが競合する場合 (たとえば、**所有者をユーザー A に変更する**と**所有者をユーザー B に変更する**)、一致ごとに結果が異なる可能性があります。 競合があるとドライブでの望ましくない変更を検出するのが困難になる場合があるため、ポリシーを変更して競合を避けることが重要です。
+- あるポリシーのアクションに、別のポリシーのアクションが含まれている場合 (たとえば、**外部共有を削除する** は **非公開にする** に含まれます)、Cloud App Security は競合を解決して、強い方のアクションを適用します。
+- アクションが無関係である場合 (たとえば、**所有者に通知** と **非公開にする**)。 両方のアクションが実行されます。
+- アクションが競合する場合 (たとえば、**所有者をユーザー A に変更する** と **所有者をユーザー B に変更する**)、一致ごとに結果が異なる可能性があります。 競合があるとドライブでの望ましくない変更を検出するのが困難になる場合があるため、ポリシーを変更して競合を避けることが重要です。
 
 ### <a name="conflicts-in-user-sync"></a>ユーザー同期の競合
 
@@ -119,7 +108,7 @@ ms.locfileid: "90879473"
 
 ガバナンス ログを表示するには、メニュー バーで、設定歯車 ![設定アイコン](media/settings-icon.png "設定アイコン") をクリックし、 **[ガバナンス ログ]** を選択します。
 
-次の表に、Cloud App Security ポータルで実行できるすべてのアクションを示します。 これらのアクションは、**場所**列に示されているように、コンソール全体のさまざまな場所で有効です。 実行されたガバナンス アクションはそれぞれ、ガバナンス ログに一覧されます。
+次の表に、Cloud App Security ポータルで実行できるすべてのアクションを示します。 これらのアクションは、**場所** 列に示されているように、コンソール全体のさまざまな場所で有効です。 実行されたガバナンス アクションはそれぞれ、ガバナンス ログに一覧されます。
 ポリシーの競合がある場合のガバナンス アクションの処理方法については、「[ポリシーの競合](control-cloud-apps-with-policies.md)」を参照してください。
 
 | 場所 | ターゲット オブジェクトの種類 | ガバナンス アクション |[説明]| 関連するコネクタ|

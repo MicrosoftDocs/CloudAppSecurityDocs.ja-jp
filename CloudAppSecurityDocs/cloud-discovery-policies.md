@@ -1,25 +1,14 @@
 ---
-title: Cloud Discovery アプリのポリシーの作成 - Cloud App Security
+title: Cloud Discovery アプリのポリシーの作成
 description: この記事では Cloud Discovery ポリシーの使用に関する情報を提供します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/29/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 2561017dec734db588b31789a078156fbe4bc59e
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 9e875a2d5f18696c025d3d68b578b6bdc43557e0
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881470"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313204"
 ---
 # <a name="create-cloud-discovery-policies"></a>Cloud Discovery ポリシーの作成
 
@@ -39,7 +28,7 @@ ms.locfileid: "90881470"
 
 3. ポリシー名と説明を指定します。 必要に応じて、テンプレートに基づいてそれを作成することもできます。 ポリシー テンプレートの詳細については、「[ポリシーによるクラウド アプリの制御](control-cloud-apps-with-policies.md)」を参照してください。
 
-4. ポリシーの**重大度**を設定します。
+4. ポリシーの **重大度** を設定します。
 
 5. このポリシーをトリガーする検出されたアプリを設定するには、フィルターを追加します。
 
@@ -62,7 +51,7 @@ ms.locfileid: "90881470"
 > [!NOTE]
 >
 > - 新しく作成された検出ポリシー (または継続的レポートが更新されたポリシー) により、同じアプリに対する既存のアラートがあるかどうかにかかわらず、90 日に 1 回、継続的レポートごとにアラートがトリガーされます。 そのため、たとえば新しい人気のあるアプリを検出するためのポリシーを作成した場合、既に検出されアラートが生成されているアプリに対して追加のアラートがトリガーされることがあります。
-> - **スナップショット レポート**からのデータによって、アプリ検出ポリシーでアラートがトリガーされることはありません。
+> - **スナップショット レポート** からのデータによって、アプリ検出ポリシーでアラートがトリガーされることはありません。
 
 たとえば、クラウド環境にある危険なホスティング アプリの検出に関心がある場合は、次のようにポリシーを設定します。
 

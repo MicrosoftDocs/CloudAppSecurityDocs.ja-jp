@@ -1,25 +1,14 @@
 ---
 title: Azure Information Protection 分類ラベルの自動適用
 description: このチュートリアルでは、Microsoft Cloud App Security で Azure Information Protection 分類ラベルを自動的に適用する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 3/5/2019
 ms.topic: tutorial
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 33078d72d6bbcb5430f207a029c3352d776958ba
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 997de343a151ccfc5e91f0935b63229a1afb389c
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881121"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315754"
 ---
 # <a name="tutorial-automatically-apply-azure-information-protection-classification-labels"></a>チュートリアル:Azure Information Protection 分類ラベルの自動適用
 
@@ -27,7 +16,7 @@ ms.locfileid: "90881121"
 
 理想の世界では、社員が全員、情報保護の重要性を理解し、会社の方針から外れることなく仕事をします。 しかしながら、現実の世界では、経理を担当する社員が間違ったアクセス許可で会社の Box リポジトリにドキュメントをアップロードすることがあります。 1 週間後、会社の機密情報が競合他社に漏れたことが判明します。 Microsoft Cloud App Security は、この種の災難を発生前に止める目的で役立ちます。 この機能は Box、SharePoint、OneDrive for Business で利用できます。 Azure Information Protection ラベルの適用は、利用できるさまざまな[ガバナンス アクション](governance-actions.md)の 1 つです。
 
-このチュートリアルは、違反の発生時に警告されるよう、クラウド ストレージに保存されているドキュメントに設定されているパブリック アクセス許可を特定する目的で役立ちます。 また、Azure Information Protection **機密**分類ラベルを自動適用し、ファイルを暗号化できます。
+このチュートリアルは、違反の発生時に警告されるよう、クラウド ストレージに保存されているドキュメントに設定されているパブリック アクセス許可を特定する目的で役立ちます。 また、Azure Information Protection **機密** 分類ラベルを自動適用し、ファイルを暗号化できます。
 
 > [!div class="checklist"]
 >
@@ -59,7 +48,7 @@ Box アカウントに補完されているファイルでクレジット カー
 
 1. Box に保存されている機密データを暗号化するポリシーを設定することで Box に保存するデータの保護を開始します。
 
-    1. **[コントロール]** タブで [ **[ポリシー]** ](control-cloud-apps-with-policies.md) をクリックします。
+    1. **[コントロール]** タブで [ **[ポリシー]**](control-cloud-apps-with-policies.md) をクリックします。
 
     2. **[ポリシーの作成]** をクリックし、 **[ファイル ポリシー]** を選択します。
 

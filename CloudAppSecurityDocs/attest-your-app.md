@@ -1,25 +1,14 @@
 ---
-title: アプリを証明する - Cloud App Security
+title: アプリを証明する
 description: この記事では、Cloud App Security でアプリの構成を証明する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 01/30/2020
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 296b4a4b882c15fe716eebe7b8975a938a34ca97
-ms.sourcegitcommit: cc283f0ecf8124953f1f71181655603de6846d8c
+ms.openlocfilehash: 3c2c1b392bdd4f1640b76c80ce227ad9379f4902
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254705"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313748"
 ---
 # <a name="attest-your-app"></a>アプリを証明する
 
@@ -99,9 +88,9 @@ Microsoft Cloud App Security を使用してアプリの構成証明を行い、
 | FFIEC | コンプライアンス | ブール型 | True、False、N/A | このアプリが、インターネット バンキング環境におけるサービスの認証に必要なリスク管理制御に関する米国連邦金融機関検査協議会のガイダンスに準拠しているかどうか。 |
 | データ所有権 | 法務 | ブール型 | True、False | このアプリが、アップロードされたデータについてユーザーの所有権を完全に維持するかどうか。 |
 | DMCA | 法務 | ブール型 | True、False | このアプリがデジタル ミレニアム著作権法 (DMCA) に準拠しているかどうか。この法律では、著作権保護されている素材に対して不法なアクセスを行おうとすると犯罪として扱われます。 |
-| データ保持期間ポリシー | 法務 | ブール型 | True、False | アカウントが削除された後のユーザー データ リテンション期間に関するアプリのポリシーはどのようなものか。 |
+| データ保持期間ポリシー | 法務 | ブール型 | True、False | アカウントが削除された後のユーザー データ保有に関するアプリのポリシーはどのようなものか。 |
 | GDPR の準備の声明 | 法務 | [URL] | 自由記載 | 該当する場合、このプロバイダーがどのように GDPR コンプライアンスを扱う計画であるかを説明した Web サイトへのリンク。 |
-| GDPR - 消去する権利 | 法務 | ブール型 | True、False、N/A | このアプリで、要求に応じて、ユーザーの個人データの処理を停止し、データが削除されるかどうか。 |
+| GDPR - 消去する権利 | 法務 | ブール型 | True、False、N/A | このアプリで、要求に応じて処理が停止し、ユーザーの個人データが削除されるかどうか。 |
 | GDPR - データの侵害を報告する | 法務 | ブール型 | True、False、N/A | このアプリで、侵害検出から 72 時間以内に、監督機関と、侵害の影響を受けたユーザーにデータの侵害が報告されるかどうか。 |
 | GDPR - 影響のアセスメント | 法務 | ブール型 | True、False、N/A | このアプリで、個人へのリスクを識別するためにデータ保護の影響の評価が実施されるかどうか。 |
 | GDPR - 国境をまたぐデータ コントロールのセキュリティ保護 | 法務 | ブール型 | True、False、N/A | このアプリで、国境をまたいだデータ転送が安全に行われるかどうか。 |
@@ -115,7 +104,7 @@ Microsoft Cloud App Security を使用してアプリの構成証明を行い、
 | GDPR - 処理の合法的な根拠 | 法務 | ブール型 | True、False、N/A | このアプリでは、同意、契約、法的義務、重大利益、正当な利益、特別なカテゴリ、データ、犯罪データに従って、個人データが合法的に処理されるかどうか。 |
 | GDPR - 訂正する権利 | 法務 | ブール型 | True、False、N/A | このアプリで、個人は自分の個人データを訂正できるかどうか。 統制担当者は、そのデータ主体からのすべての要求に 1 か月以内に応じる必要があります。 |
 
-\* *配列*型のフィールドはセミコロン (;) で区切る必要があります。
+\* *配列* 型のフィールドはセミコロン (;) で区切る必要があります。
 
 ## <a name="next-steps"></a>次のステップ
 

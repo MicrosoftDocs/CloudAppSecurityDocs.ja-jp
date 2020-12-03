@@ -1,25 +1,14 @@
 ---
-title: 継続的レポートのために自動ログ アップロードを構成する - Cloud App Security
+title: 継続的なレポートのために自動ログ アップロードを構成する
 description: この記事では、Cloud Discovery の自動レポートを作成するためにログをアップロードする方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 12/10/2018
 ms.topic: conceptual
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 8711209823bdb2ea010dbb734fc67c03561122ed
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 1cae2f61af80348156090afe7b1058462dcab58d
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90881450"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96313075"
 ---
 # <a name="configure-automatic-log-upload-for-continuous-reports-on-a-virtual-appliance---deprecated"></a>仮想アプライアンスでの継続的なレポートのために自動ログ アップロードを構成する - 非推奨
 
@@ -78,7 +67,7 @@ ms.locfileid: "90881450"
     > [!NOTE]
     > - 1 つのログ コレクターで複数のデータ ソースを処理できます。
     > - Cloud App Security と通信するようにログ コレクターを構成するときに使用するため、画面の内容をコピーします。 Syslog を選択した場合、この情報には、Syslog リスナーがリッスンするポートに関する情報が含まれます。
-4. [エンドユーザー ライセンス条項](https://go.microsoft.com/fwlink/?linkid=862492)に同意する場合は、[Hyper-V] または [VMWare] をクリックして、新しいログ コレクター仮想マシンを**ダウンロード**します。 次に、ポータルで受け取ったパスワードを使用してファイルを解凍します。
+4. [エンドユーザー ライセンス条項](https://go.microsoft.com/fwlink/?linkid=862492)に同意する場合は、[Hyper-V] または [VMWare] をクリックして、新しいログ コレクター仮想マシンを **ダウンロード** します。 次に、ポータルで受け取ったパスワードを使用してファイルを解凍します。
 
 ### <a name="step-2--on-premises-deployment-of-the-virtual-machine-and-network-configuration"></a>ステップ 2: 仮想マシンのオンプレミス展開とネットワークの構成
 

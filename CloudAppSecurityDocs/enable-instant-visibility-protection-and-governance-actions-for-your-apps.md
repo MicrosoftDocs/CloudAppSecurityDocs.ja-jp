@@ -1,25 +1,14 @@
 ---
-title: アプリを接続して可視化および管理する - Cloud App Security
+title: アプリを接続して可視化および管理する
 description: この記事では、API コネクタを使用して、アプリを組織のクラウド内のアプリに接続するプロセスについて説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 07/14/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 729dec5de9bb349927e3cd60f331f61b31b65864
-ms.sourcegitcommit: 812cb1e24ec18de2c4818970f3042ac06acea14c
+ms.openlocfilehash: 3b6733e0addabf8db1064ff8b5f4e20a8eb76c93
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92212002"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314947"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
@@ -112,7 +101,7 @@ Cloud App Security はシステム管理者権限で展開されているため�
 
 ### <a name="expressroute"></a>ExpressRoute
 
-Cloud App Security は Azure に展開され、[ExpressRoute](/azure/expressroute/expressroute-introduction) に完全に統合されます。 検出ログのアップロードを含む、Cloud App Security アプリとのすべての通信、および Cloud App Security に送信されるトラフィックは、ExpressRoute の**パブリック ピアリング**経由でルーティングされるため、待機時間、パフォーマンス、およびセキュリティが改善されます。 お客様側で設定を行う必要はありません。
+Cloud App Security は Azure に展開され、[ExpressRoute](/azure/expressroute/expressroute-introduction) に完全に統合されます。 検出ログのアップロードを含む、Cloud App Security アプリとのすべての通信、および Cloud App Security に送信されるトラフィックは、ExpressRoute の **パブリック ピアリング** 経由でルーティングされるため、待機時間、パフォーマンス、およびセキュリティが改善されます。 お客様側で設定を行う必要はありません。
 パブリック ピアリングの詳細については、「[ExpressRoute 回線とルーティング ドメイン](/azure/expressroute/expressroute-circuit-peerings)」を参照してください。
 
 ## <a name="disable-app-connectors"></a>アプリ コネクタを無効にする

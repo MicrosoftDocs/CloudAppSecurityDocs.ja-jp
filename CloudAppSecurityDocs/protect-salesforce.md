@@ -1,18 +1,14 @@
 ---
 title: Cloud App Security で Salesforce 環境を保護する利点
 description: この記事では、API コネクタを使用して Salesforce アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
-author: shsagir
-ms.author: shsagir
-ms.service: cloud-app-security
-ms.topic: article
 ms.date: 12/04/2019
-ms.collection: M365-security-compliance
-ms.openlocfilehash: ca62a0deb82c5f81f0bcb200f425ab325d9720ab
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.topic: article
+ms.openlocfilehash: 477f7372bc65a704d6a68f6fd2c9e43de2a27da8
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880447"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96310824"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-salesforce-environment"></a>Cloud App Security で Salesforce 環境を保護する利点
 
@@ -32,10 +28,10 @@ Salesforce を Cloud App Security に接続すると、ユーザーのアクテ�
 - ランサムウェア
 - アンマネージド Bring Your Own Device (BYOD)
 
-## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security で環境を保護する利点
+## <a name="how-cloud-app-security-helps-to-protect-your-environment"></a>Cloud App Security は環境の保護にどのように役立つのか
 
 - [クラウドの脅威、侵害されたアカウント、悪意のある内部関係者を検出する](best-practices.md#detect-cloud-threats-compromised-accounts-malicious-insiders-and-ransomware)
-- [クラウドに格納されている規制対象の機密データの検出、分類、ラベル付け、保護を行う](best-practices.md#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
+- [クラウドに格納されている規制対象の機密データを検出、分類、ラベル付け、保護する](best-practices.md#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)
 - [環境にアクセスできる OAuth アプリを検出して管理する](manage-app-permissions.md)
 - [クラウドに格納されているデータに DLP ポリシーとコンプライアンス ポリシーを適用する](best-practices.md#enforce-dlp-and-compliance-policies-for-data-stored-in-the-cloud)
 - [共有データの公開を制限し、コラボレーション ポリシーを適用する](best-practices.md#limit-exposure-of-shared-data-and-enforce-collaboration-policies)

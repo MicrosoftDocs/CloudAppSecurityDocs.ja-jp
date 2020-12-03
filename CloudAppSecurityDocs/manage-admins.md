@@ -1,25 +1,14 @@
 ---
 title: Cloud App Security ポータルへの管理者アクセスを管理する
 description: この記事では、管理者用に Cloud App Security ポータルへのアクセスを設定する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
-ms.date: 10/13/2020
+ms.date: 11/25/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: f89b3daceacca86faaec840e9faeec1c1aac577d
-ms.sourcegitcommit: b0ad9e8e6b5668849e1c292c43084480f229d981
+ms.openlocfilehash: ef72326fd8c02b40230074c9029a091b8d0cc24a
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/01/2020
-ms.locfileid: "93147477"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96315006"
 ---
 # <a name="manage-admin-access"></a>管理者アクセスを管理する
 
@@ -46,7 +35,7 @@ Microsoft Cloud App Security はロールベースのアクセス制御に対応
   - 探索ログをアップロードする
   - サードパーティのアプリの禁止または承認
   - IP アドレス範囲設定ページへのアクセスと表示
-  - すべての設定ページへのアクセスと表示
+  - すべてのシステム設定ページへのアクセスと表示
   - 検出設定へのアクセスと表示
   - アプリ コネクタ ページへのアクセスと表示
   - ガバナンス ログへのアクセスと表示
@@ -119,7 +108,7 @@ Cloud App Security ポータルでは、次の Cloud App Security 固有の管�
 
 ## <a name="override-admin-permissions"></a>管理者アクセス許可をオーバーライドする
 
-Azure Active Directory または Office 365 からの管理者のアクセス許可をオーバーライドする場合は、Cloud App Security にユーザーを手動で追加し、ユーザーにアクセス許可を割り当てることによって行うことができます。 たとえば、Azure Active Directory のセキュリティ閲覧者であるユーザーに、Cloud App Security での **フル アクセス** を割り当てる場合は、ユーザーを手動で Cloud App Security に追加し、 **フル アクセス** を割り当ててロールをオーバーライドし、Cloud App Security での必要なアクセス許可を付与します。
+Azure Active Directory または Office 365 からの管理者のアクセス許可をオーバーライドする場合は、Cloud App Security にユーザーを手動で追加し、ユーザーにアクセス許可を割り当てることによって行うことができます。 たとえば、Azure Active Directory のセキュリティ閲覧者であるユーザーに、Cloud App Security での **フル アクセス** を割り当てる場合は、ユーザーを手動で Cloud App Security に追加し、**フル アクセス** を割り当ててロールをオーバーライドし、Cloud App Security での必要なアクセス許可を付与します。
 
 ## <a name="add-additional-admins"></a>管理者をさらに追加する
 
@@ -134,7 +123,7 @@ Azure Active Directory または Office 365 からの管理者のアクセス許
 
     ![管理者を追加する](media/add-admin.png)
 
-3. 次に、ドロップダウンをクリックして、管理者が持つロールの種類 ( **グローバル管理者** 、 **セキュリティ閲覧者** 、 **コンプライアンス管理者** 、 **アプリ/インスタンスの管理者** 、 **ユーザー グループの管理者** 、 **Cloud Discovery のグローバル管理者** 、または **Cloud Discovery のレポート管理者** ) を設定します。 **アプリ/インスタンス管理者** を選択する場合は、管理者がアクセス許可を持つ対象のアプリとインスタンスを選択します。
+3. 次に、ドロップダウンをクリックして、管理者が持つロールの種類 (**グローバル管理者**、**セキュリティ閲覧者**、**コンプライアンス管理者**、**アプリ/インスタンスの管理者**、**ユーザー グループの管理者**、**Cloud Discovery のグローバル管理者**、または **Cloud Discovery のレポート管理者**) を設定します。**アプリ/インスタンス管理者** を選択する場合は、管理者がアクセス許可を持つ対象のアプリとインスタンスを選択します。
 
     >[!NOTE]
     > アクセス権が制限されている管理者は、制限付きページへのアクセスまたは制限されたアクションの実行を試みると、ページへのアクセスまたはアクションの実行を許可されていないというエラーを受け取ります。

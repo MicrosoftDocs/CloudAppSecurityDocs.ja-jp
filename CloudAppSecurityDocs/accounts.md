@@ -1,25 +1,14 @@
 ---
-title: クラウド アプリのアカウントの可視化 - Cloud App Security
+title: クラウド アプリのアカウントの可視化
 description: この記事では、接続されているアプリのアカウントを確認する方法について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 05/20/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 9d59c944fb2467eef98ac13f8d6a3673b2049a8c
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: d832891699a9840117935d815c04714ea1ec2f20
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880253"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311266"
 ---
 # <a name="accounts"></a>[アカウント]
 
@@ -51,7 +40,7 @@ Microsoft Cloud App Security では、接続されているアプリのアカウ
   
 <!--- **Account name**: The account name is the primary alias of the user, but other identifiers from other Microsoft accounts (Office 365 and Azure Active Directory) such as proxy addresses, aliases, SID are supported and consolidated beneath the primary alias. -->
 
-* **所属**:[所属] は、 **[内部]**  または **[外部]** のいずれかです。 ユーザーとアカウントを内部として設定するには、 **[設定]** で内部組織の **IP アドレスの範囲**を設定してください。 アカウントに管理者のアクセス許可がある場合は、アカウント テーブルのアイコンに赤いネクタイが追加されます。 ![アカウントの管理者アイコン](media/accounts-admin-icon.png)
+* **所属**:[所属] は、 **[内部]**  または **[外部]** のいずれかです。 ユーザーとアカウントを内部として設定するには、 **[設定]** で内部組織の **IP アドレスの範囲** を設定してください。 アカウントに管理者のアクセス許可がある場合は、アカウント テーブルのアイコンに赤いネクタイが追加されます。 ![アカウントの管理者アイコン](media/accounts-admin-icon.png)
 
 * **[アプリ]** :組織内のアカウントで使用されている API で接続されたアプリをフィルター処理できます。
 * **ドメイン**: 特定のドメインのユーザーを表示するためにフィルター処理できます。

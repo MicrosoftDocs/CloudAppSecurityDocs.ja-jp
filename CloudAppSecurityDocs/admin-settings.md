@@ -1,25 +1,14 @@
 ---
-title: 管理者設定の設定 - Cloud App Security
+title: 管理者設定の設定
 description: この記事では、Cloud App Security で、管理者設定を設定する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 04/19/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: 5114b50577d75d2301fae189e1c61275444fe2ca
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 18b5940ad4365a31b7e344860c0f791e306d8890
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90880135"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96314785"
 ---
 # <a name="admin-user-settings"></a>管理者ユーザー設定
 

@@ -1,25 +1,14 @@
 ---
 title: オンプレミスの Docker を使用したログの自動アップロードを構成する
 description: この記事では、オンプレミス サーバーの Linux 上の Docker を使用して、Cloud App Security での継続的レポートのためにログの自動アップロードを構成する手順について説明します。
-keywords: ''
-author: shsagir
-ms.author: shsagir
-manager: shsagir
 ms.date: 06/02/2020
 ms.topic: how-to
-ms.collection: M365-security-compliance
-ms.prod: ''
-ms.service: cloud-app-security
-ms.technology: ''
-ms.reviewer: reutam
-ms.suite: ems
-ms.custom: seodec18
-ms.openlocfilehash: f58beaaaf2bbc5aa50b138368ea5bed5cd7a65ea
-ms.sourcegitcommit: 575f2b2efa9ca4477d7e60271d21e225ef2c38ea
+ms.openlocfilehash: 4a339361b232cee1ee85758f4545856d4674e847
+ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "90877907"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96311861"
 ---
 # <a name="docker-on-linux-on-premises"></a>オンプレミスの Linux 上の Docker
 
@@ -30,9 +19,9 @@ ms.locfileid: "90877907"
 ## <a name="prerequisites"></a>[前提条件]
 
 * OS:
-    * Ubuntu 14.04、16.04、および 18.04
-    * RHEL 7.2 以降
-    * CentOS 7.2 以降
+  * Ubuntu 14.04、16.04、および 18.04
+  * RHEL 7.2 以降
+  * CentOS 7.2 以降
 
 * ディスク領域:250 GB
 
@@ -90,14 +79,14 @@ ms.locfileid: "90877907"
 
     1. **[ログ コレクターを追加]** をクリックします。
     1. ログ コレクターに **[名前]** を付けます。
-    1. Docker のデプロイに使用するマシンの**ホスト IP アドレス**を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
-    1. コレクターに接続するすべての**データ ソース**を選択し、 **[更新]** をクリックして構成内容を保存します。
+    1. Docker のデプロイに使用するマシンの **ホスト IP アドレス** を入力します。 ホスト名を解決する DNS サーバー (またはそれと同等のもの) がある場合は、ホスト IP アドレスをマシンの名前に置き換えることができます。
+    1. コレクターに接続するすべての **データ ソース** を選択し、 **[更新]** をクリックして構成内容を保存します。
 
     ![接続するデータ ソースの選択](media/ubuntu2.png)
 
-1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを**コピー**します。 クリップボードにコピー アイコンを使用できます。 ![クリップボードにコピー アイコン](media/copy-icon.png)
+1. 詳細な展開情報が表示されます。 ダイアログ ボックスから実行コマンドを **コピー** します。 クリップボードにコピー アイコンを使用できます。 ![クリップボードにコピー アイコン](media/copy-icon.png)
 
-1. 予想されるデータ ソースの構成を**エクスポート**します。 この構成は、アプライアンスでログのエクスポートをどのように設定するかを示しています。
+1. 予想されるデータ ソースの構成を **エクスポート** します。 この構成は、アプライアンスでログのエクスポートをどのように設定するかを示しています。
 
     ![ログ コレクターを作成する](media/windows7.png)
 
@@ -105,7 +94,7 @@ ms.locfileid: "90877907"
     >
     > * 1 つのログ コレクターで複数のデータ ソースを処理できます。
     > * Cloud App Security と通信するようにログ コレクターを構成するときに情報が必要になるため、画面の内容をコピーします。 Syslog を選択した場合、この情報には、Syslog リスナーがリッスンするポートに関する情報が含まれます。
-    > * FTP を使用して初めてログ データを送信するユーザーについては、FTP ユーザーのパスワードを変更することをお勧めします。 詳細については、「[FTP のパスワードの変更](log-collector-ftp.md#changing-the-ftp-password)」をご覧ください。
+    > * FTP を使用して初めてログ データを送信するユーザーについては、FTP ユーザーのパスワードを変更することをお勧めします。 詳細については、「[FTP のパスワードの変更](log-collector-advanced-management.md#changing-the-ftp-password)」をご覧ください。
 
 ### <a name="step-2--on-premises-deployment-of-your-machine"></a>ステップ 2 – マシンのオンプレミス展開
 
@@ -139,7 +128,7 @@ ms.locfileid: "90877907"
 1. コレクターの構成をインポートして、ホスト コンピューターにコレクターのイメージを展開します。 ポータルに生成される run コマンドをコピーして、構成をインポートします。 プロキシを構成する必要がある場合、プロキシ IP アドレスとポート番号を追加します。 たとえば、プロキシの詳細が 192.168.10.1:8080 の場合、実行コマンドは次のように更新されます。
 
     ```bash
-    (echo 6f19225ea69cf5f178139551986d3d797c92a5a43bef46469fcc997aec2ccc6f) | docker run --name MyLogCollector -p 21:21 -p 20000-20099:20000-20099 -e "PUBLICIP='192.2.2.2'" -e "PROXY=192.168.10.1:8080" -e "CONSOLE=tenant2.eu1-rs.adallom.com" -e "COLLECTOR=MyLogCollector" --security-opt apparmor:unconfined --cap-add=SYS_ADMIN --restart unless-stopped -a stdin -i microsoft/caslogcollector starter
+    (echo 6f19225ea69cf5f178139551986d3d797c92a5a43bef46469fcc997aec2ccc6f) | docker run --name MyLogCollector -p 21:21 -p 20000-20099:20000-20099 -e "PUBLICIP='192.2.2.2'" -e "PROXY=192.168.10.1:8080" -e "CONSOLE=tenant2.eu1-rs.adallom.com" -e "COLLECTOR=MyLogCollector" --security-opt apparmor:unconfined --cap-add=SYS_ADMIN --restart unless-stopped -a stdin -i mcr.microsoft.com/mcas/logcollector starter
     ```
 
     ![ログ コレクターを作成する](media/windows7.png)
@@ -180,6 +169,6 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 ## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
-> [ログ コレクターの FTP 構成](log-collector-ftp.md)
+> [ログ コレクターの FTP 構成を変更する](log-collector-advanced-management.md)
 
 [!INCLUDE [Open support ticket](includes/support.md)]
