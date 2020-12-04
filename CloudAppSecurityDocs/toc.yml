@@ -87,7 +87,11 @@
           href: protect-webex.md
         - name: Workday を保護する
           href: protect-workday.md
-- name: 攻略ガイド
+    - name: セキュリティ
+      items:
+        - name: セキュリティ ベースライン
+          href: security-baseline.md
+- name: 操作方法ガイド
   items:
     - name: 基本設定
       href: general-setup.md
