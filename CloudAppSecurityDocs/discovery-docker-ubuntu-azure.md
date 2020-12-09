@@ -1,14 +1,14 @@
 ---
 title: Azure の Docker を使用したログの自動アップロードを構成する
 description: この記事では、Azure の Linux 上の Docker を使用して、Cloud App Security での継続的レポートのためにログの自動アップロードを構成する手順について説明します。
-ms.date: 06/02/2020
+ms.date: 12/02/2020
 ms.topic: how-to
-ms.openlocfilehash: 0e34ebfc6d4afcb8ecf0967ddecc7b8dbd0b885f
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 6c4f7243758dce46e5469d503ec572a18a7a2afe
+ms.sourcegitcommit: 53e485ed8460f1123b3b55277fa5991b427b5302
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96311878"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96512952"
 ---
 # <a name="docker-on-linux-in-azure"></a>Azure の Linux 上の Docker
 
@@ -124,13 +124,85 @@ Azure の Ubuntu、Red Hat Enterprise Linux (RHEL)、または CentOS 上の Doc
 
 1. `sudo -i` を使用して、ルート権限に変更します。
 
-1. [ソフトウェア ライセンス条項](https://go.microsoft.com/fwlink/?linkid=862492)に同意する場合は、次のコマンドを実行して、古いバージョンをアンインストールし、Docker CE をインストールします。
+1. [ソフトウェア ライセンス条項](https://go.microsoft.com/fwlink/?linkid=862492)に同意する場合は、お使いの環境に適したコマンドを実行して古いバージョンをアンインストールし、Docker CE をインストールします。
+
+#### <a name="centos"></a>[CentOS](#tab/centos)
+
+1. 古いバージョンの Docker を削除します: `yum erase docker docker-engine docker.io`
+1. Docker エンジンの前提条件をインストールします: `yum install -y yum-utils`
+1. Docker リポジトリを追加します:
 
     ```bash
-    curl -o /tmp/MCASInstallDocker.sh https://adaprodconsole.blob.core.windows.net/public-files/MCASInstallDocker.sh && chmod +x /tmp/MCASInstallDocker.sh; /tmp/MCASInstallDocker.sh
+    yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    yum makecache
     ```
 
-    ![Ubuntu Azure のコマンド](media/ubuntu-azure-command.png)
+1. Docker エンジンをインストールします: `yum -y install docker-ce`
+1. Docker を起動します
+
+    ```bash
+    systemctl start docker
+    systemctl enable docker
+    ```
+
+1. Docker のインストールをテストします: `docker run hello-world`
+
+#### <a name="red-hat"></a>[Red Hat](#tab/red-hat)
+
+1. 古いバージョンの Docker を削除します: `yum erase docker docker-engine docker.io`
+1. Docker エンジンの前提条件をインストールします:
+
+    ```bash
+    yum install -y yum-utils
+    yum install -y https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.3.7-3.1.el7.x86_64.rpm
+    ```
+
+1. Docker リポジトリを追加します:
+
+    ```bash
+    yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+    yum makecache
+    ```
+
+1. Docker エンジンをインストールします: `yum -y install docker-ce`
+1. Docker を起動します
+
+    ```bash
+    systemctl start docker
+    systemctl enable docker
+    ```
+
+1. Docker のインストールをテストします: `docker run hello-world`
+
+#### <a name="ubuntu"></a>[Ubuntu](#tab/ubuntu)
+
+1. 古いバージョンの Docker を削除します: `apt-get remove docker docker-engine docker.io`
+1. Ubuntu 14.04 にインストールする場合は、linux-image-extra パッケージをインストールします。
+
+    ```bash
+    apt-get update -y
+    apt-get install -y linux-image-extra-$(uname -r) linux-image-extra-virtual
+    ```
+
+1. Docker エンジンの前提条件をインストールします:
+
+    ```bash
+    apt-get update -y
+    (apt-get install -y apt-transport-https ca-certificates curl software-properties-common && curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add - )
+    ```
+
+1. apt-key のフィンガープリント UID が docker@docker.com: `apt-key fingerprint | grep uid` であることを確認します
+1. Docker エンジンをインストールします:
+
+    ```bash
+    add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+    apt-get update -y
+    apt-get install -y docker-ce
+    ```
+
+1. Docker のインストールをテストします: `docker run hello-world`
+
+---
 
 1. Cloud App Security ポータルの **[Create new log collector]\(新しいログ コレクターの作成\)** ウィンドウで、ホスティング マシンでコレクターの構成をインポートするためのコマンドをコピーします。
 
@@ -163,6 +235,11 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 ![ログ コレクターでコレクターの状態を確認する](media/ubuntu9.png)
 
 **[ガバナンス ログ]** に移動して、ログがポータルに定期的にアップロードされていることを確認することもできます。
+
+または、次のコマンドを使用して、Docker コンテナー内からログ コレクターの状態を確認することもできます。
+
+1. 次のコマンドを使用して、コンテナーにログインします: `docker exec -it <Container Name> bash`
+1. 次のコマンドを使用して、ログ コレクターの状態を確認します: `collector_status -p`
 
 展開中に問題が発生した場合は、「[Cloud Discovery のトラブルシューティング](troubleshooting-cloud-discovery.md)」を参照してください。
 

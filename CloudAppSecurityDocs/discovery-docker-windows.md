@@ -1,14 +1,14 @@
 ---
 title: Windows 上の Docker を使用して Cloud App Security の継続的レポートをロールアウトする
 description: この記事では、オンプレミス サーバーの Windows 上の Docker を使用して、Cloud App Security の継続的レポートのためにログの自動アップロードを構成する手順について説明します。
-ms.date: 11/19/2019
+ms.date: 12/02/2020
 ms.topic: how-to
-ms.openlocfilehash: 3fe411948dd2f0fe64917d69047351d835744ac0
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 7164cdb91664e131915c489d00085c164321afbb
+ms.sourcegitcommit: c2c9bd46229ebe9e22bb03d43487d4c544f5e5f4
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96311810"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "96509963"
 ---
 # <a name="docker-on-windows-on-premises"></a>オンプレミスの Windows 上の Docker
 
@@ -150,6 +150,11 @@ BlueCoat_HQ - Destination path: \<<machine_name>>\BlueCoat_HQ\
 ![コレクターが正常にデプロイされたことを確認する](media/ubuntu9.png)
 
 **[ガバナンス ログ]** に移動して、ログがポータルに定期的にアップロードされていることを確認することもできます。
+
+または、次のコマンドを使用して、Docker コンテナー内からログ コレクターの状態を確認することもできます。
+
+1. 次のコマンドを使用して、コンテナーにログインします: `docker exec -it <Container Name> bash`
+1. 次のコマンドを使用して、ログ コレクターの状態を確認します: `collector_status -p`
 
 展開中に問題が発生した場合は、「[Cloud Discovery のトラブルシューティング](troubleshooting-cloud-discovery.md)」を参照してください。
 

@@ -1,14 +1,14 @@
 ---
 title: Cloud App Security と Azure AD の検出機能の違い
 description: この記事では、Cloud App Security と Azure AD の検出機能の違いについて説明します。
-ms.date: 8/29/2019
+ms.date: 12/03/2020
 ms.topic: overview
-ms.openlocfilehash: 4a5374294407d1b3011f4b7fcd4edca1254e0532
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: c66173dc28d0e0f9d349327583afa30a328912db
+ms.sourcegitcommit: 4177401f2f7948f230a6cb1f7af8ceeceb844fad
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96311487"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96544702"
 ---
 # <a name="what-are-the-differences-in-discovery-capabilities-for-azure-active-directory-and-microsoft-cloud-app-security"></a>Azure Active Directory と Microsoft Cloud App Security では、検出機能にどのような違いがありますか。
 
@@ -33,7 +33,7 @@ Microsoft Cloud App Security と Azure AD の検出機能の比較を次の表�
 |機能|機能|Microsoft Cloud App Security|Azure AD Cloud App Discovery|
 |----|----|----|----|
 |Cloud Discovery|検出されたアプリ|16,000 超のクラウド アプリ|16,000 超のクラウド アプリ|
-||検出分析のためのデプロイ|手動と自動のログ アップロード|手動と自動のログ アップロード|
+||検出分析のためのデプロイ|手動と自動のログ アップロード|手動と自動のログ アップロード。 [Cloud Discovery の設定の詳細](set-up-cloud-discovery.md)|
 ||ユーザー プライバシーのログ匿名化|はい|はい|
 ||完全なクラウド アプリ カタログへのアクセス|はい|はい|
 ||クラウド アプリのリスク評価|はい|はい|
@@ -55,4 +55,4 @@ Microsoft Cloud App Security と Azure AD の検出機能の比較を次の表�
 
 基本については、「[Cloud App Security の使用を開始する](getting-started-with-cloud-app-security.md)」をご覧ください。
 
-[!INCLUDE [Open support ticket](includes/support.md)].
+[!INCLUDE [Open support ticket](includes/support.md)] にする必要があります。
