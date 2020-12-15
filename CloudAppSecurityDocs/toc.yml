@@ -73,8 +73,8 @@
           href: protect-github.md
         - name: GCP を保護する
           href: protect-gcp.md
-        - name: G Suite を保護する
-          href: protect-gsuite.md
+        - name: Google Workspace を保護する
+          href: protect-google-workspace.md
         - name: Office 365 を保護する
           href: protect-office-365.md
         - name: Okta を保護する
@@ -87,7 +87,7 @@
           href: protect-webex.md
         - name: Workday を保護する
           href: protect-workday.md
-    - name: セキュリティ
+    - name: Security
       items:
         - name: セキュリティ ベースライン
           href: security-baseline.md
@@ -165,8 +165,8 @@
           href: connect-dropbox-to-microsoft-cloud-app-security.md
         - name: GitHub の接続
           href: connect-github-ec-to-microsoft-cloud-app-security.md
-        - name: G Suite の接続
-          href: connect-google-apps-to-microsoft-cloud-app-security.md
+        - name: Google Workspace の接続
+          href: connect-google-workspace-to-microsoft-cloud-app-security.md
         - name: GCP の接続
           href: connect-google-gcp-to-microsoft-cloud-app-security.md
         - name: Office 365 の接続
