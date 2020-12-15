@@ -3,12 +3,12 @@ title: クラウド サービス プロバイダーを使用して環境内の�
 description: この記事では、接続されているアプリを Cloud App Security で保護する方法について説明します。
 ms.date: 02/20/2020
 ms.topic: conceptual
-ms.openlocfilehash: ac06786b3aa7dbe5fac1c9c3ee9be6a276d3c176
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 4a707a5281179e6f16ef56fec801c667f4b69aeb
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315363"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369992"
 ---
 # <a name="protecting-connected-apps"></a>接続されているアプリの保護
 
@@ -24,7 +24,7 @@ Cloud App Security は、クラウド間の統合、[API コネクタ](enable-in
 - [DropBox を保護する](protect-dropbox.md)
 - [GitHub Enterprise Cloud を保護する](protect-github.md)
 - [GCP を保護する](protect-gcp.md)
-- [G Suite を保護する](protect-gsuite.md)
+- [Google Workspace を保護する](protect-google-workspace.md)
 - [Office 365 を保護する](protect-office-365.md)
 - [Okta を保護する](protect-okta.md)
 - [Salesforce を保護する](protect-salesforce.md)
