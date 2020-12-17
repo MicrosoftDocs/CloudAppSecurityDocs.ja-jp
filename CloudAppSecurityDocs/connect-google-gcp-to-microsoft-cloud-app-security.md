@@ -3,12 +3,12 @@ title: Google Cloud Platform を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して Google Cloud Platform を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.openlocfilehash: bc000751610829d07e0ebd477a716255fdff2fa1
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: b6776796491d957a15a5246bac97144494e5789d
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313102"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369975"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -16,7 +16,7 @@ ms.locfileid: "96313102"
 
 この記事では、コネクタ API を使用して Microsoft Cloud App Security を既存の Google Cloud Platform (GCP) アカウントに接続する手順について説明します。 この接続を使用すると、GCP の使用状況を表示したり制御したりできます。 Cloud App Security で GCP を保護する方法の詳細については、[GCP の保護](protect-gcp.md)に関するページを参照してください。
 
-安定した統合を維持し、セットアップ プロセスが削除または変更されるのを防ぐために、統合に専用のプロジェクトを使用し、プロジェクトへのアクセスを制限することをお勧めします。 また、GCP インスタンスが、Cloud App Security に既に接続されている G Suite インスタンスの一部である場合は、GCP 接続の詳細を追加するときに、「**接続されている G Suite 組織の一部である GCP インスタンスの場合**」の手順に従うことをお勧めします。
+安定した統合を維持し、セットアップ プロセスが削除または変更されるのを防ぐために、統合に専用のプロジェクトを使用し、プロジェクトへのアクセスを制限することをお勧めします。 また、お使いの GCP インスタンスが、Cloud App Security に既に接続されている Google Workspace インスタンスの一部である場合は、GCP 接続の詳細を追加するときに、**接続されている Google Workspace 組織の一部である GCP インスタンスの場合** に関する手順に従うことをお勧めします。
 
 ## <a name="prerequisites"></a>[前提条件]
 
@@ -125,7 +125,7 @@ GCP のセキュリティ監査を Cloud App Security に接続するには、�
 1. **[アプリ コネクタ]** ページで、次のいずれかの手順を行って、AWS コネクタの資格情報を入力します。
 
     > [!NOTE]
-    > G Suite インスタンスを接続して、統合ユーザー管理およびガバナンスを実現することをお勧めします。 これは、G Suite 製品を使用せず、GCP ユーザーが G Suite ユーザー管理システムを介して管理されている場合でも推奨されます。
+    > お使いの Google Workspace インスタンスを接続して、統合ユーザー管理およびガバナンスを実現することをお勧めします。 これは、Google Workspace 製品を使用せず、GCP ユーザーが Google Workspace ユーザー管理システムを介して管理されている場合でも推奨されます。
 
     **新しいコネクタの場合**
 

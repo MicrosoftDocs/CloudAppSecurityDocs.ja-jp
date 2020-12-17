@@ -3,12 +3,12 @@ title: Cloud App Security で接続されたアプリからユーザー グル�
 description: この記事では、接続されているアプリから Cloud App Security にユーザー グループをインポートする手順について説明します。
 ms.date: 11/17/2019
 ms.topic: how-to
-ms.openlocfilehash: d441e28280df81e8f34a73e28e56797b2826f867
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 92b72e4269355743b4a325a1ab4f0a8b22da2dda
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315736"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370128"
 ---
 # <a name="importing-user-groups-from-connected-apps"></a>接続されているアプリからユーザー グループをインポートする
 
@@ -22,7 +22,7 @@ Microsoft Cloud App Security により、API コネクタを使用してアプ�
   - 外部
   - Dropbox 管理者
   - Office 365 管理者
-  - G Suite 管理者
+  - Google Workspace の管理者
   - Box 管理者
   - すべての Salesforce 標準およびカスタム プロファイル (例: Salesforce システム管理者)。 完全なリストは、[こちら](https://help.salesforce.com/articleView?id=standard_profiles.htm&language=en&type=0)をご覧ください。
 

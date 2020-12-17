@@ -3,12 +3,12 @@ title: Cloud App Security で発生したアラートを監視する
 description: この記事では、すべてのアラートの一覧と説明を示します。
 ms.date: 12/10/2018
 ms.topic: how-to
-ms.openlocfilehash: f6346180c3a45fb1c7ae2e885d90732f4a269be3
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 23a1ea16cb0f733d82b38d0191fed929fbc515d4
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96311198"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369958"
 ---
 # <a name="monitor-alerts-in-cloud-app-security"></a>Cloud App Security でアラートを監視する
 
@@ -74,7 +74,7 @@ ms.locfileid: "96311198"
 |----|----|----|
 |新しい場所|ALERT_GEOLOCATION_NEW_COUNTRY|スキャンが開始されてから新しい場所が検出されました (最大 6 か月)。 このアラートは、組織全体に対して、国や地域ごとに 1 回だけ表示されます。 |
 |新しい管理者ユーザー|ALERT_ADMIN_USER|特定のアプリに対して新しい管理者が検出されました。 この管理者は、あるアプリケーションの管理者が、別のアプリケーションの管理者になった人である可能性があります。 このアラートは特定の管理者の種類に関するものであるため、管理者の種類が変更されるたびに表示されます。 ユーザーが管理特権を失ってから、再び得た場合は、このアラートが表示されます。|
-|非アクティブなアカウント|ALERT_ZOMBIE_USER|ユーザーがアプリケーションごとに 60 日間非アクティブになっている場合 (たとえば、Box ではアクティブになっていても、G Suite を 60 日間使用していない場合)、そのユーザーは G Suite で非アクティブであると見なされます。 非アクティブなアカウントを検索できるように、これらのユーザーにはタグが追加されます。|
+|非アクティブなアカウント|ALERT_ZOMBIE_USER|ユーザーが 1 つのアプリケーションを 60 日間使用していない場合 (たとえば、Box は使用していても、Google Workspace は 60 日間使用していない場合)、そのユーザーは Google Workspace に対し非アクティブと見なされます。 非アクティブなアカウントを検索できるように、これらのユーザーにはタグが追加されます。|
 |予期しない管理者の場所|ALERT_NEW_ADMIN_LOCATION|スキャンが開始されてから管理者に対して新しい場所が検出されました (最大 6 か月)。 このアラートは、組織全体のすべての管理者に対して、国や地域ごとに 1 回だけ表示されます。 |
 |危険な状態のアカウント|ALERT_COMPROMISED_ACCOUNT|アプリケーションで侵害が発生し、侵害されたアカウントの一覧が発行された場合、Cloud App Security ではその一覧をダウンロードし、ユーザーの一覧と比較します。 ユーザー一覧には、内部ユーザー、外部ユーザー、および個人アカウントが含まれます。 |
 

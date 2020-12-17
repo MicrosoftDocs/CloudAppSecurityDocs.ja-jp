@@ -3,12 +3,12 @@ title: ネットワークの要件
 description: この記事では、Cloud App Security を使用するために開く必要がある IP アドレスとポートについて説明します。
 ms.date: 11/01/2019
 ms.topic: how-to
-ms.openlocfilehash: 78f054b4ba8ea1a2d11ddfd70e40aa2cbd7b8430
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: c7f61971f8535c9848765a735d164716bc6f7996
+ms.sourcegitcommit: 3e8aa24bfa8836b1b228c434ddaa5bdbdbc26e82
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96310875"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "96918416"
 ---
 # <a name="network-requirements"></a>ネットワークの要件
 
@@ -105,6 +105,13 @@ US Government GCC High のお客様の場合は、Cloud App Security のリバ�
 *.admin-mcas-gov.us
 mcasproxy.azureedge.net
 ```
+
+また、次の項目を許可する必要があります。
+
+|IP アドレス|DNS 名|
+|----|----|
+|13.72.27.223、13.72.27.219、13.72.27.220、13.72.27.222、52.244.39.14、52.244.38.212、52.244.39.0、52.244.39.80|\*.mcas-gov.us<br />\*.admin-mcas-gov.us mcasproxy.azureedge.net|
+|13.72.27.216、13.72.27.215,52.244.39.82、52.244.39.15|\*.access.cloudappsecurity.us<br />\*.saml.cloudappsecurity.us|
 
 ## <a name="siem-agent-connection"></a>SIEM エージェント接続
 

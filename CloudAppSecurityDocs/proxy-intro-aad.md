@@ -3,12 +3,12 @@ title: Microsoft Cloud App Security のアプリの条件付きアクセス制�
 description: この記事では、Cloud App Security のアプリの条件付きアクセス制御のリバース プロキシの機能について説明します。
 ms.date: 10/14/2020
 ms.topic: conceptual
-ms.openlocfilehash: 04671ddb9225a3fc1330b7b33b1eb3010805a221
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 18caaec466ec7d79102661705037870f70a7b15f
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315346"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370011"
 ---
 # <a name="protect-apps-with-microsoft-cloud-app-security-conditional-access-app-control"></a>Microsoft Cloud App Security のアプリの条件付きアクセス制御を使用してアプリを保護する
 
@@ -146,8 +146,8 @@ Cloud App Security では、クラウド アプリ カタログで利用可能�
 - Dynamics 365 CRM (プレビュー)
 - Egnyte
 - Exchange Online
-- G Suite
 - GitHub
+- Google Workspace
 - HighQ
 - JIRA/Confluence
 - OneDrive for Business

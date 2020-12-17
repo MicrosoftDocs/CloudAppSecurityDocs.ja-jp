@@ -3,12 +3,12 @@ title: Cloud App Security のサポートとトラブルシューティングに
 description: この記事では、Microsoft Cloud App Security のサポートおよびトラブルシューティングのオプションについて説明します。
 ms.date: 11/14/2019
 ms.topic: conceptual
-ms.openlocfilehash: 5a7e3a184b99dcc3c1e1d763566c73cf3d9d700f
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: fb4791559129a8a95ff998954aafbea72367886c
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315380"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370077"
 ---
 # <a name="support-and-troubleshooting-microsoft-cloud-app-security"></a>Microsoft Cloud App Security のサポートとトラブルシューティング
 
@@ -29,7 +29,7 @@ Microsoft サポートは、Microsoft Cloud App Security に世界的な技術�
 次の手順に従って、 **[サポート要求]** を選択して新しいサポート リクエストを作成すると、Azure の *[ヘルプとサポート]* ページの **[基本]** タブが開きます。
 
 >[!NOTE]
-> Microsoft Cloud App Security と連携するサード パーティ製品 (Box、Salesforce、G Suite など) のテクニカル サポートについては、該当製品の供給元にまずお問い合わせください。
+> Microsoft Cloud App Security と連携するサード パーティ製品 (Box、Salesforce、Google Workspace など) のテクニカル サポートについては、該当製品の供給元にまずお問い合わせください。
 
 ### <a name="create-an-online-support-request"></a>オンライン サポート リクエストの作成
 

@@ -3,12 +3,12 @@ title: Cloud App Security は Google Cloud Platform 環境の保護にどのよ�
 description: この記事では、API コネクタを使用して Google Cloud Platform アプリを Cloud App Security に接続することで使用状況を可視化して制御することの利点について説明します。
 ms.date: 09/15/2020
 ms.topic: article
-ms.openlocfilehash: 461d6c0c883c84892a049de7193dd5f28e1a0a99
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 0c1a34171fab84b845e4fb996d4c9dc18cb0d92c
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315261"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370023"
 ---
 # <a name="how-cloud-app-security-helps-protect-your-google-cloud-platform-gcp-environment"></a>Cloud App Security は Google Cloud Platform (GCP) 環境の保護にどのように役立つか
 
@@ -48,7 +48,7 @@ GCP を Cloud App Security に接続すると、管理およびサインイン�
 
 | Type | 操作 |
 | ---- | ---- |
-| ユーザー ガバナンス | - Google へのパスワードのリセットをユーザーに求める (リンク先 G Suite インスタンスの接続が必要)<br />- ユーザーを停止する (リンク先 G Suite インスタンスの接続が必要)<br />- アラートをユーザーに通知する (Azure AD 経由)<br />- ユーザーにもう一度サインインするよう要求する (Azure AD 経由)<br />- ユーザーを停止する (Azure AD 経由) |
+| ユーザー ガバナンス | - Google へのパスワードのリセットをユーザーに求める (接続されリンクされた Google Workspace インスタンスが必要)<br />- ユーザーを停止する (接続されリンクされた Google Workspace インスタンスが必要)<br />- アラートをユーザーに通知する (Azure AD 経由)<br />- ユーザーにもう一度サインインするよう要求する (Azure AD 経由)<br />- ユーザーを停止する (Azure AD 経由) |
 
 アプリからの脅威の修復の詳細については、「[接続されているアプリを管理する](governance-actions.md)」を参照してください。
 

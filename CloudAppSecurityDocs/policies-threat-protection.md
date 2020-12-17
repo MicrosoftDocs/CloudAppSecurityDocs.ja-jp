@@ -3,12 +3,12 @@ title: 脅威保護に関するポリシー
 description: このトピックでは、Cloud App Security で多数の脅威防止ポリシーを構成する手順の概要について説明します。
 ms.date: 11/08/2020
 ms.topic: conceptual
-ms.openlocfilehash: 0bb2b12a528569a8a444a2273ed34154b996804d
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 9c394fae7ccb76e54a8b188129eaca0c3bff109a
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315329"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369924"
 ---
 # <a name="threat-protection-policies"></a>脅威保護に関するポリシー
 
@@ -173,7 +173,7 @@ Cloud App Security を使用すると、リスクの高い使用とクラウド�
 2. 検出の **[スコープ]** を構成し、アラートがトリガーされたときに実行するガバナンス アクションをカスタマイズすることができます。 Cloud App Security によるランサムウェアの識別方法の詳細については、「[ランサムウェアから組織を保護する](use-case-ransomware.md)」を参照してください。
 
 > [!NOTE]
-> これは、Office 365、G Suite、Box、Dropbox に適用されます。
+> これは、Office 365、Google Workspace、Box、Dropbox に該当します。
 
 ## <a name="detect-malware-in-the-cloud"></a>クラウド内のマルウェアを検出する
 

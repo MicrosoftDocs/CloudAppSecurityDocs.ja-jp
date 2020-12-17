@@ -3,12 +3,12 @@ title: Cloud App Security で OAuth アプリを制御するポリシーを作�
 description: この記事では、Microsoft Cloud App Security でアプリのアクセス許可ポリシーを作成して使用する手順について説明します。
 ms.date: 11/27/2019
 ms.topic: how-to
-ms.openlocfilehash: c97fbd615432b2c1579f406bc57427b261124848
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 53b3c8d10bdc11714cffcc4bcd9402ee3a0e0adb
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313833"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369941"
 ---
 # <a name="oauth-app-policies"></a>OAuth アプリ ポリシー
 
@@ -16,7 +16,7 @@ ms.locfileid: "96313833"
 
 環境に接続されている [OAuth アプリの既存の調査](manage-app-permissions.md)に加えて、OAuth アプリが特定の条件を満たしたときに自動通知を受け取るようにアクセス許可ポリシーを設定することができます。 たとえば、高いアクセス許可レベルを必要とし、50 人を超えるユーザーによって承認されたアプリがある場合、自動的にアラートを受け取ることができます。
 
-OAuth アプリ ポリシーを使用すると、各アプリで要求されたアクセス許可と、Office 365、G Suite、Salesforce に対してそれを承認したユーザーを調べることができます。 また、これらのアクセス許可を承認済みまたは禁止済みとしてマークすることもできます。 禁止済みとしてマークすると、承認したユーザーごとに各アプリに対するアクセス許可が取り消されます。
+OAuth アプリ ポリシーを使用すると、各アプリで要求されたアクセス許可と、Office 365、Google Workspace、Salesforce でそれを承認したユーザーを調べることができます。 また、これらのアクセス許可を承認済みまたは禁止済みとしてマークすることもできます。 禁止済みとしてマークすると、承認したユーザーごとに各アプリに対するアクセス許可が取り消されます。
 
 ## <a name="create-a-new-oauth-app-policy"></a>新しい OAuth アプリ ポリシーを作成する
 

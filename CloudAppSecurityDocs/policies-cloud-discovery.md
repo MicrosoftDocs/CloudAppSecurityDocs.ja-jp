@@ -3,12 +3,12 @@ title: Cloud Discovery ポリシー
 description: この記事では、Cloud App Security で多数の Cloud Discovery ポリシーを構成する手順の概要について説明します。
 ms.date: 06/13/2019
 ms.topic: conceptual
-ms.openlocfilehash: 5d96558ff1da3c42cd4acff559ca0ec6d7cd65a7
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 1cdaec33791e601bc47108c88320c67ab42dad82
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96310960"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369901"
 ---
 # <a name="cloud-discovery-policies"></a>Cloud Discovery ポリシー
 
@@ -128,26 +128,26 @@ Cloud App Security を使用すると、組織の環境内で使用されてい�
 
 ## <a name="detect-risky-oauth-apps"></a>危険な OAuth アプリを検出する
 
-G Suite、Office 365、Salesforce などのアプリ内にインストールされている [OAuth アプリ](investigate-risky-oauth.md)の情報を取得して制御します。 高いアクセス許可を要求し、コミュニティをあまり使用しない OAuth アプリは、危険であると見なされる場合があります。
+Google Workspace、Office 365、Salesforce などのアプリ内にインストールされている [OAuth アプリ](investigate-risky-oauth.md)の情報を取得して制御します。 高いアクセス許可を要求し、コミュニティをあまり使用しない OAuth アプリは、危険であると見なされる場合があります。
 
 ### <a name="prerequisites"></a>[前提条件]
 
-G Suite、Office 365、または Salesforce アプリは、[アプリ コネクタ](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)を使用して接続する必要があります。
+Google Workspace、Office 365、または Salesforce アプリは、[アプリ コネクタ](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)を使用して接続する必要があります。
 
 ### <a name="steps"></a>手順
 
 1. **[ポリシー]** ページで、新しい **OAuth アプリ ポリシー** を作成します。
 
-2. **[アプリ]** フィルターを選択し、ポリシーでカバーするアプリ (G Suite、Office 365、または Salesforce) を設定します。
+2. **[アプリ]** フィルターを選択し、ポリシーを適用するアプリ (Google Workspace、Office 365、または Salesforce) を設定します。
 
-3. **[アクセス許可レベル]** フィルターを **[高]** に設定します (G Suite と Office 365 で使用可能)。
+3. **[アクセス許可レベル]** フィルターを **[高]** に設定します (Google Workspace と Office 365 で使用可能)。
 
 4. **[コミュニティの利用状況]** フィルターを **[まれ]** に設定します。
 
 5. アラートがトリガーされたときに実行するアクションを構成します。 たとえば、Office 365 の場合は、ポリシーによって検出された OAuth アプリに対して **[アプリの取り消し]** をオンにします。
 
 > [!NOTE]
-> G Suite、Office 365、Salesforce アプリ ストアでサポートされています。
+> Google Workspace、Office 365、Salesforce アプリ ストアでサポートされています。
 
 ## <a name="next-steps"></a>次のステップ
 

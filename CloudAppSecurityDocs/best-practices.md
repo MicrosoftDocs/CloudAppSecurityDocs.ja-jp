@@ -3,12 +3,12 @@ title: 組織を保護するためのベスト プラクティス
 description: この記事では、組織を保護するための一連のベスト プラクティスについて説明します。
 ms.date: 10/24/2019
 ms.topic: quickstart
-ms.openlocfilehash: b0639bb79c9aed35086c3e8dea084f1e1c823628
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: eaaf98b47e4cadfdbd784548454c79710b822da3
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313646"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369839"
 ---
 # <a name="cloud-app-security-best-practices"></a>Cloud App Security のベスト プラクティス
 
@@ -94,7 +94,7 @@ Cloud App Security には、ユーザーが付与したアプリのアクセス�
 ---
 
 **ベスト プラクティス**:サードパーティ製アプリを接続する  
-**詳細**:サードパーティ製アプリを Cloud App Security に接続することにより、ユーザーのアクティビティ、脅威検出、ガバナンス機能に関する洞察が向上します。 サポートされているサードパーティ製アプリの API:[アマゾン ウェブ サービス (AWS)](connect-aws-to-microsoft-cloud-app-security.md)、[Box](connect-box-to-microsoft-cloud-app-security.md)、[Dropbox](connect-dropbox-to-microsoft-cloud-app-security.md)、[G Suite](connect-google-apps-to-microsoft-cloud-app-security.md)、[Okta](connect-okta-to-microsoft-cloud-app-security.md)、[Salesforce](connect-salesforce-to-microsoft-cloud-app-security.md)、[ServiceNow](connect-servicenow-to-microsoft-cloud-app-security.md)、[WebEx](connect-webex-to-microsoft-cloud-app-security.md)、および [Workday](connect-workday-to-microsoft-cloud-app-security.md)。  
+**詳細**:サードパーティ製アプリを Cloud App Security に接続することにより、ユーザーのアクティビティ、脅威検出、ガバナンス機能に関する洞察が向上します。 サポートされているサードパーティ製アプリの API:[アマゾン ウェブ サービス (AWS)](connect-aws-to-microsoft-cloud-app-security.md)、[Box](connect-box-to-microsoft-cloud-app-security.md)、[Dropbox](connect-dropbox-to-microsoft-cloud-app-security.md)、[Google Workspace](connect-google-workspace-to-microsoft-cloud-app-security.md)、[Okta](connect-okta-to-microsoft-cloud-app-security.md)、[Salesforce](connect-salesforce-to-microsoft-cloud-app-security.md)、[ServiceNow](connect-servicenow-to-microsoft-cloud-app-security.md)、[WebEx](connect-webex-to-microsoft-cloud-app-security.md)、および [Workday](connect-workday-to-microsoft-cloud-app-security.md)。  
 **参照項目**:
 
 * [アプリの接続](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)

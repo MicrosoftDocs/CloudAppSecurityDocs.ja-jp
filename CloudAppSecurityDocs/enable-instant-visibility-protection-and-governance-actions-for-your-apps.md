@@ -3,12 +3,12 @@ title: アプリを接続して可視化および管理する
 description: この記事では、API コネクタを使用して、アプリを組織のクラウド内のアプリに接続するプロセスについて説明します。
 ms.date: 07/14/2020
 ms.topic: how-to
-ms.openlocfilehash: 3750fe01f774dd81ada1ebdb6b60c6bf6dfbb370
-ms.sourcegitcommit: 1bea874c7531c1926b6e46b96eac00ceeeeb69f2
+ms.openlocfilehash: 1bbdf2933bc2495ba397e3d78fb1ca1efcd3ffff
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96749831"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369533"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
@@ -55,13 +55,13 @@ Cloud App Security はシステム管理者権限で展開されているため�
 
 次の表は、クラウド アプリごとの、アプリのコネクタによって使用できるようになる機能のリストです。
 
-| | AWS | ボックス | ドロップボックス | GCP | G Suite | Office 365 | Okta | Service Now | Salesforce | Webex | Workday |
+| | AWS | ボックス | ドロップボックス | GCP | Google Workspace | Office 365 | Okta | Service Now | Salesforce | Webex | Workday |
 |-|-|-|-|-|-|-|-|-|-|-|-|
-| **アカウントの一覧表示** | ✔ | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| **グループの一覧表示** | ✔ | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | ✔ | ✔ | ✔ | | プロバイダーはサポートしていません |
-| **権限の一覧表示** | | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | プロバイダーはサポートしていません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
-| **ユーザー ガバナンス** | | ✔ | 近日中にご利用になれます | G Suite 接続による | ✔ | ✔ | | 近日中にご利用になれます | ✔ | 近日中にご利用になれます | プロバイダーはサポートしていません |
-| **ログオン アクティビティ** | ✔ | ✔ | ✔ | G Suite 接続による | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **アカウントの一覧表示** | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **グループの一覧表示** | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | | プロバイダーはサポートしていません |
+| **権限の一覧表示** | | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | プロバイダーはサポートしていません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
+| **ユーザー ガバナンス** | | ✔ | 近日中にご利用になれます | 対象の Google Workspace 接続 | ✔ | ✔ | | 近日中にご利用になれます | ✔ | 近日中にご利用になれます | プロバイダーはサポートしていません |
+| **ログオン アクティビティ** | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
 | **ユーザーの利用状況** | 適用できません | ✔ | ✔ | ✔ | ✔ - Google Business または Enterprise が必要です | ✔ | ✔ | 一部サポート | Salesforce Shield でサポート | ✔ | ✔ |
 | **管理者アクティビティ** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | 一部サポート | ✔ | ✔ | プロバイダーはサポートしていません |
 | **DLP - 定期的なスキャン** | | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
@@ -91,7 +91,7 @@ Cloud App Security はシステム管理者権限で展開されているため�
 | ドロップボックス | Business/Enterprise | 管理者 |
 | GitHub | GitHub Enterprise Cloud | Owner |
 | GCP | | [GCP 接続の前提条件](connect-google-gcp-to-microsoft-cloud-app-security.md#prerequisites)に関するページを参照してください |
-| G Suite | G Suite Business または Enterprise (推奨)<br /><br />G Suite Enterprise (最低必要) | スーパー管理者 |
+| Google Workspace | Google Workspace Business または Enterprise 推奨<br /><br />Google Workspace Enterprise (最小) | スーパー管理者 |
 | Office 365 | | グローバル管理者 |
 | Okta | Enterprise (評価版ではない) | 管理者 |
 | Salesforce | | 管理者 |

@@ -3,12 +3,12 @@ title: 組織で使用されるクラウド プラットフォームのセキュ
 description: このチュートリアルでは、Microsoft Cloud App Security を使用して、Azure、AWS、および GCP クラウド プラットフォームをセキュリティで保護する方法について説明します。
 ms.date: 09/17/2020
 ms.topic: tutorial
-ms.openlocfilehash: 7711285b895d63e47e770a9079ef50bf8a091808
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: dfdff2b5b124ee9ea9d5fe4822196fa42cbe9f0a
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315873"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370162"
 ---
 # <a name="tutorial-manage-cloud-platform-security"></a>チュートリアル:クラウド プラットフォームのセキュリティを管理する
 
@@ -22,7 +22,7 @@ ms.locfileid: "96315873"
 
 適切に保護されていない可能性のあるリソースを保護するために、適切なセキュリティ ツールを用意することが重要です。 組織は、クラウド リソースの体制を把握し、各プラットフォームの実際の使用状況を把握するための探索機能を備え、疑わしいアクティビティを監視して構成とコンプライアンス ステータスを評価および確認できるとともに、リアルタイムの保護メカニズムをデプロイできる必要があります。
 
-また、クラウド セキュリティ体制の管理 (CSPM) は、SaaS 構成にも対応するために、IaaS と PaaS のセキュリティ体制を越えて拡張されています。 たとえば、パブリック アクセス レベルの GitHub リポジトリや、Office 365、G Suite、Sales Force などの SaaS アプリにアクセスできる OAuth アプリです。 SaaS CSPM は、Cloud App Security 製品のネイティブ拡張である CSPM の新しい拡張ドメインです。
+また、クラウド セキュリティ体制の管理 (CSPM) は、SaaS 構成にも対応するために、IaaS と PaaS のセキュリティ体制を越えて拡張されています。 たとえば、パブリック アクセス レベルの GitHub リポジトリや、Office 365、Google Workspace、Sales Force などの SaaS アプリにアクセスできる OAuth アプリです。 SaaS CSPM は、Cloud App Security 製品のネイティブ拡張である CSPM の新しい拡張ドメインです。
 
 ## <a name="protecting-multiple-clouds-from-a-single-management-portal"></a>1 つの管理ポータルからの複数のクラウドの保護
 

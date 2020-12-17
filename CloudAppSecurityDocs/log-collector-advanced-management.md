@@ -1,14 +1,14 @@
 ---
 title: ログ コレクターの詳細な管理
 description: この記事では、Cloud App Security の Cloud Discovery ログ コレクターの高度な管理タスクを実行する方法について説明します。
-ms.date: 11/25/2020
+ms.date: 12/14/2020
 ms.topic: how-to
-ms.openlocfilehash: f9edb4d76f105293574551ba1ef9c7d2ba7d1838
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: dd8ab619f7284bde404bbe90a44d346595e2b99a
+ms.sourcegitcommit: d3f243593f86e0f13a1fbc67702a99c23af5a45a
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315159"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "97386562"
 ---
 # <a name="advanced-log-collector-management"></a>ログ コレクターの詳細な管理
 
@@ -263,7 +263,7 @@ collector_config abcd1234abcd1234abcd1234abcd1234 ${CONSOLE} ${COLLECTOR}
 >   - https://download.docker.com/linux/centos/
 >   - https://download.docker.com/linux/rhel/
 >
-> ダウンロードが完了したら、[オフライン インストール ガイド](https://docs.docker.com/datacenter/dtr/2.0/install/install-dtr-offline/#download-the-offline-package)を使用してオペレーティング システムをインストールします。
+> ダウンロードが完了したら、[オフライン インストール ガイド](https://docs.docker.com/engine/install/binaries/)を使用してオペレーティング システムをインストールします。
 
 まずは[ログ コレクターのイメージをエクスポート](#export-the-log-collector-image-from-your-docker-hub)し、次に[イメージを移動先のホストにインポート](#import-and-load-the-log-collector-image-to-your-destination-host)します。
 

@@ -3,14 +3,14 @@ title: Cloud App Security と汎用 SIEM の統合
 description: この記事では、汎用 SIEM と Cloud App Security の統合に関する情報を提供します。
 ms.date: 11/08/2020
 ms.topic: how-to
-ms.openlocfilehash: a0c4fffdec7c870254baf0d20cdbaf7f0e40b39c
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: ed69404df787a9c439c3e433b00b0f06fbd8769a
+ms.sourcegitcommit: 605ab52545796cff9b0f6392ceff12c310c7fe2d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315414"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "96851872"
 ---
-# <a name="generic-siem-integration"></a>汎用 SIEM の統合
+# <a name="generic-siem-integration-preview"></a>汎用 SIEM の統合 (プレビュー)
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 

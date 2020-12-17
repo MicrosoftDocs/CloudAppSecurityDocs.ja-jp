@@ -1,14 +1,25 @@
 ---
 title: Cloud App Security で異常検出ポリシーを作成する
 description: この記事では、異常検出ポリシーについて説明し、異常検出ポリシーの構成要素に関するリファレンス情報を提供します。
+keywords: ''
+author: shsagir
+ms.author: shsagir
+manager: shsagir
 ms.date: 08/20/2020
 ms.topic: how-to
-ms.openlocfilehash: 6cddeb16149a61aa1099d4fe74c3423dbd45042f
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.collection: M365-security-compliance
+ms.prod: ''
+ms.service: cloud-app-security
+ms.technology: ''
+ms.reviewer: reutam
+ms.suite: ems
+ms.custom: seodec18
+ms.openlocfilehash: 43490c416d1d19882321343c18e3e4417a6110f4
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96314751"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369898"
 ---
 # <a name="get-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を取得する
 
@@ -69,7 +80,7 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
     >
     > * ボックス
     > * ドロップボックス
-    > * G Suite
+    > * Google Workspace
     > * Office 365 (Microsoft Defender for Office 365 P1 の有効なライセンスが必要)
 
 ### <a name="activity-from-anonymous-ip-addresses"></a>匿名 IP アドレスからのアクティビティ

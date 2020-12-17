@@ -3,12 +3,12 @@ title: 脅威保護シナリオの概要
 description: このトピックでは、クラウド環境内の脅威から組織を保護するシナリオについて説明します。
 ms.date: 12/14/2018
 ms.topic: conceptual
-ms.openlocfilehash: 0476e4ac0066e3f3584b12646e9c0143b9d64e04
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 86fe03e26d60107d0c8b825fca566f73afe62d56
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315686"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370111"
 ---
 # <a name="protecting-your-organization-from-ransomware"></a>ランサムウェアから組織を保護する
 
@@ -21,7 +21,7 @@ ms.locfileid: "96315686"
 ランサムウェアは、攻撃者が、ユーザーに自分のコンピューターにアクセスしたり、自分のファイルを暗号化したりできないようにするファイルを送り付けるサイバー攻撃です。 これらのファイルを人質にして身代金を要求されることがあり、攻撃者にお金を支払うまで、コンピューター、ファイル、または重要な LOB アプリへのアクセスを復元するための暗号化が解除されません。 ランサムウェア攻撃は、すべてのコンピューター、自宅、オフィス、ネットワーク、またはサーバーに影響を与える可能性があります。 実際、大規模な組織には、ネットワーク全体にランサムウェアを解き放つファイルを誤って開いてしまう可能性がある多くのユーザーがいるため、組織は、ランサムウェアを停止してコンピューターまたはファイルへのアクセスを復元するためには、攻撃者にお金を支払わざるを得ないというさらに大きなリスクにさらされています。
 
 >[!NOTE]
-> このユース ケースは、Office 365、G Suite、Box、Dropbox に適用されます。
+> このユース ケースは、Office 365、Google Workspace、Box、Dropbox に該当します。
 
 ## <a name="the-threat"></a>脅威
 
@@ -33,7 +33,7 @@ ms.locfileid: "96315686"
 
 ## <a name="out-of-the-box-protection"></a>すぐに使える保護
 
-少なくとも 1 つのクラウド アプリ (Office 365、G Suite、Box、Dropbox) を Cloud App Security に[接続](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)します。
+少なくとも 1 つのクラウド アプリ (Office 365、Google Workspace、Box、Dropbox) を Cloud App Security に[接続](enable-instant-visibility-protection-and-governance-actions-for-your-apps.md)します。
 
 1. 既定で、Cloud App Security ではネットワークをスキャンしてベースラインが確立されます。そこでユーザーが通常クラウドで行っていることのパターン、その実行のタイミングと一般的に行っていることが学習されます。
 

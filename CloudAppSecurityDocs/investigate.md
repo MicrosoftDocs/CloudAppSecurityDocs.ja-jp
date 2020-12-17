@@ -3,12 +3,12 @@ title: クラウド アプリのリスクと不審なアクティビティを調
 description: この記事では、Cloud App Security を使用して、アラート、問題、および不審なアクティビティを調査するプロセスの概要を示します。
 ms.date: 11/18/2019
 ms.topic: how-to
-ms.openlocfilehash: 8227ac61b16bcac8211e3714f19569e3924db7c6
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 16e08a919af058ba3ee38f35fdc4af9a5e85aa8e
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315125"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97370043"
 ---
 # <a name="investigate"></a>調査
 
@@ -31,7 +31,7 @@ ms.locfileid: "96315125"
 " *(該当する場合)* "|ファイルにドリルダウンします。所有者や共有レベルなどに基づいてフィルタリングできます。 検疫などのガバナンス アクションを実行します。|
 |アプリ ダッシュボード: アカウント|すべてのアカウント (アプリにリンクされているユーザー) の概要。|
 |アプリ ダッシュボード:OAuth アプリ  
-" *(該当する場合)* "|現在デプロイされている OAuth アプリ (G Suite など) にドリルダウンし、ポリシーを定義します。|
+" *(該当する場合)* "|現在デプロイされている OAuth アプリ (Google Workspace など) をドリルダウンし、ポリシーを定義します。|
 |アプリ ダッシュボード: アクティビティ ログ|すべてのアプリ アクティビティにドリルダウンします。ユーザーや IP アドレスなどに基づいてフィルタリングできます。|
 |アプリ ダッシュボード: アラート|すべてのアプリ アラートにドリルダウンします。状態、カテゴリ、重大度などに基づいてフィルタリングできます。|
 |アプリ ダッシュボード: 特別な特権アカウント  

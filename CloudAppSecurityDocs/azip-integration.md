@@ -3,12 +3,12 @@ title: Azure Information Protection を Cloud App Security と統合する
 description: この記事では、Cloud App Security で Azure Information Protection タグを活用して、組織のクラウド アプリの使用状況をさらに制御する方法について説明します。
 ms.date: 12/09/2019
 ms.topic: how-to
-ms.openlocfilehash: 864111ba6d1877c24a70f0de83aa66104fb8c1f4
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 32d157877fa71c12c4ea515316b160cbcfe59396
+ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313714"
+ms.lasthandoff: 12/13/2020
+ms.locfileid: "97369873"
 ---
 # <a name="azure-information-protection-integration"></a>Azure Information Protection の統合
 
@@ -44,7 +44,7 @@ Cloud App Security でラベルを使用するには、ラベルをポリシー�
   > [!NOTE]
   > PDF の場合は、統合ラベルを使用する必要があります。
 
-この機能は現在、Box、G Suite、SharePoint Online、OneDrive for Business に格納されているファイルで使用できます。 今後のバージョンでは、サポートされるクラウド アプリが増える予定です。
+この機能は現在、Box、Google Workspace、SharePoint Online、OneDrive for Business に格納されているファイルで使用できます。 今後のバージョンでは、サポートされるクラウド アプリが増える予定です。
 
 Cloud App Security の外部で保護ありとしてラベル付けされたファイルは、Cloud App Security では変更できません。 ただし、[保護されたファイルのコンテンツ検査](content-inspection.md#content-inspection-for-protected-files)のアクセス許可を付与することで、これらのファイルをスキャンできます。
 
