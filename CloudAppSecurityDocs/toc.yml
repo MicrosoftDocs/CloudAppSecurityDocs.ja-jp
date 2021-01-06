@@ -229,20 +229,18 @@
         - name: ポリシーによるクラウド アプリの制御
           href: control-cloud-apps-with-policies.md
           items:
-            - name: Cloud Discovery ポリシー
-              href: cloud-discovery-policies.md
+            - name: 脅威の検出
               items:
-                - name: Cloud Discovery 異常検出ポリシー
-                  href: cloud-discovery-anomaly-detection-policy.md
-            - name: アクティビティ ポリシー
-              href: user-activity-policies.md
-            - name: 異常検出ポリシー
-              href: anomaly-detection-policy.md
-            - name: OAuth ポリシー
-              href: app-permission-policy.md
-            - name: ファイル ポリシー
-              href: data-protection-policies.md
+                - name: アクティビティ ポリシー
+                  href: user-activity-policies.md
+                - name: 異常検出ポリシー
+                  href: anomaly-detection-policy.md
+                - name: OAuth ポリシー
+                  href: app-permission-policy.md
+            - name: 情報の保護
               items:
+                - name: ファイル ポリシー
+                  href: data-protection-policies.md
                 - name: コンテンツ検査
                   href: content-inspection.md
                   items:
@@ -252,12 +250,18 @@
                       href: dcs-inspection.md
                     - name: RegEx エンジンの操作
                       href: working-with-the-regex-engine.md
-            - name: アプリの条件付きアクセス制御のポリシー
+            - name: 条件付きアクセス ポリシー
               items:
                 - name: アクセス ポリシー
                   href: access-policy-aad.md
                 - name: セッション ポリシー
                   href: session-policy-aad.md
+            - name: シャドウ IT ポリシー
+              items:
+                - name: Cloud Discovery ポリシー
+                  href: cloud-discovery-policies.md
+                - name: Cloud Discovery 異常検出ポリシー
+                  href: cloud-discovery-anomaly-detection-policy.md
             - name: ポリシー テンプレート リファレンス
               href: policy-template-reference.md
         - name: 接続されているアプリの管理
@@ -280,14 +284,8 @@
               href: icap-stunnel.md
             - name: 追加の統合
               href: additional-integrations.md
-        - name: プロセスとワークフローの自動化
-          items:
-            - name: REST API を使用する
-              href: api-tokens.md
-            - name: API を使用したアクティビティの調査
-              href: investigate-activities-api.md
-            - name: Microsoft Power Automate を使用する
-              href: flow-integration.md
+        - name: Microsoft Power Automate を使用してプロセスを自動化する
+          href: flow-integration.md
 - name: 参照先
   items:
     - name: アプリを証明する
@@ -318,14 +316,26 @@
               href: api-discovery-finalize.md
             - name: ブロック スクリプトの生成
               href: api-discovery-script.md
-        - name: データの拡張
+        - name: データ エンリッチメント
           items:
-            - name: IP アドレス範囲の作成
+            - name: 概要
               href: api-data-enrichment.md
+            - name: API を使用した IP アドレス範囲の管理
+              href: api-data-enrichment-manage-script.md
+            - name: IP 範囲の一覧表示
+              href: api-data-enrichment-list.md
+            - name: IP アドレス範囲の作成
+              href: api-data-enrichment-create.md
+            - name: IP アドレス範囲の更新
+              href: api-data-enrichment-update.md
+            - name: IP アドレス範囲の削除
+              href: api-data-enrichment-delete.md
         - name: アクティビティ
           items:
             - name: 概要
               href: api-activities.md
+            - name: API を使用したアクティビティの調査
+              href: api-activities-investigate-script.md
             - name: アクティビティの一覧表示
               href: api-activities-list.md
             - name: Fetch アクティビティ
