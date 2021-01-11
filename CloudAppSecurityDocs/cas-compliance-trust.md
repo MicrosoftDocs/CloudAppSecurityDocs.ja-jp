@@ -1,14 +1,14 @@
 ---
 title: Cloud App Security のコンプライアンス、データ セキュリティ、プライバシー、信頼
 description: この記事では、Cloud App Security のコンプライアンス認証、セキュリティ センター、プライバシー、およびデータ セキュリティについて説明します。
-ms.date: 10/18/2020
+ms.date: 01/04/2021
 ms.topic: overview
-ms.openlocfilehash: 33aa4d7693357cef452cee14974b6892e00f338a
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 752e5b8134179993076b2e61c2e5b44ab0d29b61
+ms.sourcegitcommit: 4900168878f42e9fa79873df4b7c2d81991b5b27
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313510"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97857973"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -151,7 +151,7 @@ Microsoft Cloud App Security では、お客様は、すべてのユーザー �
 
 ### <a name="encryption"></a>暗号化
 
-Microsoft は、暗号化テクノロジを使用して、Microsoft のデータベースに保存されているデータ、およびユーザー デバイスと Cloud App Security データセンターの間で伝送されるデータを保護します。
+Microsoft は、暗号化テクノロジを使用して、Microsoft のデータベースに保存されているデータ、およびユーザー デバイスと Cloud App Security データセンターの間で伝送されるデータを保護します。 さらに、Cloud App Security と接続されているアプリの間のすべての通信は、HTTPS を使用して暗号化されます。
 
 > [!NOTE]
 > Cloud App Security では、クラス最高レベルの暗号化を提供するために、トランスポート層セキュリティ (TLS) プロトコル 1.2 以降が活用されます。 TLS 1.2 以降をサポートしていないネイティブ クライアント アプリケーションとブラウザーは、セッション制御を使用して構成した場合、アクセスできなくなります。 ただし、TLS 1.1 以下を使用している SaaS アプリは、Cloud App Security を使用して構成されている場合、TLS 1.2 以降を使用しているようにブラウザーに表示されます。

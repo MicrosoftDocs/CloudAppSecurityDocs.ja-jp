@@ -1,14 +1,14 @@
 ---
 title: アプリを接続して可視化および管理する
 description: この記事では、API コネクタを使用して、アプリを組織のクラウド内のアプリに接続するプロセスについて説明します。
-ms.date: 07/14/2020
+ms.date: 01/05/2021
 ms.topic: how-to
-ms.openlocfilehash: 1bbdf2933bc2495ba397e3d78fb1ca1efcd3ffff
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 1df724883ff1944e0ff5c1e62c1fe6fbcaef233a
+ms.sourcegitcommit: ee66e70f711aa11501e308e53b1a4b46f2175e4e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97369533"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97894656"
 ---
 # <a name="connect-apps"></a>アプリを接続する
 
@@ -16,7 +16,7 @@ ms.locfileid: "97369533"
 
 アプリ コネクタを使用するとアプリ プロバイダーの API を利用できるため、Microsoft Cloud App Security による接続先アプリの表示および制御がしやすくなります。
 
-Microsoft Cloud App Security では、クラウド プロバイダーによって提供される API が使用されます。 各サービスには、独自のフレームワークがあり、調整、API の制限、動的なタイム シフト API ウィンドウなどの API の制限があります。 Microsoft Cloud App Security はサービスを利用して、API の使用を最適化し、最高のパフォーマンスを実現できるようになりました。 Cloud App Security エンジンは、サービスによって API に適用されるさまざまな制限を考慮して、許可される機能を使用します。 テナント内のすべてのファイルのスキャンなどの一部の操作では、多数の API が必要になるため、長期間にわたって分散されます。 ポリシーによっては、数時間または数日間にわたって実行される場合があります。
+Microsoft Cloud App Security では、クラウド プロバイダーによって提供される API が使用されます。 Cloud App Security と接続されているアプリの間のすべての通信は、HTTPS を使用して暗号化されます。 各サービスには、独自のフレームワークがあり、調整、API の制限、動的なタイム シフト API ウィンドウなどの API の制限があります。 Microsoft Cloud App Security はサービスを利用して、API の使用を最適化し、最高のパフォーマンスを実現できるようになりました。 Cloud App Security エンジンは、サービスによって API に適用されるさまざまな制限を考慮して、許可される機能を使用します。 テナント内のすべてのファイルのスキャンなどの一部の操作では、多数の API が必要になるため、長期間にわたって分散されます。 ポリシーによっては、数時間または数日間にわたって実行される場合があります。
 
 ## <a name="multi-instance-support"></a>複数インスタンスのサポート
 
@@ -55,22 +55,22 @@ Cloud App Security はシステム管理者権限で展開されているため�
 
 次の表は、クラウド アプリごとの、アプリのコネクタによって使用できるようになる機能のリストです。
 
-| | AWS | ボックス | ドロップボックス | GCP | Google Workspace | Office 365 | Okta | Service Now | Salesforce | Webex | Workday |
-|-|-|-|-|-|-|-|-|-|-|-|-|
-| **アカウントの一覧表示** | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| **グループの一覧表示** | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | | プロバイダーはサポートしていません |
-| **権限の一覧表示** | | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | プロバイダーはサポートしていません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
-| **ユーザー ガバナンス** | | ✔ | 近日中にご利用になれます | 対象の Google Workspace 接続 | ✔ | ✔ | | 近日中にご利用になれます | ✔ | 近日中にご利用になれます | プロバイダーはサポートしていません |
-| **ログオン アクティビティ** | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
-| **ユーザーの利用状況** | 適用できません | ✔ | ✔ | ✔ | ✔ - Google Business または Enterprise が必要です | ✔ | ✔ | 一部サポート | Salesforce Shield でサポート | ✔ | ✔ |
-| **管理者アクティビティ** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | 一部サポート | ✔ | ✔ | プロバイダーはサポートしていません |
-| **DLP - 定期的なスキャン** | | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
-| **DLP - ほぼリアルタイムのスキャン** | | ✔ | | 適用できません | ✔ - Google Business または Enterprise が必要です | ✔ | 適用できません | | | ✔ | プロバイダーはサポートしていません |
-| **コントロールの共有** | ✔ | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | 適用できません | | ✔ | プロバイダーはサポートしていません |
-| **ファイル ガバナンス** | ✔ | ✔ | ✔ | 適用できません | ✔ | ✔ | 適用できません | | ✔ | | プロバイダーはサポートしていません |
-| **アプリのアクセス許可の表示** | 適用できません | プロバイダーはサポートしていません | 対応予定 | 適用できません | ✔ | ✔ | 適用できません | | ✔ | 適用できません | 適用できません |
-| **アプリのアクセス許可の取り消し** | 適用できません | プロバイダーはサポートしていません | 近日対応予定 | 適用できません | ✔ | ✔ | 適用できません | | ✔ | 適用できません | 適用できません |
-| **Azure Information Protection ラベルの適用** | 適用できません | ✔ | | 適用できません | ✔ | ✔ | 適用できません | | | 適用できません | 適用できません |
+| | AWS | ボックス | ドロップボックス | GitHub | GCP | Google Workspace | Office 365 | Okta | Service Now | Salesforce | Webex | Workday |
+|-|-|-|-|-|-|-|-|-|-|-|-|-|
+| **アカウントの一覧表示** | ✔ | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **グループの一覧表示** | ✔ | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | | プロバイダーはサポートしていません |
+| **権限の一覧表示** | | ✔ | ✔ | ✔ | 対象の Google Workspace 接続 | ✔ | ✔ | プロバイダーはサポートしていません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
+| **ユーザー ガバナンス** | | ✔ | 近日中にご利用になれます | | 対象の Google Workspace 接続 | ✔ | ✔ | | | ✔ | | プロバイダーはサポートしていません |
+| **ログオン アクティビティ** | ✔ | ✔ | ✔ | | 対象の Google Workspace 接続 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ |
+| **ユーザーの利用状況** | 適用できません | ✔ | ✔ | ✔ | ✔ | ✔ - Google Business または Enterprise が必要です | ✔ | ✔ | 一部サポート | Salesforce Shield でサポート | ✔ | ✔ |
+| **管理者アクティビティ** | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | 一部サポート | ✔ | ✔ | プロバイダーはサポートしていません |
+| **DLP - 定期的なスキャン** | | ✔ | ✔ | | 適用できません | ✔ | ✔ | 適用できません | ✔ | ✔ | ✔ | プロバイダーはサポートしていません |
+| **DLP - ほぼリアルタイムのスキャン** | | ✔ | | | 適用できません | ✔ - Google Business または Enterprise が必要です | ✔ | 適用できません | | | ✔ | プロバイダーはサポートしていません |
+| **コントロールの共有** | ✔ | ✔ | ✔ | | 適用できません | ✔ | ✔ | 適用できません | 適用できません | | ✔ | プロバイダーはサポートしていません |
+| **ファイル ガバナンス** | ✔ | ✔ | ✔ | | 適用できません | ✔ | ✔ | 適用できません | | ✔ | | プロバイダーはサポートしていません |
+| **アプリのアクセス許可の表示** | 適用できません | プロバイダーはサポートしていません | 近日中にご利用になれます | ✔ | 適用できません | ✔ | ✔ | 適用できません | | ✔ | 適用できません | 適用できません |
+| **アプリのアクセス許可の取り消し** | 適用できません | プロバイダーはサポートしていません | 近日中にご利用になれます | | 適用できません | ✔ | ✔ | 適用できません | | ✔ | 適用できません | 適用できません |
+| **Azure Information Protection ラベルの適用** | 適用できません | ✔ | | | 適用できません | ✔ | ✔ | 適用できません | | | 適用なし | 適用できません |
 
 ## <a name="prerequisites"></a>[前提条件]
 
@@ -126,14 +126,17 @@ Cloud App Security は Azure に展開され、[ExpressRoute](/azure/expressrout
 1. **[接続されているアプリ]** ページで、関連する行の 3 つのドットをクリックし、 **[アプリの編集]** を選択します。 これでコネクタの追加プロセスが開始します。
 1. 関連する API コネクタ ガイドの手順に従ってコネクタを追加します。 たとえば、GitHub を再有効化する場合、[GitHub Enterprise Cloud を Cloud App Security に接続する](connect-github-ec-to-microsoft-cloud-app-security.md)方法に関するページにある手順を使用してください。
 
+## <a name="related-videos"></a>関連ビデオ
+
+> [!div class="nextstepaction"]
+> [サードパーティ アプリの接続に関するウェビナー](webinars.md#on-demand-webinars)
+
+> [!div class="nextstepaction"]
+> [Microsoft Cloud App Security - REST API とトークン](https://channel9.msdn.com/Shows/Microsoft-Security/Microsoft-Cloud-App-Security--REST-APIs-and-Tokens)
+
 ## <a name="next-steps"></a>次のステップ
 
 > [!div class="nextstepaction"]
 > [クラウド環境を保護するための日常的な作業](daily-activities-to-protect-your-cloud-environment.md)
 
 [!INCLUDE [Open support ticket](includes/support.md)]
-
-## <a name="check-out-this-video"></a>こちらのビデオをご覧ください。
-
-> [!div class="nextstepaction"]
-> [Microsoft Cloud App Security - REST API とトークン](https://channel9.msdn.com/Shows/Microsoft-Security/Microsoft-Cloud-App-Security--REST-APIs-and-Tokens)

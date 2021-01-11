@@ -1,14 +1,14 @@
 ---
 title: クラウド アプリでファイルを監視および保護する
 description: この記事では、組織のクラウド アプリで使用されるデータとファイルを監視および制御するためのデータ ポリシーを設定する手順について説明します。
-ms.date: 10/7/2019
+ms.date: 01/05/2021
 ms.topic: how-to
-ms.openlocfilehash: 1fd1ae1d09838a9db5e481f3f34f546996e6a76c
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: a69f618b324fcdcc93077e22e54c354bf3665082
+ms.sourcegitcommit: ee66e70f711aa11501e308e53b1a4b46f2175e4e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97369550"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97894682"
 ---
 # <a name="file-policies"></a>ファイル ポリシー
 
@@ -52,9 +52,11 @@ Cloud App Security の組み込み DLP エンジンは、Office、Open Office、
 
 新しいファイル ポリシーを作成するには、次の手順に従います。
 
-1. コンソールで、 **[制御]** 、 **[ポリシー]** の順にクリックします。
+1. **[制御]**  >  **[ポリシー]**  >  **[Information Protection]** に移動します。
 
 1. **[ポリシーの作成]** をクリックし、 **[ファイル ポリシー]** を選択します。
+
+    ![Information Protection ポリシーを作成する](media/create-policy-from-information-protection-tab.png)
 
 1. ポリシーに名前を付けて説明を加えます。必要に応じて、テンプレートのベースにすることができます。ポリシー テンプレートの詳細については、「[ポリシーによるクラウド アプリの制御](control-cloud-apps-with-policies.md)」を参照してください。
 
@@ -114,6 +116,11 @@ Cloud App Security の組み込み DLP エンジンは、Office、Open Office、
 1. **[クエリの保存]** ポップアップで、クエリに名前を付けます。
 
 1. 後でこのクエリを使用するには、 **[クエリ]** で **[保存されたクエリ]** まで下にスクロールして、クエリを選択します。
+
+## <a name="related-videos"></a>関連ビデオ
+
+> [!div class="nextstepaction"]
+> [Information Protection に関するウェビナー](webinars.md#on-demand-webinars)
 
 ## <a name="next-steps"></a>次のステップ
 

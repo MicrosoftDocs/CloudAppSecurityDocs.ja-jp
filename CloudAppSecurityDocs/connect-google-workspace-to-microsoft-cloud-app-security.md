@@ -3,12 +3,12 @@ title: Google Workspace を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して Google Workspace を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
 ms.date: 11/27/2019
 ms.topic: how-to
-ms.openlocfilehash: 5c2385f59572434b07730213232c6701589a654f
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 0d9d99d650ab0d68f8bd6dd129f6b01c78fb2cc5
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97370520"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855576"
 ---
 # <a name="connect-google-workspace-to-microsoft-cloud-app-security"></a>Google Workspace を Microsoft Cloud App Security に接続する
 
@@ -116,7 +116,7 @@ ms.locfileid: "97370520"
 
     **まだ GCP インスタンスが接続されていない Google Workspace 組織の場合**
 
-    - **[接続アプリ]** ページで、プラス記号をクリックし、 **[Google Workspace]** を選択します。
+    - **[接続アプリ]** ページで、プラス記号 **[+]** をクリックし、 **[Google Workspace]** を選択します。
 
 1. ポップアップで、次の情報を入力します。
 

@@ -1,14 +1,14 @@
 ---
 title: Webex Teams を Cloud App Security に接続する
 description: この記事では、お使いの Webex Teams アプリを、使用状況を表示および制御する API コネクタを使用して、Cloud App Security に接続する方法について説明します。
-ms.date: 04/16/2019
+ms.date: 12/27/2020
 ms.topic: how-to
-ms.openlocfilehash: 32e440f86ad78537066336f339eb41fb6bb5461f
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 7cc58ee71f57c82aae87332d292fad8cf08894d4
+ms.sourcegitcommit: cfa59a538167bd126d64dbd05f04a1957bc035c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96312473"
+ms.lasthandoff: 12/27/2020
+ms.locfileid: "97792698"
 ---
 # <a name="connect-cisco-webex-teams-to-microsoft-cloud-app-security"></a>Cisco Webex Teams を Microsoft Cloud App Security に接続する
 
@@ -19,7 +19,9 @@ ms.locfileid: "96312473"
 ## <a name="prerequisites"></a>[前提条件]
 
 - 接続専用のサービス アカウントを作成することをお勧めします。 これにより、Webex で送信されたメッセージの削除など、Webex で実行されるガバナンス アクションがこのアカウントから実行されていることを確認できます。 それ以外の場合は、Webex に Cloud App Security を接続した管理者の名前が、アクションを実行したユーザーとして表示されます。
-- Webex において、完全な権限を持つ管理者 **および** コンプライアンス管理者のアクセス許可を持っている必要があります。
+- Webex で、完全な権限を持つ管理者とコンプライアンス オフィサーの **両方** の役割を持っている必要があります ( **[Roles and Security]\(役割とセキュリティ\)**  >  **[Administrator Roles]\(管理者の役割\)** で)。
+
+    ![前提条件の Webex の役割](media/connect-webex-roles.png)
 
 ## <a name="how-to-connect-webex-to-cloud-app-security"></a>Webex を Cloud App Security に接続する方法
 
@@ -27,7 +29,7 @@ ms.locfileid: "96312473"
 
 1. **[アプリ コネクタ]** ページで、[+] ボタン、 **[Cisco Webex]** の順にクリックします。
 
-    ![WebEx の接続](media/cisco-webex.png "WebEx の接続")
+    ![WebEx の接続](media/cisco-webex.png)
 
 1. ポップアップで、このコネクタのインスタンス名を入力します。
 

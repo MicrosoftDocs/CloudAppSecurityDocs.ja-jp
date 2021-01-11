@@ -5,7 +5,7 @@ keywords: ''
 author: shsagir
 ms.author: shsagir
 manager: shsagir
-ms.date: 08/20/2020
+ms.date: 01/05/2021
 ms.topic: how-to
 ms.collection: M365-security-compliance
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 43490c416d1d19882321343c18e3e4417a6110f4
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 1c84882ec04d72ef24d9fe044c0fabbb355a15bb
+ms.sourcegitcommit: ee66e70f711aa11501e308e53b1a4b46f2175e4e
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97369898"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "97894684"
 ---
 # <a name="get-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を取得する
 
@@ -211,6 +211,11 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
     ![異常検出アラート 3](media/anomaly-alert-user3.png)
 
 1. マルウェアに感染したファイルの場合、ファイルが検出されたら **[感染したファイル]** の一覧を表示できます。 ファイル ドロワーでマルウェア ファイルの名前をクリックして、マルウェア レポートを開きます。このレポートでは、ファイルが感染しているマルウェアの種類に関する情報が提供されます。
+
+## <a name="related-videos"></a>関連ビデオ
+
+> [!div class="nextstepaction"]
+> [脅威保護に関するウェビナー](webinars.md#on-demand-webinars)
 
 ## <a name="next-steps"></a>次のステップ
 

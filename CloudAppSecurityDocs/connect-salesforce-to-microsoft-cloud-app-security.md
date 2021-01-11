@@ -3,12 +3,12 @@ title: Salesforce を Cloud App Security に接続する
 description: この記事では、お使いの Salesforce を、使用状況を表示および制御する API コネクタを使用して Cloud App Security に接続する方法について説明します。
 ms.date: 10/06/2019
 ms.topic: how-to
-ms.openlocfilehash: c2a1514fcb5fc02823f8d365a21fd1f154ab0e86
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 45c1a74e860c155662d4e7ff66e16bea956b94e6
+ms.sourcegitcommit: 40d17309b8729eb914ea91ba5fa7017340231488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96312507"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97808948"
 ---
 # <a name="connect-salesforce-to-microsoft-cloud-app-security"></a>Salesforce を Microsoft Cloud App Security に接続する
 
@@ -34,12 +34,12 @@ ms.locfileid: "96312507"
 
     * **[Manage Users]** \(ユーザーの管理\) から **[User Profiles]** \(ユーザー プロファイル\) ページに移動します。
 
-        ![Salesforce でのユーザー プロファイルの管理](media/salesforce-manageusers-profiles.png "Salesforce でのユーザー プロファイルの管理")
+        ![Salesforce でのユーザー プロファイルの管理](media/salesforce-manageusers-profiles.png)
 
     * **[New]** \(新規\) をクリックして、新しいプロファイルを作成します。
     * Cloud App Security を展開するために作成したばかりのプロファイルを選択して、 **[Edit]** \(編集\) をクリックします。 このプロファイルは、Cloud App Security サービス アカウントでアプリ コネクタをセットアップするために使用されます。
 
-         ![Salesforce でのプロファイルの編集](media/salesforce-edit-profile.png "Salesforce でのプロファイルの編集")
+         ![Salesforce でのプロファイルの編集](media/salesforce-edit-profile.png)
 
     * 次のチェックボックスをオンにします。
       * **[API Enabled]\(API 有効化\)**
@@ -54,11 +54,11 @@ ms.locfileid: "96312507"
 
     1. Salesforce の設定ページに移動します。
 
-        ![Salesforce の設定](media/salesforce-setup.png "Salesforce の設定")
+        ![Salesforce の設定](media/salesforce-setup.png)
 
     1. サイド メニューから **[ユーザーの管理]** を選択し、 **[ユーザー]** をクリックします。
 
-        ![Salesforce のユーザー メニュー](media/salesforce-menu-users.png "Salesforce のユーザー メニュー")
+        ![Salesforce のユーザー メニュー](media/salesforce-menu-users.png)
 
     1. 専用の Cloud App Security ユーザーの現在の管理ユーザーを選択します。
 
@@ -66,7 +66,11 @@ ms.locfileid: "96312507"
 
         オフになっている場合は、 **[Edit]** \(編集\) をクリックしてチェックボックスをオンにします。
 
-        ![Salesforce CRM コンテンツ ユーザー](media/salesforce-crm-content-user.png "Salesforce CRM コンテンツ ユーザー")
+        ![Salesforce CRM コンテンツ ユーザー](media/salesforce-crm-content-user.png)
+
+    1. **[Session Settings]\(セッションの設定\)** で、 **[Lock sessions to the IP address from which they originated]\(開始した IP アドレスにセッションをロックする\)** チェック ボックスがオンになって **いない** ことを確認します。
+
+        ![Salesforce セッションの設定](media/salesforce-setup-session-settings.png)
 
     1. **[Save]** (保存) をクリックします。
 
@@ -74,13 +78,13 @@ ms.locfileid: "96312507"
 
 1. **[アプリ コネクター]** ページで、[+] ボタン、 **[Salesforce]** の順にクリックします。
 
-    ![Salesforce の接続](media/connect-salesforce.png "Salesforce の接続")
+    ![Salesforce の接続](media/connect-salesforce.png)
 
 1. Salesforce の設定ページの API タブで、インストールするインスタンスに応じて **Follow this link (このリンクに移動)** をクリックします。
 
 1. これにより Salesforce のサインイン ページが開きます。 Cloud App Security がチームの Salesforce アプリにアクセスできるように、資格情報を入力します。
 
-    ![Salesforce のサインイン](media/salesforce-logon.png "Salesforce へのログオン")
+    ![Salesforce のサインイン](media/salesforce-logon.png)
 
 1. Cloud App Security からチームの情報やアクティビティ ログにアクセスし、任意のチーム メンバーと同様に任意のアクティビティを実行することを許可するかどうかを確認するメッセージが Salesforce で表示されます。 続行するには、 **[許可]** をクリックします。
 

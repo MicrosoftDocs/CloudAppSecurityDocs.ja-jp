@@ -3,12 +3,12 @@ title: 一覧表示 - Activities API
 description: この記事では、Cloud App Security の Activities API の一覧表示要求について説明します。
 ms.date: 03/27/2020
 ms.topic: reference
-ms.openlocfilehash: d36f18f3cc19b726ce84ae75b4a19427a78dba17
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 277dfc0a42b258072a35c14d544ef9fbac4cdb7b
+ms.sourcegitcommit: 90df07ce9cd64fd9c46fb6563f0249079204e174
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96314700"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97859014"
 ---
 # <a name="list---activities-api"></a>一覧表示 - Activities API
 
@@ -32,7 +32,7 @@ POST /api/v1/activities/
 | --- | --- |
 | filters | 要求のすべての検索フィルターでオブジェクトをフィルター処理します。詳細については、[アクティビティ フィルター](api-activities.md#filters)に関するページを参照してください |
 | sortDirection | 並べ替えの方向。 指定できる値は `asc` および `desc` です。 |
-| sortField | アクティビティの並べ替えに使用するフィールド。 指定できる値は次のとおりです。<br /><br />**date**:アクティビティが発生した日付<br /><br />**created**:アクティビティが保存されたときのタイムスタンプ。 |
+| sortField | アクティビティの並べ替えに使用するフィールド。 指定できる値は次のとおりです。<br />- **date**: アクティビティが発生した日付<br />- **created**: アクティビティが保存されたときのタイムスタンプ。 |
 | skip | 指定した数のレコードをスキップします |
 | limit | 要求から返されるレコードの最大数 |
 

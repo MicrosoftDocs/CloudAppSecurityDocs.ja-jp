@@ -1,14 +1,14 @@
 ---
 title: Azure Information Protection を Cloud App Security と統合する
 description: この記事では、Cloud App Security で Azure Information Protection タグを活用して、組織のクラウド アプリの使用状況をさらに制御する方法について説明します。
-ms.date: 12/09/2019
+ms.date: 12/27/2020
 ms.topic: how-to
-ms.openlocfilehash: 32d157877fa71c12c4ea515316b160cbcfe59396
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 2b5d3399479850d04caba7f6e7f0411c4429b4a6
+ms.sourcegitcommit: 243baad1adeb32d157c7f6165c08df2136b28db0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97369873"
+ms.lasthandoff: 12/27/2020
+ms.locfileid: "97792775"
 ---
 # <a name="azure-information-protection-integration"></a>Azure Information Protection の統合
 
@@ -26,10 +26,10 @@ Azure Information Protection を Cloud App Security に統合することによ�
 - 分類レベルに従って調査を行い、クラウド アプリケーションを介したの機密データの公開を定量化する機能
 - 分類されたファイルが適切に処理されるようにポリシーを作成する機能
 
-> [!NOTE]
-> この機能を有効にするには、Cloud App Security のライセンスと Azure Information Protection Premium P1 のライセンスの両方が必要です。 両方のライセンスの準備が整うとすぐに、Cloud App Security が Azure Information Protection サービスと組織ラベルを同期します。
+## <a name="prerequisites"></a>前提条件
 
-## <a name="prerequisites"></a>[前提条件]
+> [!NOTE]
+> この機能を有効にするには、Cloud App Security のライセンスと Azure Information Protection Premium P1 のライセンスの両方が必要です。 両方のライセンスの準備が整うとすぐに、Cloud App Security によって Azure Information Protection サービスからの組織のラベルの同期が行われます。
 
 - Azure Information Protection の統合を進めるには、[Office 365 のアプリ コネクター](connect-office-365-to-microsoft-cloud-app-security.md)を有効にする必要があります。
 
@@ -45,8 +45,6 @@ Cloud App Security でラベルを使用するには、ラベルをポリシー�
   > PDF の場合は、統合ラベルを使用する必要があります。
 
 この機能は現在、Box、Google Workspace、SharePoint Online、OneDrive for Business に格納されているファイルで使用できます。 今後のバージョンでは、サポートされるクラウド アプリが増える予定です。
-
-Cloud App Security の外部で保護ありとしてラベル付けされたファイルは、Cloud App Security では変更できません。 ただし、[保護されたファイルのコンテンツ検査](content-inspection.md#content-inspection-for-protected-files)のアクセス許可を付与することで、これらのファイルをスキャンできます。
 
 ## <a name="how-it-works"></a>しくみ
 
@@ -64,6 +62,11 @@ Cloud App Security の外部で保護ありとしてラベル付けされたフ�
 4. Cloud App Security で Azure Information Protection を有効にすると、接続されているクラウド アプリに追加されたすべての新しいファイルで分類ラベルがスキャンされます。
 
 5. Cloud App Security 内に新しいポリシーを作成して、分類ラベルを自動的に適用できます。
+
+> [!NOTE]
+>
+> - Cloud App Security の外部で保護ありとしてラベル付けされたファイルは、Cloud App Security では変更できません。 ただし、[保護されたファイルのコンテンツ検査](content-inspection.md#content-inspection-for-protected-files)のアクセス許可を付与することで、これらのファイルをスキャンできます。
+> - 反対に、ファイル が Cloud App Security によってラベル付けされて SharePoint または OneDrive にアップロードされ、サービス プリンシパル名からアカウントを使用してラベルで暗号化が適用されると、ファイルを Web 上の Office で開くことはできません。 シナリオの例としては、Cloud App Security や、メールで Teams に送信されるファイルなどがあります。
 
 ## <a name="how-to-integrate-azure-information-protection-with-cloud-app-security"></a>Azure Information Protection を Cloud App Security と統合する方法
 
@@ -128,7 +131,9 @@ Cloud App Security と Azure Information Protection の連携の詳細につい�
     ![ラベルを適用](media/aip-gov-action.png)
 
 > [!NOTE]
-> ファイル ポリシーを介して、Azure Information Protection のラベルを自動的に適用する機能は強力です。 お客様が多数のファイルに誤ってラベルを適用することを防ぐための安全策として、アプリごと、テナントごとに 1 日に実行できる **ラベルの適用** 操作は 100 回に制限されています。 1 日の上限に達すると、ラベルの適用操作は一時的に停止し、翌日 (UTC 12 時 00分 を過ぎてから) に自動的に再開します。 テナントの上限を引き上げるには、サポート チケットを開きます。
+>
+> - ファイル ポリシーを介して、Azure Information Protection のラベルを自動的に適用する機能は強力です。 お客様が多数のファイルに誤ってラベルを適用することを防ぐための安全策として、アプリごと、テナントごとに 1 日に実行できる **ラベルの適用** 操作は 100 回に制限されています。 1 日の上限に達すると、ラベルの適用操作は一時的に停止し、翌日 (UTC 12 時 00分 を過ぎてから) に自動的に再開します。 テナントの上限を引き上げるには、サポート チケットを開きます。
+> - ポリシーを無効にすると、そのポリシーのすべての保留中ラベル付けタスクが一時停止されます。
 
 ### <a name="control-file-exposure"></a>ファイルの公開を制御する
 

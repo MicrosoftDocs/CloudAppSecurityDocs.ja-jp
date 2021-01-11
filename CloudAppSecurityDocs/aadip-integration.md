@@ -1,14 +1,14 @@
 ---
 title: Azure Active Directory Identity Protection を Cloud App Security と統合する
 description: この記事では、ハイブリッド リスク検出のために Cloud App Security で Identity Protection のアラートを利用する方法について説明します。
-ms.date: 06/28/2020
+ms.date: 12/27/2020
 ms.topic: how-to
-ms.openlocfilehash: f699809c340dfbb45a5c6ee0aae98da13b815fff
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: f71e73dfd3ca8be7d6ed5e03847ac6e11e290818
+ms.sourcegitcommit: 4900168878f42e9fa79873df4b7c2d81991b5b27
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96311385"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97857956"
 ---
 # <a name="azure-active-directory-identity-protection-integration"></a>Azure Active Directory Identity Protection の統合
 
@@ -50,7 +50,9 @@ Cloud App Security と Identity Protection の統合を無効にするには:
 1. **[Enable Azure AD Identity Protection alert integration]\(Azure AD Identity Protection のアラート統合を有効にする\)** を選択解除してから **[保存]** をクリックします。
 
 > [!NOTE]
-> 統合が無効になっている場合、既存の Identity Protection アラートは Cloud App Security のデータ保持ポリシーに従って保持されます。
+>
+> - 統合が無効になっている場合、既存の Identity Protection アラートは Cloud App Security のデータ保持ポリシーに従って保持されます。
+> - Cloud App Security で使用されるのは Azure AD からの対話型ログインのみであるため、一部のアラートで関連するアクティビティが表示されない場合があります。 そのようなアクティビティは、Azure AD ポータルで調査できます。
 
 ## <a name="configure-identity-protection-policies"></a>Identity Protection のポリシーを構成する
 
@@ -62,6 +64,9 @@ Identity Protection のポリシーは、重大度スライダーを使用して
 |---|---|---|---|
 |漏えいした資格情報|漏えいした資格情報 (ユーザーの有効な資格情報が漏えいしている) のアラートを表示する|Enabled|低 - すべてのアラートを受信する|
 |危険なサインイン|複数の危険なサインイン (ユーザーが実行したのではないサインイン) の検出を集計する|Enabled|高 - 重大度が高いアラートのみを受信する|
+
+> [!NOTE]
+> Cloud App Security によって、Identity Protection のアラートに関するメール通知が送信されることはありません。 ただし、Identity Protection ポータルでそれらのメール通知を構成できます。
 
 ## <a name="next-steps"></a>次のステップ
 

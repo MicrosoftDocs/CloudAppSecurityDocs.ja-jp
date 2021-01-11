@@ -3,12 +3,12 @@ title: IP 範囲とタグを設定する
 description: この記事では、IP タグと IP カテゴリを使用する手順について説明します。
 ms.date: 11/09/2020
 ms.topic: how-to
-ms.openlocfilehash: 80058d36ecf7496c9dad2fe8253efa9775076452
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 295b4b812679600254cb2a82b8efef57aa71757b
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315057"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855747"
 ---
 # <a name="working-with-ip-ranges-and-tags"></a><a name="IPtagsandRanges"></a>IP 範囲とタグの使用
 
@@ -32,7 +32,7 @@ Cloud App Security には、Azure や Office 365 などの一般的なクラウ�
 
 ## <a name="create-an-ip-address-range"></a>IP アドレスの範囲を作成する
 
-メニュー バーで、設定アイコンをクリックします。 **[IP アドレス範囲]** を選択します。 プラス記号をクリックして、IP アドレス範囲を追加し、次のフィールドを設定します。
+メニュー バーで、設定アイコンをクリックします。 **[IP アドレス範囲]** を選択します。 プラス記号 **[+]** をクリックして、IP アドレス範囲を追加し、次のフィールドを設定します。
 
 1. IP 範囲の **[名前]** を指定します。 名前は、アクティビティ ログに表示されず、IP 範囲の管理にのみ使用されます。
 

@@ -3,12 +3,12 @@ title: Cloud App Security の過去の更新のアーカイブ
 description: この記事は、Cloud App Security の過去のリリースで更新された内容について説明するアーカイブです。
 ms.date: 11/25/2020
 ms.topic: conceptual
-ms.openlocfilehash: 50f8bc735743d1506ac9ad18e6b10b659de7ab6e
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: d64c12289025ef7270ae94f922cea187e8ca5dbf
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315550"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855763"
 ---
 # <a name="past-release-archive-of-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の過去のリリースのアーカイブ
 
@@ -728,7 +728,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 - 隅にある新しい青色の疑問符を使用すると、ポータルのページ内から docs.microsoft.com の関連する Cloud App Security ドキュメント ページにアクセスできるようになりました。 各リンクは状況依存であり、現在のページに基づいて必要な情報にアクセスできます。
 - Cloud App Security ポータルのすべてのページからフィードバックを送信できるようになりました。 フィードバックを使用すると、バグの報告、新機能のリクエストを行い、お客様の経験を Cloud App Security チームと直接共有することができます。
-- サブドメインを認識するようにクラウド検出機能が改善され、組織のクラウドの使用状況を詳細に調査できるようになりました。 詳細については、「[検出されたアプリの処理](discovered-apps.md)」を参照してください。
+- サブドメインを認識するように Cloud Discovery 機能が改善され、組織のクラウドの使用状況を詳細に調査できるようになりました。 詳細については、「[検出されたアプリの処理](discovered-apps.md)」を参照してください。
 
 ### <a name="cloud-app-security-release-109"></a>Cloud App Security リリース 109
 
@@ -745,7 +745,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 - 特定のサービス アクティビティ名に基づいてフィルター処理を行う機能を段階的にロールアウトしています。 この新しい [アクティビティの種類] フィルターは、より全般的なアクティビティの種類とは対照的に、より詳細であり、特定のアプリのアクティビティを監視できます。 たとえば、以前は **Run コマンド** をフィルター処理できましたが、特定の EXO コマンドレットをフィルター処理できるようになりました。 アクティビティ名は、 **[入力 (アプリ内)]** の下のアクティビティ ドロワーでも確認できます。 この機能により、最終的に [アクティビティの種類] フィルターは置き換えられます。
 
-- Cloud Discovery では Cisco ASA with FirePOWER がサポートされるようになりました。
+- Cloud Discovery で Cisco ASA with FirePOWER がサポートされるようになりました。
 
 - ユーザー エクスペリエンスを向上させるために、Discovery User ページと IP ページのパフォーマンスが強化されました。
 
@@ -755,7 +755,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 - Cloud App Security に、EU にあるデータセンターが追加されました。 Cloud App Security のお客様は、米国のデータセンターに加え、EU データセンターを使用して、新規および今後のヨーロッパの標準化と認定に完全に準拠できるようになります。
 - 新しいフィルターが **[アプリ コネクタ]** ページに追加され、より簡単なフィルター処理と追加の分析情報をお使いいただけるようになりました。
-- 接続先 IP 情報のみを含むログ ファイルの Cloud Discovery が改善されました。
+- 接続先 IP 情報のみを含むログ ファイルでの Cloud Discovery が改善されました。
 
 ### <a name="cloud-app-security-release-104"></a>Cloud App Security リリース 104
 

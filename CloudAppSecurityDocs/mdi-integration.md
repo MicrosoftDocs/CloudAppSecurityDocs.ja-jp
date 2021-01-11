@@ -1,20 +1,23 @@
 ---
 title: Microsoft Defender for Identity を Cloud App Security と統合する
 description: この記事では、ハイブリッド リスク検出のために Cloud App Security で Microsoft Defender for Identity の分析情報を利用する方法について説明します。
-ms.date: 11/08/2020
+ms.date: 12/27/2020
 ms.topic: how-to
-ms.openlocfilehash: 260effd5750af75e8ca5bc58d566c6cbb95b1cd3
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: f1639d51b4d3bc82fe6002b96bdc62c983fe87d2
+ms.sourcegitcommit: cfa59a538167bd126d64dbd05f04a1957bc035c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315108"
+ms.lasthandoff: 12/27/2020
+ms.locfileid: "97792672"
 ---
 # <a name="microsoft-defender-for-identity-integration"></a>Microsoft Defender for Identity の統合
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
 Microsoft Cloud App Security は Microsoft Defender for Identity と統合され、ハイブリッド環境 (クラウド アプリとオンプレミスの両方) でユーザー エンティティの行動分析 (UEBA) を提供します。詳細については、「[チュートリアル: 危険性の高いユーザーを調査する](tutorial-ueba.md)」を参照してください。 Defender for Identity によって提供される機械学習と行動分析の詳細については、「[Defender for Identity とは](/defender-for-identity/what-is)」を参照してください
+
+> [!NOTE]
+> Cloud App Security によって、Defender for Identity のアラートに関するメール通知が送信されることはありません。 ただし、Defender for Identity ポータルでそれらのメール通知を構成できます。
 
 ## <a name="prerequisites"></a>[前提条件]
 

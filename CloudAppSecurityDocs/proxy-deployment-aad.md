@@ -3,12 +3,12 @@ title: Azure AD アプリに対して Cloud App Security のアプリの条件�
 description: この記事では、Azure AD アプリに対して Microsoft Cloud App Security のアプリの条件付きアクセス制御のリバース プロキシ機能をデプロイする方法について説明します。
 ms.date: 03/31/2020
 ms.topic: how-to
-ms.openlocfilehash: 66063b54ce774612431d74aef2b1b045b7bf9d9f
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 3fecc4eca9b867aba72dc625151ec915906075eb
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96310943"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855525"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 
@@ -73,7 +73,7 @@ Microsoft Cloud App Security のセッション コントロールは、おす�
 
 1. Cloud App Security で、 **[調査]**  >  **[接続アプリ]**  >  **[アプリの条件付きアクセス制御アプリ]** の順に移動します。
 
-1. プラス記号をクリックし、ポップアップでデプロイするアプリを選択してから、 **[ウィザード起動]** をクリックします。
+1. プラス記号 **[+]** をクリックし、ポップアップでデプロイするアプリを選択してから、 **[ウィザード起動]** をクリックします。
 1. **[アプリ情報]** ページで、アプリのシングル サインオン構成のページからの情報を使用してフォームに入力し、 **[次へ]** をクリックします。
     - お使いの IdP から、選択したアプリのシングル サインオンのメタデータ ファイルが提供されている場合は、 **[アプリからのメタデータ ファイルをアップロードする]** を選択してメタデータ ファイルをアップロードします。
     - または、 **[データを手動で入力する]** を選択して、次の情報を指定します。

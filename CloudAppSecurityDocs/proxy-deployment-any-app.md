@@ -3,12 +3,12 @@ title: 任意のアプリに対して Cloud App Security のアプリの条件�
 description: この記事では、任意のアプリに対して Microsoft Cloud App Security のアプリの条件付きアクセス制御のリバース プロキシ機能を展開する方法について説明します。
 ms.date: 03/31/2020
 ms.topic: how-to
-ms.openlocfilehash: 32aa858eca58f8b76cc90bd96f5ebe17516af1e7
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 52eb9874a5b80fa22f957f855374a0f3444d7101
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315397"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855848"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-app"></a>任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開
 
@@ -82,7 +82,7 @@ Cloud App Security でおすすめされている、すぐに使用できるア�
 
 1. Cloud App Security で、 **[調査]**  >  **[接続アプリ]**  >  **[アプリの条件付きアクセス制御アプリ]** の順に移動します。
 
-1. プラス記号をクリックし、ポップアップでデプロイするアプリを選択してから、 **[ウィザード起動]** をクリックします。
+1. プラス記号 **[+]** をクリックし、ポップアップでデプロイするアプリを選択してから、 **[ウィザード起動]** をクリックします。
 1. **[アプリ情報]** ページで、アプリのシングル サインオン構成のページからの情報を使用してフォームに入力し、 **[次へ]** をクリックします。
     - お使いの IdP から、選択したアプリのシングル サインオンのメタデータ ファイルが提供されている場合は、 **[アプリからのメタデータ ファイルをアップロードする]** を選択してメタデータ ファイルをアップロードします。
     - または、 **[データを手動で入力する]** を選択して、次の情報を指定します。

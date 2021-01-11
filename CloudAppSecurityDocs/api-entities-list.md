@@ -3,12 +3,12 @@ title: 一覧表示 - Entities API
 description: この記事では、Cloud App Security の Entities API の一覧表示要求について説明します。
 ms.date: 03/27/2020
 ms.topic: reference
-ms.openlocfilehash: bbe7e57bb50be9ca9b55fc48c1906811f8460d72
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: a93fa00db40720d8b8bf31a8494ce949402bca0b
+ms.sourcegitcommit: 90df07ce9cd64fd9c46fb6563f0249079204e174
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96314105"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97858988"
 ---
 # <a name="list---entities-api"></a>一覧表示 - Entities API
 
@@ -35,7 +35,7 @@ POST /api/v1/entities/
 | --- | --- |
 | filters | 要求のすべての検索フィルターでオブジェクトをフィルター処理します。詳細については、[エンティティ フィルター](api-entities.md#filters)に関するページを参照してください |
 | sortDirection | 並べ替えの方向。 指定できる値は `asc` および `desc` です。 |
-| sortField | エンティティの並べ替えに使用するフィールド。 指定できる値は次のとおりです。<br /><br />**date**:エンティティが作成された日付。<br /><br />**severity**:エンティティの重要度 |
+| sortField | エンティティの並べ替えに使用するフィールド。 指定できる値は次のとおりです。<br />- **date**: エンティティが作成された日付。<br />- **severity**: エンティティの重要度 |
 | skip | 指定した数のレコードをスキップします |
 | limit | 要求から返されるレコードの最大数 |
 

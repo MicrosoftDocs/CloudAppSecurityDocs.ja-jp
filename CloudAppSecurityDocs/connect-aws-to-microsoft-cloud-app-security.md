@@ -3,12 +3,12 @@ title: アマゾン ウェブ サービスを Cloud App Security に接続する
 description: この記事では、API コネクタを使用して AWS アプリを Cloud App Security に接続して、使用状況を表示および制御する方法について説明します。
 ms.date: 06/24/2020
 ms.topic: how-to
-ms.openlocfilehash: a6ca3938c93e9b1eda2bd518c48443bbad46ad70
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: c1d53e417fa8158ef30c688811f66bcb7ed87ee7
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313289"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855797"
 ---
 # <a name="connect-aws-to-microsoft-cloud-app-security"></a>AWS を Microsoft Cloud App Security に接続する
 
@@ -115,7 +115,7 @@ Cloud App Security 接続には、次の AWS の一方または両方を接続�
 
     **新しいコネクタの場合**
 
-    1. プラス記号をクリックして、 **[アマゾン ウェブ サービス]** をクリックします。
+    1. プラス記号 **[+]** をクリックして、 **[アマゾン ウェブ サービス]** をクリックします。
 
         ![AWS 監査の接続](media/connect-aws.png "AWS の接続")
 

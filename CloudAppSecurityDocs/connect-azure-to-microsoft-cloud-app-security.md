@@ -1,14 +1,14 @@
 ---
 title: Azure を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して Azure を Cloud App Security に接続して、使用状況を表示および制御する方法について説明します。
-ms.date: 12/10/2018
+ms.date: 12/27/2020
 ms.topic: how-to
-ms.openlocfilehash: a64733aebf0f13e05a1ac1e3e60a806198526f68
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: eb95630ac08763fa6b87a6fab410ec3629010ec8
+ms.sourcegitcommit: 40d17309b8729eb914ea91ba5fa7017340231488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96312966"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97808914"
 ---
 # <a name="connect-azure-to-microsoft-cloud-app-security"></a>Azure を Microsoft Cloud App Security に接続する
 
@@ -22,6 +22,7 @@ ms.locfileid: "96312966"
 >
 > - Azure を Microsoft Cloud App Security に接続するには、ユーザーが Azure AD のグローバル管理者またはセキュリティ管理者である必要があります。
 > - Cloud App Security には、**すべての** サブスクリプションのアクティビティが表示されます。
+> - ユーザーが Azure でアクティビティを実行すると、ユーザー アカウント情報が Cloud App Security に設定されます。
 > - 現時点では、Cloud App Security では ARM アクティビティのみが監視されます。
 
 1. **[接続されているアプリ]** ページで [+] ボタンをクリックし、 **[Microsoft Azure]** を選択します。

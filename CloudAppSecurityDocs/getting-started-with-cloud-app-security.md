@@ -3,12 +3,12 @@ title: Cloud App Security を展開する
 description: このクイックスタートでは、クラウド アプリの使用状況、分析情報、および制御を得るために Cloud App Security を起動して実行するプロセスについて概説します。
 ms.date: 06/07/2020
 ms.topic: quickstart
-ms.openlocfilehash: 17a6416c7af8a6da814ad267307eea603e50604b
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: f17608329facabe6f48ae20938c44f3e8ef1b05a
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96314887"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855542"
 ---
 # <a name="quickstart-get-started-with-microsoft-cloud-app-security"></a>クイック スタート:Microsoft Cloud App Security を使ってみる
 
@@ -49,7 +49,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 必須のタスク:アプリを接続する
 
 1. 設定の歯車アイコンから **[アプリ コネクタ]** を選択します。
-1. プラス記号をクリックしてアプリを追加し、アプリを選択します。
+1. プラス記号 **[+]** をクリックしてアプリを追加し、アプリを選択します。
 1. 構成手順に従ってアプリを接続します。
 
 **アプリを接続する理由**
@@ -131,7 +131,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 
 1. 設定の歯車アイコンで、 **[Cloud Discovery 設定]** を選択します。
 1. 設定の歯車アイコンから **[IP アドレスの範囲]** を選択します。
-1. プラス記号をクリックして、IP アドレスの範囲を追加します。
+1. プラス記号 **[+]** をクリックして、IP アドレスの範囲を追加します。
 1. IP 範囲の **詳細**、**場所**、**タグ**、および **カテゴリ** を入力します。
 1. **[作成]** を選択します。
 

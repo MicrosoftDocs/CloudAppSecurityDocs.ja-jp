@@ -3,12 +3,12 @@ title: アプリ コネクタのエラー メッセージのトラブルシュ�
 description: この記事では、API アプリ コネクタのエラー メッセージの一覧と、それぞれの推奨される解決策について説明します。
 ms.date: 01/29/2020
 ms.topic: conceptual
-ms.openlocfilehash: bc15d27ce42d8bd691897d7b0a3eed78b7691d64
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 5848e0286d6d99ed3699652e3a44ef5fe1cf359b
+ms.sourcegitcommit: 40d17309b8729eb914ea91ba5fa7017340231488
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97370145"
+ms.lasthandoff: 12/29/2020
+ms.locfileid: "97808999"
 ---
 # <a name="troubleshooting-app-connectors-using-error-messages"></a>エラー メッセージを使用したアプリ コネクタのトラブルシューティング
 
@@ -51,6 +51,7 @@ API アプリ コネクタを使用してクラウド アプリに接続しよ�
 > |HttpRequestFailure:Server returned:400 Bad Request|Office 365|内部エラー。|数分後に [今すぐテストする] リンクをもう一度クリックしても動作しない場合は、プロセスに従って Office 365 を Cloud App Security に接続し直します。|
 > |SocketTimeoutException:Read timed out|Salesforce|内部エラー。|[今すぐテストする] リンクをもう一度クリックして Salesforce への接続をテストします。|
 > |HttpRequestFailure:Server returned:400 Bad Request|Salesforce|Salesforce への接続が完了していないか、期限切れです。|プロセスに従って Salesforce を Cloud App Security に接続し直してください。|
+> |Get Permissions: NoHttpResponseException: `*******.salesforce.com:443` failed to respond|Salesforce|顧客の ENV での IP 制限。|Salesforce ポータルで、 **[Setup]\(セットアップ\)**  >  **[Session Settings]\(セッションの設定\)** の **[Lock sessions to the IP address from which they originated]\(開始した IP アドレスにセッションをロックする\)** チェック ボックスをオフにします。|
 > |RuntimeException: com.adallom.adalib.httputils.exceptions.HttpRequestFailure:Server returned:403 Forbidden|ServiceNow|アクセス許可が正しくありません|管理者アカウントを使用して、プロセスに従って ServiceNow を Cloud App Security に接続し直します。|
 > |Get events: {"code":403,"serverResponse"<br />Get users: {"code":403,"serverResponse"<br />…<br />"body":"{"error":"permission denied"}"|Workday|監査ログやユーザー エンドポイントにアクセスするための十分なアクセス許可がありません|すべてのアクセス許可が適切に設定されていることを確認します。 [詳細情報](connect-workday-to-microsoft-cloud-app-security.md#prerequisites)|
 > |"code":400,"serverResponse"<br />…<br />body":"{"error":"invalid_grant"}|Workday|認証の問題|インスタンスのセット アップに使用されるアカウントが、ロックされているか無効になっている可能性があります。 確認するには、Workday アカウントを表示し、 **[View Sign-on History]\(サインオン履歴を表示\)** を選択します。 レポートに、システム アカウントが無効になっていることを示す認証エラー メッセージが表示される場合があります。 [詳細情報](connect-workday-to-microsoft-cloud-app-security.md#how-to-connect-workday-to-cloud-app-security-using-oauth)|

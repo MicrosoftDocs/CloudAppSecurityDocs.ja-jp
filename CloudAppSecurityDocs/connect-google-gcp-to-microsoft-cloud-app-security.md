@@ -3,12 +3,12 @@ title: Google Cloud Platform を Cloud App Security に接続する
 description: この記事では、API コネクタを使用して Google Cloud Platform を Cloud App Security に接続し、使用状況を表示および制御する方法について説明します。
 ms.date: 06/28/2020
 ms.topic: how-to
-ms.openlocfilehash: b6776796491d957a15a5246bac97144494e5789d
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 2421a679e86a9702cd3bcca5b22c56c3724234b8
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97369975"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855610"
 ---
 # <a name="connect-google-cloud-platform-to-microsoft-cloud-app-security"></a>Google Cloud Platform を Microsoft Cloud App Security に接続する
 
@@ -129,7 +129,7 @@ GCP のセキュリティ監査を Cloud App Security に接続するには、�
 
     **新しいコネクタの場合**
 
-    1. プラス記号をクリックし、 **[Google Cloud Platform]** をクリックします。
+    1. プラス記号 **[+]** をクリックし、 **[Google Cloud Platform]** をクリックします。
 
         ![GCP の接続](media/connect-gcp-add.png)
 

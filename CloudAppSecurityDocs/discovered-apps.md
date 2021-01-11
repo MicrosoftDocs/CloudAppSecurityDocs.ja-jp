@@ -3,12 +3,12 @@ title: Cloud App Security で検出されたアプリの処理
 description: この記事では、Cloud App Security でリスクのあるクラウド検出アプリを識別して修復するプロセスについて説明します。
 ms.date: 09/25/2019
 ms.topic: conceptual
-ms.openlocfilehash: f23c7fff644a3f2d8572a91dea560cd6ffbe8457
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 4f3cae41623c352c957640ce2fc4002e0d1f09e0
+ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96311776"
+ms.lasthandoff: 01/03/2021
+ms.locfileid: "97855397"
 ---
 # <a name="working-with-discovered-apps"></a>検出されたアプリの処理
 

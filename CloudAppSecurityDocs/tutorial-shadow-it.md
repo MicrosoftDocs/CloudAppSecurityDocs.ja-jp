@@ -1,14 +1,14 @@
 ---
-title: シャドウ IT の検出と管理
+title: シャドウ IT の検出と管理を行う
 description: このチュートリアルでは、Microsoft Cloud App Security で Azure Information Protection 分類ラベルを自動的に適用するプロセスについて説明します。
 ms.date: 06/29/2020
 ms.topic: tutorial
-ms.openlocfilehash: d0b4e795aac071cb7583ed4851e2955a609e8d49
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: d7e3db3ca7f648b966ef9fbe3948eb345a710c10
+ms.sourcegitcommit: 4900168878f42e9fa79873df4b7c2d81991b5b27
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96316961"
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "97857991"
 ---
 # <a name="tutorial-discover-and-manage-shadow-it-in-your-network"></a>チュートリアル:ネットワーク内のシャドウ IT の検出と管理
 
