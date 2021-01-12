@@ -3,12 +3,12 @@ title: Cloud App Security 異常検出アラート調査ガイド
 description: この記事では、組織に対する攻撃が検出されると発行される Cloud App Security 異常検出アラートを調査する方法について説明します。
 ms.date: 06/08/2020
 ms.topic: how-to
-ms.openlocfilehash: 6c3a099153da4ac69961fd759a26c08a31e6867b
-ms.sourcegitcommit: 40d17309b8729eb914ea91ba5fa7017340231488
+ms.openlocfilehash: 06920ce7812adc3d2a3ac98ecda86b9becbe7141
+ms.sourcegitcommit: 04d8731dce2a3b3b2d10bbfa27e5dc80b0a3e0f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "97808982"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98062772"
 ---
 # <a name="how-to-investigate-anomaly-detection-alerts"></a>異常検出アラートを調査する方法
 
@@ -201,18 +201,6 @@ Microsoft 脅威インテリジェンスまたは組織によってリスクと�
     - 最近更新されていないアプリ。 これは、アプリがもうサポートされていないことを示している可能性があります。
     - 無関係なアクセス許可を持つアプリ。 これは、アプリが危険であることを示している可能性があります。
 1. アプリがまだ疑わしいと思われる場合は、そのアプリの名前、発行元、および URL をオンラインで調べることができます。
-
-### <a name="unusual-addition-of-credentials-to-an-oauth-app"></a>OAuth アプリへの通常とは異なる資格情報の追加
-
-この検出により、OAuth アプリへの特権資格情報の疑わしい追加が識別されます。 これは、攻撃者によってアプリが侵害され、悪意のあるアクティビティに使用されていることを示している可能性があります。
-
-> [!NOTE]
-> 攻撃の成功によって生じるリスクが高いため、Cloud App Security により 2020 年 9 月中旬までさかのぼって検出が通知されます。
-> 過去のイベントのアラートには、"System alert: Unusual addition of credentials to an OAuth app" (システム アラート: OAuth アプリへの通常とは異なる資格情報の追加) というタイトルが付けられ、アラートの種類は MCAS_ALERT_MANAGEMENT_GENERIC になります。
-
-**学習期間**
-
-組織の環境を学習するのに 7 日間必要であり、その間に大量のアラートが発生する可能性があります。
 
 ## <a name="execution-alerts"></a>実行のアラート
 
@@ -447,6 +435,18 @@ Azure の BLOB、AWS S3 のバケット、Cosmos DB などのリソースから�
     - IP アドレスと場所
 1. 認証の試行が発生したソース IP アドレスまたは場所を特定します。
 1. ユーザーが最近パスワードを変更したかどうかを確認し、すべてのアプリとデバイスでパスワードが更新されていることを確認します。
+
+### <a name="unusual-addition-of-credentials-to-an-oauth-app"></a>OAuth アプリへの通常とは異なる資格情報の追加
+
+この検出により、OAuth アプリへの特権資格情報の疑わしい追加が識別されます。 これは、攻撃者によってアプリが侵害され、悪意のあるアクティビティに使用されていることを示している可能性があります。
+
+> [!NOTE]
+> 攻撃の成功によって生じるリスクが高いため、Cloud App Security により 2020 年 9 月中旬までさかのぼって検出が通知されます。
+> 過去のイベントのアラートには、"System alert: Unusual addition of credentials to an OAuth app" (システム アラート: OAuth アプリへの通常とは異なる資格情報の追加) というタイトルが付けられ、アラートの種類は MCAS_ALERT_MANAGEMENT_GENERIC になります。
+
+**学習期間**
+
+組織の環境を学習するのに 7 日間必要であり、その間に大量のアラートが発生する可能性があります。
 
 ## <a name="collection-alerts"></a>コレクションのアラート
 

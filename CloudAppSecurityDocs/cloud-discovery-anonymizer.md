@@ -3,12 +3,12 @@ title: Cloud App Security でのユーザー データの匿名化
 description: この記事では、Cloud Discovery データ内のユーザー名を匿名化して、ユーザーのプライバシーを保護する方法について説明します。
 ms.date: 04/20/2020
 ms.topic: how-to
-ms.openlocfilehash: bb8befb8c65f766118f6a3221b382c6699b17a0e
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: e17d837110028a7e252cf4092a09cc9bbd0ff7e1
+ms.sourcegitcommit: 3f148f3ecea57c0ce8623722a60bab593bd20282
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96313527"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97930523"
 ---
 # <a name="cloud-discovery-data-anonymization"></a>Cloud Discovery データの匿名化
 
@@ -34,12 +34,12 @@ Cloud Discovery データを匿名化することで、ユーザーのプライ�
 
     - 次のように、アップロードされたログ ファイルからのスナップショット レポートと、ログ コレクタからの継続的レポートの両方からのデータをすべて匿名化するように、Cloud App Security で既定値を設定できます。
 
-    1. **[設定]**  >  **[Cloud Discovery 設定]** の順に選択します。
+        1. **[設定]**  >  **[Cloud Discovery 設定]** の順に選択します。
 
-    2. 既定でユーザー名が匿名化されるようにするには、 **[匿名化]** タブで、 **[既定で新しいレポートやデータ ソースで個人情報を匿名化します]** を選択します。 **[Anonymize device information by default in 'Win10 Endpoint Users' report]\(既定で 'Win10 エンドポイント ユーザー' レポートでデバイス情報を匿名化する\)** を選択することもできます。
-    3. **[Save]** (保存) をクリックします。
+        2. 既定でユーザー名が匿名化されるようにするには、 **[匿名化]** タブで、 **[既定で新しいレポートやデータ ソースで個人情報を匿名化します]** を選択します。 **[Anonymize device information by default in 'Win10 Endpoint Users' report]\(既定で 'Win10 エンドポイント ユーザー' レポートでデバイス情報を匿名化する\)** を選択することもできます。
+        3. **[Save]** (保存) をクリックします。
 
-    ![匿名化の設定ページ](media/anonymizer1.png)
+        ![匿名化の設定ページ](media/anonymizer1.png)
 
 2. 匿名化を選択すると、Cloud App Security はトラフィック ログを解析し、特定のデータ属性を抽出します。
 3. Cloud App Security はユーザー名を暗号化されたユーザー名に置き換えます。
