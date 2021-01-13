@@ -1,14 +1,14 @@
 ---
 title: Cloud App Security で OAuth アプリを制御するポリシーを作成する
 description: この記事では、Microsoft Cloud App Security でアプリのアクセス許可ポリシーを作成して使用する手順について説明します。
-ms.date: 11/27/2019
+ms.date: 01/11/2021
 ms.topic: how-to
-ms.openlocfilehash: 53b3c8d10bdc11714cffcc4bcd9402ee3a0e0adb
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 3fe565607f59834cf1b4a6931b087b597c3f5c8d
+ms.sourcegitcommit: 04d8731dce2a3b3b2d10bbfa27e5dc80b0a3e0f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97369941"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98062704"
 ---
 # <a name="oauth-app-policies"></a>OAuth アプリ ポリシー
 
@@ -55,7 +55,9 @@ OAuth アプリ ポリシーを使用すると、各アプリで要求された�
 -->
 
 > [!NOTE]
-> 異常検出ポリシーは、Azure Active Directory で承認されている OAuth アプリに対してのみ使用できます。
+>
+> - 異常検出ポリシーは、Azure Active Directory で承認されている OAuth アプリに対してのみ使用できます。
+> - OAuth アプリの異常検出ポリシーの重要度を変更することはできません。
 
 ## <a name="next-steps"></a>次のステップ
 

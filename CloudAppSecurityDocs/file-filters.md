@@ -1,14 +1,14 @@
 ---
 title: Cloud App Security で使用できるファイル データとフィルターについて
 description: このリファレンス記事では、Cloud App Security で使用されるファイルおよびファイル フィルターの種類に関する情報を提供します。
-ms.date: 7/7/2019
+ms.date: 01/11/2021
 ms.topic: how-to
-ms.openlocfilehash: 181fa6b890f211ab5029f1179ebf55615c3985c9
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 381710d324dcb3e118a729d7c78c852c61351fbd
+ms.sourcegitcommit: 04d8731dce2a3b3b2d10bbfa27e5dc80b0a3e0f6
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96314948"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98062747"
 ---
 # <a name="files"></a>ファイル
 
@@ -74,7 +74,7 @@ Cloud App Security の組み込み DLP エンジンでは、一般的なファ�
 
     - **ドメインのすべてのユーザー** – このドメインのすべてのユーザーがファイルにアクセスできる場合。
 
-    - **ドメイン全体** – ドメイン全体でファイルにアクセスできる場合。
+    - **組織全体** – 組織全体がファイルにアクセスできる場合。
 
     - **グループ** – 特定のグループがファイルにアクセスできる場合。 グループは、Active Directory やクラウド アプリからインポートすることも、サービスで手動で作成することもできます。
 
@@ -95,11 +95,22 @@ Cloud App Security の組み込み DLP エンジンでは、一般的なファ�
         - **パスワードの暗号化** – ユーザーによってパスワード保護されているために内容が検査されなかったファイル。
         - **破損ファイル** – 内容を読み取れなかったために内容が検査されなかったファイル。
 
-- **ファイルの種類** – Cloud App Security では、サービスから受信した MIME の種類が取得され、ファイルがスキャンされて実際のファイルの種類が判断されます。 このスキャンは、データ スキャンに関連するファイル (ドキュメント、画像、プレゼンテーション、スプレッドシート、テキスト、zip/アーカイブ ファイル) が対象です。 フィルターは、ファイルまたはフォルダーの種類ごとに機能します。 たとえば、... であるすべてのフォルダー、または ... であるすべてのスプレッドシート ファイルなどです。
+- **ファイルの種類** – Cloud App Security では、サービスから受信した MIME の種類 (表を参照) が取得され、ファイルがスキャンされて実際のファイルの種類が判断されます。 このスキャンは、データ スキャンに関連するファイル (ドキュメント、画像、プレゼンテーション、スプレッドシート、テキスト、zip/アーカイブ ファイル) が対象です。 フィルターは、ファイルまたはフォルダーの種類ごとに機能します。 たとえば、... であるすべてのフォルダー、または ... であるすべてのスプレッドシート ファイルなどです。
 
-    ![policy_ごみ箱でのファイル フィルター](media/policy_file-filters-trash.png "policy_ごみ箱でのファイル フィルター")
+    | MIME の種類 (MIME type) | ファイルの種類 |
+    |--|--|
+    | - application/vnd.openxmlformats-officedocument.wordprocessingml.document<br />- application/vnd.ms-word.document.macroEnabled.12<br />- application/msword<br />- application/vnd.oasis.opendocument.text<br />- application/vnd.stardivision.writer<br />- application/vnd.stardivision.writer-global<br />- application/vnd.sun.xml.writer<br />- application/vnd.stardivision.math<br />- application/vnd.stardivision.chart<br />- application/x-starwriter<br />- application/x-stardraw<br />- application/x-starmath<br />- application/x-starchart<br />- application/vnd.google-apps.document<br />- application/vnd.google-apps.kix<br />- application/pdf<br />- application/x-pdf<br />- application/vnd.box.webdoc<br />- application/vnd.box.boxnote<br />- application/vnd.jive.document<br />- text/rtf<br />- application/rtf | マニュアル名の正式名称 |
+    | - application/vnd.oasis.opendocument.image<br />- application/vnd.google-apps.photo<br />- **次で始まるもの:** image/ | Image |
+    | - application/vnd.openxmlformats-officedocument.presentationml.presentation<br />- application/vnd.ms-powerpoint.template.macroEnabled.12<br />- application/mspowerpoint<br />- application/powerpoint<br />- application/vnd.ms-powerpoint<br />- application/x-mspowerpoint<br />- application/mspowerpoint<br />- application/vnd.ms-powerpoint<br />- application/vnd.oasis.opendocument.presentation<br />- application/vnd.sun.xml.impress<br />- application/vnd.stardivision.impress<br />- application/x-starimpress<br />- application/vnd.google-apps.presentation | プレゼンテーション |
+    | - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet<br />- application/vnd.ms-excel.sheet.macroEnabled.12<br />- application/excel<br />- application/vnd.ms-excel<br />- application/x-excel<br />- application/x-msexcel<br />- application/vnd.oasis.opendocument.spreadsheet<br />- application/vnd.sun.xml.calc<br />- application/vnd.stardivision.calc<br />- application/x-starcalc<br />- application/vnd.google-apps.spreadsheet | スプレッドシート |
+    | - **次で始まるもの:** text/ | Text |
+    | その他すべてのファイルの MIME の種類 | その他 |
+
+    ![policy_種類でのファイル フィルター](media/policy_file-filters-type.png)
 
 - **ごみ箱** – ごみ箱フォルダーのファイルを除外するか含めます。 これらのファイルは引き続き共有され、リスクが生じる可能性があります。
+
+    ![policy_ごみ箱でのファイル フィルター](media/policy_file-filters-trash.png)
 
 - **最終更新日時** – ファイルの変更時刻。 このフィルターでは、日付の前後、日付の範囲、相対的な日時表現がサポートされます。 たとえば、過去 6 か月間に変更されていないすべてのファイルなどです。
 

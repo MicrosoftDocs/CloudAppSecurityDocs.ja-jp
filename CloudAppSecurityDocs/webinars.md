@@ -3,12 +3,12 @@ title: ウェビナーを見る
 description: 説明も含めて、過去のウェビナーの一覧を示します。
 ms.date: 01/05/2021
 ms.topic: conceptual
-ms.openlocfilehash: 147064103d1cf26bd94b2d03f7f0ed71444239c6
-ms.sourcegitcommit: ee66e70f711aa11501e308e53b1a4b46f2175e4e
+ms.openlocfilehash: 1429806209a84476c9219f18a67830b2c41729a7
+ms.sourcegitcommit: 3f148f3ecea57c0ce8623722a60bab593bd20282
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97894639"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97930497"
 ---
 # <a name="microsoft-cloud-app-security-webinars"></a>Microsoft Cloud App Security に関するウェビナー
 
@@ -20,7 +20,10 @@ ms.locfileid: "97894639"
 
 ## <a name="on-demand-webinars"></a>オンデマンド ウェビナー
 
-録画されたセッションはいつでも見ることができ、利用できる場合は、 **[字幕]** をクリックして、目的の言語を選択することにより、字幕を表示できます。
+録画されたセッションはいつでも見ることができます。
+
+> [!NOTE]
+> **[字幕]** をクリックして目的の言語を選択すると、字幕を表示できる場合があります。
 
 | タイトル | 詳細 |
 | --- | --- |
