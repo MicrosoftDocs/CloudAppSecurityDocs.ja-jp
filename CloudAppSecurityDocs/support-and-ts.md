@@ -3,12 +3,12 @@ title: Cloud App Security のサポートとトラブルシューティングに
 description: この記事では、Microsoft Cloud App Security のサポートおよびトラブルシューティングのオプションについて説明します。
 ms.date: 11/14/2019
 ms.topic: conceptual
-ms.openlocfilehash: fb4791559129a8a95ff998954aafbea72367886c
-ms.sourcegitcommit: 72ddcd0f9a83251d588009abf506676612c50267
+ms.openlocfilehash: 5a8c0a92e1f3f69b9ce54f92b1ef424640a14fe2
+ms.sourcegitcommit: 9ff0ed1b2fe4080a253a310d0dd3024bc0865f3f
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/13/2020
-ms.locfileid: "97370077"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98162971"
 ---
 # <a name="support-and-troubleshooting-microsoft-cloud-app-security"></a>Microsoft Cloud App Security のサポートとトラブルシューティング
 
@@ -75,7 +75,7 @@ Azure portal 内からサポート要求を表示できます。 これを実行
 
 * [試用版に申し込む](https://signup.microsoft.com/Signup?OfferId=757c4c34-d589-46e4-9579-120bba5c92ed&ali=1)
 
-* [ブログで最新情報を確認する](https://techcommunity.microsoft.com/t5/Enterprise-Mobility-Security/bg-p/enterprisemobilityandsecurity/label-name/Microsoft%20Cloud%20App%20Security)
+* [ブログで最新情報を確認する](https://aka.ms/mcasblogposts)
 
 * [Cloud App Security データシート](https://download.microsoft.com/download/E/F/E/EFE908F8-7EDB-4244-8039-67BA574186CC/Microsoft_Cloud_App_Security_eBook.pdf)のダウンロード
 

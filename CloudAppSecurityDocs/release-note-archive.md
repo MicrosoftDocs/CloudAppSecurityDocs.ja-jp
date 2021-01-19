@@ -3,12 +3,12 @@ title: Cloud App Security の過去の更新のアーカイブ
 description: この記事は、Cloud App Security の過去のリリースで更新された内容について説明するアーカイブです。
 ms.date: 11/25/2020
 ms.topic: conceptual
-ms.openlocfilehash: d64c12289025ef7270ae94f922cea187e8ca5dbf
-ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
+ms.openlocfilehash: bf9cc9d4d4a3e12931ba78b74eefb2ec04868d37
+ms.sourcegitcommit: 0768aa1992819e2651a14a731f79e178fdececc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2021
-ms.locfileid: "97855763"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98114787"
 ---
 # <a name="past-release-archive-of-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の過去のリリースのアーカイブ
 
@@ -806,7 +806,7 @@ Microsoft Cloud App Security を使用することで、企業では、グルー
 
 - **セキュリティ拡張機能:** セキュリティ拡張機能は、Cloud App Security のすべてのセキュリティ拡張機能を一元的に管理するための新しいダッシュボードです。  拡張機能には、API トークン管理、SIEM エージェント、外部 DLP コネクタが含まれています。 新しいダッシュ ボードは、Cloud App Security の [設定] にあります。
 
-  - API トークン －RESTful API を使用してサード パーティ製ソフトウェアに Cloud App Security を統合するための、自分の [API トークン](api-tokens.md)を生成し、管理します。
+  - API トークン －RESTful API を使用してサード パーティ製ソフトウェアに Cloud App Security を統合するための、自分の [API トークン](api-authentication.md)を生成し、管理します。
   - SIEM エージェント – 以前は [SIEM 統合](siem.md)が [設定] のすぐ下にありましたが、セキュリティ拡張機能のタブとして表示されるようになりました。
   - 外部 DLP (プレビュー) – Cloud App Security では、データ損失防止 (DLP) ソリューションのような[サードパーティ製分類システムの既存の投資を活用](icap-stunnel.md)できるようになり、環境内で実行されている既存の展開を使用してクラウドのアプリケーションの内容をスキャンできるようになりました。 プレビューに参加するには、アカウント管理者に連絡してください。
 
@@ -1196,7 +1196,7 @@ Cloud App Security が、ISO、HIPAA、CSA STAR、EU モデル条項などの Mi
 
 **機能強化**
 
-- DLP スキャンが失敗した場合、Cloud App Security がファイルをスキャンできなかった理由が提供されるようになりました。 詳細については、「[コンテンツ検査](./content-inspection.md)」をご覧ください。
+- DLP スキャンが失敗した場合、Cloud App Security がファイルをスキャンできなかった理由が提供されるようになりました。 詳細については、「[コンテンツ検査](content-inspection.md)」をご覧ください。
 - あり得ない移動アラートの改善など、異常検出エンジンの機能強化が行われました。
 - アラートの無視のエクスペリエンスが改善されました。 また、フィードバックを追加して、アラートが興味深いものだったかどうかとその理由を Cloud App Security チームに知らせることもできます。 お客様のフィードバックは、Cloud App Security の検出を改善するために使用されます。
 - Cisco ASA Cloud Discovery パーサーが改善されました。

@@ -3,12 +3,12 @@ title: Cloud App Security のコンプライアンス、データ セキュリ�
 description: この記事では、Cloud App Security のコンプライアンス認証、セキュリティ センター、プライバシー、およびデータ セキュリティについて説明します。
 ms.date: 01/04/2021
 ms.topic: overview
-ms.openlocfilehash: 752e5b8134179993076b2e61c2e5b44ab0d29b61
-ms.sourcegitcommit: 4900168878f42e9fa79873df4b7c2d81991b5b27
+ms.openlocfilehash: 624b4acab4564a73d85ff1f223b00587037bcf5b
+ms.sourcegitcommit: 0768aa1992819e2651a14a731f79e178fdececc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97857973"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98114702"
 ---
 # <a name="microsoft-cloud-app-security-data-security-and-privacy"></a>Microsoft Cloud App Security のデータ セキュリティとプライバシー
 
@@ -133,7 +133,7 @@ Cloud App Security では、通常のセキュリティ ワークフローを中
 | 統合の種類 | 公開されるデータ | 構成 |
 | --- | --- | --- |
 | SIEM エージェントを使用 | アラートとイベント | [Cloud App Security で有効化および構成されます](siem.md) |
-| Cloud App Security の REST API を使用 | アラートとイベント | [Cloud App Security で有効化および構成されます](api-tokens.md) |
+| Cloud App Security の REST API を使用 | アラートとイベント | [Cloud App Security で有効化および構成されます](api-authentication.md) |
 | ICAP コネクタ | DLP スキャン用のファイル | [Cloud App Security で有効化および構成されます](icap-stunnel.md) |
 
 > [!NOTE]

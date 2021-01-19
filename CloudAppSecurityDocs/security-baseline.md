@@ -7,16 +7,16 @@ ms.topic: conceptual
 ms.date: 12/03/2020
 ms.author: mbaldwin
 ms.custom: subject-security-benchmark
-ms.openlocfilehash: f15795dcc7dca6454a63ee9a430ba70c7046b87c
-ms.sourcegitcommit: e69f6e9705c3cf90a3a6b0c60d8adc9ad4818310
+ms.openlocfilehash: 0c659e0682cef4239bb5fe6d07b1cea84247b1a5
+ms.sourcegitcommit: 0768aa1992819e2651a14a731f79e178fdececc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "96584447"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98114685"
 ---
 # <a name="azure-security-baseline-for-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の Azure セキュリティ ベースライン
 
-このセキュリティ ベースラインは、[Azure セキュリティ ベンチマーク バージョン 2.0](https://docs.microsoft.com/azure/security/benchmarks/overview) のガイダンスを Microsoft Cloud App Security に適用します。 Azure セキュリティ ベンチマークには、Azure 上のクラウド ソリューションをセキュリティで保護する方法に関する推奨事項がまとめてあります。 コンテンツは、Azure セキュリティ ベンチマークで定義されている **セキュリティ コントロール** と、Microsoft Cloud App Security に適用される関連ガイダンスごとにグループ化されています。 Microsoft Cloud App Security に適用できない **コントロール** は除外されています。
+このセキュリティ ベースラインは、[Azure セキュリティ ベンチマーク バージョン 2.0](/azure/security/benchmarks/overview) のガイダンスを Microsoft Cloud App Security に適用します。 Azure セキュリティ ベンチマークには、Azure 上のクラウド ソリューションをセキュリティで保護する方法に関する推奨事項がまとめてあります。 コンテンツは、Azure セキュリティ ベンチマークで定義されている **セキュリティ コントロール** と、Microsoft Cloud App Security に適用される関連ガイダンスごとにグループ化されています。 Microsoft Cloud App Security に適用できない **コントロール** は除外されています。
 
 Microsoft Cloud App Security と Azure セキュリティ ベンチマークの完全なマッピングについては、[完全な Microsoft Cloud App Security セキュリティ ベースライン マッピング ファイル](https://github.com/MicrosoftDocs/SecurityBenchmarks/tree/master/Azure%20Offer%20Security%20Baselines)を参照してください。
 
@@ -28,7 +28,7 @@ Microsoft Cloud App Security と Azure セキュリティ ベンチマークの�
 
 **ガイダンス**: Azure Virtual Network のサービス タグを使用して、ネットワーク セキュリティ グループまたは Cloud App Security リソース用に構成された Azure Firewall 上にネットワーク アクセスの制御を定義します。 セキュリティ規則を作成するときは、特定の IP アドレスの代わりにサービス タグを使うことができます。 サービス タグ名 (例: "Microsoft Cloudappsecurity") をルールの適切なソースまたは送信先のフィールドに指定すると、対応するサービスのトラフィックを許可または拒否することができます。 サービス タグに含まれるアドレス プレフィックスの管理は Microsoft が行い、アドレスが変化するとサービス タグは自動的に更新されます。
 
-- [サービス タグとその使用方法の概要](https://docs.microsoft.com/azure/virtual-network/service-tags-overview)
+- [サービス タグとその使用方法の概要](/azure/virtual-network/service-tags-overview)
 
 **Azure Security Center の監視**: 現在は使用できません
 
@@ -50,13 +50,13 @@ Azure AD を保護することは、組織のクラウド セキュリティ プ
 
 注:Azure AD では、外部 ID がサポートされます。これにより、Microsoft アカウントを持たないユーザーが、外部 ID を使用してアプリケーションやリソースにサインインできるようになります。
 
-- [Azure Active Directory のテナント](https://docs.microsoft.com/azure/active-directory/develop/single-and-multi-tenant-apps) 
+- [Azure Active Directory のテナント](/azure/active-directory/develop/single-and-multi-tenant-apps) 
 
-- [Azure AD インスタンスを作成して構成する方法](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) 
+- [Azure AD インスタンスを作成して構成する方法](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant) 
 
-- [アプリケーションに外部 ID プロバイダーを使用する](https://docs.microsoft.com/azure/active-directory/b2b/identity-providers) 
+- [アプリケーションに外部 ID プロバイダーを使用する](/azure/active-directory/b2b/identity-providers) 
 
-- [Azure Active Directory の ID セキュリティ スコアとは](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)
+- [Azure Active Directory の ID セキュリティ スコアとは](/azure/active-directory/fundamentals/identity-secure-score)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -66,7 +66,7 @@ Azure AD を保護することは、組織のクラウド セキュリティ プ
 
 **ガイダンス**: Cloud App Security は Azure Active Directory (Azure AD) を使用して、Azure リソース、クラウド アプリケーション、オンプレミス アプリケーションに ID とアクセス管理を提供します。 これには、従業員などの企業 ID だけでなく、パートナー、ベンダー、サプライヤーなどの外部 ID も含まれます。 これにより、オンプレミスおよびクラウド内の組織のデータとリソースへのアクセスを管理し、セキュリティで保護するためのシングルサインオン (SSO) が可能になります。 すべてのユーザー、アプリケーション、およびデバイスを Azure AD に接続して、シームレスで安全なアクセスを実現し、可視性と制御を向上させることができます。
 
-- [Azure AD を使用したアプリケーションの SSO について理解する](https://docs.microsoft.com/azure/active-directory/manage-apps/what-is-single-sign-on)
+- [Azure AD を使用したアプリケーションの SSO について理解する](/azure/active-directory/manage-apps/what-is-single-sign-on)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -82,13 +82,13 @@ Azure AD を保護することは、組織のクラウド セキュリティ プ
 
 管理者と特権ユーザーについて、高いレベルの強力な認証方法が使用されていることを確認し、その後、適切な強力な認証ポリシーを他のユーザーにロールアウトします。
 
-- [Azure で多要素認証を有効にする方法](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted) 
+- [Azure で多要素認証を有効にする方法](/azure/active-directory/authentication/howto-mfa-getstarted) 
 
-- [Azure Active Directory のパスワードレス認証オプションの概要](https://docs.microsoft.com/azure/active-directory/authentication/concept-authentication-passwordless) 
+- [Azure Active Directory のパスワードレス認証オプションの概要](/azure/active-directory/authentication/concept-authentication-passwordless) 
 
-- [Azure AD の規定のパスワード ポリシー](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts) 
+- [Azure AD の規定のパスワード ポリシー](/azure/active-directory/authentication/concept-sspr-policy#password-policies-that-only-apply-to-cloud-user-accounts) 
 
-- [Azure AD のパスワード保護を使用して不適切なパスワードを排除する](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad)
+- [Azure AD のパスワード保護を使用して不適切なパスワードを排除する](/azure/active-directory/authentication/concept-password-ban-bad)
 
 **Azure Security Center の監視**: はい
 
@@ -98,13 +98,13 @@ Azure AD を保護することは、組織のクラウド セキュリティ プ
 
 **ガイダンス**: Cloud App Security は、特定の IP 範囲からのユーザー ログインではログインに MFA を使用する必要があるなど、ユーザー定義の条件に基づいて、より詳細なアクセスの制御に関する Azure Active Directory (Azure AD) 条件付きアクセスをサポートします。 さまざまなユース ケースに対して、きめ細かい認証セッション管理ポリシーを使用することもできます。
 
-- [Conditional Access App Control 保護](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security#conditional-access-app-control-protection)
+- [Conditional Access App Control 保護](what-is-cloud-app-security.md#conditional-access-app-control-protection)
 
-- [Azure での条件付きアクセスの概要](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 
+- [Azure での条件付きアクセスの概要](/azure/active-directory/conditional-access/overview) 
 
-- [一般的な条件付きアクセス ポリシー](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) 
+- [一般的な条件付きアクセス ポリシー](/azure/active-directory/conditional-access/concept-conditional-access-policy-common) 
 
-- [条件付きアクセスを使用して認証セッション管理を構成する](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+- [条件付きアクセスを使用して認証セッション管理を構成する](/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -150,7 +150,7 @@ Azure AD を保護することは、組織のクラウド セキュリティ プ
 
 Azure Privileged Identity Management (PIM) を使用して、Azure リソースと Azure AD への Just-In-Time (JIT) の特権アクセスを有効にすることができます。 ユーザーが必要とする場合にのみ特権タスクを実行するための一時的なアクセス許可は、JIT によって付与されます。 PIM を使用すると、Azure AD 組織に不審なアクティビティや安全でないアクティビティがある場合に、セキュリティ アラートを生成することもできます。
 
-- [Cloud App Security での管理者アクセスを管理する](https://docs.microsoft.com/cloud-app-security/manage-admins)
+- [Cloud App Security での管理者アクセスを管理する](manage-admins.md)
 
 **Azure Security Center の監視**: はい
 
@@ -160,7 +160,7 @@ Azure Privileged Identity Management (PIM) を使用して、Azure リソース�
 
 **ガイダンス**: Cloud App Security は管理者向けにロールベースのアクセス制御を提供しています。
 
-- [Cloud App Security の管理者アクセスを管理する](https://docs.microsoft.com/cloud-app-security/manage-admins)
+- [Cloud App Security の管理者アクセスを管理する](manage-admins.md)
 
 **Azure Security Center の監視**: はい
 
@@ -174,9 +174,9 @@ Azure Privileged Identity Management (PIM) を使用して、Azure リソース�
 
 注:一部の Azure サービスでは、Azure AD で管理されていないローカル ユーザーとロールがサポートされています。 これらのユーザーは個別に管理する必要があります。
 
-- [Privileged Identity Management (PIM) で Azure リソース ロールのアクセス レビューを作成する](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review) 
+- [Privileged Identity Management (PIM) で Azure リソース ロールのアクセス レビューを作成する](/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review) 
 
-- [Azure AD の ID およびアクセス レビューの使用方法](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overvie)
+- [Azure AD の ID およびアクセス レビューの使用方法](/azure/active-directory/governance/access-reviews-overvie)
 
 **Azure Security Center の監視**: はい
 
@@ -188,7 +188,7 @@ Azure Privileged Identity Management (PIM) を使用して、Azure リソース�
 
 緊急アクセス用アカウントの資格情報 (パスワード、証明書、スマート カードなど) がセキュリティで保護され、緊急時に使用することが許可されているユーザーのみに通知されるようにする必要があります。
 
-- [Azure AD で緊急アクセス用アカウントを管理する](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)
+- [Azure AD で緊急アクセス用アカウントを管理する](/azure/active-directory/users-groups-roles/directory-emergency-access)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -198,9 +198,9 @@ Azure Privileged Identity Management (PIM) を使用して、Azure リソース�
 
 **ガイダンス**: Cloud App Security は Azure Active Directory (Azure AD) との統合によってリソースを管理します。 Azure AD のエンタイトルメント管理機能を使用して、アクセスの割り当て、レビュー、有効期限など、アクセス要求のワークフローを自動化します。 2 段階または複数段階の承認もサポートされています。
 
-- [Azure AD アクセス レビューとは](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview) 
+- [Azure AD アクセス レビューとは](/azure/active-directory/governance/access-reviews-overview) 
 
-- [Azure AD エンタイトルメント管理とは](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview)
+- [Azure AD エンタイトルメント管理とは](/azure/active-directory/governance/entitlement-management-overview)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -212,13 +212,13 @@ Azure Privileged Identity Management (PIM) を使用して、Azure リソース�
 
 組み込みロールを使用してアクセス許可を割り当て、必要な場合にのみカスタム ロールを作成します。
 
-- [Cloud App Security にアクセスできる Office 365 および Azure AD のロール](https://docs.microsoft.com/cloud-app-security/manage-admins)
+- [Cloud App Security にアクセスできる Office 365 および Azure AD のロール](manage-admins.md)
 
 Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.microsoft.com/azure/role-based-access-control/overview 
 
-- [Azure で RBAC を構成する方法](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) 
+- [Azure で RBAC を構成する方法](/azure/role-based-access-control/role-assignments-portal) 
 
-- [Azure AD の ID およびアクセス レビューの使用方法](https://docs.microsoft.com/azure/active-directory/governance/access-reviews-overview)
+- [Azure AD の ID およびアクセス レビューの使用方法](/azure/active-directory/governance/access-reviews-overview)
 
 **Azure Security Center の監視**: はい
 
@@ -232,7 +232,7 @@ Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.m
 
 **ガイダンス**: Cloud App Security は、機密データを管理し、Azure AD のロールを使用して、さまざまな種類のデータのアクセス許可を制御します。
 
-- [Cloud App Security にアクセスできる Azure AD のロール](https://docs.microsoft.com/cloud-app-security/manage-admins#office-365-and-azure-ad-roles-with-access-to-cloud-app-security)
+- [Cloud App Security にアクセスできる Azure AD のロール](manage-admins.md#office-365-and-azure-ad-roles-with-access-to-cloud-app-security)
 
 **Azure Security Center の監視**: はい
 
@@ -246,13 +246,13 @@ Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.m
 
 既定では Azure によって、Azure のデータ センター間の転送データが暗号化されます。
 
-- [Microsoft Cloud App Security のデータ セキュリティとプライバシー](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust#encryption)
+- [Microsoft Cloud App Security のデータ セキュリティとプライバシー](cas-compliance-trust.md#encryption)
 
-- [Azure での転送中の暗号化の概要](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview#encryption-of-data-in-transit) 
+- [Azure での転送中の暗号化の概要](/azure/security/fundamentals/encryption-overview#encryption-of-data-in-transit) 
 
-- [TLS セキュリティに関する情報](https://docs.microsoft.com/security/engineering/solving-tls1-problem) 
+- [TLS セキュリティに関する情報](/security/engineering/solving-tls1-problem) 
 
-- [転送中の Azure データの二重暗号化](https://docs.microsoft.com/azure/security/fundamentals/double-encryption#data-in-transit)
+- [転送中の Azure データの二重暗号化](/azure/security/fundamentals/double-encryption#data-in-transit)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -272,9 +272,9 @@ Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.m
 
 注:ワークロードとサービスを可視化するには、追加のアクセス許可が必要になることがあります。 
 
-- [セキュリティ閲覧者ロールの概要](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#security-reader)
+- [セキュリティ閲覧者ロールの概要](/azure/role-based-access-control/built-in-roles#security-reader)
 
-- [Azure 管理グループの概要](https://docs.microsoft.com/azure/governance/management-groups/overview)
+- [Azure 管理グループの概要](/azure/governance/management-groups/overview)
 
 **Azure Security Center の監視**: 現在は使用できません
 
@@ -288,12 +288,12 @@ Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.m
 
 **ガイダンス**: Cloud App Security から、カスタム脅威検出の設定に使用できる SIEM にログを転送します。 潜在的な脅威や異常を検出するために、さまざまな種類の Azure 資産を監視していることを確認してください。 アナリストが選別しやすいように、質の高いアラートを取得して誤検知を減らすことに専念します。 アラートは、ログ データ、エージェント、その他のデータを元に生成できます。
 
-- [Azure Sentinel の統合](https://docs.microsoft.com/cloud-app-security/siem-sentinel)
-- [汎用 SIEM の統合](https://docs.microsoft.com/cloud-app-security/siem)
+- [Azure Sentinel の統合](siem-sentinel.md)
+- [汎用 SIEM の統合](siem.md)
 
-- [脅威を検出するためのカスタム分析規則を作成する](https://docs.microsoft.com/azure/sentinel/tutorial-detect-threats-custom) 
+- [脅威を検出するためのカスタム分析規則を作成する](/azure/sentinel/tutorial-detect-threats-custom) 
 
-- [Azure Sentinel を使用したサイバー脅威インテリジェンス](https://docs.microsoft.com/azure/architecture/example-scenario/data/sentinel-threat-intelligence)
+- [Azure Sentinel を使用したサイバー脅威インテリジェンス](/azure/architecture/example-scenario/data/sentinel-threat-intelligence)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -307,9 +307,9 @@ Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.m
 
 **ガイダンス**:組織において、セキュリティ インシデントに対応するためのプロセスが用意されていること、Azure のこれらのプロセスが更新されていること、それらのプロセスを定期的に使用して準備されていることを確認します。
 
-- [企業環境全体にセキュリティを実装する](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [企業環境全体にセキュリティを実装する](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [インシデント対応のリファレンス ガイド](https://docs.microsoft.com/microsoft-365/downloads/IR-Reference-Guide.pdf)
+- [インシデント対応のリファレンス ガイド](/microsoft-365/downloads/IR-Reference-Guide.pdf)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -319,7 +319,7 @@ Azure ロールベースのアクセス制御 (Azure RBAC) とは https://docs.m
 
 **ガイダンス**:Azure Security Center でセキュリティ インシデントの連絡先情報を設定します。 この連絡先情報は、Microsoft Security Response Center (MSRC) でユーザーのデータが違法または権限のないユーザーによってアクセスされたことが検出された場合に、Microsoft からの連絡先として使用されます。 インシデント対応のニーズに応じて、さまざまな Azure サービスでインシデント アラートや通知をカスタマイズするオプションもあります。 
 
-- [Azure Security Center のセキュリティ連絡先を設定する方法](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)
+- [Azure Security Center のセキュリティ連絡先を設定する方法](/azure/security-center/security-center-provide-security-contact-details)
 
 **Azure Security Center の監視**: はい
 
@@ -335,9 +335,9 @@ Azure Security Center (ASC) は、多くの Azure 資産にわたって高品質
 
 エクスポート機能を使用して Azure Security Center のアラートと推奨事項をエクスポートし、Azure リソースへのリスクを特定します。 アラートと推奨事項を手動で、または継続した連続的な方法でエクスポートします。
 
-- [エクスポートを構成する方法](https://docs.microsoft.com/azure/security-center/continuous-export)
+- [エクスポートを構成する方法](/azure/security-center/continuous-export)
 
-- [Azure Sentinel にアラートをストリーミングする方法](https://docs.microsoft.com/azure/sentinel/connect-azure-security-center)
+- [Azure Sentinel にアラートをストリーミングする方法](/azure/sentinel/connect-azure-security-center)
 
 **Azure Security Center の監視**: 現在は使用できません
 
@@ -361,13 +361,13 @@ Azure Security Center (ASC) は、多くの Azure 資産にわたって高品質
 
 Azure Sentinel により、事実上すべてのログソースに対して広範な Data Analytics と、インシデントのライフサイクル全体を管理するためのケース管理ポータルが提供されます。 調査中のインテリジェンス情報を、追跡とレポートのためにインシデントに関連付けることができます。 
 
-- [Windows マシンのディスクのスナップショットを作成する](https://docs.microsoft.com/azure/virtual-machines/windows/snapshot-copy-managed-disk)
+- [Windows マシンのディスクのスナップショットを作成する](/azure/virtual-machines/windows/snapshot-copy-managed-disk)
 
-- [Linux マシンのディスクのスナップショットを作成する](https://docs.microsoft.com/azure/virtual-machines/linux/snapshot-copy-managed-disk)
+- [Linux マシンのディスクのスナップショットを作成する](/azure/virtual-machines/linux/snapshot-copy-managed-disk)
 
 - [Microsoft Azure サポートの診断情報とメモリ ダンプ コレクション](https://azure.microsoft.com/support/legal/support-diagnostic-information-collection/) 
 
-- [Azure Sentinel でインシデントを調査します](https://docs.microsoft.com/azure/sentinel/tutorial-investigate-cases)
+- [Azure Sentinel でインシデントを調査します](/azure/sentinel/tutorial-investigate-cases)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -381,9 +381,9 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 さらに、タグを使用してリソースをマークし、Azure リソース (特に、機密データを処理するもの) を識別して分類するための命名システムを作成します。  インシデントが発生した Azure リソースと環境の重要度に基づいて、アラートの修復に優先順位を付けることは、お客様の責任です。
 
-- [Security alerts in Azure Security Center](https://docs.microsoft.com/azure/security-center/security-center-alerts-overview)
+- [Security alerts in Azure Security Center](/azure/security-center/security-center-alerts-overview)
 
-- [タグを使用した Azure リソースの整理](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags)
+- [タグを使用した Azure リソースの整理](/azure/azure-resource-manager/resource-group-using-tags)
 
 **Azure Security Center の監視**: 現在は使用できません
 
@@ -393,11 +393,11 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 **ガイダンス**:手動による反復タスクを自動化して、応答時間を短縮し、アナリストの負担を軽減します。 手動タスクを実行すると時間がかかり、各インシデントの速度が低下し、アナリストが処理できるインシデントの数が減少します。 手動タスクではアナリストの疲労も増加します。これにより、遅延が発生する人的エラーのリスクが増加し、複雑なタスクに効果的に焦点を当てるアナリストの能力が低下します。 Azure Security Center と Azure Sentinel のワークフロー自動化機能を使用して、自動的にアクションをトリガーしたり、プレイブックを実行して受信したセキュリティ アラートに応答したりします。 プレイブックにより、通知の送信、アカウントの無効化、問題のあるネットワークの特定などのアクションが実行されます。 
 
-- [Security Center でワークフロー自動化を構成する](https://docs.microsoft.com/azure/security-center/workflow-automation)
+- [Security Center でワークフロー自動化を構成する](/azure/security-center/workflow-automation)
 
-- [Azure Security Center で脅威への自動対応を設定する](https://docs.microsoft.com/azure/security-center/tutorial-security-incident#triage-security-alerts)
+- [Azure Security Center で脅威への自動対応を設定する](/azure/security-center/tutorial-security-incident#triage-security-alerts)
 
-- [Azure Sentinel で脅威への自動対応を設定します](https://docs.microsoft.com/azure/sentinel/tutorial-respond-threats-playbook)
+- [Azure Sentinel で脅威への自動対応を設定します](/azure/sentinel/tutorial-respond-threats-playbook)
 
 **Azure Security Center の監視**: 現在は使用できません
 
@@ -412,7 +412,7 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 **ガイダンス**:必要に応じて、Azure リソースの侵入テストまたはレッド チーム アクティビティを実施し、セキュリティに関するすべての重大な調査結果が確実に修復されるようにします。
 お客様の侵入テストが Microsoft のポリシーに違反しないように、Microsoft クラウド侵入テストの実施ルールに従ってください。 Microsoft が管理しているクラウド インフラストラクチャ、サービス、アプリケーションに対する Red Teaming およびライブ サイト侵入テストに関する Microsoft の戦略と実施を活用してください。
 
-- [Azure での侵入テスト](https://docs.microsoft.com/azure/security/fundamentals/pen-testing)
+- [Azure での侵入テスト](/azure/security/fundamentals/pen-testing)
 
 - [侵入テストの実施ルール](https://www.microsoft.com/msrc/pentest-rules-of-engagement?rtc=1) 
 
@@ -449,15 +449,15 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 -   適切な暗号化標準
 
 詳細については、次のリファレンスを参照してください。
-- [Azure セキュリティ アーキテクチャに関する推奨事項 - ストレージ、データ、暗号化](https://docs.microsoft.com/azure/architecture/framework/security/storage-data-encryption?toc=/security/compass/toc.json&amp;bc=/security/compass/breadcrumb/toc.json)
+- [Azure セキュリティ アーキテクチャに関する推奨事項 - ストレージ、データ、暗号化](/azure/architecture/framework/security/storage-data-encryption?amp;bc=%2fsecurity%2fcompass%2fbreadcrumb%2ftoc.json&toc=%2fsecurity%2fcompass%2ftoc.json)
 
-- [Azure のセキュリティの基礎 - Azure のデータ セキュリティ、暗号化、ストレージ](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview)
+- [Azure のセキュリティの基礎 - Azure のデータ セキュリティ、暗号化、ストレージ](/azure/security/fundamentals/encryption-overview)
 
-- [クラウド導入フレームワーク - Azure のデータ セキュリティと暗号化のベスト プラクティス](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=/azure/cloud-adoption-framework/toc.json&amp;bc=/azure/cloud-adoption-framework/_bread/toc.json)
+- [クラウド導入フレームワーク - Azure のデータ セキュリティと暗号化のベスト プラクティス](/azure/security/fundamentals/data-encryption-best-practices?amp;bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
 
-- [Azure セキュリティ ベンチマーク - アセット管理](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-asset-management)
+- [Azure セキュリティ ベンチマーク - アセット管理](/azure/security/benchmarks/security-benchmark-v2-asset-management)
 
-- [Azure セキュリティ ベンチマーク - データ保護](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-data-protection)
+- [Azure セキュリティ ベンチマーク - データ保護](/azure/security/benchmarks/security-benchmark-v2-data-protection)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -471,11 +471,11 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 セグメント化戦略は、ネットワーク セキュリティ、ID とアクセス モデル、アプリケーション アクセス許可とアクセス モデル、人的プロセスの制御など、あらゆるコントロールの種類を対象として確実に一貫性をもって実装します。
 
-- [Azure のセグメント化戦略に関するガイド (動画)](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
+- [Azure のセグメント化戦略に関するガイド (動画)](/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151)
 
-- [Azure のセグメント化戦略に関するガイド (ドキュメント)](https://docs.microsoft.com/security/compass/governance#enterprise-segmentation-strategy)
+- [Azure のセグメント化戦略に関するガイド (ドキュメント)](/security/compass/governance#enterprise-segmentation-strategy)
 
-- [ネットワークのセグメント化を企業のセグメント化戦略に合わせる](https://docs.microsoft.com/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
+- [ネットワークのセグメント化を企業のセグメント化戦略に合わせる](/security/compass/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -485,7 +485,7 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 **ガイダンス**:個々の資産とそれらがホストされている環境に対するリスクを継続的に測定し、軽減します。 公開されたアプリケーション、ネットワークのイングレスとエグレスのポイント、ユーザーと管理者のエンドポイントなど、価値の高い資産と高度に暴露された攻撃の可能性を優先します。
 
-- [Azure セキュリティ ベンチマーク - 体制と脆弱性の管理](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-posture-vulnerability-management)
+- [Azure セキュリティ ベンチマーク - 体制と脆弱性の管理](/azure/security/benchmarks/security-benchmark-v2-posture-vulnerability-management)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -495,11 +495,11 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 **ガイダンス**:セキュリティ組織における役割と責任に関する明確な戦略が文書化されて伝えられるようにします。 セキュリティに関する決定についてわかりやすく説明すること、共有される責任モデルについて全員に教育すること、クラウドをセキュリティで保護するテクノロジについて技術チームに教育することを優先とします。
 
-- [Azure のセキュリティのベスト プラクティス 1 – 人: クラウド セキュリティに関する取り組みについてチームを教育する](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
+- [Azure のセキュリティのベスト プラクティス 1 – 人: クラウド セキュリティに関する取り組みについてチームを教育する](/azure/cloud-adoption-framework/security/security-top-10#1-people-educate-teams-about-the-cloud-security-journey)
 
-- [Azure のセキュリティのベスト プラクティス 2 - 人: クラウド セキュリティ テクノロジについてチームを教育する](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
+- [Azure のセキュリティのベスト プラクティス 2 - 人: クラウド セキュリティ テクノロジについてチームを教育する](/azure/cloud-adoption-framework/security/security-top-10#2-people-educate-teams-on-cloud-security-technology)
 
-- [Azure のセキュリティのベスト プラクティス 3 - プロセス: クラウドのセキュリティに関する意思決定のアカウンタビリティを割り当てる](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Azure のセキュリティのベスト プラクティス 3 - プロセス: クラウドのセキュリティに関する意思決定のアカウンタビリティを割り当てる](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -524,13 +524,13 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 -   最新のネットワーク セキュリティ成果物 (例: ネットワーク図、参照ネットワーク アーキテクチャ)
 
 詳細については、次のリファレンスを参照してください。
-- [Azure のセキュリティのベスト プラクティス 11 - アーキテクチャ。単一の統合セキュリティ戦略](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Azure のセキュリティのベスト プラクティス 11 - アーキテクチャ。単一の統合セキュリティ戦略](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
-- [Azure セキュリティ ベンチマーク - ネットワーク セキュリティ](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-network-security)
+- [Azure セキュリティ ベンチマーク - ネットワーク セキュリティ](/azure/security/benchmarks/security-benchmark-v2-network-security)
 
-- [Azure のネットワーク セキュリティの概要](https://docs.microsoft.com/azure/security/fundamentals/network-overview)
+- [Azure のネットワーク セキュリティの概要](/azure/security/fundamentals/network-overview)
 
-- [エンタープライズ ネットワーク アーキテクチャ戦略](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
+- [エンタープライズ ネットワーク アーキテクチャ戦略](/azure/cloud-adoption-framework/ready/enterprise-scale/architecture)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -554,13 +554,13 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 詳細については、次のリファレンスを参照してください。
 
-- [Azure セキュリティ ベンチマーク - ID 管理](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-identity-management)
+- [Azure セキュリティ ベンチマーク - ID 管理](/azure/security/benchmarks/security-benchmark-v2-identity-management)
 
-- [Azure セキュリティ ベンチマーク - 特権アクセス](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-privileged-access)
+- [Azure セキュリティ ベンチマーク - 特権アクセス](/azure/security/benchmarks/security-benchmark-v2-privileged-access)
 
-- [Azure のセキュリティのベスト プラクティス 11 - アーキテクチャ。単一の統合セキュリティ戦略](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
+- [Azure のセキュリティのベスト プラクティス 11 - アーキテクチャ。単一の統合セキュリティ戦略](/azure/cloud-adoption-framework/security/security-top-10#11-architecture-establish-a-single-unified-security-strategy)
 
-- [Azure ID 管理のセキュリティの概要](https://docs.microsoft.com/azure/security/fundamentals/identity-management-overview)
+- [Azure ID 管理のセキュリティの概要](/azure/security/fundamentals/identity-management-overview)
 
 **Azure Security Center の監視**: 適用なし
 
@@ -588,15 +588,15 @@ Azure Security Center によって各アラートに重大度が割り当てら�
 
 詳細については、次のリファレンスを参照してください。
 
-- [Azure セキュリティ ベンチマーク - ログと脅威検出](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-logging-threat-detection)
+- [Azure セキュリティ ベンチマーク - ログと脅威検出](/azure/security/benchmarks/security-benchmark-v2-logging-threat-detection)
 
-- [Azure セキュリティ ベンチマーク - インシデント対応](https://docs.microsoft.com/azure/security/benchmarks/security-benchmark-v2-incident-response)
+- [Azure セキュリティ ベンチマーク - インシデント対応](/azure/security/benchmarks/security-benchmark-v2-incident-response)
 
-- [Azure のセキュリティのベスト プラクティス 4 - プロセス: クラウドのインシデント対応プロセスを更新する](https://docs.microsoft.com/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
+- [Azure のセキュリティのベスト プラクティス 4 - プロセス: クラウドのインシデント対応プロセスを更新する](/azure/cloud-adoption-framework/security/security-top-10#4-process-update-incident-response-ir-processes-for-cloud)
 
-- [Azure 導入フレームワーク、ログ、およびレポートの決定ガイド](https://docs.microsoft.com/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
+- [Azure 導入フレームワーク、ログ、およびレポートの決定ガイド](/azure/cloud-adoption-framework/decision-guides/logging-and-reporting/)
 
-- [Azure のエンタープライズ スケーリング、管理、監視](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
+- [Azure のエンタープライズ スケーリング、管理、監視](/azure/cloud-adoption-framework/ready/enterprise-scale/management-and-monitoring)
 
 **Azure Security Center の監視**: 適用なし
 
