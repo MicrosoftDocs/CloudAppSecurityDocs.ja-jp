@@ -3,18 +3,18 @@ title: Cloud App Security の Data Enrichment API
 description: この記事では、Data Enrichment API の使用方法について説明します。
 ms.date: 12/13/2020
 ms.topic: reference
-ms.openlocfilehash: 814f4e038c129576377aea9fe5e7c3e74a4b09d1
-ms.sourcegitcommit: 90df07ce9cd64fd9c46fb6563f0249079204e174
+ms.openlocfilehash: d2050afec68bc29b0f401188b60c3dbb631a4a1b
+ms.sourcegitcommit: 0768aa1992819e2651a14a731f79e178fdececc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97859015"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98114753"
 ---
 # <a name="data-enrichment-api"></a>Data Enrichment API
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
-Data Enrichment API を使用すると、物理的なオフィスの IP アドレスなど、識別可能な IP アドレス範囲を作成できます。 IP アドレス範囲を使用すると、ログとアラートの表示と調査の方法をタグ付けして分類し、カスタマイズすることができます。 詳細については、「[IP 範囲とタグの使用](ip-tags.md)」を参照してください。
+Data Enrichment API を使用すると、物理的なオフィスの IP アドレスなど、識別可能な IP アドレス範囲を管理できます。 IP アドレス範囲を使用すると、ログとアラートの表示と調査の方法をタグ付けして分類し、カスタマイズすることができます。 詳細については、「[IP 範囲とタグの使用](ip-tags.md)」を参照してください。
 
 サポートされている要求は次のとおりです。
 

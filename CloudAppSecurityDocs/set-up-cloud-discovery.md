@@ -1,14 +1,14 @@
 ---
 title: Cloud Discovery のデプロイ
 description: この記事では、Cloud Discovery を動作させるためのセットアップ手順について説明します。
-ms.date: 08/09/2020
+ms.date: 01/17/2021
 ms.topic: how-to
-ms.openlocfilehash: e4ac4ce0e6148ca37c4c666b94da6779578ca77a
-ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
+ms.openlocfilehash: 2ac879d1cd4ac75aebdf080599f77b0bedba640e
+ms.sourcegitcommit: e9d295ba27d0797e970d10b3effaff4961cbf556
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2021
-ms.locfileid: "97855236"
+ms.lasthandoff: 01/17/2021
+ms.locfileid: "98540898"
 ---
 # <a name="set-up-cloud-discovery"></a>Cloud Discovery の設定
 
@@ -113,8 +113,8 @@ Cloud Discovery では、16,000 以上のクラウド アプリを掲載した M
 | Digital Arts i-FILTER | **あり** | **あり** | **あり** | **あり** | **はい** | **あり** |
 | ForcePoint LEEF |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
 | ForcePoint Web Security Cloud\* |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
-| Fortigate | いいえ | **あり** | いいえ | **あり** | **はい** | **あり** |
-| Fortinet FortiOS |**はい**|**あり**|いいえ|**あり**|**はい**|**あり**|
+| Fortinet Fortigate | いいえ | **あり** | いいえ | **あり** | **はい** | **あり** |
+| FortiOS |**はい**|**あり**|いいえ|**あり**|**はい**|**あり**|
 | iboss |**あり**|**あり**|**あり**|**あり**|**はい**|**あり**|
 | Juniper SRX | いいえ | **あり** | いいえ | **あり** | **はい** | **あり** |
 | Juniper SSG | いいえ | **あり** | **あり** | **あり** | **はい** | **あり** |

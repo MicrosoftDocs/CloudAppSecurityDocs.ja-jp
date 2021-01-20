@@ -1,16 +1,16 @@
 ---
 title: Cloud App Security と汎用 SIEM の統合
 description: この記事では、汎用 SIEM と Cloud App Security の統合に関する情報を提供します。
-ms.date: 11/08/2020
+ms.date: 01/17/2021
 ms.topic: how-to
-ms.openlocfilehash: ed69404df787a9c439c3e433b00b0f06fbd8769a
-ms.sourcegitcommit: 605ab52545796cff9b0f6392ceff12c310c7fe2d
+ms.openlocfilehash: 4e0facf906597ec4f66f77d8a2be3dd0001d8bda
+ms.sourcegitcommit: bc0bfb2882ebc9f942197544707c987e36650035
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "96851872"
+ms.lasthandoff: 01/18/2021
+ms.locfileid: "98544227"
 ---
-# <a name="generic-siem-integration-preview"></a>汎用 SIEM の統合 (プレビュー)
+# <a name="generic-siem-integration"></a>汎用 SIEM の統合
 
 [!INCLUDE [Banner for top of topics](includes/banner.md)]
 
@@ -55,6 +55,7 @@ SIEM との統合は次の 3 つの手順で行われます。
 * ディスク領域:20 GB
 * RAM:2 GB
 * サーバーで Java 8 を実行している必要があります。 以前のバージョンはサポートされません。
+* トランスポート層セキュリティ (TLS) 1.2 以降。 以前のバージョンはサポートされません。
 * 「[ネットワークの要件](network-requirements.md)」で説明されているとおりに、ファイアウォールを設定します
 
 ## <a name="integrating-with-your-siem"></a>SIEM との統合
@@ -190,9 +191,6 @@ SIEM エージェントを編集するには、テーブルの SIEM エージェ
 SIEM エージェントを削除する場合は、テーブルの SIEM エージェント行の末尾にある 3 つのドットをクリックし、 **[削除]** を選択します。
 
 ![SIEM - 削除](media/siem-delete.png)
-
-> [!NOTE]
-> この機能はパブリック プレビューの状態にあります。
 
 ## <a name="next-steps"></a>次のステップ
 

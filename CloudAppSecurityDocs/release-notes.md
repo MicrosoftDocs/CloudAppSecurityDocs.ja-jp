@@ -1,14 +1,14 @@
 ---
 title: Cloud App Security の新機能
 description: この記事は、Cloud App Security の最新リリースの新機能がわかるように頻繁に更新されます。
-ms.date: 10/25/2020
+ms.date: 01/10/2021
 ms.topic: overview
-ms.openlocfilehash: a98d6305b20b7cca12754edc8804781d20dd0f4e
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 891e01d44a8a76c3f3194ad817445690b80def8c
+ms.sourcegitcommit: 0768aa1992819e2651a14a731f79e178fdececc5
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315482"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98114719"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -21,6 +21,25 @@ RSS フィード:ご自身のフィード リーダーに次の URL をコピー
 > [!IMPORTANT]
 >
 > Microsoft による脅威の防止用製品の名前が変更されています。 この点や他の更新の詳細については、[こちら](https://www.microsoft.com/security/blog/?p=91813)をご覧ください。 今後のリリースでは、新しい名前が使用される予定です。
+
+## <a name="cloud-app-security-release-189-190-and-191"></a>Cloud App Security リリース 189、190、および 191
+
+リリース日: 2021 年 1 月 10 日
+
+- **新しい異常検出:OAuth アプリへの資格情報の疑わしい追加**  
+OAuth アプリへの特権資格情報の疑わしい追加を含めるよう、異常検出を拡張しました。 現在、新しい検出はすぐに使用でき、自動的に有効になります。 この検出は、攻撃者によってアプリが侵害され、悪意のあるアクティビティに使用されていることを示している可能性があります。 詳細については、「[OAuth アプリへの通常とは異なる資格情報の追加](investigate-anomaly-alerts.md#unusual-addition-of-credentials-to-an-oauth-app)」を参照してください。
+
+- **シャドウ IT 検出アクティビティの監査の強化**  
+管理者が実行するアクションを含めるように、[シャドウ IT](tutorial-shadow-it.md) アクティビティの監査が更新されました。 次の新しいアクティビティは、現在アクティビティ ログで使用でき、また Cloud App Security [調査エクスペリエンス](investigate.md#use-the-investigation-tools)の一部として使用できます。
+  - アプリのタグ付けまたはタグの解除
+  - ログ コレクターの作成、更新、または削除
+  - データ ソースの作成、更新、または削除
+
+- **新しい Data Enrichment REST API エンドポイント**  
+API を使用して IP アドレス範囲を完全に管理できるようにする、次の [Data Enrichment API エンドポイント](api-data-enrichment.md)が追加されました。 作業の開始に役立つ[サンプル管理スクリプト](api-data-enrichment-manage-script.md)をお使いください。 範囲の詳細については、「[IP 範囲とタグの使用](ip-tags.md)」を参照してください。
+  - [IP アドレス範囲の一覧表示](api-data-enrichment-list.md)
+  - [IP アドレス範囲の更新](api-data-enrichment-update.md)
+  - [IP アドレス範囲の削除](api-data-enrichment-delete.md)
 
 ## <a name="cloud-app-security-release-187-and-188"></a>Cloud App Security リリース 187 および 188
 

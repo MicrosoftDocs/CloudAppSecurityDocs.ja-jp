@@ -3,12 +3,12 @@ title: Cloud App Security を展開する
 description: このクイックスタートでは、クラウド アプリの使用状況、分析情報、および制御を得るために Cloud App Security を起動して実行するプロセスについて概説します。
 ms.date: 06/07/2020
 ms.topic: quickstart
-ms.openlocfilehash: f17608329facabe6f48ae20938c44f3e8ef1b05a
-ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
+ms.openlocfilehash: 95f4d916fc60db4d8ddbe2a9a87dc1af580e4be9
+ms.sourcegitcommit: 7fc4d916a43d188b1aa4e3cee2e8bd1de230d135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2021
-ms.locfileid: "97855542"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98206494"
 ---
 # <a name="quickstart-get-started-with-microsoft-cloud-app-security"></a>クイック スタート:Microsoft Cloud App Security を使ってみる
 
@@ -75,7 +75,7 @@ Cloud App Security ポータルにアクセスするには、[https://portal.clo
 
 必須のタスク:クラウド アプリの使用状況を表示するには、Cloud App Security を有効にします
 
-1. [Microsoft Defender ATP と統合](mde-integration.md)することで、Cloud App Security が自動的に有効にされ、会社内外のご利用の Windows 10 デバイスを監視できるようになります。
+1. [Microsoft Defender for Endpoint と統合](mde-integration.md)することで、Cloud App Security が自動的に有効にされ、会社内外のご利用の Windows 10 デバイスを監視できるようになります。
 1. [Zscaler](zscaler-integration.md) を使用する場合は、これを Cloud App Security と統合します。
 1. 完全なカバレッジを実現するために、継続的な Cloud Discovery レポートを作成する
 

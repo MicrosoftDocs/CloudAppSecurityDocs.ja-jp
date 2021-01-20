@@ -3,12 +3,12 @@ title: Cloud Discovery データを使用して危険な動作を検出する
 description: このトピックでは、アプリのリスク スコアの操作など、Cloud Discovery データを操作する方法について説明します。
 ms.date: 05/06/2019
 ms.topic: conceptual
-ms.openlocfilehash: 0ae744dcdc777ab806654abb7862ec27730be143
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: df1cd5bb2a75f8d68c8ec6822960c96dfc848ea9
+ms.sourcegitcommit: 7fc4d916a43d188b1aa4e3cee2e8bd1de230d135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315601"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98206544"
 ---
 # <a name="working-with-discovery-data"></a>探索データの操作
 
@@ -50,7 +50,7 @@ Cloud Discovery アプリの概要を把握するために最初にするべき�
 
 カスタムの継続的レポートを使用すると、組織の Cloud Discovery ログ データを詳細に監視できます。 カスタム レポートを作成すると、特定の地理的な場所、ネットワークとサイト、または組織単位でフィルター処理することができます。 既定では、Cloud Discovery レポート セレクターには次のレポートのみが表示されます。
 
-- **グローバル レポート** では、ログに含まれるすべてのデータ ソースからポータルに収集されたデータが、統合表示されます。  グローバル レポートには、Microsoft Defender ATP からのデータは含まれません。
+- **グローバル レポート** では、ログに含まれるすべてのデータ ソースからポータルに収集されたデータが、統合表示されます。  グローバル レポートには、Microsoft Defender for Endpoint からのデータは含まれません。
 
 - **データ ソースごとのレポート** には、特定のデータ ソースの情報のみが表示されます。
 

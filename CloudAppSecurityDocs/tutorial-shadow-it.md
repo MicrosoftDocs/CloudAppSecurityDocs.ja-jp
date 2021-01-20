@@ -3,12 +3,12 @@ title: シャドウ IT の検出と管理を行う
 description: このチュートリアルでは、Microsoft Cloud App Security で Azure Information Protection 分類ラベルを自動的に適用するプロセスについて説明します。
 ms.date: 06/29/2020
 ms.topic: tutorial
-ms.openlocfilehash: d7e3db3ca7f648b966ef9fbe3948eb345a710c10
-ms.sourcegitcommit: 4900168878f42e9fa79873df4b7c2d81991b5b27
+ms.openlocfilehash: 2f6da5a282aea312fa08be91be4b1195d36ffd50
+ms.sourcegitcommit: 7fc4d916a43d188b1aa4e3cee2e8bd1de230d135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "97857991"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98206561"
 ---
 # <a name="tutorial-discover-and-manage-shadow-it-in-your-network"></a>チュートリアル:ネットワーク内のシャドウ IT の検出と管理
 
@@ -36,7 +36,7 @@ IT 管理者に、従業員が使用していると考えられるクラウド �
 
 1. **シャドウ IT の検出**:組織で Cloud Discovery を実行して組織のセキュリティ体制を特定し、実際にネットワークで何が起こっているかを確認します。 詳細については、「[Cloud Discovery の設定](set-up-cloud-discovery.md)」をご覧ください。 これを行うには、次のいずれかの方法を使用します。
 
-    * [Microsoft Defender ATP](mde-integration.md) と統合すると、Cloud Discovery がすばやく起動します。 このネイティブ統合により、ネットワークのオンとオフを切り替えて、Windows 10 デバイス間でクラウド トラフィックに関するデータの収集をすぐに開始できます。
+    * [Microsoft Defender for Endpoint](mde-integration.md) と統合すると、Cloud Discovery がすばやく起動します。 このネイティブ統合により、ネットワークのオンとオフを切り替えて、Windows 10 デバイス間でクラウド トラフィックに関するデータの収集をすぐに開始できます。
 
     * ネットワークに接続されているすべてのデバイスをカバーするために、ファイアウォールやその他のプロキシに [Cloud App Security ログ コレクター](discovery-docker.md)をデプロイしてエンドポイントからデータを収集し、分析のために Cloud App Security に送信することが重要です。
 
@@ -83,7 +83,7 @@ IT 管理者に、従業員が使用していると考えられるクラウド �
 
 次に、懸念される問題が発生したときに自動的にアラートが送信されるように、ポリシーを作成します。 たとえば、懸念されるアプリからのダウンロードやトラフィックが急増したときに通知されるよう、**アプリ検出ポリシー** を作成することができます。 これを実現するには、 **[Anomalous behavior in discovered users policy]\(検出されたユーザー ポリシーの異常な動作\)** 、 **[クラウド ストレージ アプリのコンプライアンス チェック]** 、および **[新しい危険なアプリ]** を有効にする必要があります。 また、メールまたはテキスト メッセージでご自分に通知されるようにポリシーを設定する必要があります。 詳細については、「[ポリシー テンプレート リファレンス](policy-template-reference.md)」や、「[Cloud Discovery ポリシー](cloud-discovery-policies.md)」と[アプリ検出ポリシー](cloud-discovery-policies.md)の構成をご覧ください。
 
-アラート ページを表示し、 **[ポリシーの種類]** フィルターを使用して、アプリ検出アラートを確認します。 アプリ検出ポリシーと一致したアプリの場合は、業務でそのアプリを使用する理由を詳しく知るため、アプリのユーザーに連絡するなどしてさらに調査することをお勧めします。 次に、フェーズ 2 の手順を繰り返して、アプリのリスクを評価します。 その後、アプリケーションの次のステップ: 今後の使用を承認するか、またはユーザーが次回アクセスしたときにブロックするかを決定します。後者の場合は、ファイアウォール、プロキシ、またはセキュリティ保護された Web ゲートウェイを使用してブロックできるように、アプリを未承認としてタグ付けする必要があります。 詳細については、[Microsoft Defender ATP との統合](mde-integration.md#block-access-to-unsanctioned-cloud-apps)、[Zscaler との統合](zscaler-integration.md)、[iboss との統合](iboss-integration.md)に関するページと、「[ブロック スクリプトをエクスポートして検出されたアプリを管理する](governance-discovery.md#export-a-block-script-to-govern-discovered-apps)」をご覧ください。
+アラート ページを表示し、 **[ポリシーの種類]** フィルターを使用して、アプリ検出アラートを確認します。 アプリ検出ポリシーと一致したアプリの場合は、業務でそのアプリを使用する理由を詳しく知るため、アプリのユーザーに連絡するなどしてさらに調査することをお勧めします。 次に、フェーズ 2 の手順を繰り返して、アプリのリスクを評価します。 その後、アプリケーションの次のステップ: 今後の使用を承認するか、またはユーザーが次回アクセスしたときにブロックするかを決定します。後者の場合は、ファイアウォール、プロキシ、またはセキュリティ保護された Web ゲートウェイを使用してブロックできるように、アプリを未承認としてタグ付けする必要があります。 詳細については、[Microsoft Defender for Endpoint との統合](mde-integration.md#block-access-to-unsanctioned-cloud-apps)、[Zscaler との統合](zscaler-integration.md)、[iboss との統合](iboss-integration.md)に関するページと、「[ブロック スクリプトをエクスポートして検出されたアプリを管理する](governance-discovery.md#export-a-block-script-to-govern-discovered-apps)」をご覧ください。
 
 ### <a name="phase-4-advanced-shadow-it-discovery-reporting"></a>フェーズ 4:高度なシャドウ IT の検出レポート
 

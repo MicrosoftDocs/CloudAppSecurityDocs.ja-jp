@@ -14,12 +14,12 @@ ms.technology: ''
 ms.reviewer: reutam
 ms.suite: ems
 ms.custom: seodec18
-ms.openlocfilehash: 1c84882ec04d72ef24d9fe044c0fabbb355a15bb
-ms.sourcegitcommit: ee66e70f711aa11501e308e53b1a4b46f2175e4e
+ms.openlocfilehash: 0fce6bbf6e13b34c904d88a34fe858f1586d9d90
+ms.sourcegitcommit: 7fc4d916a43d188b1aa4e3cee2e8bd1de230d135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "97894684"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98206476"
 ---
 # <a name="get-behavioral-analytics-and-anomaly-detection"></a>行動分析と異常検出を取得する
 
@@ -118,7 +118,7 @@ Cloud App Security のネイティブ アラートに加えて、Azure Active Di
 * このポリシーを使用すると、環境のプロファイリングが行われ、ユーザーが 1 回のセッション中に疑わしいメール削除アクティビティを実行した場合にアラートがトリガーされます。 このポリシーでは、メールを使ったコマンド アンド コントロール通信 (C&C または C2) などの潜在的な攻撃ベクトルによってユーザーのメールボックスが侵害された可能性があることが示される場合があります。
 
 > [!NOTE]
-> Cloud App Security には、Office Advanced Threat Protection (Office ATP) が統合されており、URL デトネーション、マルウェア対策など、Exchange Online 用の保護を提供します。 Office ATP を有効にすると、Cloud App Security アクティビティ ログにアラートが表示されるようになります。
+> Cloud App Security には、Microsoft Defender for Office 365 が統合されており、URL デトネーション、マルウェア対策など、Exchange Online 用の保護が提供されます。 Defender for Office 365 を有効にすると、Cloud App Security アクティビティ ログにアラートが表示されるようになります。
 
 ### <a name="suspicious-oauth-app-file-download-activities"></a>疑わしい OAuth アプリ ファイルのダウンロード アクティビティ
 

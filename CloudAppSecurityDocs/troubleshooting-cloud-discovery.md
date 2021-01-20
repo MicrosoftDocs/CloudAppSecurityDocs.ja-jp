@@ -3,12 +3,12 @@ title: Cloud Discovery エラーのトラブルシューティング
 description: この記事では、Cloud Discovery の頻繁なエラーと、それぞれの推奨される解決策の一覧を示します。
 ms.date: 04/19/2019
 ms.topic: conceptual
-ms.openlocfilehash: 96ff00be024688a025d30c03dca8194a99413038
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: c8c34f6d08fa0ba360988a11dd5501546c8ec318
+ms.sourcegitcommit: 7fc4d916a43d188b1aa4e3cee2e8bd1de230d135
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315941"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "98206527"
 ---
 # <a name="troubleshooting-cloud-discovery"></a>Cloud Discovery のトラブルシューティング
 
@@ -16,9 +16,9 @@ ms.locfileid: "96315941"
 
 この記事では、Cloud Discovery のエラーと、それぞれの推奨される解決策の一覧を示します。
 
-## <a name="microsoft-defender-atp-integration"></a>Microsoft Defender ATP の統合
+## <a name="microsoft-defender-for-endpoint-integration"></a>Microsoft Defender for Endpoint 統合
 
-Microsoft Defender ATP と Cloud App Security を統合した場合に、統合の結果が表示されません。
+Microsoft Defender for Endpoint と Cloud App Security を統合した場合に、統合の結果が表示されません。
 
 |問題|解決策|
 |----|----|
