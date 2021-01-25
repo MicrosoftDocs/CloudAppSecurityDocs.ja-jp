@@ -304,32 +304,6 @@
           href: api-introduction.md
         - name: 認証
           href: api-authentication.md
-        - name: Cloud Discovery
-          items:
-            - name: 概要
-              href: api-discovery.md
-            - name: ファイルのアップロードの開始
-              href: api-discovery-initiate.md
-            - name: ファイルのアップロードの実行
-              href: api-discovery-perform.md
-            - name: ファイルのアップロードの最終処理
-              href: api-discovery-finalize.md
-            - name: ブロック スクリプトの生成
-              href: api-discovery-script.md
-        - name: データ エンリッチメント
-          items:
-            - name: 概要
-              href: api-data-enrichment.md
-            - name: API を使用した IP アドレス範囲の管理
-              href: api-data-enrichment-manage-script.md
-            - name: IP 範囲の一覧表示
-              href: api-data-enrichment-list.md
-            - name: IP アドレス範囲の作成
-              href: api-data-enrichment-create.md
-            - name: IP アドレス範囲の更新
-              href: api-data-enrichment-update.md
-            - name: IP アドレス範囲の削除
-              href: api-data-enrichment-delete.md
         - name: アクティビティ
           items:
             - name: 概要
@@ -360,6 +334,36 @@
               href: api-alerts-mark-read.md
             - name: 警告を未読としてマーク
               href: api-alerts-mark-unread.md
+        - name: Cloud Discovery
+          items:
+            - name: 概要
+              href: api-discovery.md
+            - name: ファイルのアップロードの開始
+              href: api-discovery-initiate.md
+            - name: ファイルのアップロードの実行
+              href: api-discovery-perform.md
+            - name: ファイルのアップロードの最終処理
+              href: api-discovery-finalize.md
+            - name: 継続的レポートの一覧表示
+              href: api-discovery-list-streams.md
+            - name: 継続的レポートのカテゴリの一覧表示
+              href: api-discovery-list-categories.md
+            - name: ブロック スクリプトの生成
+              href: api-discovery-script.md
+        - name: データ エンリッチメント
+          items:
+            - name: 概要
+              href: api-data-enrichment.md
+            - name: API を使用した IP アドレス範囲の管理
+              href: api-data-enrichment-manage-script.md
+            - name: IP 範囲の一覧表示
+              href: api-data-enrichment-list.md
+            - name: IP アドレス範囲の作成
+              href: api-data-enrichment-create.md
+            - name: IP アドレス範囲の更新
+              href: api-data-enrichment-update.md
+            - name: IP アドレス範囲の削除
+              href: api-data-enrichment-delete.md
         - name: エンティティ
           items:
             - name: 概要
