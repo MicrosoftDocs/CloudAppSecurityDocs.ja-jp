@@ -188,7 +188,9 @@
         - name: 任意のアプリでの条件付きアクセス アプリ制御のオンボードと展開
           href: proxy-deployment-any-app.md
         - name: PingOne IdP の構成
-          href: proxy-idp-examples.md
+          href: proxy-idp-pingone.md
+        - name: AD FS IdP の構成
+          href: proxy-idp-adfs.md
     - name: 調査
       href: investigate.md
       items:
