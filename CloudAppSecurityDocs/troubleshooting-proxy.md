@@ -3,12 +3,12 @@ title: アクセスおよびセッション制御のトラブルシューティ�
 description: この記事では、一般的なアクセスおよびセッション制御を調査して解決する方法に関するガイダンスを管理者に提供します。
 ms.date: 07/15/2020
 ms.topic: conceptual
-ms.openlocfilehash: 9d327449ba51871f2277f521ddd6ec6f1ba47ade
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 6de4bfea4892328871661819411a2be5e8d4b568
+ms.sourcegitcommit: f56a2060b99ab087b8637606a1fb66e5577aded8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96315890"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98794883"
 ---
 # <a name="troubleshooting-access-and-session-controls"></a>アクセスおよびセッション制御のトラブルシューティング
 
@@ -185,7 +185,7 @@ Azure AD の条件付きアクセスでは、Intune に準拠している、お�
 | Microsoft Internet Explorer | 1.Internet Explorer を開きます<br />2. **[ツール]**  >  **[インターネット オプション]**  >  **[詳細]** タブの順に選択します<br />3. **[セキュリティ]** で、 **[既存のクライアント証明書が 1 つしか存在しない場合の証明書の選択]** を選択します<br />4. **[適用]** 、 **[OK]** の順に選択します<br />5.ブラウザーを再起動し、追加のプロンプトなしでアプリにアクセスできることを確認します |
 | Microsoft Edge / Edge Chromium | 1.タスク バーから [検索] を開き、"インターネット オプション" を検索します<br />2. **[インターネット オプション]** を選択します<br />3. **[セキュリティ]** を選択し、 **[ローカル イントラネット]** を選択してから、 **[レベルのカスタマイズ]** をクリックします<br />4. **[その他]**  >  **[既存のクライアント証明書が 1 つしか存在しない場合の証明書の選択]** で、 **[無効]** を選択します<br />5. **[OK]** をクリックして、[レベルのカスタマイズ] ダイアログ ボックスを閉じます<br />6. **[適用]** をクリックし、 **[OK]** を選択して、インターネット オプションを閉じます<br />7.ブラウザーを再起動し、追加のプロンプトなしでアプリにアクセスできることを確認します |
 
-<a name="device-identification-additional-considerations"></a>s
+<a name="device-identification-additional-considerations"></a>
 
 #### <a name="additional-considerations"></a>その他の考慮事項
 
