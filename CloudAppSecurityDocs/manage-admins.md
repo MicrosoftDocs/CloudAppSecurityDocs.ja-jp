@@ -3,12 +3,12 @@ title: Cloud App Security ポータルへの管理者アクセスを管理する
 description: この記事では、管理者用に Cloud App Security ポータルへのアクセスを設定する方法について説明します。
 ms.date: 01/11/2021
 ms.topic: how-to
-ms.openlocfilehash: a9ab36e788d74493059187bc043d701283b1969f
-ms.sourcegitcommit: 7fc4d916a43d188b1aa4e3cee2e8bd1de230d135
+ms.openlocfilehash: f25524e7190a8ac75bdf0b467bba2e98c0b23b10
+ms.sourcegitcommit: 2294a61e636b436ac96a02eb7d4969f445b4aebb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "98206513"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "98949522"
 ---
 # <a name="manage-admin-access"></a>管理者アクセスを管理する
 
@@ -20,7 +20,7 @@ Microsoft Cloud App Security はロールベースのアクセス制御に対応
 
 既定では、Office 365 と [Azure Active Directory (Azure AD)](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) の次の管理者ロールで Cloud App Security にアクセスできます。
 
-- **全体管理者、セキュリティ管理者**:**フル アクセス** の権限を持つ管理者には、Cloud App Security での完全なアクセス許可があります。 管理者の追加、ポリシーと設定の追加、ログのアップロード、ガバナンス アクションの実行を行うことができます。
+- **全体管理者、セキュリティ管理者**:**フル アクセス** の権限を持つ管理者には、Cloud App Security での完全なアクセス許可があります。 これらでは、管理者の追加、ポリシーと設定の追加、ログのアップロード、ガバナンス アクションの実行、SIEM エージェントへのアクセスと管理を行うことができます。
 
 - **コンプライアンス管理者**:読み取り専用アクセス許可を持ち、アラートを管理できます。 クラウド プラットフォームのセキュリティに関する推奨事項にはアクセスできません。 ファイル ポリシーの作成と変更、ファイル ガバナンス アクションの許可、データ管理でのすべての組み込みレポートの表示を行うことができます。
 
@@ -38,7 +38,7 @@ Microsoft Cloud App Security はロールベースのアクセス制御に対応
   - アプリ コネクタ ページへのアクセスと表示
   - ガバナンス ログへのアクセスと表示
   - [スナップショット レポートの管理] ページへのアクセスと表示
-  - SIEM エージェントへのアクセスと編集
+  - SIEM エージェントへのアクセスと表示
 
 - **グローバル閲覧者**:Cloud App Security のすべての部分に対する完全な読み取り専用アクセス権を持ちます。 設定を変更したり、アクションを実行したりすることはできません。
 

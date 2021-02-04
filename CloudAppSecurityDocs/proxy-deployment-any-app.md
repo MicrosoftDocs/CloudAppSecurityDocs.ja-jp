@@ -1,14 +1,14 @@
 ---
 title: 任意のアプリに対して Cloud App Security のアプリの条件付きアクセス制御を展開する
 description: この記事では、任意のアプリに対して Microsoft Cloud App Security のアプリの条件付きアクセス制御のリバース プロキシ機能を展開する方法について説明します。
-ms.date: 03/31/2020
+ms.date: 01/26/2021
 ms.topic: how-to
-ms.openlocfilehash: 52eb9874a5b80fa22f957f855374a0f3444d7101
-ms.sourcegitcommit: 16a65ab2c8ca778d0b3cfa97b847af4c812363b2
+ms.openlocfilehash: ac99dee3b145a8d77c4eaaba8c5624a572aec86b
+ms.sourcegitcommit: f56a2060b99ab087b8637606a1fb66e5577aded8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/03/2021
-ms.locfileid: "97855848"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98794988"
 ---
 # <a name="onboard-and-deploy-conditional-access-app-control-for-any-app"></a>任意のアプリに対するアプリの条件付きアクセス制御のオンボードと展開
 
@@ -78,7 +78,13 @@ Cloud App Security でおすすめされている、すぐに使用できるア�
 
 ### <a name="configure-integration-with-other-idp-solutions"></a>その他の IdP ソリューションとの統合を構成する
 
-次の手順に従って、他の IdP ソリューションから Cloud App Security にアプリ セッションをルーティングします。 Azure AD については、「[Azure AD との統合を構成する](#configure-integration-with-azure-ad)」をご覧ください。 IdP ソリューションの構成例については、[IdP の構成](proxy-idp-examples.md)に関する記事を参照してください。
+次の手順に従って、他の IdP ソリューションから Cloud App Security にアプリ セッションをルーティングします。 Azure AD については、「[Azure AD との統合を構成する](#configure-integration-with-azure-ad)」をご覧ください。
+
+> [!NOTE]
+> IdP ソリューションの構成方法の例については、以下を参照してください。
+>
+> - [PingOne IdP の構成](proxy-idp-pingone.md)
+> - [AD FS IdP の構成](proxy-idp-adfs.md)
 
 1. Cloud App Security で、 **[調査]**  >  **[接続アプリ]**  >  **[アプリの条件付きアクセス制御アプリ]** の順に移動します。
 
