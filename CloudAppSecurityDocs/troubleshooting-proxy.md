@@ -3,12 +3,12 @@ title: アクセスおよびセッション制御のトラブルシューティ�
 description: この記事では、一般的なアクセスおよびセッション制御を調査して解決する方法に関するガイダンスを管理者に提供します。
 ms.date: 07/15/2020
 ms.topic: conceptual
-ms.openlocfilehash: 6de4bfea4892328871661819411a2be5e8d4b568
-ms.sourcegitcommit: f56a2060b99ab087b8637606a1fb66e5577aded8
+ms.openlocfilehash: 3dc2826de9e46eae43d3d4a2200f0a56ae3ee9da
+ms.sourcegitcommit: 2cb91556060d61fa378047aebf81b71dff5ff19d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98794883"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "99551725"
 ---
 # <a name="troubleshooting-access-and-session-controls"></a>アクセスおよびセッション制御のトラブルシューティング
 
@@ -505,9 +505,9 @@ URL にサフィックスを付けるすべてのプロキシは、コンテキ�
 一時的な軽減策として、次の方法でコンテキスト損失の問題を回避することができます。
 
 1. コンテキストの損失が発生した URL に移動します。
-1. Cloud App Security によって追加されたサフィックスを含む、サフィックスが付いた URL ドメインをメモしておきます (例: `https://www.yammer.com.us2.cas.ms`)。
+1. Cloud App Security によって追加されたサフィックスを含む、サフィックスが付いた URL ドメインをメモしておきます (例: `https://www.yammer.com.mcas.ms`)。
 1. 元の URL からパスをコピーします。たとえば、元の特定の URL が `https://www.yammer.com/organization/threads/threadnumber` の場合、`/organization/threads/threadnumber` をコピーします。
-1. コピーしたパスをサフィックスの付いたドメインに追加します (例: `https://www.yammer.com.us2.cas.ms/organization/threads/threadnumber`)。
+1. コピーしたパスをサフィックスの付いたドメインに追加します (例: `https://www.yammer.com.mcas.ms/organization/threads/threadnumber`)。
 1. サフィックスが付いた新しい URL に移動します。
 
 <a name="app-additional-considerations"></a>
