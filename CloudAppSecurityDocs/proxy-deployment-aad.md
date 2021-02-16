@@ -1,14 +1,14 @@
 ---
 title: Azure AD アプリに対して Cloud App Security のアプリの条件付きアクセス制御をデプロイする
 description: この記事では、Azure AD アプリに対して Microsoft Cloud App Security のアプリの条件付きアクセス制御のリバース プロキシ機能をデプロイする方法について説明します。
-ms.date: 01/26/2021
+ms.date: 02/14/2021
 ms.topic: how-to
-ms.openlocfilehash: e4a913c3da802b58180f3611f19ff62c6f0c4ad4
-ms.sourcegitcommit: f56a2060b99ab087b8637606a1fb66e5577aded8
+ms.openlocfilehash: 85a29e73311116de86eb97dda76a982232c939a8
+ms.sourcegitcommit: 63a7e18c91371c91b920e6e09722eeee08bd2920
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "98794973"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100515259"
 ---
 # <a name="deploy-conditional-access-app-control-for-featured-apps"></a>フィーチャー アプリでの条件付きアクセス アプリ制御の展開
 
@@ -41,7 +41,9 @@ Microsoft Cloud App Security のセッション コントロールは、おす�
 
 **手順 3: [アクセス制御とセッション制御を使用するようにアプリが構成されていることを確認する](#portal)**
 
-**手順 4: [デプロイをテストする](#test)**
+**手順 4: [組織でアプリを使用できるようにする](#enable-app)**
+
+**手順 5: [デプロイをテストする](#test)**
 
 ## <a name="step-1--configure-your-idp-to-work-with-cloud-app-security"></a>手順 1:Cloud App Security と連動するように IdP を構成する<a name="conf-idp"></a><a name="add-azure-ad"></a>
 
@@ -167,7 +169,17 @@ Cloud App Security によって、サインインする新しいアプリごと�
     >
     >![条件付きアクセスのアプリ制御の要求](media/caac-request.png)
 
-## <a name="step-4-test-the-deployment"></a>手順 4:デプロイをテストする<a name="test"></a>
+## <a name="step-4-enable-the-app-for-use-in-your-organization"></a>手順 4:組織でアプリを使用できるようにする<a name="enable-app"></a>
+
+組織の運用環境でアプリを使用できるようにする準備が整ったら、次の手順を実行します。
+
+1. Cloud App Security で、設定の歯車 ![設定アイコン](media/settings-icon.png) をクリックし、 **[アプリの条件付きアクセス制御]** を選択します。
+1. アプリの一覧で、展開するアプリが表示されている行の末尾の 3 つのドットを選択し、 **[アプリの編集]** を選択します。
+1. **[アプリの条件付きアクセス制御で使う]** を選択して、 **[保存]** を選択します。
+
+    ![セッション制御のポップアップを有効にする](media/edit-app-enable-session-controls.png)
+
+## <a name="step-5-test-the-deployment"></a>手順 5:デプロイをテストする<a name="test"></a>
 
 1. まず、既存のセッションからサインアウトします。 次に、正常にデプロイされた各アプリにサインインしてみます。 Azure AD で構成されたポリシーに一致するユーザー、または SAML アプリの場合は ID プロバイダーで構成されたユーザーを使用してサインインします。
 
