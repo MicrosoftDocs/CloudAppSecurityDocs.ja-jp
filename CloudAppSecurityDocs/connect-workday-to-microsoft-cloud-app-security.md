@@ -1,14 +1,14 @@
 ---
 title: Workday を Cloud App Security (プレビュー) に接続する
 description: この記事では、お使いの Workday アプリを、使用状況を表示および制御する API コネクタを使用して、Cloud App Security に接続する方法について説明します。
-ms.date: 11/10/2020
+ms.date: 02/09/2021
 ms.topic: how-to
-ms.openlocfilehash: 5b9a1e75ab20999d36f18500dfb6037cdf1aeabd
-ms.sourcegitcommit: d87372b47ca98e942c2bf94032a6a61902627d69
+ms.openlocfilehash: 482b606f5d21e53f4fe514ced0ebdee509146a93
+ms.sourcegitcommit: 91cd536019579c022b877ab7f0687cef8fb8209d
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96312575"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "100105380"
 ---
 # <a name="connect-workday-to-microsoft-cloud-app-security"></a>Workday を Microsoft Cloud App Security に接続する
 
@@ -19,6 +19,9 @@ ms.locfileid: "96312575"
 ## <a name="quick-start"></a>クイック スタート
 
 「クイックスタート」ビデオをご覧ください。前提条件を構成し、Workday の手順を実行する方法を説明しています。 ビデオの手順を完了したら、[Workday コネクタの追加](#add-connector)に進むことができます。
+
+> [!NOTE]
+> このビデオでは、セキュリティ グループ "**設定:テナント設定 – 全般**" のアクセス許可を構成する前提条件は示していません。 これも必ず構成してください。
 
 <br />
 
@@ -31,6 +34,7 @@ Cloud App Security への接続に使用する Workday アカウントは、セ�
 | 機能領域 | ドメイン セキュリティ ポリシー | サブドメイン セキュリティ ポリシー | レポート/タスクの権限 | 統合権限 |
 | --- | --- | --- | --- | --- |
 | System (システム) | 設定: テナント設定 – 全般 | 設定: テナント設定 – セキュリティ | 表示、変更 | 取得、配置 |
+| System (システム) | 設定: テナント設定 – 全般 | 設定: テナント設定 – システム | 変更 | なし |
 | System (システム) | セキュリティ管理 | | 表示、変更 | 取得、配置 |
 | System (システム) | システム監査 | | 表示 | 取得 |
 | スタッフ | 従業員データ: スタッフ | 従業員データ: 公務員レポート | 表示 | 取得 |
