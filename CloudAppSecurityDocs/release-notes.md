@@ -1,14 +1,14 @@
 ---
 title: Cloud App Security の新機能
 description: この記事は、Cloud App Security の最新リリースの新機能がわかるように頻繁に更新されます。
-ms.date: 01/10/2021
+ms.date: 02/7/2021
 ms.topic: overview
-ms.openlocfilehash: 891e01d44a8a76c3f3194ad817445690b80def8c
-ms.sourcegitcommit: 0768aa1992819e2651a14a731f79e178fdececc5
+ms.openlocfilehash: 394e0fe3a6aa7287a9b60fbd15d26f999009a9eb
+ms.sourcegitcommit: e3c960256e951ac2349ce92a6320326af8435bb7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98114719"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100568117"
 ---
 # <a name="whats-new-with-microsoft-cloud-app-security"></a>Microsoft Cloud App Security の新機能
 
@@ -21,6 +21,19 @@ RSS フィード:ご自身のフィード リーダーに次の URL をコピー
 > [!IMPORTANT]
 >
 > Microsoft による脅威の防止用製品の名前が変更されています。 この点や他の更新の詳細については、[こちら](https://www.microsoft.com/security/blog/?p=91813)をご覧ください。 今後のリリースでは、新しい名前が使用される予定です。
+
+## <a name="cloud-app-security-release-192-193-and-194"></a>Cloud App Security リリース 192、193、および 194
+
+リリース日: 2021 年 2 月 7 日
+
+- **[ポリシーの更新] ページ**  
+**[ポリシー]** ページが更新され、ポリシー カテゴリごとにタブが追加されました。 すべてのポリシーの完全な一覧を提供するために、 **[すべてのポリシー]** タブも追加しました。 ポリシーの分類の詳細については、「[ポリシーの種類](control-cloud-apps-with-policies.md#policy-types)」を参照してください。
+
+- **Office 365 OAuth アプリのエクスポートの強化**  
+OAuth アプリの *[リダイレクト URL]* を使用して、CSV ファイルにエクスポートする Office 365 Oauth アプリのアクティビティを拡張しました。 OAuth アプリのアクティビティのエクスポートの詳細については、「[Oauth アプリの監査](manage-app-permissions.md#oauth-app-auditing)」を参照してください。
+
+- **ポータル インターフェイスの更新**  
+今後数か月の間に、Microsoft 365 セキュリティ ポータル全体でより一貫したエクスペリエンスを提供するために、Cloud App Security のユーザー インターフェイスが更新されます。 [詳細情報](https://techcommunity.microsoft.com/t5/microsoft-security-and/microsoft-cloud-app-security-user-interface-updates/ba-p/2083113)
 
 ## <a name="cloud-app-security-release-189-190-and-191"></a>Cloud App Security リリース 189、190、および 191
 
